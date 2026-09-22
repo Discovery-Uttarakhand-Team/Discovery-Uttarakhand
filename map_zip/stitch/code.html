@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Discover Uttarakhand | AI-Powered Tourism</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "inverse-primary": "#a8cfbd",
+                "on-primary-fixed": "#002116",
+                "error-container": "#ffdad6",
+                "surface-tint": "#416656",
+                "on-background": "#191c1b",
+                "on-tertiary-fixed": "#2b1700",
+                "secondary-fixed": "#bceed3",
+                "on-secondary-fixed": "#002114",
+                "tertiary-container": "#482a00",
+                "surface-variant": "#e2e3e0",
+                "inverse-surface": "#2e312f",
+                "error": "#ba1a1a",
+                "on-primary": "#ffffff",
+                "on-tertiary-container": "#c98c42",
+                "inverse-on-surface": "#f0f1ee",
+                "on-tertiary": "#ffffff",
+                "background": "#f9faf7",
+                "tertiary-fixed-dim": "#fdb96a",
+                "on-primary-fixed-variant": "#2a4e3f",
+                "on-secondary": "#ffffff",
+                "surface-container": "#edeeeb",
+                "primary-fixed": "#c3ebd8",
+                "primary-fixed-dim": "#a8cfbd",
+                "surface-container-highest": "#e2e3e0",
+                "outline": "#717974",
+                "on-error": "#ffffff",
+                "on-tertiary-fixed-variant": "#663d00",
+                "surface": "#f9faf7",
+                "on-surface": "#191c1b",
+                "surface-container-high": "#e7e8e6",
+                "on-secondary-fixed-variant": "#214f3c",
+                "secondary-container": "#bceed3",
+                "on-primary-container": "#7ba190",
+                "tertiary": "#2c1700",
+                "primary-container": "#12372a",
+                "on-error-container": "#93000a",
+                "on-secondary-container": "#406d58",
+                "surface-container-low": "#f3f4f1",
+                "surface-container-lowest": "#ffffff",
+                "primary": "#002116",
+                "secondary": "#3a6753",
+                "on-surface-variant": "#414844",
+                "secondary-fixed-dim": "#a1d1b8",
+                "outline-variant": "#c1c8c3",
+                "surface-dim": "#d9dad8",
+                "surface-bright": "#f9faf7",
+                "tertiary-fixed": "#ffddba",
+                "deep-forest-green": "#12372A",
+                "sunrise-gold": "#D99A4E",
+                "off-white": "#f9faf7"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "container-max": "1280px",
+                "gutter": "24px",
+                "margin-desktop": "64px",
+                "unit": "8px",
+                "section-gap": "120px",
+                "margin-mobile": "20px"
+        },
+        "fontFamily": {
+                "display-lg": [
+                        "Playfair Display"
+                ],
+                "body-lg": [
+                        "Plus Jakarta Sans"
+                ],
+                "body-md": [
+                        "Plus Jakarta Sans"
+                ],
+                "label-sm": [
+                        "Plus Jakarta Sans"
+                ],
+                "headline-md": [
+                        "Playfair Display"
+                ],
+                "display-lg-mobile": [
+                        "Playfair Display"
+                ]
+        },
+        "fontSize": {
+                "display-lg": [
+                        "64px",
+                        {
+                                "lineHeight": "1.1",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "body-lg": [
+                        "18px",
+                        {
+                                "lineHeight": "1.6",
+                                "fontWeight": "400"
+                        }
+                ],
+                "body-md": [
+                        "16px",
+                        {
+                                "lineHeight": "1.6",
+                                "fontWeight": "400"
+                        }
+                ],
+                "label-sm": [
+                        "12px",
+                        {
+                                "lineHeight": "1.0",
+                                "letterSpacing": "0.05em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "headline-md": [
+                        "32px",
+                        {
+                                "lineHeight": "1.3",
+                                "fontWeight": "600"
+                        }
+                ],
+                "display-lg-mobile": [
+                        "40px",
+                        {
+                                "lineHeight": "1.2",
+                                "fontWeight": "700"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f9faf7; }
+        .glass-panel { background: rgba(249, 250, 247, 0.85); backdrop-filter: blur(20px); border: 1px solid rgba(232, 221, 200, 0.4); }
+        .card-shadow { box-shadow: 0 4px 30px rgba(18, 55, 42, 0.08); }
+        .animate-fade-up { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .animate-fade-up.visible { opacity: 1; transform: translateY(0); }
+        .stagger-1 { transition-delay: 0.1s; }
+        .stagger-2 { transition-delay: 0.2s; }
+        .stagger-3 { transition-delay: 0.3s; }
+        .image-gradient { background: linear-gradient(to bottom, transparent 50%, rgba(18, 55, 42, 0.7) 100%); }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="text-on-surface overflow-x-hidden antialiased bg-off-white">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-deep-forest-green/80 backdrop-blur-xl shadow-[0_4px_30px_rgba(18,55,42,0.08)] shadow-md transition-all duration-300" id="main-nav">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto h-20">
+<a class="font-display-lg-mobile text-display-lg-mobile font-bold text-deep-forest-green dark:text-primary-fixed shrink-0" href="#">Discover Uttarakhand</a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="font-body-md text-body-md hover:text-deep-forest-green dark:hover:text-primary-fixed transition-colors text-deep-forest-green dark:text-primary-fixed font-bold border-b-2 border-deep-forest-green py-2" href="#">Explore</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-deep-forest-green dark:hover:text-primary-fixed transition-colors py-2" href="#">Trips</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-deep-forest-green dark:hover:text-primary-fixed transition-colors py-2" href="#">Stays</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-deep-forest-green dark:hover:text-primary-fixed transition-colors py-2" href="#">Rides</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-deep-forest-green dark:hover:text-primary-fixed transition-colors py-2" href="#">Experiences</a>
+</nav>
+<div class="hidden md:flex items-center">
+<button class="bg-sunrise-gold text-white font-label-sm text-label-sm px-6 py-3 rounded-full hover:scale-95 duration-200 transition-transform font-bold tracking-wide uppercase">AI Planner</button>
+</div>
+<button class="md:hidden text-deep-forest-green">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative h-screen min-h-[800px] flex items-center justify-center pt-20 overflow-hidden bg-deep-forest-green">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center bg-no-repeat absolute inset-0 opacity-80" data-alt="A breathtaking, ultra-high-resolution cinematic wide shot of a pristine Uttarakhand mountain landscape at dawn. The scene features dense, dark green pine forests emerging from a thick, ethereal morning mist in the valleys. In the background, majestic snow-capped Himalayan peaks catch the first golden rays of sunlight, contrasting beautifully against the deep, organic colors of the forest. The lighting is dramatic and natural, creating a sense of serene isolation and premium adventure. The overall aesthetic is organic minimalism with a majestic, cinematic quality, fitting a high-end travel platform." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDiEo_Jn4wXlgzoMvJlNxUNXNC3JioS4pb8-AeQ95FnmPW8COvFfeOIQ-QQWyocFMPYsZw6Kelg0l21x7AHiowjF7loY52zqYqeSt63gWUAX-sUemx9EnXWdSHNxG3VG7OmaLDzkRJUmS8CxyNEbrc2WCQn8xmV5cW9UxOknhZuPGbdjThrSI6Ur2dlM0vOynz3wVVbGUNncnqKAqo1jbcUMz_243z0ZoneQC4B52jt28-O33aZOXY9hg')"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-deep-forest-green/50 via-transparent to-off-white"></div>
+</div>
+<div class="relative z-10 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7 text-center lg:text-left animate-fade-up">
+<span class="font-label-sm text-label-sm text-off-white uppercase tracking-widest mb-4 inline-block bg-deep-forest-green/40 backdrop-blur-md px-4 py-2 rounded-full border border-off-white/20 shadow-sm">Uttarakhand • India</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-6 drop-shadow-2xl leading-tight">Discover Uttarakhand <br/><span class="text-sunrise-gold">beyond the usual.</span></h1>
+<p class="font-body-lg text-body-lg text-off-white/90 mb-10 max-w-2xl mx-auto lg:mx-0 drop-shadow-md text-lg">AI-powered trips, hidden gems, local stays, rides and experiences — all in one place. Curated for the modern explorer.</p>
+</div>
+<!-- Floating AI Planner Card -->
+<div class="lg:col-span-5 mt-12 lg:mt-0 animate-fade-up stagger-2 hidden lg:block">
+<div class="glass-panel p-8 rounded-3xl card-shadow relative overflow-hidden bg-off-white/95 border-none">
+<div class="absolute -top-10 -right-10 w-32 h-32 bg-sunrise-gold/10 rounded-full blur-2xl"></div>
+<div class="absolute -bottom-10 -left-10 w-32 h-32 bg-deep-forest-green/10 rounded-full blur-2xl"></div>
+<h3 class="font-headline-md text-headline-md text-deep-forest-green mb-6 relative z-10 font-bold">Design your escape</h3>
+<form class="space-y-6 relative z-10">
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-2">Starting from</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline">location_on</span>
+<input class="w-full pl-12 pr-4 py-4 rounded-xl border border-surface-variant bg-white focus:border-deep-forest-green focus:ring-1 focus:ring-deep-forest-green transition-colors font-body-md text-body-md" placeholder="e.g. Dehradun or Rishikesh" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-2">Duration</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline">calendar_today</span>
+<select class="w-full pl-12 pr-4 py-4 rounded-xl border border-surface-variant bg-white focus:border-deep-forest-green focus:ring-1 focus:ring-deep-forest-green transition-colors font-body-md text-body-md appearance-none">
+<option>Weekend (2-3 Days)</option>
+<option>Short Trip (4-5 Days)</option>
+<option>Full Week (7 Days)</option>
+<option>Extended (10+ Days)</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-2">Budget</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline">payments</span>
+<select class="w-full pl-12 pr-4 py-4 rounded-xl border border-surface-variant bg-white focus:border-deep-forest-green focus:ring-1 focus:ring-deep-forest-green transition-colors font-body-md text-body-md appearance-none">
+<option>Standard</option>
+<option>Comfort</option>
+<option>Premium</option>
+<option>Luxury</option>
+</select>
+</div>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-3">Travel Style</label>
+<div class="flex flex-wrap gap-2">
+<button class="px-5 py-2.5 rounded-full border border-surface-variant bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-colors" type="button">Relaxation</button>
+<button class="px-5 py-2.5 rounded-full border-none bg-deep-forest-green text-white font-label-sm text-label-sm shadow-md transition-all hover:opacity-90" type="button">Adventure</button>
+<button class="px-5 py-2.5 rounded-full border border-surface-variant bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-colors" type="button">Spiritual</button>
+<button class="px-5 py-2.5 rounded-full border border-surface-variant bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-colors" type="button">Nature</button>
+</div>
+</div>
+<button class="w-full bg-sunrise-gold text-white font-label-sm text-label-sm py-4 rounded-xl hover:bg-[#c78b42] duration-200 transition-colors font-bold tracking-wide mt-6 flex justify-center items-center gap-2 shadow-lg" type="button">
+<span class="material-symbols-outlined text-[20px]">auto_awesome</span> Generate Premium Itinerary
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust & Verification -->
+<section class="py-12 bg-off-white border-b border-surface-variant">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center animate-fade-up">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-6">Verified Partners &amp; Secure Bookings</p>
+<div class="flex flex-wrap justify-center gap-8 md:gap-16 items-center opacity-70">
+<div class="flex items-center gap-2 text-deep-forest-green font-bold">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+<span class="font-body-md text-body-md">Blockchain Verified</span>
+</div>
+<div class="flex items-center gap-2 text-deep-forest-green font-bold">
+<span class="material-symbols-outlined text-3xl">local_police</span>
+<span class="font-body-md text-body-md">Trusted Stays</span>
+</div>
+<div class="flex items-center gap-2 text-deep-forest-green font-bold">
+<span class="material-symbols-outlined text-3xl">health_and_safety</span>
+<span class="font-body-md text-body-md">Safe Rides</span>
+</div>
+<div class="flex items-center gap-2 text-deep-forest-green font-bold">
+<span class="material-symbols-outlined text-3xl">payments</span>
+<span class="font-body-md text-body-md">Secure Payments</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Explore Uttarakhand (Tabs) -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center mb-16 animate-fade-up">
+<h2 class="font-headline-md text-headline-md text-deep-forest-green mb-4">Explore Uttarakhand</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Curated collections to help you find your perfect mountain escape.</p>
+</div>
+<div class="flex justify-center gap-4 mb-12 animate-fade-up stagger-1 border-b border-surface-variant pb-4">
+<button class="font-label-sm text-label-sm uppercase tracking-wider px-4 py-2 border-b-2 border-deep-forest-green text-deep-forest-green font-bold">Popular</button>
+<button class="font-label-sm text-label-sm uppercase tracking-wider px-4 py-2 text-on-surface-variant hover:text-deep-forest-green transition-colors">Hidden Gems</button>
+<button class="font-label-sm text-label-sm uppercase tracking-wider px-4 py-2 text-on-surface-variant hover:text-deep-forest-green transition-colors">Adventure</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-up stagger-2">
+<!-- Card 1 -->
+<div class="group cursor-pointer rounded-2xl overflow-hidden bg-white card-shadow transition-transform hover:-translate-y-2 duration-300">
+<div class="relative h-64 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuANAvOXQb6wrlnJzMlMMSE11ZzQ-n7iueN_4jZ86tAg0Qjkv8MioWgUGwI33U3RfWQ6i2nr-QxM2BLlXgnSKgvWf5BTdkMvpuXSc6hVB6kKOCWq_EbWT6bxDgWJ1WCiR7ZyekL3HcbCsuyh6y75mpEa7sIQAHOcHfY6WSrbapFefnb1fgaeDbl1MAM3hCrQ3aAqJlEg-9yBDwgPqFQZIiCfe0rgR121d6fkmU4VYiI4XlFyBtMdidhPMg')"></div>
+<div class="absolute inset-0 image-gradient"></div>
+<div class="absolute bottom-4 left-4 right-4 text-white">
+<h3 class="font-headline-md text-2xl font-bold mb-1">Rishikesh</h3>
+<p class="font-body-md text-sm opacity-90">Yoga &amp; White Water Rafting</p>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-center text-sm font-label-sm mb-4">
+<span class="bg-surface-container-low px-3 py-1 rounded-full text-deep-forest-green">3-4 Days</span>
+<span class="text-sunrise-gold font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">star</span> 4.8</span>
+</div>
+<p class="font-body-md text-on-surface-variant line-clamp-2">The yoga capital of the world offering spiritual solace and thrilling adventure sports along the Ganges.</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group cursor-pointer rounded-2xl overflow-hidden bg-white card-shadow transition-transform hover:-translate-y-2 duration-300">
+<div class="relative h-64 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBr2fvqsQ4e3h1BkdTVQQtjZyLFoYhKci1pe-cjOMeNaT0Ubb4w3ruN3IbCqJdmig7OcWWRdWT1hQvrhqzUUE1dZkKRb8O1LV9sjHZ-pP0e35udpRXpeG4imWM7jp-XlMR3yNWztyKPeJ0drkBr9jvTW382napT4CuikF4qnD3FB1M87Z_MRphkCVtDsbi9GCcfrZxuSGWH4zmB6TMzzCHpP0sGQJfTNz_ipmJaMInrQzMyJKqvKbDLHQ')"></div>
+<div class="absolute inset-0 image-gradient"></div>
+<div class="absolute bottom-4 left-4 right-4 text-white">
+<h3 class="font-headline-md text-2xl font-bold mb-1">Nainital</h3>
+<p class="font-body-md text-sm opacity-90">Lake District</p>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-center text-sm font-label-sm mb-4">
+<span class="bg-surface-container-low px-3 py-1 rounded-full text-deep-forest-green">2-3 Days</span>
+<span class="text-sunrise-gold font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">star</span> 4.7</span>
+</div>
+<p class="font-body-md text-on-surface-variant line-clamp-2">A charming hill station set around a picturesque lake, perfect for a relaxing weekend getaway.</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group cursor-pointer rounded-2xl overflow-hidden bg-white card-shadow transition-transform hover:-translate-y-2 duration-300">
+<div class="relative h-64 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBBQlnIZXISA74P2j9EQAsJpFjArrs0SpW_UoHjYBysVMNs70cYyT8ZdzMPdNT4Fgnq8sdNmSMGvfANGC0wbjZ2IdM78ZKvn7BmGPTztJPpVXtYzHD_dQ-p3BGFZbIhx_COs676Lv4tZJ3UkTC2g6pBQgiK6pZcQxX-IK-oOSA6PMC40I0VsmKDfxCb7ce3Qm5BkBXHEcPk2OlDAxKSs3QV23IQvm7eAklEtUGbkc-EY6dF3jpoPRpvcA')"></div>
+<div class="absolute inset-0 image-gradient"></div>
+<div class="absolute bottom-4 left-4 right-4 text-white">
+<h3 class="font-headline-md text-2xl font-bold mb-1">Auli</h3>
+<p class="font-body-md text-sm opacity-90">Skiing &amp; Meadows</p>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-center text-sm font-label-sm mb-4">
+<span class="bg-surface-container-low px-3 py-1 rounded-full text-deep-forest-green">4-5 Days</span>
+<span class="text-sunrise-gold font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">star</span> 4.9</span>
+</div>
+<p class="font-body-md text-on-surface-variant line-clamp-2">India's premier ski resort offering panoramic views of the Nanda Devi peak and lush alpine meadows.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Hidden Gems (Horizontal Scroll) -->
+<section class="py-section-gap bg-deep-forest-green text-off-white overflow-hidden">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-12 flex justify-between items-end animate-fade-up">
+<div>
+<span class="font-label-sm text-label-sm text-sunrise-gold uppercase tracking-widest mb-2 block">Off the beaten path</span>
+<h2 class="font-headline-md text-headline-md mb-2">Hidden Gems</h2>
+<p class="font-body-lg text-body-lg opacity-80 max-w-xl">Discover serene, uncrowded locations rated by our exclusive 'Crowd Score' algorithm.</p>
+</div>
+<div class="hidden md:flex gap-4">
+<button class="w-12 h-12 rounded-full border border-off-white/30 flex items-center justify-center hover:bg-off-white/10 transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-off-white/30 flex items-center justify-center hover:bg-off-white/10 transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="pl-margin-mobile md:pl-margin-desktop pb-8 flex overflow-x-auto hide-scrollbar gap-6 animate-fade-up stagger-1 snap-x">
+<!-- Hidden Gem Card 1 -->
+<div class="min-w-[300px] md:min-w-[400px] shrink-0 snap-start group cursor-pointer">
+<div class="relative h-[500px] rounded-2xl overflow-hidden mb-6">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDjbeKxCEVD8d1Kx4ab7azsa8Lnuv96AM_5fzw6lUpfp5lP0OMYds9jaAeZY19MyJcnCytdEJ2R6mMl621bxCCNcaiB3s6zgR80rLd4hWCu2n3YP-vJysFpOZBHB7ufu3cQWzX1auPdA5l9qQr8DKIxdNqbZs00cSXiIEMHjbleI0PTPGU0GdNqs1jHBtL8lgu5PcxjY6FKhnh69uYrTPOBJys5LQdTyCN-10B78LR4cPLsVNzTw_g3Bg')"></div>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+<div class="absolute top-4 right-4 bg-off-white/90 backdrop-blur-sm text-deep-forest-green px-3 py-1.5 rounded-full font-label-sm text-xs flex items-center gap-1 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-green-500 block"></span>
+                            Crowd Score: Low
+                        </div>
+</div>
+<h3 class="font-headline-md text-2xl font-bold mb-2">Chopta</h3>
+<p class="font-body-md opacity-80">Known as the 'Mini Switzerland' of Uttarakhand, offering pristine trekking routes.</p>
+</div>
+<!-- Hidden Gem Card 2 -->
+<div class="min-w-[300px] md:min-w-[400px] shrink-0 snap-start group cursor-pointer">
+<div class="relative h-[500px] rounded-2xl overflow-hidden mb-6">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBp7ZY-NwL4OD6iTjK0dVL3YwH2-Y2HfTVkRJ_iX7PfYmIM-0Y68cKGthkCWAifId7_nugIdveSUGo6WOKGW_6Sr79dRybvKeQbi9DodN0GLA3x4WLGJyFq9HN0F1jJc8CNg6DkJErvrw-FUuQw9UHMXNa7ZEFragBpPpfSFA4y4GAs-IUoRXcX-19_b87sJyKBMOnDGLGb5N1Embya__s4kFyTf0mIzwAoH-2BfPLL54a7P2K1kh8H9g')"></div>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+<div class="absolute top-4 right-4 bg-off-white/90 backdrop-blur-sm text-deep-forest-green px-3 py-1.5 rounded-full font-label-sm text-xs flex items-center gap-1 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-green-500 block"></span>
+                            Crowd Score: Very Low
+                        </div>
+</div>
+<h3 class="font-headline-md text-2xl font-bold mb-2">Munsiyari</h3>
+<p class="font-body-md opacity-80">A base for Himalayan treks offering breathtaking views of the Panchachuli peaks.</p>
+</div>
+<!-- Hidden Gem Card 3 -->
+<div class="min-w-[300px] md:min-w-[400px] shrink-0 snap-start group cursor-pointer">
+<div class="relative h-[500px] rounded-2xl overflow-hidden mb-6">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC_i_k4HH35aBlwT5XB6vAFPx96df2sxg6fv7D1jHSVXbUAxSPuCSA4zNGMYckekG4PG0cCP00BEx8jOOTqPiVM5rzW-Jyy1ITSBV06pP_DqegVmNtHg3AKng9AmQfXoFpTGOGfu7apz-0OuQzJ2FcmTi2ypjJrg4g_iZvMZW2Euf4N1qIhTRM8gXdWTkCr2MlpEEoqdCstboGVX09Ia1G4gKK9FhVhhVKkh28dgioha_C7LxvQiWaIfA')"></div>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+<div class="absolute top-4 right-4 bg-off-white/90 backdrop-blur-sm text-deep-forest-green px-3 py-1.5 rounded-full font-label-sm text-xs flex items-center gap-1 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-yellow-500 block"></span>
+                            Crowd Score: Moderate
+                        </div>
+</div>
+<h3 class="font-headline-md text-2xl font-bold mb-2">Lansdowne</h3>
+<p class="font-body-md opacity-80">A quiet, unspoiled cantonment town surrounded by thick oak and blue pine forests.</p>
+</div>
+</div>
+</section>
+<!-- Marketplace Highlights -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center mb-16 animate-fade-up">
+<h2 class="font-headline-md text-headline-md text-deep-forest-green mb-4">Complete Your Journey</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Book handpicked stays and reliable transport directly through our verified marketplace.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-up stagger-1">
+<!-- Stays -->
+<div class="group relative rounded-3xl overflow-hidden h-[400px] cursor-pointer shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAv6UGQPXB5A5_siZssRz1OyrewJdyEc72bSEGlAYfBSSYtke8irpfd8yFXpL5kS3NwrNQ_gcVuvhHIUG6xpVjGhMF3VE6I7OrzSswKwUlbQs32Wyv7GEQKXGFBpqd1elyzA44q0gVN7qPFkQDiTqCJUzK4W7fyOsG-NsSG5l3AGG4cy5cpQ3HST2ZJtMJ1r7Zxef81eorWjl5vxQ_VI7X6Nt3NFn8Tx3s48__9F6kNAt1gCsRjExUtoQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-deep-forest-green/90 via-deep-forest-green/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<h3 class="font-headline-md text-3xl font-bold text-white mb-2">Stay in the Mountains</h3>
+<p class="font-body-md text-off-white/90 mb-6 max-w-md">From cozy homestays in remote villages to premium boutique resorts.</p>
+<button class="bg-off-white text-deep-forest-green font-label-sm text-label-sm px-6 py-3 rounded-full hover:bg-sunrise-gold hover:text-white duration-300 transition-colors font-bold tracking-wide uppercase">Browse Stays</button>
+</div>
+</div>
+<!-- Transport -->
+<div class="group relative rounded-3xl overflow-hidden h-[400px] cursor-pointer shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCmFKFk8q_L9BhRgXcABddRbL-5uD8TKy-C7uggQZUAClhSegKDZ0CDP9DytQCriTrGXs3DDwsaN4Uc_SKAVm9_kEqUSiLmzlx_sl9LDmMwbnZSKP8CPYFqbQLY3eOwTWBE9hTovh9NLSGRwPs71wosgpzbtbmFbE7FbwN6bMNpmmtzqUMu52uRoKlQvi5jsrYvAFUL5ELMcahzL62ZwiXFiQ7QBL96eLH8NP6QQ8Mwv3UFHwWgaF1ztg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-deep-forest-green/90 via-deep-forest-green/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<h3 class="font-headline-md text-3xl font-bold text-white mb-2">Bike &amp; Scooty Rentals</h3>
+<p class="font-body-md text-off-white/90 mb-6 max-w-md">Explore winding mountain roads at your own pace with our verified fleet.</p>
+<button class="bg-off-white text-deep-forest-green font-label-sm text-label-sm px-6 py-3 rounded-full hover:bg-sunrise-gold hover:text-white duration-300 transition-colors font-bold tracking-wide uppercase">Rent a Ride</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Cinematic Footer -->
+<footer class="bg-[#0a1f18] text-off-white pt-24 pb-12 border-t border-deep-forest-green relative overflow-hidden">
+<div class="absolute top-0 right-0 w-96 h-96 bg-sunrise-gold/5 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="absolute bottom-0 left-0 w-96 h-96 bg-deep-forest-green/20 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto relative z-10 mb-16">
+<div class="md:col-span-5">
+<a class="font-display-lg-mobile text-3xl font-bold text-sunrise-gold block mb-6" href="#">Discover Uttarakhand</a>
+<p class="font-body-md text-off-white/70 mb-8 max-w-sm">Curating cinematic, premium, and sustainable travel experiences in the heart of the Himalayas.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-sunrise-gold transition-colors text-white" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-sunrise-gold transition-colors text-white" href="#">
+<span class="material-symbols-outlined text-xl">photo_camera</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-sunrise-gold transition-colors text-white" href="#">
+<span class="material-symbols-outlined text-xl">play_arrow</span>
+</a>
+</div>
+</div>
+<div class="md:col-span-2">
+<h4 class="font-label-sm text-label-sm uppercase tracking-widest text-off-white/50 mb-6">Explore</h4>
+<ul class="space-y-4">
+<li><a class="font-body-md text-off-white/90 hover:text-sunrise-gold transition-colors" href="#">Destinations</a></li>
+<li><a class="font-body-md text-off-white/90 hover:text-sunrise-gold transition-colors" href="#">Hidden Gems</a></li>
+<li><a class="font-body-md text-off-white/90 hover:text-sunrise-gold transition-colors" href="#">Curated Trips</a></li>
+<li><a class="font-body-md text-off-white/90 hover:text-sunrise-gold transition-colors" href="#">Experiences</a></li>
+</ul>
+</div>
+<div class="md:col-span-2">
+<h4 class="font-label-sm text-label-sm uppercase tracking-widest text-off-white/50 mb-6">Marketplace</h4>
+<ul class="space-y-4">
+<li><a class="font-body-md text-off-white/90 hover:text-sunrise-gold transition-colors" href="#">Boutique Stays</a></li>
+<li><a class="font-body-md text-off-white/90 hover:text-sunrise-gold transition-colors" href="#">Homestays</a></li>
+<li><a class="font-body-md text-off-white/90 hover:text-sunrise-gold transition-colors" href="#">Vehicle Rentals</a></li>
+<li><a class="font-body-md text-off-white/90 hover:text-sunrise-gold transition-colors" href="#">Local Guides</a></li>
+</ul>
+</div>
+<div class="md:col-span-3">
+<h4 class="font-label-sm text-label-sm uppercase tracking-widest text-off-white/50 mb-6">Newsletter</h4>
+<p class="font-body-md text-off-white/70 mb-4">Get curated mountain escapes delivered to your inbox.</p>
+<div class="flex gap-2">
+<input class="bg-white/5 border border-white/10 rounded-lg px-4 py-3 w-full font-body-md focus:border-sunrise-gold focus:ring-1 focus:ring-sunrise-gold outline-none text-white transition-colors" placeholder="Your email address" type="email"/>
+<button class="bg-sunrise-gold text-white px-4 py-3 rounded-lg hover:bg-[#c78b42] transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<div class="border-t border-white/10 pt-8 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body-md text-sm text-off-white/50">© 2024 Discover Uttarakhand. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="font-body-md text-sm text-off-white/50 hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-sm text-off-white/50 hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-sm text-off-white/50 hover:text-white transition-colors" href="#">Trust &amp; Safety</a>
+</div>
+</div>
+</footer>
+<script>
+        // Intersection Observer for scroll animations (Framer Motion feel)
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.15
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Optional: stop observing once animated
+                    // observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-fade-up').forEach((elem) => {
+            observer.observe(elem);
+        });
+
+        // Refined scroll effect for navbar
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('main-nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('py-2', 'bg-white/95', 'dark:bg-deep-forest-green/95');
+                nav.classList.remove('py-4', 'bg-white/80', 'dark:bg-deep-forest-green/80');
+            } else {
+                nav.classList.add('py-4', 'bg-white/80', 'dark:bg-deep-forest-green/80');
+                nav.classList.remove('py-2', 'bg-white/95', 'dark:bg-deep-forest-green/95');
+            }
+        });
+    </script>
+</body></html>

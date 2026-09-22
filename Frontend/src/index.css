@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-green: #1a4331;
+  --color-dark-green: #122a1f;
+  --color-cream: #fdfbf7;
+  --color-warm-white: #ffffff;
+  --color-beige: #f3efe6;
+  --color-earth-brown: #c08457;
+  --color-text-dark: #1c1917;
+  --color-muted-text: #57534e;
+  --color-border-light: #e7e5e4;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-text-dark);
+    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-forest-green text-white px-6 py-3 rounded-full font-semibold transition-colors hover:bg-dark-green shadow-sm flex items-center justify-center;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-forest-green text-forest-green px-6 py-3 rounded-full font-semibold transition-colors hover:bg-forest-green hover:text-white shadow-sm flex items-center justify-center;
+  }
+
+  .pill {
+    @apply bg-beige text-text-dark px-6 py-2 rounded-full font-medium hover:bg-[#e6ddcd] transition-colors cursor-pointer text-sm;
+  }
+  
+  .pill.active {
+    @apply bg-forest-green text-white;
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Skeleton loading animation */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      #e8e3da 25%,
+      #f0ece4 50%,
+      #e8e3da 75%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-pulse 1.5s ease-in-out infinite;
+    border-radius: 0.5rem;
+  }
+
+  /* Scrollbar hide utility for mobile pill overflow */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* No-scrollbar alias (used by planner) */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Thin premium scrollbar for planner panels */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #c8c4bc transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #c8c4bc;
+    border-radius: 9999px;
+  }
+
+  /* Trip planner drawer & modal animations */
+  .animate-fadeIn {
+    animation: fadeIn 0.2s ease-out forwards;
+  }
+  .animate-slideRight {
+    animation: slideRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .animate-scaleUp {
+    animation: scaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  /* Font display alias (used as font-display class) */
+  .font-display {
+    font-family: 'Playfair Display', 'Georgia', serif;
+  }
+}
+
+/* Skeleton shimmer keyframe */
+@keyframes skeleton-pulse {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Hero slide content fade-up animation */
+@keyframes hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-content-animate {
+  animation: hero-fade-up 0.5s ease-out forwards;
+}
+
+/* Trip planner animation keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideRight {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleUp {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Reduced motion: disable all custom animations */
+@media (prefers-reduced-motion: reduce) {
+  .skeleton {
+    animation: none;
+    background: #e8e3da;
+  }
+  .hero-content-animate,
+  .animate-fadeIn,
+  .animate-slideRight,
+  .animate-scaleUp {
+    animation: none;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

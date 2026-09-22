@@ -1,0 +1,36 @@
+{
+ "name": "Khatling Glacier Trek",
+ "slug": "khatling-glacier-trek",
+ "type": "activity",
+ "curatedDistrict": "Tehri Garhwal",
+ "region": "Garhwal",
+ "location": "Ghuttu, Tehri Garhwal",
+ "category": "Trekking",
+ "highlightCandidates": [
+  "Bhilangna",
+  "Sahasratal",
+  "glacier"
+ ],
+ "articleTitle": "Khatling Glacier",
+ "site": "wikipedia",
+ "wikidataQid": "Q108101337",
+ "coords": {
+  "lat": 30.8278,
+  "lon": 78.9222
+ },
+ "onPageImages": [
+  "File:2018031520-300x300.gif",
+  "File:Blue pog.svg",
+  "File:China Tibet Autonomous Region rel location map.svg",
+  "File:India Uttarakhand relief map.svg",
+  "File:India relief location map.jpg",
+  "File:Kafni glacier.jpg"
+ ],
+ "pageimage": "2018031520-300x300.gif",
+ "pageUrl": "https://en.wikipedia.org/wiki/Khatling_Glacier",
+ "extract": "Khatling Glacier is a glacier located in the Tehri Garhwal district of Uttarakhand in India.The Khatling Glacier trek is one of the major high-altitude trekking routes in the Garhwal Himalaya. The traditional route begins from Ghuttu in Tehri Garhwal district and covers approximately 45 km to the glacier. The trail passes through the villages of Reeh, Gangi, and Kalyani, before reaching Bhomkugufa and the glacier terminus. Gangi is the last permanently inhabited village on the route, after which trekkers must be self-sufficient as no permanent facilities are available.\nThe glacier serves as the principal source of the Bhilangana River and is surrounded by several prominent Himalayan peaks, including Jogin I (6,466 m), Kirti Stambh (6,902 m), Meru, Barte Kauter (6,579 m), and Sphatik Pristwar (6,905 m). The route traverses alpine meadows, dense forests, and glacial valleys, making it one of the notable trekking destinations in Uttarakhand.\nThe trek also provides access to Masar Tal and, via a longer route, Vasuki Tal, from where experienced trekkers may continue toward the Kedarnath region. \n\n\nWildlife\nIn 2016, snow leopards were spotted for the first time near the glacier by the Wildlife Institute of India.\n\n\nReferences",
+ "wikivoyageExtract": null,
+ "coverImage": null,
+ "coverImageLowerResolution": false,
+ "gallery": []
+}

@@ -1,0 +1,108 @@
+{
+ "name": "Binsar Wildlife Sanctuary",
+ "slug": "binsar-wildlife-sanctuary",
+ "type": "destination",
+ "curatedDistrict": "Almora",
+ "region": "Kumaon",
+ "location": "",
+ "category": "",
+ "highlightCandidates": [
+  "Zero Point",
+  "oak",
+  "leopard",
+  "barking deer"
+ ],
+ "articleTitle": "Binsar Wildlife Sanctuary",
+ "site": "wikipedia",
+ "wikidataQid": "Q3635045",
+ "coords": {
+  "lat": 29.70638889,
+  "lon": 79.75611111
+ },
+ "onPageImages": [
+  "File:Binsar, a view of Kumaon Himalayas.jpg",
+  "File:Binsar.JPG",
+  "File:Binsar Oak Forests.JPG",
+  "File:India Uttarakhand relief map.svg",
+  "File:India relief location map.jpg",
+  "File:OOjs UI icon edit-ltr-progressive.svg",
+  "File:Question book-new.svg",
+  "File:Red pog.svg",
+  "File:Wikivoyage-Logo-v3-icon.svg",
+  "File:Binsar, a view of Kumaon Himalayas.jpg",
+  "File:Binsar.JPG",
+  "File:Binsar Oak Forests.JPG",
+  "File:India Uttarakhand relief map.svg",
+  "File:India relief location map.jpg",
+  "File:OOjs UI icon edit-ltr-progressive.svg",
+  "File:Question book-new.svg",
+  "File:Red pog.svg",
+  "File:Wikivoyage-Logo-v3-icon.svg"
+ ],
+ "pageimage": "Binsar_Oak_Forests.JPG",
+ "pageUrl": "https://en.wikipedia.org/wiki/Binsar_Wildlife_Sanctuary",
+ "extract": "Binsar Wildlife Sanctuary is an Indian wildlife sanctuary.\nBinsar was the summer capital of the Chand Kings, who ruled over Kumaon from the 11th to the 18th centuries AD. The British also used it as a summer capital, and built several estates inside the forest. In 1988, Binsar was established as a sanctuary for the conservation and protection of the shrinking broad leaf oak (Quercus) forests of the Central Himalayan region. It has over 200 species of birds.\n\n\nGeography\nBinsar lies on top of a mountain in the lower Himalayas, about 30 km north of Almora town in Uttarakhand. The sanctuary spreads over 45.59 km2. Its altitude varies from 900 to 2500 metres with an average height of 2412 metres. The temperature of this area is about 20 °C. A series of ridges and gorges make up the sanctuary.\nFrom Zero Point, also known as Jhandi Dhaar, which is the highest point in the sanctuary, the Himalayan peaks of Kedarnath, Chaukhamba, Shivling, Trisul, Nanda Devi, Nanda Kot and Panchachuli are visible among many others.\n\n\nFlora and fauna\n\nBinsar has a museum about the flora and fauna of the region. The sanctuary hosts 25 types of trees, 24 types of bushes and 7 varieties of grasses. The higher altitudes are covered with oak and rhododendron trees. In March and April, flowers, especially ruby red rhododendron, are in full bloom.\nMammals include leopard (Panthera pardus), Himalayan goral (Naemorhedus goral), chital (Axis axis), musk deer (Moschus spp.), Sumatran serow (Capricornis sumatraensis), jungle cat (Felis chaus), wild boar (Sus scrofa), pine marten (Martes martes), red fox (Vulpes vulpes), gray langur (Presbytis entellus), rhesus macaque (Macaca mulatta), red giant flying squirrel (Petaurista petaurista), and Indian muntjac (Muntiacus muntjak). In August 2026, a Bengal tiger was recorded here. In the past black bear (Ursus thibetanus) had been recorded.\nBinsar hosts over 200 species of birds including tits, forktail, nuthatches, blackbirds, parakeets, laughingthrush, magpies, kalij pheasant (Lophura leucomelana), monal, koklass pheasant, eagles, woodpeckers, and Eurasian jays.\nBinsar is home to many reptiles and butterflies.\n\n\nHistory\n\n\nGrand Oak Manor\nThe Grand Oak Manor is the erstwhile home of Sir Henry Ramsay who used it as his summer home and administrative centre as Commissioner of Kumaon. The property later became a heritage hotel.\n\n\nKhali estate\nThe Khali estate was once owned by Sir Henry Ramsay, who was the commissioner of Kumaun from 1856 to 1884 and called by British authors the King of Kumaun. He built a bungalow at Binsar. Vijay Laxmi Pandit, the sister of Jawahar Lal Nehru, also lived there.\nOther prominent people who have been guests/owners of this estate include Pt. Jawaharlal Nehru, Indira Gandhi and Mahatma Gandhi.\n\n\nMary Budden estate\nThe Mary Budden estate located at 8000 feet is a restored colonial home and a temple to Shiva.\n\n\nSee also\nList of Quercus species\n\n\nReferences\n\n\nExternal links\nBinsar Wildlife Sanctuary\n Binsar Wildlife Sanctuary travel guide from Wikivoyage",
+ "wikivoyageExtract": null,
+ "wikidataDistrict": [
+  "Q1499"
+ ],
+ "coverImage": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Binsar_1.jpg/1920px-Binsar_1.jpg",
+  "source": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Binsar_1.jpg",
+  "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+  "attribution": "Shyamal — Own work",
+  "alt": "Forest in Binsar, Almora"
+ },
+ "coverImageLowerResolution": false,
+ "gallery": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/View_from_Brahmadhungi%2C_Binsar_wildlife_sanctuary_20160520.jpg/1280px-View_from_Brahmadhungi%2C_Binsar_wildlife_sanctuary_20160520.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_Brahmadhungi,_Binsar_wildlife_sanctuary_20160520.jpg",
+   "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+   "attribution": "Rohit Gosain — Own work",
+   "alt": "View from Brahmadhungi"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Kumoan_village%28binsar_wild_life_sanctury%29.jpg/1920px-Kumoan_village%28binsar_wild_life_sanctury%29.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Kumoan_village(binsar_wild_life_sanctury).jpg",
+   "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+   "attribution": "Rajborah123 — Own work",
+   "alt": "top view of a small kumaon village in binsar wild life sanctury(uttarakhand ,india).The village contains only 9 houses"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/On_the_edge_of_heaven_%28binsar_wild_life_sanctury%29.jpg/1920px-On_the_edge_of_heaven_%28binsar_wild_life_sanctury%29.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:On_the_edge_of_heaven_(binsar_wild_life_sanctury).jpg",
+   "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+   "attribution": "Rajborah123 — Own work",
+   "alt": "Pinus roxburghii , Binsar wild life sanctuary, Uttarakhand, India. This picture was taken while roaming around in the binsar wild life sanctuary. This is the edge of the mountain."
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Binsar_2.jpg/1920px-Binsar_2.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Binsar_2.jpg",
+   "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+   "attribution": "Shyamal — Own work",
+   "alt": "Binsar WLS, Almora"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Binsar_4.jpg/1920px-Binsar_4.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Binsar_4.jpg",
+   "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+   "attribution": "Shyamal — Own work",
+   "alt": "Binsar WLS, Almora"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Binsar_5.jpg/1920px-Binsar_5.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Binsar_5.jpg",
+   "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+   "attribution": "Shyamal — Own work",
+   "alt": "Binsar WLS"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "name": "Satopanth Tal Trek",
+ "slug": "satopanth-tal-trek",
+ "type": "activity",
+ "curatedDistrict": "Chamoli",
+ "region": "Garhwal",
+ "location": "Above Badrinath",
+ "category": "Trekking",
+ "highlightCandidates": [
+  "Chaukhamba",
+  "Brahma",
+  "Vishnu",
+  "Mahesh"
+ ],
+ "articleTitle": "Satopanth Tal",
+ "site": "wikipedia",
+ "wikidataQid": "Q7426367",
+ "coords": {
+  "lat": 30.74361111,
+  "lon": 79.35694444
+ },
+ "onPageImages": [
+  "File:India Uttarakhand relief map.svg",
+  "File:India relief location map.jpg",
+  "File:Lake spt.JPG",
+  "File:Red pog.svg",
+  "File:Spt20.JPG",
+  "File:India Uttarakhand relief map.svg",
+  "File:India relief location map.jpg",
+  "File:Lake spt.JPG",
+  "File:Red pog.svg",
+  "File:Spt20.JPG"
+ ],
+ "pageimage": "Spt20.JPG",
+ "pageUrl": "https://en.wikipedia.org/wiki/Satopanth_Tal",
+ "extract": "Satopanth Tal is a lake in Uttarakhand, India, located in the midst of snow-capped peaks at an altitude of 4,600 metres (15,100 ft) above sea-level.  The lake is considered to be of religious significance to the local people; residents of Mana village throw the ashes of the dead in the lake.\n\n\nDescription\nThe lake is triangular with a diameter of about 500 yards. The circumference of the lake is around 1200 yards.\n\n\nGeography\n\nLocated in the midst of snow-capped peaks at an altitude of 16,000 feet from sea level, Satopanth Tal is 22 km from Badrinath. Balakun Peak, Kuber Top, Mt. Nilkantha, and Mt. Swargarohini are the peaks visible en route. The lake remains under snow from the end of September to the middle of May or sometimes end of June. The normal summer temperature remains around 12 °C in day and 7 °C to −5 °C in night, while the winter temperature may drop to even −25 °C in day and −36 °C in night.\n\n\nPopular beliefs\nMany people believe that the Trimoortis, viz, Brahma, Vishnu and Mahesh, bathe in the lake in an auspicious day. Also some types of birds are found here, which pick up the pollutants of the lake and thus keep the lake clean. These birds are not found anywhere. The local belief is that they are the Gandharvas disguised, who guard the lake against evils.\n\n\nEssentials for Satopanth Tal trek\nA guide, and experienced porters must be taken. There are no night stay places, so a tent, stove, food and mattress are needed. The trek route is a bit tough and only experienced trekkers should undertake it. En route the Dhano Glacier has to be crossed and en route Chakratirth one sharp ridge has to be crossed. \n\n\nReferences",
+ "wikivoyageExtract": null,
+ "wikidataDistrict": [
+  "Q1499"
+ ],
+ "coverImage": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ridge_satopanth.JPG",
+  "source": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Ridge_satopanth.JPG",
+  "license": "Public domain",
+  "attribution": "Soumit ban — Own work",
+  "alt": "Ridge enroute Satopanth Tal"
+ },
+ "coverImageLowerResolution": false,
+ "gallery": []
+}

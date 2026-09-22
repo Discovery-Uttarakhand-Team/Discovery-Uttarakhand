@@ -1,0 +1,93 @@
+[
+  {
+    "id": "char-dham-circuit",
+    "name": "Sacred Char Dham Yatra Circuit",
+    "region": "Garhwal Himalayas",
+    "distance": "1,180 km",
+    "duration": "10-12 Days",
+    "difficulty": "Moderate to Strenuous",
+    "elevationRange": "314m - 3,583m",
+    "color": "#f59e0b",
+    "description": "The quintessential holy pilgrimage of Uttarakhand visiting Yamunotri, Gangotri, Kedarnath, and Badrinath in the traditional clockwise direction.",
+    "waypoints": [
+      {"name": "Haridwar", "coords": [29.9457, 78.1642]},
+      {"name": "Rishikesh", "coords": [30.0869, 78.2676]},
+      {"name": "Barkot", "coords": [30.8166, 78.2045]},
+      {"name": "Yamunotri", "coords": [31.0140, 78.4600]},
+      {"name": "Uttarkashi", "coords": [30.7268, 78.4354]},
+      {"name": "Gangotri", "coords": [30.9947, 78.9398]},
+      {"name": "Guptkashi", "coords": [30.5233, 79.0766]},
+      {"name": "Kedarnath", "coords": [30.7352, 79.0669]},
+      {"name": "Chopta", "coords": [30.4886, 79.1795]},
+      {"name": "Joshimath", "coords": [30.5564, 79.5667]},
+      {"name": "Badrinath", "coords": [30.7433, 79.4938]},
+      {"name": "Rudraprayag", "coords": [30.2858, 78.9814]},
+      {"name": "Devprayag", "coords": [30.1459, 78.5989]},
+      {"name": "Rishikesh", "coords": [30.0869, 78.2676]}
+    ],
+    "highlights": ["Four Divine Dhams", "Alaknanda & Mandakini Confluence", "High Alpine Passes", "Sacred Springs"]
+  },
+  {
+    "id": "rishikesh-badrinath-highway",
+    "name": "Alaknanda Valley Highway (NH-7)",
+    "region": "Garhwal",
+    "distance": "298 km",
+    "duration": "9-11 Hours",
+    "difficulty": "Moderate",
+    "elevationRange": "372m - 3,300m",
+    "color": "#3b82f6",
+    "description": "One of India's most scenic river gorges tracing the holy Alaknanda river through all Panch Prayag confluences all the way to Badrinath.",
+    "waypoints": [
+      {"name": "Rishikesh", "coords": [30.0869, 78.2676]},
+      {"name": "Devprayag (Bhagirathi + Alaknanda)", "coords": [30.1459, 78.5989]},
+      {"name": "Srinagar Garhwal", "coords": [30.2223, 78.7844]},
+      {"name": "Rudraprayag (Mandakini + Alaknanda)", "coords": [30.2858, 78.9814]},
+      {"name": "Karnaprayag (Pindar + Alaknanda)", "coords": [30.2608, 79.2198]},
+      {"name": "Nandaprayag (Nandakini + Alaknanda)", "coords": [30.3323, 79.3242]},
+      {"name": "Chamoli", "coords": [30.4077, 79.3364]},
+      {"name": "Joshimath / Auli Turn", "coords": [30.5564, 79.5667]},
+      {"name": "Badrinath", "coords": [30.7433, 79.4938]}
+    ],
+    "highlights": ["All 5 Sacred Confluences (Panch Prayag)", "Deep River Gorges", "Joshimath Ropeway", "Badrinarayan Shrine"]
+  },
+  {
+    "id": "kumaon-lake-loop",
+    "name": "Kumaon Lake & Panorama Loop",
+    "region": "Kumaon",
+    "distance": "340 km",
+    "duration": "4-5 Days",
+    "difficulty": "Easy to Moderate",
+    "elevationRange": "1,400m - 2,200m",
+    "color": "#10b981",
+    "description": "A tranquil mountain route meandering through colonial hill towns, emerald lakes, pine scented ridges, and Gandhi's beloved Kausani.",
+    "waypoints": [
+      {"name": "Kathgodam", "coords": [29.2736, 79.5447]},
+      {"name": "Bhimtal", "coords": [29.3500, 79.5667]},
+      {"name": "Nainital", "coords": [29.3919, 79.4542]},
+      {"name": "Ranikhet", "coords": [29.6434, 79.4322]},
+      {"name": "Kausani", "coords": [29.8543, 79.5967]},
+      {"name": "Almora", "coords": [29.5971, 79.6591]},
+      {"name": "Mukteshwar", "coords": [29.4722, 79.6543]},
+      {"name": "Kathgodam", "coords": [29.2736, 79.5447]}
+    ],
+    "highlights": ["Naini Lake Boating", "Tea Gardens of Kausani", "300km Himalayan Panorama", "Fruit Orchards"]
+  },
+  {
+    "id": "chopta-chandrashila-trail",
+    "name": "Chopta - Tungnath - Chandrashila Trek",
+    "region": "Garhwal",
+    "distance": "10 km (Trek)",
+    "duration": "1-2 Days",
+    "difficulty": "Moderate",
+    "elevationRange": "2,680m - 4,000m",
+    "color": "#ec4899",
+    "description": "Ascend from the lush bugyals of Chopta to the 1000-year-old Tungnath Temple and the summit of Chandrashila for awe-inspiring 360-degree Himalayan vistas.",
+    "waypoints": [
+      {"name": "Sari Village (Deoria Tal base)", "coords": [30.5200, 79.1300]},
+      {"name": "Chopta Basecamp", "coords": [30.4886, 79.1795]},
+      {"name": "Tungnath Shiva Temple", "coords": [30.4902, 79.2158]},
+      {"name": "Chandrashila Summit (4000m)", "coords": [30.4930, 79.2190]}
+    ],
+    "highlights": ["Highest Shiva Temple in the World", "Nanda Devi & Chaukhamba Panoramas", "Rhododendron Canopies", "Starry Night Skies"]
+  }
+]

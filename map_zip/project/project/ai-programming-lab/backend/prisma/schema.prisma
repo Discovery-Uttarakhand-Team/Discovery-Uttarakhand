@@ -1,0 +1,169 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+// ============================================
+// Enums
+// ============================================
+
+enum Role {
+    STUDENT
+    TEACHER
+    ADMIN
+}
+
+// ============================================
+// User
+// ============================================
+
+model User {
+    id           String   @id @default(uuid()) @db.Uuid
+    email        String   @unique
+    passwordHash String
+    firstName    String
+    lastName     String
+    role         Role     @default(STUDENT)
+    isActive     Boolean  @default(true)
+    createdAt    DateTime @default(now())
+    updatedAt    DateTime @updatedAt
+
+    student Student?
+    teacher Teacher?
+    admin   Admin?
+
+    @@index([role])
+    @@index([email])
+}
+
+// ============================================
+// Student
+// ============================================
+
+model Student {
+    id         String   @id @default(uuid()) @db.Uuid
+    userId     String   @unique @db.Uuid
+    rollNumber String   @unique
+    createdAt  DateTime @default(now())
+    updatedAt  DateTime @updatedAt
+
+    user    User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+    classes ClassStudent[]
+
+    @@index([userId])
+    @@index([rollNumber])
+}
+
+// ============================================
+// Teacher
+// ============================================
+
+model Teacher {
+    id         String   @id @default(uuid()) @db.Uuid
+    userId     String   @unique @db.Uuid
+    employeeId String   @unique
+    department String?
+    createdAt  DateTime @default(now())
+    updatedAt  DateTime @updatedAt
+
+    user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+    classes Class[]
+
+    @@index([userId])
+    @@index([employeeId])
+}
+
+// ============================================
+// Admin
+// ============================================
+
+model Admin {
+    id        String   @id @default(uuid()) @db.Uuid
+    userId    String   @unique @db.Uuid
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+    @@index([userId])
+}
+
+// ============================================
+// Class
+// ============================================
+
+model Class {
+    id          String   @id @default(uuid()) @db.Uuid
+    name        String
+    code        String   @unique
+    description String?
+    teacherId   String   @db.Uuid
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+
+    teacher  Teacher          @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+    students ClassStudent[]
+    courses  Course[]
+
+    @@index([teacherId])
+    @@index([code])
+}
+
+// ============================================
+// ClassStudent (Join table for many-to-many)
+// ============================================
+
+model ClassStudent {
+    classId    String   @db.Uuid
+    studentId  String   @db.Uuid
+    enrolledAt DateTime @default(now())
+
+    class   Class   @relation(fields: [classId], references: [id], onDelete: Cascade)
+    student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+    @@id([classId, studentId])
+    @@index([studentId])
+}
+
+// ============================================
+// Course
+// ============================================
+
+model Course {
+    id          String   @id @default(uuid()) @db.Uuid
+    name        String
+    code        String   @unique
+    description String?
+    classId     String   @db.Uuid
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+
+    class  Class   @relation(fields: [classId], references: [id], onDelete: Cascade)
+    topics Topic[]
+
+    @@index([classId])
+    @@index([code])
+}
+
+// ============================================
+// Topic
+// ============================================
+
+model Topic {
+    id          String   @id @default(uuid()) @db.Uuid
+    name        String
+    description String?
+    order       Int      @default(0)
+    courseId    String   @db.Uuid
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+
+    course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+    @@index([courseId])
+    @@index([order])
+}

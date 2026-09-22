@@ -1,0 +1,126 @@
+/* =========================================================
+   Discovery Uttarakhand - Global AI Copilot Launcher
+   Forest green, warm cream, refined gold/bronze accent.
+   Survives route changes, responsive mobile safe area.
+   ========================================================= */
+
+.global-copilot-wrapper {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+.global-copilot-btn {
+  pointer-events: auto;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+  padding: 12px 18px;
+  box-shadow: 0 10px 25px -5px rgba(27, 67, 50, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  font-family: inherit;
+  user-select: none;
+}
+
+.global-copilot-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 14px 28px -4px rgba(27, 67, 50, 0.48), 0 10px 10px -5px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #143628 0%, #245740 100%);
+}
+
+.global-copilot-btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.global-copilot-btn:focus-visible {
+  outline: 2px solid #52b788;
+  outline-offset: 3px;
+}
+
+.global-copilot-btn__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.global-copilot-btn__label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.global-copilot-btn__badge {
+  background: #d8f3dc;
+  color: #1b4332;
+  font-size: 9px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 9999px;
+  letter-spacing: 0.05em;
+}
+
+/* Tooltip */
+.global-copilot-tooltip {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  right: 0;
+  background: #081c15;
+  color: #d8f3dc;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  border: 1px solid rgba(82, 183, 136, 0.25);
+}
+
+.global-copilot-btn:hover .global-copilot-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mobile Responsiveness & Safe Area */
+@media (max-width: 640px) {
+  .global-copilot-wrapper {
+    bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    right: 16px;
+  }
+
+  .global-copilot-btn {
+    padding: 10px 14px;
+  }
+
+  .global-copilot-btn__label {
+    display: none;
+  }
+
+  .global-copilot-btn__badge {
+    display: none;
+  }
+
+  .global-copilot-btn__icon-wrap {
+    width: 24px;
+    height: 24px;
+  }
+}

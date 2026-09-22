@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#F5F3EC"/>
+  <!-- Mountain silhouette -->
+  <path d="M0 600 L250 250 L400 450 L600 150 L800 500 L800 600 Z" fill="#14452F" opacity="0.1"/>
+  <path d="M100 600 L300 350 L450 550 L650 300 L800 550 L800 600 Z" fill="#14452F" opacity="0.15"/>
+  <path d="M200 600 L400 400 L550 550 L700 400 L800 600 Z" fill="#14452F" opacity="0.2"/>
+  
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Icon -->
+    <path d="M380 280 L400 240 L420 280 L380 280 Z" fill="#14452F" opacity="0.4" />
+    <path d="M400 240 L420 280 L440 250 L460 300 L360 300 L380 260 L400 240" stroke="#14452F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6"/>
+    
+    <!-- Text -->
+    <text x="400" y="350" font-size="28" font-weight="bold" fill="#2C3E35" letter-spacing="2">DISCOVER UTTARAKHAND</text>
+    <text x="400" y="380" font-size="16" fill="#6B7280">Image Unavailable</text>
+  </g>
+</svg>

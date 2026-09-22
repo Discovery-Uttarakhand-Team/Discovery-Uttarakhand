@@ -1,0 +1,535 @@
+[
+  {
+    "name": "Himanshu Bike Rent in Rishikesh",
+    "slug": "himanshu-bike-rent-rishikesh",
+    "description": "Self-drive bike and scooter rental in Rishikesh (shop near Nepali Farm, Shyampur, Haat Bazar). Offers Honda Activa, TVS Jupiter, TVS NTorq, TVS Apache, Royal Enfield Classic 350 and Royal Enfield Himalayan 410 with helmets included; open 24x7 with returns by 8 PM, per its official website.",
+    "city": "Rishikesh",
+    "district": "Dehradun",
+    "category": "Bike & Scooter Rental",
+    "address": "Haat Bazar, near Nepali Farm, Shyampur, Rishikesh, Uttarakhand 249204",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.2676,
+        30.0869
+      ]
+    },
+    "locationNotes": null,
+    "phone": "+91 98707 11571",
+    "website": "https://bikerentinrishikesh.in/",
+    "vehicles": [
+      {
+        "name": "Honda Activa 6G",
+        "type": "Scooter",
+        "typeDetail": "Scooter",
+        "pricePerDay": 600,
+        "priceNotes": null
+      },
+      {
+        "name": "TVS Jupiter",
+        "type": "Scooter",
+        "typeDetail": "Scooter",
+        "pricePerDay": 600,
+        "priceNotes": null
+      },
+      {
+        "name": "TVS NTorq 125",
+        "type": "Scooter",
+        "typeDetail": "Scooter",
+        "pricePerDay": 600,
+        "priceNotes": null
+      },
+      {
+        "name": "TVS Apache RTR 160",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1300,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield Classic 350",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1200,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield Himalayan 410",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1500,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Per-day rates as published on the website (homepage also advertises monseason 'from ₹500/day' offers).",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": 4.9,
+    "reviewCount": 200,
+    "ratingSource": "aggregateRating published in the business website's structured data (self-reported; verify on Google Maps)",
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "https://bikerentinrishikesh.in/",
+    "sourcePageUrl": "https://bikerentinrishikesh.in/",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Tour On 2 Wheelers",
+    "slug": "tour-on-2-wheelers-rishikesh",
+    "description": "Bike and scooter rental on Haridwar Road, Rishikesh, also offering river rafting, camping and tour packages. Fleet includes Royal Enfield Himalayan 450/411 and Classic 350 plus scooters, with free delivery within Rishikesh, per its official website.",
+    "city": "Rishikesh",
+    "district": "Dehradun",
+    "category": "Bike & Scooter Rental",
+    "address": "Haridwar Road, Gali Number 04, Opposite Nagar Nigam, Rishikesh, Uttarakhand",
+    "location": null,
+    "locationNotes": null,
+    "phone": "+91 73005 88599, +91 78188 53478",
+    "website": "https://touron2wheelers.com/",
+    "vehicles": [
+      {
+        "name": "Royal Enfield Himalayan 450",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 2000,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield Himalayan 411",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1800,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield Classic 350",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1200,
+        "priceNotes": null
+      },
+      {
+        "name": "Scooty (Activa/Access class)",
+        "type": "Scooter",
+        "typeDetail": "Scooter",
+        "pricePerDay": 500,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Per-day rates as published on the website's Rishikesh bike rental page.",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "https://touron2wheelers.com/bike-rental-in-rishikesh/",
+    "sourcePageUrl": "https://touron2wheelers.com/bike-rental-in-rishikesh/",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Dehradun Bike Rentals",
+    "slug": "dehradun-bike-rentals",
+    "description": "Bike and scooter rental located near Dehradun Railway Station and ISBT. Full-day and half-day (2-8 PM) rates for scooters (Activa/Access/Jupiter), TVS Apache, Bajaj Avenger, Royal Enfield Classic 350, Thunderbird and Himalayan, per its official website.",
+    "city": "Dehradun",
+    "district": "Dehradun",
+    "category": "Bike & Scooter Rental",
+    "address": "Near Railway Station and ISBT, Dehradun (exact street not published)",
+    "location": null,
+    "locationNotes": null,
+    "phone": "+91 78953 22933, +91 97195 96083",
+    "website": "https://www.dehradunbikerentals.com/",
+    "vehicles": [
+      {
+        "name": "Scooty / Activa / Jupiter / Access",
+        "type": "Scooter",
+        "typeDetail": "Scooter",
+        "pricePerDay": 550,
+        "priceNotes": null
+      },
+      {
+        "name": "TVS Apache",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 850,
+        "priceNotes": null
+      },
+      {
+        "name": "Bajaj Avenger",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 850,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield Classic 350 (Bullet)",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1200,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield Thunderbird",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1400,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield Himalayan",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1600,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Full-day per-day rates as published on the website's price list (half-day rates also published).",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "https://www.dehradunbikerentals.com/",
+    "sourcePageUrl": "https://www.dehradunbikerentals.com/",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Nainital Biker",
+    "slug": "nainital-biker",
+    "description": "Bike and scooter rental serving Nainital, Bhimtal, Khurpatal, Kathgodam, Haldwani, Mukteshwar, Ramnagar and Almora. Fleet includes Royal Enfield Himalayan, Enfield, Avenger, Apache and Activa, per its official website.",
+    "city": "Nainital",
+    "district": "Nainital",
+    "category": "Bike & Scooter Rental",
+    "address": "Nainital (exact street not published; delivery across service towns)",
+    "location": null,
+    "locationNotes": null,
+    "phone": "+91 78957 07150, +91 97197 19117",
+    "website": "https://www.nainitalbiker.com/",
+    "vehicles": [
+      {
+        "name": "Royal Enfield Himalayan",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield (Classic/Standard)",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Bajaj Avenger",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "TVS Apache",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Honda Activa",
+        "type": "Scooter",
+        "typeDetail": "Scooter",
+        "pricePerDay": null,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Per-day rates not published on the website; enquire directly.",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "https://www.nainitalbiker.com/",
+    "sourcePageUrl": "https://www.nainitalbiker.com/",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Kathgodam Bike Rental",
+    "slug": "kathgodam-bike-rental",
+    "description": "Family-run bike and scooty rental at Hydel Gate, Kathgodam (the railhead for Nainital). Royal Enfield Classic/Standard 350 and Honda Activa 125 / Yamaha Ray ZR 125 available; one helmet included, ₹2000 refundable deposit, 6 AM-9 PM timings, per its official website.",
+    "city": "Kathgodam (Nainital)",
+    "district": "Nainital",
+    "category": "Bike & Scooter Rental",
+    "address": "Hydel Gate, Kathgodam, Nainital, Uttarakhand 263126",
+    "location": null,
+    "locationNotes": null,
+    "phone": "+91 94567 88570, 05946 796912",
+    "website": "http://www.kathgodambikerent.com/",
+    "vehicles": [
+      {
+        "name": "Royal Enfield Classic 350",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1100,
+        "priceNotes": null
+      },
+      {
+        "name": "Royal Enfield Standard 350",
+        "type": "Motorcycle",
+        "typeDetail": "Motorcycle",
+        "pricePerDay": 1100,
+        "priceNotes": null
+      },
+      {
+        "name": "Yamaha Ray ZR 125",
+        "type": "Scooter",
+        "typeDetail": "Scooter",
+        "pricePerDay": 700,
+        "priceNotes": null
+      },
+      {
+        "name": "Honda Activa 125",
+        "type": "Scooter",
+        "typeDetail": "Scooter",
+        "pricePerDay": 700,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Per-day rates as published on the website's Models & Prices page (rentals from ₹500/day advertised on the homepage).",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "http://www.kathgodambikerent.com/bike-rent-price/",
+    "sourcePageUrl": "http://www.kathgodambikerent.com/bike-rent-price/",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Roadcrafts Self Drive Cars",
+    "slug": "roadcrafts-self-drive-cars-dehradun",
+    "description": "Dehradun-based self-drive car rental near ISBT (Haridwar Bypass Road, Morowala). Fleet includes Maruti Fronx, Swift, Dzire, Hyundai Creta/Venue/i10/i20, Mahindra Thar, Scorpio, Toyota Innova Crysta and Kia Seltos; also serves Haridwar, Rishikesh and outstation routes, per its official website.",
+    "city": "Dehradun",
+    "district": "Dehradun",
+    "category": "Self-Drive Car Rental",
+    "address": "Sanskriti Lok Colony, Haridwar Bypass Rd, near ISBT, Morowala, Brahmanwala, Dehradun, Uttarakhand 248001",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0322,
+        30.3165
+      ]
+    },
+    "locationNotes": null,
+    "phone": "+91 79837 35072, +91 95280 95883",
+    "website": "https://www.selfdrivecar.co.in/",
+    "vehicles": [
+      {
+        "name": "Maruti Suzuki Swift / Dzire",
+        "type": "Hatchback",
+        "typeDetail": "Hatchback/Sedan",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Hyundai Creta / Venue / i20",
+        "type": "SUV",
+        "typeDetail": "Compact SUV/Hatchback",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Mahindra Thar",
+        "type": "SUV",
+        "typeDetail": "4x4 SUV",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Mahindra Scorpio Classic",
+        "type": "SUV",
+        "typeDetail": "SUV",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Toyota Innova Crysta",
+        "type": "MPV",
+        "typeDetail": "MPV",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Kia Seltos (Automatic)",
+        "type": "SUV",
+        "typeDetail": "SUV",
+        "pricePerDay": null,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Website publishes an overall price range of Rs 1,399-4,599/day; model-wise rates on enquiry.",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "https://www.selfdrivecar.co.in/our-services/self-drive-car-rental/",
+    "sourcePageUrl": "https://www.selfdrivecar.co.in/our-services/self-drive-car-rental/",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Car Starq",
+    "slug": "car-starq-dehradun",
+    "description": "Self-drive car rental on Saharanpur Road, Majra, Dehradun, with doorstep delivery and 24/7 support. Fleet includes Maruti Brezza, Mahindra Thar and Hyundai Creta; serves local sightseeing, Mussoorie, Rishikesh and Char Dham routes, per its official website.",
+    "city": "Dehradun",
+    "district": "Dehradun",
+    "category": "Self-Drive Car Rental",
+    "address": "Saharanpur Rd, opposite Punjab & Sind Bank, Majra, Dehradun, Uttarakhand 248171",
+    "location": null,
+    "locationNotes": null,
+    "phone": "+91 81263 56063",
+    "website": "https://www.carstarq.com/",
+    "vehicles": [
+      {
+        "name": "Maruti Vitara Brezza",
+        "type": "SUV",
+        "typeDetail": "Compact SUV",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Mahindra Thar",
+        "type": "SUV",
+        "typeDetail": "4x4 SUV",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Hyundai Creta",
+        "type": "SUV",
+        "typeDetail": "SUV",
+        "pricePerDay": null,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Website advertises self-drive rentals 'from ₹999/day'; model-wise rates on enquiry.",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "https://www.carstarq.com/",
+    "sourcePageUrl": "https://www.carstarq.com/",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Finchant Self Drive Cars",
+    "slug": "finchant-self-drive-cars-dehradun",
+    "description": "Self-drive car rental in Dehradun with doorstep and Jolly Grant Airport pickup/drop. Hatchbacks, sedans and SUVs on daily, weekly and monthly plans; timings 7 AM-11 PM, per its official website.",
+    "city": "Dehradun",
+    "district": "Dehradun",
+    "category": "Self-Drive Car Rental",
+    "address": "Dehradun (exact street not published on homepage)",
+    "location": null,
+    "locationNotes": null,
+    "phone": "+91 70173 65715",
+    "website": "https://www.finchant.com/",
+    "vehicles": [
+      {
+        "name": "Hatchback (Maruti/Hyundai/Toyota/Renault)",
+        "type": "Hatchback",
+        "typeDetail": "Hatchback",
+        "pricePerDay": 1500,
+        "priceNotes": null
+      },
+      {
+        "name": "Sedan (Maruti)",
+        "type": "Sedan",
+        "typeDetail": "Sedan",
+        "pricePerDay": 2500,
+        "priceNotes": null
+      },
+      {
+        "name": "SUV (Mahindra/Tata/Hyundai)",
+        "type": "SUV",
+        "typeDetail": "SUV",
+        "pricePerDay": 3500,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Category-wise per-day rates as published on the website (fleet range ₹1,500-5,000/day).",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": 4.9,
+    "reviewCount": 286,
+    "ratingSource": "aggregateRating published in the business website's structured data (self-reported; verify independently)",
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "https://www.finchant.com/",
+    "sourcePageUrl": "https://www.finchant.com/",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "A-One Self Drive",
+    "slug": "a-one-self-drive-dehradun",
+    "description": "Self-drive car rental at Shop No. 17, Haridwar Bypass Road (ISBT), Niranjanpur, Dehradun. Offers hatchbacks, sedans, SUVs, 4x4s and compact SUVs with delivery to the traveler's location, per its official website.",
+    "city": "Dehradun",
+    "district": "Dehradun",
+    "category": "Self-Drive Car Rental",
+    "address": "Shop No. 17, Haridwar Bypass Road, ISBT, Niranjanpur, Dehradun, Uttarakhand 248001",
+    "location": null,
+    "locationNotes": "Business website publishes schema.org coordinates that resolve to Ludhiana, Punjab (30.90N 75.86E), inconsistent with its published Dehradun address; coordinates therefore nulled pending verification.",
+    "phone": "+91 96278 06602",
+    "website": "https://www.aoneselfdrive.com/",
+    "vehicles": [
+      {
+        "name": "Hatchback",
+        "type": "Hatchback",
+        "typeDetail": "Hatchback",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Sedan",
+        "type": "Sedan",
+        "typeDetail": "Sedan",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "SUV / 4x4",
+        "type": "SUV",
+        "typeDetail": "SUV",
+        "pricePerDay": null,
+        "priceNotes": null
+      },
+      {
+        "name": "Compact SUV",
+        "type": "SUV",
+        "typeDetail": "Compact SUV",
+        "pricePerDay": null,
+        "priceNotes": null
+      }
+    ],
+    "priceNotes": "Website publishes an overall price range of Rs 1,500-4,400/day; model-wise rates on enquiry.",
+    "priceLastChecked": "2026-09-09",
+    "currency": "INR",
+    "rating": 4.9,
+    "reviewCount": 11,
+    "ratingSource": "aggregateRating published in the business website's structured data (self-reported; verify independently)",
+    "images": [],
+    "sourceName": "Business official website",
+    "sourceUrl": "https://www.aoneselfdrive.com/",
+    "sourcePageUrl": "https://www.aoneselfdrive.com/",
+    "lastVerified": "2026-09-09"
+  }
+]

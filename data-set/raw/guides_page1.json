@@ -1,0 +1,428 @@
+[
+ {
+  "id": "301ea7c6-6d94-4975-8cfd-e1ff86a5b67e",
+  "name": "Ashish Maithani",
+  "phone": "8865990354",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 14,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Bhojpuri",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Heritage Guide",
+   "Tour Manager"
+  ]
+ },
+ {
+  "id": "6074a0a6-0f81-45f8-9185-a9e0edbd68c6",
+  "name": "Deepak Tewari",
+  "phone": "9916191252",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Adventure Tourism",
+   "Religious Tourism",
+   "Trekking",
+   "Tour Manager"
+  ]
+ },
+ {
+  "id": "97024bab-f49f-4f4b-b04a-aab912f8e9a5",
+  "name": "VIKRAM SINGH",
+  "phone": "9368461442",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Adventure Tourism",
+   "Cultural Heritage",
+   "Trekking",
+   "Nature Guide",
+   "Destination Guide"
+  ]
+ },
+ {
+  "id": "d792c87a-4f06-4dc9-9bea-c0a6af97917a",
+  "name": "Vineet Kumar",
+  "phone": "9259570476",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 18,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Religious Tourism",
+   "Photography Tours",
+   "Trekking",
+   "Tour Manager"
+  ]
+ },
+ {
+  "id": "a670f998-179b-4062-8c87-49559b974a47",
+  "name": "Prakash Singh Rana",
+  "phone": "7455821785",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "Kumaoni"
+  ],
+  "district": null,
+  "expertise": [
+   "Adventure Tourism",
+   "Eco Tourism",
+   "Trekking",
+   "Heritage Guide",
+   "Nature Guide",
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "690e3a1e-e572-404d-90a7-964b89aa8f04",
+  "name": "Samaksha singh Kaintura",
+  "phone": "6398209974",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "96c2979f-919e-440a-9b2e-824652091c23",
+  "name": "Abhinandan Joshi",
+  "phone": "9045944389",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 6,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide",
+   "Paragliding"
+  ]
+ },
+ {
+  "id": "33ed07b2-0b07-4c9d-b04e-7bbde9f7b3c2",
+  "name": "Deepa Negi",
+  "phone": "6395289779",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "Nepali",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "9e832b2f-9bb8-44c2-b8de-b4e3592143c2",
+  "name": "Abhishek Rana",
+  "phone": "8394884946",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "641d8dc3-b542-4b01-923c-fce5e4df87d5",
+  "name": "Jeevan kaur",
+  "phone": "7668401564",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Punjabi"
+  ],
+  "district": null,
+  "expertise": [
+   "Adventure Tourism",
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "327b2b52-537f-4cf8-9c18-edd2c7fee773",
+  "name": "Shavindra Pall singh",
+  "phone": "8869803550",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "Punjabi",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Adventure Tourism",
+   "Eco Tourism",
+   "Tour Manager",
+   "Nature Guide",
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "1eb6e49a-ceea-461e-82ac-75b7fac540fc",
+  "name": "DEEPANSHU",
+  "phone": "7900579767",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Trekking"
+  ]
+ },
+ {
+  "id": "e42232b5-f337-4798-b300-935af5513a52",
+  "name": "Shri Sanjay Singh",
+  "phone": "7579065630",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "River Rafting"
+  ]
+ },
+ {
+  "id": "937669e7-ade0-4e95-a5fb-809ebf021814",
+  "name": "Shri Kalyan Singh Bhandari",
+  "phone": "9410107579",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "River Rafting"
+  ]
+ },
+ {
+  "id": "b29c759b-e0d1-4090-897e-75e8971b8869",
+  "name": "Pushpendra singh panwar",
+  "phone": "7088619795",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "2a6b7916-d9f4-4b20-b0cd-8679746f960f",
+  "name": "ADITYA",
+  "phone": "9627090918",
+  "photo": "https://touristguideapi.uttarakhandtourism.gov.in/storage/profile/WABl2dujMYMkjSIg1JzgWCnNPHCd4ZZmTYr7mDme.jpg",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Cultural Heritage",
+   "Photography Tours",
+   "Trekking",
+   "Heritage Guide",
+   "Tour Manager",
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "8ae2db71-36ef-41f1-b94a-da234ddb8433",
+  "name": "Sanjay badoni",
+  "phone": "8800998779",
+  "photo": "https://touristguideapi.uttarakhandtourism.gov.in/storage/profile/yXm0CBMPysUfynQ3wZoSgGDyu2Nk500htti3YmOv.jpg",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Naturalist",
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "4ed902b0-4a9d-4fe4-ab6a-fad5398a47eb",
+  "name": "Jagdish Nath",
+  "phone": "6376601628",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "5753d6c9-088f-460f-9d2c-cc6f85d92992",
+  "name": "Amita Pharswan",
+  "phone": "7983519437",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Cultural Heritage",
+   "Eco Tourism",
+   "Photography Tours",
+   "Tour Manager",
+   "Astro Tour Guide"
+  ]
+ },
+ {
+  "id": "39d902b7-84b2-4630-883b-ea61aa5b40bc",
+  "name": "DIVYANSHU KUMAR",
+  "phone": "8449409840",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "district": null,
+  "expertise": [
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ]
+ }
+]

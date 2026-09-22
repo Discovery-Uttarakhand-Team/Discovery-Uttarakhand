@@ -1,0 +1,57 @@
+{
+ "name": "Tiger Falls",
+ "slug": "tiger-falls",
+ "type": "destination",
+ "curatedDistrict": "Dehradun",
+ "region": "Garhwal",
+ "location": "",
+ "category": "",
+ "highlightCandidates": [
+  "Chakrata",
+  "waterfall",
+  "cascade"
+ ],
+ "articleTitle": "Tiger Falls",
+ "site": "wikipedia",
+ "wikidataQid": "Q27929617",
+ "coords": {
+  "lat": 30.70494,
+  "lon": 77.89387
+ },
+ "onPageImages": [
+  "File:Commons-logo.svg",
+  "File:India Uttaranchal locator map.svg",
+  "File:Tiger Fall.jpg"
+ ],
+ "pageimage": "Tiger_Fall.jpg",
+ "pageUrl": "https://en.wikipedia.org/wiki/Tiger_Falls",
+ "extract": "The Tiger Falls are hidden in the hilly terrains of Chakrata in Uttarakhand, India. It is 98 km from the state capital, Dehradun, 20 km from Chakrata and can be reached by a 5 km trek with rhododendron and oak trees surroundings. At an elevation of 312 ft, it is considered the highest direct waterfall in India.\n\n\nSee also\nList of waterfalls\nList of waterfalls of India\n\n\nReferences\n\n\nExternal links\n Media related to Tiger Falls at Wikimedia Commons",
+ "wikivoyageExtract": null,
+ "coverImage": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tiger_Falls_Uttarakhand_India.jpg",
+  "source": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiger_Falls_Uttarakhand_India.jpg",
+  "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+  "attribution": "Daniel Romanson — Own work",
+  "alt": "Tiger Falls, Uttarakhand, India. Daniel Romanson, Chakrata-Tiger Falls Scenic point"
+ },
+ "coverImageLowerResolution": false,
+ "gallery": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Up_close_Tiger_Falls_Uttarakhand_India.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Up_close_Tiger_Falls_Uttarakhand_India.jpg",
+   "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+   "attribution": "Daniel Romanson — Own work",
+   "alt": "Up close Tiger Falls, Uttarakhand, India. Daniel Romanson. Chakrata-Tiger Falls Scenic point"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Tiger_Falls.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiger_Falls.jpg",
+   "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+   "attribution": "Aditya Dixit — Own work",
+   "alt": "A beautiful natural waterfall near Chakrata, Uttarakhand."
+  }
+ ]
+}

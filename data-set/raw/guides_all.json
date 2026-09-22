@@ -1,0 +1,4980 @@
+[
+ {
+  "id": "301ea7c6-6d94-4975-8cfd-e1ff86a5b67e",
+  "name": "Ashish Maithani",
+  "phone": "8865990354",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 14,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Bhojpuri",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Heritage Guide",
+   "Tour Manager"
+  ],
+  "districts": [
+   "Dehradun",
+   "Tehri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Hello I am Ashish Madani I am a passionate tour guide and tour manager. I know all the famous places, hidden gems ,history and best food spots here in Rishikesh and all over Uttarakhand. What makes me a great tour guide is my friendly nature good communication skills and my promise to make our trip safe fun and memorable. I focus on giving personal attention to every tourist so that you feel comfortable and enjoy every moment of your journey.",
+  "address": "Near old jal Nigam office, 14 beegha Muni-Ki-Reti Tehri Garhwal"
+ },
+ {
+  "id": "6074a0a6-0f81-45f8-9185-a9e0edbd68c6",
+  "name": "Deepak Tewari",
+  "phone": "9916191252",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Religious Tourism",
+   "Trekking",
+   "Tour Manager"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Chamoli",
+   "Champawat",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pauri Garhwal",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Tehri Garhwal",
+   "Udham Singh Nagar",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "A passionate travel professional and local guide dedicated to showcasing the real Uttarakhandâits majestic mountains, hidden trails, vibrant culture, spiritual destinations, and warm local hospitality.\\n\\nWith strong knowledge of the region and a love for exploring beyond the usual tourist routes, I focus on creating safe, meaningful, and memorable experiences for every traveller.\\n\\nExplore â¢ Experience â¢ Connect\\nTravel Uttarakhand like a traveller, not just a tourist.",
+  "address": "Behind Jim Corbett School, Tulsinagar, Polysheet, Haldwani"
+ },
+ {
+  "id": "97024bab-f49f-4f4b-b04a-aab912f8e9a5",
+  "name": "VIKRAM SINGH",
+  "phone": "9368461442",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Cultural Heritage",
+   "Trekking",
+   "Nature Guide",
+   "Destination Guide"
+  ],
+  "districts": [
+   "Chamoli",
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "I AM VIKRMA SINGH, I HAVE MORE THAN 3 YARS EXPERINCE BUT I HAVE A REGIRSTER GUIDE LAST YEAR 2024 T.The Route: Ascending narrow, rocky trails toward high-altitude viewpoints like Pangarchulla Peak.\\nSummer Trekking: Hike through scenic trails from Auli to Gurson Bugyal or further up to Kuari Pass.",
+  "address": "VILALGE DUNGRA, POST SALUD DUNGRA JOSHIMATH CHAMOLI"
+ },
+ {
+  "id": "d792c87a-4f06-4dc9-9bea-c0a6af97917a",
+  "name": "Vineet Kumar",
+  "phone": "9259570476",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 18,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Religious Tourism",
+   "Photography Tours",
+   "Trekking",
+   "Tour Manager"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Chamoli",
+   "Champawat",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pauri Garhwal",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Tehri Garhwal",
+   "Udham Singh Nagar",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Hi, \\nIâm Vineet, an outdoor and adventure professional from India. I have extensive experience in mountaineering, trekking, rock climbing, river rafting, rescue operations, and outdoor leadership.\\n\\nI love sharing the outdoors with people and helping them feel safe, confident, and connected with nature. As a guide, I believe an adventure is not only about reaching the destinationâit is about the experience, teamwork, learning, and memories we create along the way.\\n\\nMy experience, calm approach, safety awareness, and passion for adventure help me make every journey safe, enjoyable, and ",
+  "address": "Basant Vihar Phase I, Football Ground Road, Jamalpur,  Jwalapur, Haridwar Uttarakhand 249407"
+ },
+ {
+  "id": "a670f998-179b-4062-8c87-49559b974a47",
+  "name": "Prakash Singh Rana",
+  "phone": "7455821785",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "Kumaoni"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Eco Tourism",
+   "Trekking",
+   "Heritage Guide",
+   "Nature Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Trek Leader, Bird Guide, Astro Guide",
+  "address": "Munsyari"
+ },
+ {
+  "id": "690e3a1e-e572-404d-90a7-964b89aa8f04",
+  "name": "Samaksha singh Kaintura",
+  "phone": "6398209974",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pauri Garhwal",
+   "Tehri Garhwal",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "I am a passionate tourism professional and travel enthusiast based in Rishikesh, Uttarakhand, with experience in adventure tourism, destination exploration, and astro-tourism. I enjoy introducing travellers to Uttarakhandâs mountains, rivers, forests, culture, and night skies. My goal is to provide safe, informative, and memorable experiences while helping visitors discover the authentic beauty of Uttarakhand.",
+  "address": "Rishikesh"
+ },
+ {
+  "id": "96c2979f-919e-440a-9b2e-824652091c23",
+  "name": "Abhinandan Joshi",
+  "phone": "9045944389",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 6,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide",
+   "Paragliding"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Chamoli",
+   "Champawat",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pauri Garhwal",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Tehri Garhwal",
+   "Udham Singh Nagar",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Namaste! I am a professional Tour Guide and Certified Yoga Instructor based in Rishikesh, Uttarakhand, with 6 years of experience. I help travelers explore the rich culture, spiritual heritage, temples, Himalayan landscapes, and hidden gems of Uttarakhand. Along with guided tours, I also offer authentic Hatha Yoga, Ashtanga Yoga, Vinyasa Flow, and Iyengar Yoga sessions for individuals and groups. My goal is to provide visitors with a memorable experience by combining local knowledge, nature, adventure, and the traditional yogic lifestyle of Rishikesh. I speak Hindi and English and welcome gues",
+  "address": "47FP+H2G\\nDhalwala"
+ },
+ {
+  "id": "33ed07b2-0b07-4c9d-b04e-7bbde9f7b3c2",
+  "name": "Deepa Negi",
+  "phone": "6395289779",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "Nepali",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Certified Astro Guide|Light photography|Certified High altitude and low altitude trek guide|River rafting|paragliding",
+  "address": "Near Shani Mandir, GIC Road Pithoragarh"
+ },
+ {
+  "id": "9e832b2f-9bb8-44c2-b8de-b4e3592143c2",
+  "name": "Abhishek Rana",
+  "phone": "8394884946",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun",
+   "Haridwar",
+   "Pauri Garhwal",
+   "Tehri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Rafting \\nHeritage tour guide \\nMountain biking guide",
+  "address": "HOUSE NO 1 VILL- PAMBA WALLA P.O POKHRI YAMKESHWAR PAURI GARHWAL 246121"
+ },
+ {
+  "id": "641d8dc3-b542-4b01-923c-fce5e4df87d5",
+  "name": "Jeevan kaur",
+  "phone": "7668401564",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Punjabi"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Haridwar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Jeevan Kaur is a passionate Astro Tour Guide dedicated to inspiring people through the beauty of the night sky. With a strong interest in astronomy, nature, and outdoor education, she creates engaging stargazing experiences where visitors can explore constellations, planets, the Moon, and other celestial wonders.\\nShe believes that every clear night offers an opportunity to learn about the universe while developing a deeper appreciation for nature and dark skies. Combining storytelling with scientific knowledge, Jeevan makes astronomy easy to understand and enjoyable for people of all ages.\\nH",
+  "address": "Haridwar"
+ },
+ {
+  "id": "327b2b52-537f-4cf8-9c18-edd2c7fee773",
+  "name": "Shavindra Pall singh",
+  "phone": "8869803550",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "Punjabi",
+   "English"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Eco Tourism",
+   "Tour Manager",
+   "Nature Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Haridwar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "I am a passionate Astro Tour Guide dedicated to connecting people with the wonders of the night sky. With a deep interest in astronomy and stargazing, he conducts engaging sky observation sessions, helping visitors identify constellations, planets, the Moon, and other celestial objects through telescopes.\\nHe believes that astro tourism is not just about observing stars but also about inspiring curiosity, scientific thinking, and a greater appreciation of nature. His guided experiences combine astronomy, storytelling, and practical skywatching, making them enjoyable for people of all ages.\\nTh",
+  "address": "Forest Nature camp Peeli Padav Haridwar"
+ },
+ {
+  "id": "1eb6e49a-ceea-461e-82ac-75b7fac540fc",
+  "name": "DEEPANSHU",
+  "phone": "7900579767",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Trekking"
+  ],
+  "districts": [
+   "Pauri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Hey",
+  "address": "NEAR SBI JAIHARIKHAL MANDIR MOHALA 246193"
+ },
+ {
+  "id": "e42232b5-f337-4798-b300-935af5513a52",
+  "name": "Shri Sanjay Singh",
+  "phone": "7579065630",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "River Rafting"
+  ],
+  "districts": [
+   "Tehri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Registered Rafting Firm Guide",
+  "address": "NH-58, Jiyalgarh, Po- Maletha, Tehri Garhwal"
+ },
+ {
+  "id": "937669e7-ade0-4e95-a5fb-809ebf021814",
+  "name": "Shri Kalyan Singh Bhandari",
+  "phone": "9410107579",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "River Rafting"
+  ],
+  "districts": [
+   "Tehri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Registered Rafting Firm Guide",
+  "address": "Badrinath Road, PO Shivpuri, Tehri Garhwal, 9410107579"
+ },
+ {
+  "id": "b29c759b-e0d1-4090-897e-75e8971b8869",
+  "name": "Pushpendra singh panwar",
+  "phone": "7088619795",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Uttarkashi"
+  ],
+  "rating": 5.0,
+  "reviewCount": 2,
+  "bio": "Gaumukh Tapovan Trek  \\nExplore and side seen village walk river walk",
+  "address": "Village kunjan Bhatwari Uttarkashi Uttarkhand"
+ },
+ {
+  "id": "2a6b7916-d9f4-4b20-b0cd-8679746f960f",
+  "name": "ADITYA",
+  "phone": "9627090918",
+  "photo": "https://touristguideapi.uttarakhandtourism.gov.in/storage/profile/WABl2dujMYMkjSIg1JzgWCnNPHCd4ZZmTYr7mDme.jpg",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Cultural Heritage",
+   "Photography Tours",
+   "Trekking",
+   "Heritage Guide",
+   "Tour Manager",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "à¥¥à¤à¤¤à¤¿à¤¥à¤¿ à¤¦à¥à¤µà¥: à¤­à¤µ:à¥¥ à¥¥à¤µà¤¸à¥à¤§à¥à¤µ à¤à¥à¤à¥à¤à¤¬à¤à¤®à¥\\nUttarakhand Tourism welcome our Guests in the beautiful Land Of Gods & Goddesses UTTARAKHAND",
+  "address": "Haldwani, (Nainital)"
+ },
+ {
+  "id": "8ae2db71-36ef-41f1-b94a-da234ddb8433",
+  "name": "Sanjay badoni",
+  "phone": "8800998779",
+  "photo": "https://touristguideapi.uttarakhandtourism.gov.in/storage/profile/yXm0CBMPysUfynQ3wZoSgGDyu2Nk500htti3YmOv.jpg",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "expertise": [
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Chamoli",
+   "Champawat",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pauri Garhwal",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Tehri Garhwal",
+   "Udham Singh Nagar",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Sanjay Badoni is an Astro Tour Guide, Naturalist, and hospitality educator with a deep passion for connecting people with the wonders of the night sky and the natural world. Based in the Himalayan region of Uttarakhand, he specializes in delivering immersive astro-tourism experiences that combine celestial observation, environmental interpretation, and local cultural heritage. Programs include constellation identification, naked-eye astronomy, telescope-based observations, astrophotography orientation, and storytelling inspired by Indian astronomy, mythology, and Himalayan traditions. As a nat",
+  "address": "Badoni Bhawan,Kamleshwar,Srinagar Garhwal"
+ },
+ {
+  "id": "4ed902b0-4a9d-4fe4-ab6a-fad5398a47eb",
+  "name": "Jagdish Nath",
+  "phone": "6376601628",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital",
+   "Udham Singh Nagar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Passionate about Astronomy and Space Science, and want to give a wonderful session to the guests.",
+  "address": "Car Road, Lalkuan, Nainital - 262402"
+ },
+ {
+  "id": "5753d6c9-088f-460f-9d2c-cc6f85d92992",
+  "name": "Amita Pharswan",
+  "phone": "7983519437",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "expertise": [
+   "Cultural Heritage",
+   "Eco Tourism",
+   "Photography Tours",
+   "Tour Manager",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Chamoli",
+   "Pauri Garhwal",
+   "Tehri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "MBA in Tourism | MICE Operations\\nPassionate about travel, events, and delivering exceptional client experiences. Dedicated to planning seamless corporate events, coordinating travel operations, and creating memorable experiences through strong organization, communication, and attention to detail.",
+  "address": "New Madhi Chauras Tehri Garhwal post Kilkileshwar"
+ },
+ {
+  "id": "39d902b7-84b2-4630-883b-ea61aa5b40bc",
+  "name": "DIVYANSHU KUMAR",
+  "phone": "8449409840",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Passion for Creating Memorable Travel Experiences. Specializing in Personalized Tours, Local Culture, Historical Insights, and Seamless Travel Assistance. Dedicated to Making Every Journey Safe, Enjoyable, and Unforgettable.",
+  "address": "MITRAPURAM, NEAR J.D.M. SCHOOL, DAMUADHUNGA, KATHGODAM, HALDWANI, NAINITAL -263126 UTTARAKHAND"
+ },
+ {
+  "id": "1ce7aaca-bab5-4ae5-9cff-a03e19c37384",
+  "name": "Ravi",
+  "phone": "9927211217",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "Garhwali"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pauri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Im like a open bird I love to travel to new places",
+  "address": "Srinagar garhwal"
+ },
+ {
+  "id": "0766c5dc-b754-470e-b3f5-de4329b0f39c",
+  "name": "Pushkar Singh Mahar",
+  "phone": "7579476680",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "Kumaoni"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Champawat",
+   "Udham Singh Nagar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "à¤®à¥à¤°à¤¾ à¤¨à¤¾à¤® à¤ªà¥à¤·à¥à¤à¤° à¤¸à¤¿à¤à¤¹ à¤®à¤¹à¤° à¤¹à¥ à¤®à¥à¤ à¤à¤¨à¤à¤ªà¥à¤° à¤à¤¿à¤²à¤¾ à¤à¤à¤ªà¤¾à¤µà¤¤ à¤®à¥à¤ à¤°à¤¹à¤¤à¤¾ à¤¹à¥à¤ à¤à¤° à¤à¤à¤ªà¤¾à¤µà¤¤ à¤à¤¿à¤²à¥ à¤à¥ à¤¸à¤®à¤¸à¥à¤¤ à¤§à¤¾à¤°à¥à¤®à¤¿à¤ à¤¸à¤¾à¤¹à¤¸à¤¿à¤ à¤ªà¤°à¥à¤¯à¤à¤¨ à¤µ à¤à¥à¤°à¥à¤¬à¥à¤ à¤ªà¤¾à¤°à¥à¤à¥à¤ à¤à¥ à¤¬à¤¾à¤°à¥ à¤®à¥à¤ à¤®à¥à¤ à¤à¤à¥à¤à¥ à¤¤à¤°à¤¹ à¤à¤¾à¤¨à¤¤à¤¾ à¤¹à¥à¤ à¥¤à¤à¤¾à¤¸à¤¿à¤¯à¤¤ à¤à¤¨à¤à¤ªà¥à¤° à¤®à¥à¤ à¤®à¤¾à¤ à¤ªà¥à¤°à¥à¤£à¤¾à¤à¤¿à¤°à¤¿ à¤§à¤¾à¤® à¤¸à¥à¤ªà¥à¤°à¤¸à¤¿à¤¦à¥à¤§ à¤§à¤¾à¤® à¤¹à¥ à¤à¤à¤° à¤à¤ª à¤®à¤",
+  "address": "Name Pushkar Singh Mahar\\n village- khet Kheda \\npost office- Tanakpur\\n District- Champawat \\nUttrakhand\\n India"
+ },
+ {
+  "id": "ee1a5d45-3ecc-4372-b871-9504ebb8f4c9",
+  "name": "Manish Kashniyal",
+  "phone": "9997793105",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Kumaoni",
+   "Jaunsari",
+   "Punjabi",
+   "Nepali",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun",
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Everester \\n12X World Record 15X National Record Holder",
+  "address": "Village Kashni, PO Bin, District Pithoragarh, State Uttarakhand Pincode 262501"
+ },
+ {
+  "id": "1be27f1f-d19f-49b6-9898-a91eb77841b8",
+  "name": "DEEPAK THAKUR",
+  "phone": "7895748310",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Eco Tourism",
+   "Trekking",
+   "Tour Manager",
+   "Nature Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Chamoli",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Tehri Garhwal",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "I am a dedicated and passionate Tourist Guide and Trek Leader from Uttarakhand with a deep love for the Himalayas, nature, and adventure tourism. I am committed to providing safe, memorable, and well-organized travel experiences while introducing visitors to the culture, heritage, and breathtaking landscapes of Uttarakhand. My priority is to ensure every traveler enjoys a comfortable, enjoyable, and unforgettable journey through professionalism, responsibility, and warm hospitality.",
+  "address": "Tiloth Sera Uttarkashi Uttarakand Pin code - 249193"
+ },
+ {
+  "id": "e3200973-9cab-48f8-89ee-988409452399",
+  "name": "Rohit chandra",
+  "phone": "7506158068",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Eco Tourism",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "I'm  Rohit chandra, a Naturalist Guide & Wildlife Photographer with 10+ years of experience, based near sattal  Nainital Uttarakhand. Passionate about birding, wildlife, adventure travel, astrotourism, and eco tourism. Dedicated to connecting people with nature through meaningful outdoor experiences while promoting conservation and responsible travel.",
+  "address": "Vill harinagar nathuwakhan post off ramgad Nainital"
+ },
+ {
+  "id": "718021a8-3d8d-4039-97e9-6fcf53d3dc07",
+  "name": "Himanshu Rana",
+  "phone": "9756858302",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Champawat",
+   "Nainital",
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Iâm Himanshu Rana, a Naturalist Guide & Wildlife Photographer with 5+ years of experience, based near Corbett National Park, Uttarakhand. Passionate about birding, wildlife, adventure travel, astrotourism, and eco tourism. Dedicated to connecting people with nature through meaningful outdoor experiences while promoting conservation and responsible travel.",
+  "address": "Village- Syat ,post- Syat , Kotabagh district - Nainital Uttarakhand 263159"
+ },
+ {
+  "id": "c7cb52d9-32ee-4255-a0a5-be4b72caaa90",
+  "name": "Chandra Mohan Singh Barfal",
+  "phone": "9956876825",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 8,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Nainital",
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "$33",
+  "address": "Munsyari Dist - Pithoraghar (Uttrakhand)"
+ },
+ {
+  "id": "c28bbdfe-0cd1-459d-ad6a-6693a415f0e6",
+  "name": "Mahendra Singn Pawar",
+  "phone": "9719767345",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "I am passionate about cultural, wildlife education and outreach, spring others to care about our Planet.",
+  "address": "Ramnagar, Distt Nainital,Uttarakhand"
+ },
+ {
+  "id": "7cb2fe2f-87f8-48ba-87c8-a5f3eaa044b6",
+  "name": "Akhilesh Semwal",
+  "phone": "7895105789",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Born and raised in the Himalayan Village Mukhwa-Harsil (Uttarkashi), I have a deep, lifelong connection with Devbhumi. As an official Uttarakhand Tourism trained guide and Naturalist with 4-5 years of experience, I specialized in rich culture, heritage and pilgrimage circuit of Uttarakhand. My academic background in  Geography, MSW and Education equips me with strong eco-tourism knowledge, excellent guest management and impactful communications. I am dedicated to offering a highly safe, authentic and professionally disciplined experience rooted in 'Atithi Devo Bhava'",
+  "address": "Village Mukhwa, PO- Harsil, Distt - Uttarkashi, Uttarakhand"
+ },
+ {
+  "id": "02291ef3-6f7c-4d7a-a67d-a0ea6f926978",
+  "name": "Pankaj Bisht",
+  "phone": "8755538802",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 4,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Kumaoni",
+   "Punjabi",
+   "Nepali",
+   "English"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Chamoli",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Am professional guide and know about many skills",
+  "address": "Lohajung Mundoli chamoli Uttarakhand"
+ },
+ {
+  "id": "56f1e978-4f12-4b64-a12a-20c87c4995a2",
+  "name": "Navneet Singh Bisht",
+  "phone": "9627440173",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Trekking",
+   "Nature Guide",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Champawat",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Udham Singh Nagar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "All about",
+  "address": "Vill+P.O Gaibua khass District Nainital (UK)Pin No 263140"
+ },
+ {
+  "id": "07903dea-9258-4156-8fa7-981c7340e980",
+  "name": "Ankit Vishwakarma",
+  "phone": "7017554848",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Kumaoni",
+   "Urdu",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Chamoli",
+   "Champawat",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pauri Garhwal",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Tehri Garhwal",
+   "Udham Singh Nagar",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "$34",
+  "address": "Ward.No.1, Gandhinagar, Ukhimath, Rudraprayag, Uttarakhand, 246469"
+ },
+ {
+  "id": "3dcc4f2b-3963-4535-91d4-4ab7919f702f",
+  "name": "Binay",
+  "phone": "7055927639",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "English"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Trekking",
+   "River Rafting",
+   "Tour Manager",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Chamoli",
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "My name is Binay Bhandari",
+  "address": "Kuher Po paldwari ukhimath rudraprayag"
+ },
+ {
+  "id": "2d9fa89b-37d9-4d41-8b73-b677ec89f4ba",
+  "name": "Rahul",
+  "phone": "7455847768",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 6,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Nepali",
+   "Bhojpuri",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun",
+   "Haridwar",
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "$35",
+  "address": "Ukhimath rudraprayag uttrakhand"
+ },
+ {
+  "id": "3db36f7a-6241-4524-8048-0d2ad84dd779",
+  "name": "Sanjeev Kumar Pant",
+  "phone": "8006482030",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Trekking",
+   "River Rafting",
+   "Tour Manager",
+   "Nature Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Champawat",
+   "Dehradun",
+   "Nainital",
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "I have a good knowledge of tracking in Uttarakhand or adventure sports also I have done a lot of adventure sports activities also lead tracks and Green hub Western Himalayas  responsible tourism fellowship",
+  "address": "Jagdamba colony pithoragarh Uttarakhand"
+ },
+ {
+  "id": "16f93fef-4ca6-4893-b2df-b780f0d99b10",
+  "name": "Rahul Pandey",
+  "phone": "7060994803",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 4,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Religious Tourism",
+   "Tour Manager",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "My Name is Rahul and I have been working on this field since 3 years+ . I have been an adventure loving person . Who loves to travel more and more and want to shares the experience .. i love to interact with new new people of different background, culture and language ..",
+  "address": "Village daula post office bin Pithoragarh, Uttarakhand"
+ },
+ {
+  "id": "99c5fbb5-00b3-43bc-ace3-7a12066ba4f0",
+  "name": "TREPAN KUMAR",
+  "phone": "8433453984",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 7,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Jaunsari",
+   "Nepali",
+   "Bengali",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Chamoli",
+   "Champawat",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pauri Garhwal",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Tehri Garhwal",
+   "Udham Singh Nagar",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "HIGHT ALLTITUDE MOUNTRING TOURISUM GUIDE PARAGLIDING PILOT UTTARAKHAND.",
+  "address": "DISTT UTTARKASHI POST SANKRI"
+ },
+ {
+  "id": "7c1dc137-4d36-411b-b37e-6d4f7d658108",
+  "name": "Pankaj Kumar",
+  "phone": "9368805583",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Adventure Tourism",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Feel The Hills With Real Natural Heartily Attachment. And Know the History, Folk Stories, Herbs and Birds of Destination.",
+  "address": "Mitrapuram,Near JDM School, Damuadhunga, Kathgodam, Haldwani, Nainital- 263126 UK"
+ },
+ {
+  "id": "ee97e7ef-7c9c-4a81-81f4-e78ccec61b09",
+  "name": "KARAMJEET SINGH",
+  "phone": "6398782525",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 8,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Kumaoni",
+   "Punjabi",
+   "English"
+  ],
+  "expertise": [
+   "Wildlife Safari",
+   "Eco Tourism",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "$36",
+  "address": "Village lalupur bansitila post-Semalkhaliya ramnagar Nainital uttrakhand pin 244715"
+ },
+ {
+  "id": "cb9e8bf7-9d6a-43f5-90fe-251043aeeb59",
+  "name": "Rahul Rautela",
+  "phone": "7017035441",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Organising Experiential Tourism and well as Educational activities in Jim Corbett and other National Parks",
+  "address": "Maa Purnagiri Vihar, Phase-2, Dahariya, Haldwani, Nainital"
+ },
+ {
+  "id": "7718b906-3319-4089-a765-6f569f2f5879",
+  "name": "Nitin Khati",
+  "phone": "8006576065",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Restaurant operations",
+  "address": "Dhikuli"
+ },
+ {
+  "id": "7b3e2309-29f2-4df3-a106-c5269df147c3",
+  "name": "Priyanka Yadav",
+  "phone": "7088298990",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 6,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Hold to telescope",
+  "address": "Near nagar palika , kashipur"
+ },
+ {
+  "id": "613a3088-d977-4eeb-9b51-ddfb5b11fd11",
+  "name": "Saksham Kumar",
+  "phone": "9286244431",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Hariyawala , Kashipur, U.S.N , Uttrakhand"
+ },
+ {
+  "id": "97e7016a-5647-479c-a4fa-36179a7bef38",
+  "name": "Yogesh Nainwal",
+  "phone": "9634748397",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Guiding guest to explore the flora & fauna of corbett national park & its history",
+  "address": "Village Dhikuli Post office Dhikuli Ramnagar,Nainital Uttarakhand pin code - 244715"
+ },
+ {
+  "id": "e7930e4a-5de2-4c8c-a2b1-11e3906be913",
+  "name": "Pratap singh chamola",
+  "phone": "8954324873",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "N",
+  "address": "Near devi mandir nathujala kotabagh nainital uttarakhand 263159"
+ },
+ {
+  "id": "6ca15266-87c4-41b5-9022-d8a43dd8de0e",
+  "name": "Sachin sharma",
+  "phone": "9389289480",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Any",
+  "address": "Haldwani"
+ },
+ {
+  "id": "702d7db7-1944-4c5a-9e01-c00af0f7ef11",
+  "name": "Khushbu",
+  "phone": "8433146083",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Ramnagar maldhn chur"
+ },
+ {
+  "id": "b0d0798f-2340-4b6a-b496-a1269a0a9d63",
+  "name": "Rekha Panwar",
+  "phone": "9286446227",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Tehri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Nav Durga Mandir, Baurari New Tehri, Tehri Garhwal, Uttarakhand"
+ },
+ {
+  "id": "43b84db4-051f-4582-a418-2d0c02953c6d",
+  "name": "Ravindra singh",
+  "phone": "9410986054",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pauri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "village juee Rikhnikhal pauri Garhwal Uttrakhand post office -naudanu Pin-246179"
+ },
+ {
+  "id": "e62bb275-a15d-4c01-ad27-67d7446bfafe",
+  "name": "Nitin sharma",
+  "phone": "7300912046",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Village atal post office atal district Dehradun Uttarakhand"
+ },
+ {
+  "id": "81602ec7-5e6a-44e1-973e-e1745e36d58a",
+  "name": "Dikshant Khugshal",
+  "phone": "9528103721",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Upper kalabarh near church road kotdwar"
+ },
+ {
+  "id": "2d2783c7-3096-4144-8cce-9eabe503e3f2",
+  "name": "Himanshu jakhmola",
+  "phone": "7302948715",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Haldukhata,kotdwara"
+ },
+ {
+  "id": "2d6f15ae-0712-49ec-bcde-c2fb32d788e2",
+  "name": "Kuldeep Bhatt",
+  "phone": "7455094150",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Y",
+  "address": "à¤¤à¤¿à¤²à¥à¤¥ à¤à¤¸à¤ªà¥à¤° à¤ªà¥à¤¸à¥à¤ à¤à¤«à¤¿à¤¸ à¤à¤¤à¥à¤¤à¤°à¤à¤¾à¤¶à¥ à¤à¤¨à¤ªà¤¦ à¤à¤¤à¥à¤¤à¤°à¤à¤¾à¤¸à¥"
+ },
+ {
+  "id": "dbf855fb-53fd-4914-8ab4-21bc366f4f69",
+  "name": "Ojaswi Panwar",
+  "phone": "9828626410",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Mountaineering Instructor/Guide/Astro",
+  "address": "Panwar Niwas, Lane-2, Gautam Vihar Chandrabani Road, Sewala Kalan"
+ },
+ {
+  "id": "e4afbd65-0826-414a-8412-bafd09a465ec",
+  "name": "Kajal",
+  "phone": "9389762821",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "To learn everything properly",
+  "address": "Maneshwar choura rajpura"
+ },
+ {
+  "id": "a01028dd-df89-4ba6-9a26-8085ef7d637d",
+  "name": "Neha Bohra",
+  "phone": "9410180990",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Village - Matiyani, P.O.- Madhuwa"
+ },
+ {
+  "id": "c0784159-a31f-435f-89b4-ccc29dfd3aae",
+  "name": "Dheeraj joshi",
+  "phone": "9389947980",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Jaidevpur,ward no 36,post lokmanipur, kotdwara, PauriGarhwal, uttarakhand 246149"
+ },
+ {
+  "id": "c096ac3d-9c6c-496d-9172-dc600bcf8cc6",
+  "name": "Pankaj jugran",
+  "phone": "9759253766",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pauri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Managing and business",
+  "address": "Sila danda , mustkhal , Dwarikhal pauri Garhwal , uttarakhand 246128"
+ },
+ {
+  "id": "d1d65374-7292-4fe3-9d88-2ae460912ce7",
+  "name": "Nirupa",
+  "phone": "8445242065",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Yes",
+  "address": "Lokmanipur sigaddi"
+ },
+ {
+  "id": "40de2554-96ca-4fc3-bbf0-cb0344feacb3",
+  "name": "Saurabh nath",
+  "phone": "6399784515",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Over off doblment",
+  "address": "Pulla"
+ },
+ {
+  "id": "5d9451df-8b5d-4487-af33-5ac7ccb6b571",
+  "name": "Rahul Nath",
+  "phone": "7618234406",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Champawat"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Over all development",
+  "address": "Kanda valley champawat"
+ },
+ {
+  "id": "6e16df7e-c049-4897-b38e-d5068ff4a9a6",
+  "name": "Manas Joshi",
+  "phone": "8306575029",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Champawat"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Discipline and leadership",
+  "address": "Gangnaula Lohaghat Champawat"
+ },
+ {
+  "id": "abad4718-f135-46c8-bcf2-43191d5a5141",
+  "name": "Shubham Joshi",
+  "phone": "9368252487",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Champawat"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Palsoon, Champawat"
+ },
+ {
+  "id": "cfb6d4d2-a1aa-4958-af38-9c418a299a20",
+  "name": "Himani Gahtori",
+  "phone": "9528913934",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Champawat"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Attend theory and Practical Classes regularly",
+  "address": "Village Panka,post office kanakot, District Champawat,262528"
+ },
+ {
+  "id": "020c6ca6-27fa-419c-b978-04c30497ccf6",
+  "name": "Rahul Goswami",
+  "phone": "9720533087",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Champawat"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "9.720533087E9",
+  "address": "Uttrakhand Champawat"
+ },
+ {
+  "id": "339c07ad-5fa9-4412-9774-4b6358631048",
+  "name": "Utkarsh Negi",
+  "phone": "7302016767",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Upper kalabarh, Near ambience Garden. Chandra Singh rawat colony"
+ },
+ {
+  "id": "fc0b6dd4-39ff-4a4f-a7ed-5409e50f6059",
+  "name": "Himanshu joshi",
+  "phone": "8476814233",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2023,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "To maintain decorum in the ncc contingent",
+  "address": "Badoli, lohaghat"
+ },
+ {
+  "id": "4730df42-443d-41e0-a717-c7a2a5e65c49",
+  "name": "Suraj Joshi",
+  "phone": "9286278493",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Pithoragarh Apt Suite Etc"
+ },
+ {
+  "id": "7aa43030-a8f1-4982-8639-0d209343145b",
+  "name": "TANUJA MAHARA",
+  "phone": "8958570342",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Helping people by providing knowledge regarding astrology and guiding",
+  "address": "vill+P.O. Udiyari, Dist, Pithoragarh"
+ },
+ {
+  "id": "0c594ed6-0d8e-42b3-b0c3-040865bdee66",
+  "name": "Ismit Kumar",
+  "phone": "8755182575",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Lane 1, Rudra vihar, Pitthuwala, Shimla bypass road, Dehradun, Uttarakhand"
+ },
+ {
+  "id": "8b848241-3a92-4ebf-8e11-1d6b4bd0186e",
+  "name": "Deepankar singh",
+  "phone": "7300963323",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Yes",
+  "address": "Rishikesh idpl meera nagar"
+ },
+ {
+  "id": "e4a28569-0838-4997-8b37-e620988a08a9",
+  "name": "Sanya Arora",
+  "phone": "9548492041",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "To generate the lead for the sales department",
+  "address": "65, Dehradun road, near vyapar sabha, Rishikesh, Uttarakhand, 249201"
+ },
+ {
+  "id": "e3ff619d-ada5-4eb5-8d61-683b21bb6aeb",
+  "name": "Puran chandra pandey",
+  "phone": "7500990816",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "star guide",
+  "address": "Near laxmi ashram kausani, post kausani, pin code-263639 district almora"
+ },
+ {
+  "id": "687ce7f5-e711-477a-ad87-8b793b36cc52",
+  "name": "Suchi Negi",
+  "phone": "7017227588",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pauri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "W/o Deepak Singh Negi, Vill. Dabari, Post. Lansdowne, Pauri Garhwal, Uttarakhand. Pin. 246155"
+ },
+ {
+  "id": "d0ba4080-d0ce-4158-b3f3-0dba75495338",
+  "name": "Shivani Kharkwal",
+  "phone": "9456345458",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [],
+  "districts": [
+   "Champawat"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Being fully focused and consistent",
+  "address": "Churakhark Champawat"
+ },
+ {
+  "id": "f6f8bc29-8e7e-4177-89df-7f7e40bf6a0c",
+  "name": "Atul Kukreti",
+  "phone": "8758415254",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Managing Shipper's documentation and legal formalities as a shipping company Executive also analysing the data and resolving them for the Sales Team as well.",
+  "address": "Lane No. 7A Canal Road, Ghumaniwala, Rishikesh"
+ },
+ {
+  "id": "debd83ff-35ca-4837-9669-aaf66eefc754",
+  "name": "Nilam Samant",
+  "phone": "8475951567",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Training ke dauran tour guide kaam sheekha",
+  "address": "à¤¨à¤ à¤¬à¤²à¤¾à¤ à¤à¥à¤¨à¤¾ à¤¬à¥à¤°à¤¾ à¤²à¥à¤¹à¤¾à¤à¤¾à¤ à¤à¤®à¥à¤ªà¤¾à¤µà¤¤"
+ },
+ {
+  "id": "152bbebb-e2bb-4afe-827b-60dec63e821b",
+  "name": "Ankit Fartyal",
+  "phone": "9084905835",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2023,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "To maintain decorum in our ncc contingent",
+  "address": "Near sdm court, lohaghat"
+ },
+ {
+  "id": "c5879e5e-c380-4247-af2b-bd797bd22a68",
+  "name": "Alok Tiwari",
+  "phone": "9897590255",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Fegu luhera nag jagai rudraprayag uttrakhand"
+ },
+ {
+  "id": "b517f3a4-2dbd-4537-bc64-de8034bd06ac",
+  "name": "Pooja arya",
+  "phone": "7417606813",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "A Star Guide shows tourists stars, planets, and constellations at night. They operate telescopes, tell stories about constellations, and share astronomy knowledge. They ensure tourist safety, answer questions, and make the night sky tour engaging and memorable for everyone.",
+  "address": "Dhikuli, Ramanagar, nainital"
+ },
+ {
+  "id": "7952606b-462d-4dc4-9fd1-7044ff2c1536",
+  "name": "Pooja Bhatt",
+  "phone": "9368995421",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Teaching yoga to the batch and maintain the class.",
+  "address": "21, SADANAND MARG, near dehradun road , rishikesh, dehradun"
+ },
+ {
+  "id": "23d7d441-bf68-427e-8df0-5a6376fdf507",
+  "name": "Manish Singh Bhaisora",
+  "phone": "9368484628",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Stargazing",
+  "address": "Pachchisi kausani"
+ },
+ {
+  "id": "d909c7de-d20c-4d3f-95d1-36425d5d6d87",
+  "name": "Divya Chandra",
+  "phone": "7300522824",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "A star guide shows tourists star, planets, and constellation at night. They operate telescopes, and Shere astronomy knowledge. They ensure tourists safet6, answer questions, and make the night sky tour engaging and memorable for everyone.",
+  "address": "Dhikuli ramnagar nainital"
+ },
+ {
+  "id": "f6887c96-39c0-4f3d-ae7a-83b9c2115426",
+  "name": "Jitendra Kumar",
+  "phone": "9634995526",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2018,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Udham Singh Nagar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Maintenance and safety",
+  "address": "Ward no 14 badi musjid gali panjabi mohalla kichha udham singh nagar uttrarkhand"
+ },
+ {
+  "id": "721d470b-c50c-4f43-a968-46e75f341833",
+  "name": "Kamal Joshi",
+  "phone": "7055662979",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Direction Finding, Spotting Celestial Bodies",
+  "address": "Bidaura Majhola, Block - Sitarganj, U. S. Nagar, Uttarakhand"
+ },
+ {
+  "id": "6c3b3d36-a8e5-4d8f-81be-f4cad76165bb",
+  "name": "Kalyan Chandra",
+  "phone": "9758640090",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "star guide work role",
+  "address": "Ramnagar Nainital"
+ },
+ {
+  "id": "4871231d-d29f-4bc8-8835-af3c9727a579",
+  "name": "Charu",
+  "phone": "7351072429",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Guiding tourists in astro tourism activities. Explaining stars, constellations and night sky. Ensuring tourist safety. Providing information about local attractions.",
+  "address": "Bansiowala mandir jaspur khurd kashipur uttarakhand"
+ },
+ {
+  "id": "8827649f-8a20-4922-ba4d-23f4c607ef0b",
+  "name": "Jamila Momin",
+  "phone": "6398335312",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Management",
+  "address": "P.O Dhikuli, Ramnager, Nainital, Uttarakhand - 244715"
+ },
+ {
+  "id": "7a791709-5c82-45a8-8d38-7a7002be2f3c",
+  "name": "PANKAJ SINGH NEGI",
+  "phone": "7302356994",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Not applicable",
+  "address": "RANIKHET ROAD LAKHANPUR CHUNGI NEAR BY ADARSH FURNITURE RAMNAGAR NAINITAL UTTRAKHAND RANIKHET ROAD LAKHANPUR CHUNGI NEAR BY JAMUNA HOTEL RAMNAGAR NAINITAL UTTRAKHAND"
+ },
+ {
+  "id": "eadd1519-0f97-478a-b49a-e740faaac6dc",
+  "name": "Jagrita Bhatt",
+  "phone": "6396479125",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Nature guiding work",
+  "address": "Village chorpani Ramnagar nainital"
+ },
+ {
+  "id": "5b92b6d1-9f6d-4be9-81f8-8438aecee07a",
+  "name": "Anwar Hussain",
+  "phone": "9557708410",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Village Dhikuli tehsil ramnagar Dist. Nainital uttarakhand"
+ },
+ {
+  "id": "514f839b-87fe-40ce-a93d-6be3bf4ca91a",
+  "name": "Manmohan Singh Mehra",
+  "phone": "9149210131",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Forest compound, Ramnagar"
+ },
+ {
+  "id": "bbdfe530-edf6-4ba2-ad13-ea4760d4c372",
+  "name": "DEEKSHA MEHTA",
+  "phone": "8958830267",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 8,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Save the nuter and wildlife. conservation...",
+  "address": "Kamola"
+ },
+ {
+  "id": "061830a2-8142-47ff-9c7b-1ca3a8718c85",
+  "name": "Tarun Rana",
+  "phone": "7451822096",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Tehri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "guest Handling",
+  "address": "baurari bus adda new tehri tehri garhwal"
+ },
+ {
+  "id": "d97c461d-0f85-450a-b161-ace4a774d608",
+  "name": "DISHA BATRA",
+  "phone": "9568050720",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Udham Singh Nagar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Teaching nursery kids",
+  "address": "MANPUR FIROZPUR KASHIPUR UDHAM SINGH NAGAR UTTARAKHAND"
+ },
+ {
+  "id": "e5dd71f6-4095-4616-8ac3-da212462936f",
+  "name": "Chetan Sati",
+  "phone": "8630944573",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Nature Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "To ensure the safety and provide best knowledge of flora and fauna of the jungle to the tourists",
+  "address": "Kyari bandobasti Ramnagar nainital(244715) Uttarakhand"
+ },
+ {
+  "id": "f68d260f-dfdc-46b8-a6b0-07159e43f5e6",
+  "name": "Harshita sati",
+  "phone": "9389091943",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Nature Guide",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Guiding and jungle rules information",
+  "address": "Gram kyari bandobasti , Ramnagar, Nainital"
+ },
+ {
+  "id": "064ce395-2cb6-4aa9-85cf-d490df0fb51c",
+  "name": "Sameeksha Manral",
+  "phone": "9917832365",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 4,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "â¢ Conduct wildlife research and biodiversity assessments. â¢ Coordinate conservation projects in Corbett landscape. â¢ Organize environmental awareness and eco-tourism programs. â¢ Guide visitors, students and stakeholders during field visits. â¢ Conduct habitat monitoring, vegetation sampling and wildlife surveys. â¢ Prepare technical reports, project proposals and conservation documentation. â¢ Promote responsible and sustainable nature tourism.",
+  "address": "Manral niwas , near shaheed park, lakhanpur"
+ },
+ {
+  "id": "5f2c41c3-eeb9-4a8c-9957-b872ea8d907b",
+  "name": "Deepesh Bhatt",
+  "phone": "9837611827",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No professional guiding experience yet; currently developing skills in astronomy outreach and visitor engagement.",
+  "address": "Lakhanpur, Ramnagar, Nainital, Uttarakhand (244715)"
+ },
+ {
+  "id": "d863fa4e-d9fe-4a8b-8688-95baa3493184",
+  "name": "Harsh Singh kaushik",
+  "phone": "7310551741",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Lead astronomy and night-sky observation tours. â¢ Set up and operate telescopes and other observing equipment. â¢ Explain constellations, planets, stars, galaxies, and celestial events in an engaging way. â¢ Ensure guest safety during daytime and nighttime activities. â¢ Share scientific knowledge while making astronomy accessible to all ages. â¢ Answer visitor questions and create an interactive learning experience.",
+  "address": "Near Gd Goenka Public School, Hariyawala, Kashipur"
+ },
+ {
+  "id": "2375aae6-32d0-468e-8c81-e74eaedf7d0f",
+  "name": "Shikha Pandey",
+  "phone": "7017420898",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Conducting awareness programmes, surveys, field activities. Coordinating with stakeholders and line departments, designing resource material and data analysis and report writing.",
+  "address": "Village/post office:- Amyari, Ranikhet, Uttarakhand"
+ },
+ {
+  "id": "a63f1292-000b-430e-a308-c4ff6793e3cc",
+  "name": "Laxmi sharma",
+  "phone": "8533030521",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Shubhash nagar, sugar factory fountain, kashipur"
+ },
+ {
+  "id": "5237a0fe-5aa1-4e12-8347-d6186c6be37e",
+  "name": "RAJEEV KUMAR",
+  "phone": "8192020469",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Shivanthpur new basti"
+ },
+ {
+  "id": "04fe7149-6934-4320-8ae2-7d7797789b4b",
+  "name": "Jyoti kandpal",
+  "phone": "7906617584",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Guiding tourists",
+  "address": "Kyari bandobasti Ramnagar Nainital Uttarakhand (PIN CODE -244715)"
+ },
+ {
+  "id": "beefa010-54b5-4f1a-8701-2e10fc493ebf",
+  "name": "Ankit Belwal",
+  "phone": "9719655625",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Sales, Logistic",
+  "address": "Village Sawaldey West, Post office Saimalkhaliya , Shiva Temple"
+ },
+ {
+  "id": "057e19e7-7b4b-42d0-9396-b3f0edb79f96",
+  "name": "Rahul Kumar",
+  "phone": "7902192838",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Maldhan chaur ramnagar"
+ },
+ {
+  "id": "7fc4fff0-07dc-464a-b25c-fdbf4d02c714",
+  "name": "Shivam Kumar",
+  "phone": "9548474868",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Udham Singh Nagar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Making maths easy for students",
+  "address": "Shiv nagar colony kashipur udham Singh nagar uttarakhand"
+ },
+ {
+  "id": "24dfa299-11d8-4fff-a782-3a154ffae6cb",
+  "name": "Mahah Siddharth",
+  "phone": "8266003478",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Naturalist, Astro Tour Guide",
+  "address": "Bambagher, Ramnagar Range, Ramnagar"
+ },
+ {
+  "id": "f08abc34-c776-4e71-96ab-a850fbf616b6",
+  "name": "Reena Kumari",
+  "phone": "8954814850",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Guide visitors during astronomy activities, explained celestial objects, assisted in telescope observation and promoted responsible astro tourism.",
+  "address": "H.no. 220 nai basti laldhang firojpur kashipur"
+ },
+ {
+  "id": "d573f02e-2203-4b9c-b2c1-d57987867ec0",
+  "name": "Mayank Dictiya",
+  "phone": "7668609268",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Vill+ P O.= Jhimar , salt Almora, Uttrakhand"
+ },
+ {
+  "id": "0a8ade76-650e-411b-a066-a80d1ef78d69",
+  "name": "DEEPAK GIRI GOSWAMI",
+  "phone": "9149231903",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "FOREST COMPOUND RAMNAGAR NAINITAL"
+ },
+ {
+  "id": "16fa7804-e27b-4262-8f2e-243ff545a0dd",
+  "name": "neema dev dev",
+  "phone": "8006513648",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Good",
+  "address": "Sundrkhal post office weekly ramnagar nainital Uttarakhand 24-4715"
+ },
+ {
+  "id": "db0276cf-d1d9-4bc2-a4d4-29cbafefb444",
+  "name": "Sagar Sharma",
+  "phone": "8077350070",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Software Developer",
+  "address": "Garhwal Shabha Jaspur Khurd near SDM Court Kashipur 244713 U S Nagar Uttarakhand"
+ },
+ {
+  "id": "f0c49fdf-c0b9-4554-95e3-0fd700c15711",
+  "name": "Himanshu Budhlakoti",
+  "phone": "9193597230",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Guide",
+  "address": "Kotabagh"
+ },
+ {
+  "id": "a910f83d-887b-4e09-bd24-55c795b182f3",
+  "name": "KULDEEP SINGH RAWAT",
+  "phone": "9992888429",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Udham Singh Nagar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Conducting astro session, marketing and sales",
+  "address": "Sainik colony near chamunda mandir kashipur, udham Singh Nagar"
+ },
+ {
+  "id": "259123c7-cd9d-4a0c-af09-0d9289c4bbfc",
+  "name": "Naman yadav",
+  "phone": "6396948168",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "12.0",
+  "address": "Bassfodan"
+ },
+ {
+  "id": "dd78db43-6f30-4a4a-b6b0-f46d17140366",
+  "name": "Shikha Kashyap",
+  "phone": "7536024678",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "The outward pressure of the solar wind becomes equal to the inward pressure of interstellar space.",
+  "address": "Adarsh nagar near akansha garden Kashipur"
+ },
+ {
+  "id": "6b77cf24-5211-4470-9a4f-9f8866beb238",
+  "name": "Mohit Kumar Pandey",
+  "phone": "7533879665",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Nai Basti, Gullarghatti, Ramnagar, Nainital"
+ },
+ {
+  "id": "aef74172-a2f2-43c3-a536-e1b7fdca67c2",
+  "name": "MOHD RIYAZ",
+  "phone": "7417772018",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Conducting guided nature walks, interpreting wildlife and biodiversity, assisting tourists, promoting responsible tourism, ensuring visitor safety, and creating awareness about conservation and local culture.",
+  "address": "Village Telipura, Jim Corbett ,Ramnagar"
+ },
+ {
+  "id": "91c14ffc-c6e6-42e0-a0c2-d67da290b13f",
+  "name": "Manoj Kumar Pandey",
+  "phone": "8938844763",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Nai Basti Gularghatti Ramnagar"
+ },
+ {
+  "id": "5f0b914d-21cb-4a12-b8eb-45c86d2d7c0b",
+  "name": "Kailash chandra tripathi",
+  "phone": "7060637260",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 8,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "à¤¸à¥à¤µà¤à¥à¤ à¤¶à¤¾à¤à¤¤ à¤µà¤¾à¤¤à¤¾à¤µà¤°à¤£ à¤®à¥à¤ à¤à¤à¤à¤¤à¥à¤à¥à¤ à¤à¤¾ à¤¸à¥à¤µà¤¾à¤à¤¤",
+  "address": "Village..chorpani ramnagar"
+ },
+ {
+  "id": "2e5be486-5f72-4b72-ad22-40b786a3010e",
+  "name": "Deepankar Khulbe",
+  "phone": "9650435784",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Restaurant, Guest handling, Wildlife Photographer , YouTuber , Travel agent",
+  "address": "Gas Godam Road , Kusumkhera, Haldwani ("
+ },
+ {
+  "id": "05c594d8-df42-4607-8e8d-913dd0c5547b",
+  "name": "Deepanshi",
+  "phone": "7055815973",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Explain astronomy concepts in a simple and engaging way. Conduct safe and informative night sky observation sessions.",
+  "address": "Hariyawala, Kashipur"
+ },
+ {
+  "id": "87e16eab-1f0c-4ae9-865e-862b00e8a4c4",
+  "name": "Abhishek Kumar",
+  "phone": "9058267434",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Nature Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Nature Guide, Astro Tour Guide",
+  "address": "Maldhan chaur Ramnagar"
+ },
+ {
+  "id": "9bc0f895-87fe-459a-9650-1110f6d7431d",
+  "name": "Bhuwan Chandra",
+  "phone": "7983896960",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 9,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Stargazing sessions, telescope operation, guest hospitality, astronomy education, night sky interpretation",
+  "address": "Chandranagar Maldhan Chaur Ramnagar Nainital Uttarakhand"
+ },
+ {
+  "id": "1fd8be12-0262-48d1-a395-6dfda852b06b",
+  "name": "jitendra singh",
+  "phone": "9411581130",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "guide",
+  "address": "village and Post office jakhol block mori Uttarkashi"
+ },
+ {
+  "id": "7fb5efee-840d-465d-b97d-ef6b6db499b2",
+  "name": "Neelam Singh",
+  "phone": "8476860198",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Tourist Guide",
+  "address": "Kotdwar road uttari khatari Ramnagar Range Naintal Uttarakhand - 244715"
+ },
+ {
+  "id": "13138b33-b2bb-436d-b116-9e2991092b1a",
+  "name": "Sarvsrest",
+  "phone": "9258077284",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Event managing, Stargazing, Hospitality of guests",
+  "address": "Shiv nagar colony, Kashipur"
+ },
+ {
+  "id": "28215dc0-4093-4c5b-bdbd-29ae2da8782e",
+  "name": "Pankaj chand Sharma",
+  "phone": "7668364158",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "â¢ Guiding tourists at tourist destinations. â¢ Planning and coordinating tours. â¢ Hotel and transport coordination. â¢ Assisting tourists throughout the journey. â¢ Ensuring safety and customer satisfaction.",
+  "address": "Hazari bagh 1175 Kankhal"
+ },
+ {
+  "id": "10ed4d50-4a71-4902-b360-c357bbececf3",
+  "name": "PRASHANT KUKRETI",
+  "phone": "7017420610",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "74, Govind Vihar, Manpur, Kotdwara"
+ },
+ {
+  "id": "c7a3b038-5304-4477-beed-0000081e77b5",
+  "name": "ankit singh",
+  "phone": "7505677462",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Tehri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Learning about hospitality",
+  "address": "Kyarda, Ghansali, Tehri Garhwa"
+ },
+ {
+  "id": "aeb649e9-ffd9-4a59-b2b2-9560cf7a55a5",
+  "name": "MANOJ PARGAIN",
+  "phone": "9411344848",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 19,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Billing work",
+  "address": "MANILA VIHAR CHORPANI RAMNAGAR PIN 244715 NAINITAL UTTARAKHAND"
+ },
+ {
+  "id": "caebf633-513d-4911-a864-f12f245ae304",
+  "name": "Anshu Rawat",
+  "phone": "9068914647",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pauri Garhwal"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Vill. NAUDIYAL GAON , PO TOLI . PAURI GARHWAL"
+ },
+ {
+  "id": "0c6979c4-d6d8-4908-a49e-e172ef3f1cc2",
+  "name": "AMAN SINGH NEGI",
+  "phone": "9027450468",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Chamoli"
+  ],
+  "rating": 4.2,
+  "reviewCount": 4,
+  "bio": "* Current Education: Pursuing B.A. (3rd Year) in Music Vocal. * Music Qualifications: Pursuing 5th Year Diploma in Vocal & Completed 4th Year Senior Diploma in Vocal from Prayag Sangeet Samiti, Allahabad. * Instrument Skills: Basic knowledge of Synthesizer (2nd Year Diploma) and currently learning Flute as a beginner. * Additional Skills: Possess a valid Driving License (DL) for Two-Wheeler. * Astro-Tourism Value: Eager to use my foundational music knowledge to create a pleasant and engaging experience for tourists during stargazing sessions. ------------------------------",
+  "address": "Gopeshwar, Chamoli"
+ },
+ {
+  "id": "fa54904d-1436-4bc6-bd4d-e5d7d2f29af5",
+  "name": "Laxman Chandra",
+  "phone": "7217365034",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": ".Learning and assisting in assigned tasks .Good communication and teamwork .Time management and problem-solving",
+  "address": "Dhikuli"
+ },
+ {
+  "id": "9cc70ded-b260-4c5d-91ae-c78a52f9d335",
+  "name": "vikram singh chilwal",
+  "phone": "8954548646",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "yes",
+  "address": "village kausani estate p o kausani estate dist bageshwear"
+ },
+ {
+  "id": "1939076e-40be-4a92-b513-75d9f857cb77",
+  "name": "Sundar Singh Bhojak",
+  "phone": "8958799754",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Kausani adventure And Camping bhatriya road kausani"
+ },
+ {
+  "id": "cd2b9dc4-6e0c-48b7-9970-587bc4931ec1",
+  "name": "NITIN CHOUBE",
+  "phone": "7020189071",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Champawat"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Managing and supervising rose cultivation, rose water production and distribution",
+  "address": "House no. 11, Village Suie - Satkhal, Near KVK, Lohaghat, Champawat, Uttarakhand, 262524"
+ },
+ {
+  "id": "c798040d-0c54-44ef-8e70-87eac09e966b",
+  "name": "Darpan yadav",
+  "phone": "7534815189",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "Moh. Khtriyan, kashipur"
+ },
+ {
+  "id": "62f3a2b1-2f77-402d-b7a3-e859d47021b2",
+  "name": "Rahul bhandari",
+  "phone": "7310676132",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 8,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Everything",
+  "address": "Main market Kausani"
+ },
+ {
+  "id": "805344a6-5080-42d0-a5ff-aceb5ced4e7e",
+  "name": "Yash Gaula",
+  "phone": "9027492652",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Assistance in End User Computing Issues",
+  "address": "Milak Mafi, Nanakmatta, US Nagar - 262311"
+ },
+ {
+  "id": "b8586cad-baed-4dbc-b9b5-35072dc7f52f",
+  "name": "Jatin Joshi",
+  "phone": "9917064755",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Handling multiple day to day tasks for partnered locations.",
+  "address": "F.T No 102 Panchwati Apartment, Karayal Jaulasal, Haldwani, Nainital, 263139"
+ },
+ {
+  "id": "93a99c13-8833-4a11-8ac1-357af46cc57e",
+  "name": "kamal saini",
+  "phone": "9639620820",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 8,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Conservation and save the wild life and nature awareness",
+  "address": "Post office Chilkiya Ramnger"
+ },
+ {
+  "id": "a15ea082-e6a1-4ebc-813b-7ab6b541c71a",
+  "name": "MANISH SHAH",
+  "phone": "8192926789",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Nature Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "To explore forest and wild life environment",
+  "address": "KOTDWAR ROAD, RAMNAGAR, NAINITAL, UTTARAKHAND-244715"
+ },
+ {
+  "id": "31b8d023-95e4-4807-89e3-98608ca86a90",
+  "name": "Negi Sanjay",
+  "phone": "8979683300",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": ".",
+  "address": "Rudraprayag"
+ },
+ {
+  "id": "4453cc2d-9c6a-4aff-ae8d-3f017c97b575",
+  "name": "Chandra Mohan Singh",
+  "phone": "7508513612",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "All Nature Guide Responsibility",
+  "address": "Vill Bhalaun Post Amgari Dist Nainital Uttarakhand"
+ },
+ {
+  "id": "bb19113d-c066-4eed-9a15-bf56429370b9",
+  "name": "Vinod Kumar",
+  "phone": "9528653536",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "VPO Amgarhi Kotabagh Nainital 263159"
+ },
+ {
+  "id": "c82c9472-901f-434f-be9c-b87441cafe0f",
+  "name": "Harshita Maulekhi",
+  "phone": "9068708207",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2023,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Promoting conservation and responsible tourism",
+  "address": "Vill - Dhikuli, Ramnagar , Nainital"
+ },
+ {
+  "id": "40c4e68d-861e-46a1-bae5-0fa45f2cba0b",
+  "name": "Ashutosh Singh",
+  "phone": "8979947531",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": ".",
+  "address": "Village-Kinjani Po-Chandranagar 246425 District-Rudraprayg"
+ },
+ {
+  "id": "dda1a0fb-e841-4225-bb0d-0a0a2a4bfa34",
+  "name": "Deep Chandra",
+  "phone": "9720408080",
+  "photo": "https://touristguideapi.uttarakhandtourism.gov.in/storage/profile/MEtf6YcuxGLmol8af5BAR9c2MoMWTsHIY4zORsl6.jpg",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 18,
+  "languages": [
+   "Hindi",
+   "Garhwali",
+   "Kumaoni",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Astro Tour Guide",
+   "Paragliding"
+  ],
+  "districts": [
+   "Almora",
+   "Bageshwar",
+   "Chamoli",
+   "Champawat",
+   "Dehradun",
+   "Haridwar",
+   "Nainital",
+   "Pauri Garhwal",
+   "Pithoragarh",
+   "Rudraprayag",
+   "Tehri Garhwal",
+   "Udham Singh Nagar",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "$31",
+  "address": "Kanchanpur Chhoi,Ramnagar (Nainital)"
+ },
+ {
+  "id": "d8520fee-8353-4c0a-ae22-38726cfe8cfd",
+  "name": "Vivek Shahi",
+  "phone": "8958538904",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No complaints from client",
+  "address": "New hureti, Pithoragarh, Uttarakhand"
+ },
+ {
+  "id": "e26b61d0-5335-41b8-8b4d-85ddecb312ad",
+  "name": "Binay Bhandari",
+  "phone": "7055917639",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 6,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Tour Manager",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Safety and risk management, planning itinerary, leave no trace, coordination",
+  "address": "Village kuher Po paldwari ukhimath rudraprayag uttarakhand"
+ },
+ {
+  "id": "0b0637cd-5ade-450a-8fdd-10333fa919cd",
+  "name": "Sapna",
+  "phone": "7302761909",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Star gazing, Astronomy and managing crowd",
+  "address": "Vill.- Boungarh, PO- Pankhu, Pithoragarh"
+ },
+ {
+  "id": "e410463e-b340-4391-b040-7630e2b35c8a",
+  "name": "Navneet Singh Bisht",
+  "phone": "9756266810",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Nature Guide",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Self",
+  "address": "Vill+P.O Gaibua khass Thisell Khaladhugi District Nainital PIN NO 263140"
+ },
+ {
+  "id": "2f63e143-a4ad-4a8f-9820-5b514d5a7272",
+  "name": "Ravi Bhandari",
+  "phone": "8755585410",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Sringra garhwal"
+ },
+ {
+  "id": "be6cea30-adfe-4cc0-9b0d-054b3bd5dc61",
+  "name": "pravesh singh",
+  "phone": "8979469705",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "managing tour and guide",
+  "address": "villege dhariyanj post munnadewal rudraprayag"
+ },
+ {
+  "id": "c63b64b8-bcf2-4679-b362-84abe9bdf523",
+  "name": "KARAMJEET SINGH",
+  "phone": "8393852419",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Nature walk Bird Watching and all activities Marlin",
+  "address": "Ramnagar Nainital uttrakhand"
+ },
+ {
+  "id": "18fe2991-5100-44de-8f18-b5244b29e9a7",
+  "name": "Deepika Tolia",
+  "phone": "8476809223",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Organising Adi kailash yatra and other such treks in Uttarakhand specially in pithoragarh",
+  "address": "Pithoragarh, Tehsil ward Didihat ,262551"
+ },
+ {
+  "id": "1c3d0754-98fc-4ffa-975a-05f1f6d4f5be",
+  "name": "RAJENDRA SINGH",
+  "phone": "9368854498",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Good",
+  "address": "VILLAGE SARMOLI,MUNSYARI,PITHORAGARH,UTTRAKHAND"
+ },
+ {
+  "id": "f1cddc9d-dec1-4194-b779-26d2d728ea88",
+  "name": "Abhishek Prajapati",
+  "phone": "9760262794",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 7,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Marketing and Operations",
+  "address": "183 adarsh gram pushkar mandhir road, Rishikesh"
+ },
+ {
+  "id": "1b69b689-9a5f-4280-a51b-449cf41b05a6",
+  "name": "Suraj singh",
+  "phone": "7819905242",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "à¤à¥à¤°à¥à¤ à¤à¥ à¤¯à¥à¤à¤¨à¤¾ à¤à¤° à¤°à¥à¤ à¤à¥ à¤à¤¾à¤¨à¤à¤¾à¤°à¥ à¤°à¤à¤¨à¤¾à¥¤ à¤¸à¤­à¥ à¤ªà¥à¤°à¤¤à¤¿à¤­à¤¾à¤à¤¿à¤¯à¥à¤ à¤à¥ à¤¸à¥à¤°à¤à¥à¤·à¤¾ à¤¸à¥à¤¨à¤¿à¤¶à¥à¤à¤¿à¤¤ à¤à¤°à¤¨à¤¾à¥¤ à¤à¤µà¤¶à¥à¤¯à¤ à¤à¤ªà¤à¤°à¤£ à¤à¤° à¤«à¤°à¥à¤¸à¥à¤-à¤à¤¡ à¤à¤¿à¤ à¤¸à¤¾à¤¥ à¤°à¤à¤¨à¤¾à¥¤ à¤®à¥à¤¸à¤® à¤à¥ à¤¸à¥à¤¥à¤¿à¤¤à¤¿ à¤ªà¤° à¤¨à¤à¤¼à¤° à¤°à¤à¤¨à¤¾à¥¤ à¤à¥à¤® à¤à¥ à¤¸à¤¾à¤¥ à¤¸à¤®à¤¨à¥à¤µà¤¯ à¤¬à¤¨à¤¾à¤ à¤°à¤à¤¨à¤¾à¥¤ à¤ªà¤°à¥à¤¯à¤¾à¤µà¤°à¤£ à¤¸à¤à¤°à¤à¥à¤·à¤£ à¤à¥ à¤¨à¤¿à¤¯à¤®à¥à¤ à¤à¤¾ à¤ªà¤¾à¤²à¤¨ à¤à¤°à¤¨à¤¾ (à¤à¤à¤°à¤¾ à¤¨ à",
+  "address": "Jhala"
+ },
+ {
+  "id": "91dea0f6-c990-4fcf-8361-5953d5101a04",
+  "name": "dheerendra rautela",
+  "phone": "7617617651",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 1,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "manage all operations",
+  "address": "kumour khark near 132 kv substation"
+ },
+ {
+  "id": "95a16997-997c-4dde-b7be-55cf6603cccd",
+  "name": "Sakshi Baluni",
+  "phone": "8077839235",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Nothing",
+  "address": "Balasaur Road Near Devi Mandir"
+ },
+ {
+  "id": "acf91855-57b8-4fea-8925-79a244daaef8",
+  "name": "Shakir hussain",
+  "phone": "7983181692",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Nature Guide",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Nature Guide, Naturalist, Astro Tour Guide",
+  "address": "Village Dhikuli Ramnagar nainital 244715"
+ },
+ {
+  "id": "c170af99-62bd-464b-a24f-2d5af3d2a14a",
+  "name": "Abhishek Gairola",
+  "phone": "6398937502",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 4,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Trem management and field operations",
+  "address": "Village shayampur po ambiwala premnagar dehradun"
+ },
+ {
+  "id": "7d484e01-da60-42af-acf5-cd0a5d2b477c",
+  "name": "SUMAN SHAH",
+  "phone": "9675755661",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Nature Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "EXPLORE FOREST AND WILD LIFE",
+  "address": "KOTDWAR ROAD, RAMNAGAR, NAINITAL, UTTARAKHAND-244715"
+ },
+ {
+  "id": "2d50906f-97f9-443d-af1b-b3874800e8ea",
+  "name": "Anjali Khanna",
+  "phone": "7500725264",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Guided tourists during astronomy observation sessions, explained constellations, planets, stars, and celestial events, assisted visitors in using telescopes, and helped organize educational astronomy activities.",
+  "address": "Purana bazar pithoragarh"
+ },
+ {
+  "id": "1698566c-41c9-46ab-bf48-d2644cc7c68a",
+  "name": "Suraj Kumar",
+  "phone": "7017106336",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "error_sura_j07",
+  "address": "Dhanyo Nakot Agastyamuni Rudraprayag uttarakhand pin-246421"
+ },
+ {
+  "id": "3ff1215b-66e8-44d8-ae9a-3c44a1769bea",
+  "name": "Naveen Goswami",
+  "phone": "9720942702",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "SEO",
+  "address": "Bhauwala, Dehradun"
+ },
+ {
+  "id": "b795c734-d331-457a-ad0b-72d71a55f27b",
+  "name": "Gunjan Rawat",
+  "phone": "7818966038",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Naturalist",
+  "address": "Jim Corbett National Park dhela bandobasti Ramnagar"
+ },
+ {
+  "id": "991dfbe2-13c3-4f44-b9d1-34f7736b2865",
+  "name": "tarun bhatt",
+  "phone": "7906561190",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Naturalist",
+  "address": "Nainital District"
+ },
+ {
+  "id": "5b731391-7abd-44bf-9eeb-26e15a06fae5",
+  "name": "Sarita Bisht",
+  "phone": "9105689904",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "H. No 25, Suwa, P/O Suwa Dharchula Pithoragarh, Uttarakhand, 262545"
+ },
+ {
+  "id": "442e8b01-0dca-48af-8cfe-46900fc05699",
+  "name": "Narendra Singh",
+  "phone": "8279655504",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 4,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Conservation work",
+  "address": "Vill-Kyari Kham Po.Ramnagar Distt. Nainital 244715 Uttarakhand"
+ },
+ {
+  "id": "4ee659a1-9c6e-4862-abab-99570fe27869",
+  "name": "Ashish singh",
+  "phone": "9690675282",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 5,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Tour Manager",
+   "Nature Guide"
+  ],
+  "districts": [
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Management",
+  "address": "Vill- dasda, post office- bhankoli uttarkashi"
+ },
+ {
+  "id": "89080bec-1557-422f-862a-cd9c51baf05e",
+  "name": "Rahul Kochgaway",
+  "phone": "9870996574",
+  "photo": "https://touristguideapi.uttarakhandtourism.gov.in/storage/profile/sYdxzhm25LmBPYjt8eCjtEgJmC9EzEWMeYBwX4OM.jpg",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "Bhojpuri",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "River Rafting",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun",
+   "Haridwar",
+   "Rudraprayag",
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "ðï¸ Tour Manager | Uttarakhand\\nð Curating memorable Himalayan journeys\\nð Char Dham â¢ Hills â¢ Culture â¢ Nature\\nð¿ Founder Director, Vagari Tourism India\\nâ¨ Explore Uttarakhand Beyond the Ordinary",
+  "address": "14 Kewal Vihar Sahastradhara Road Dehradun Uttarakhand"
+ },
+ {
+  "id": "d48eff83-59f2-4d1e-ba30-f5ab1a8dcf69",
+  "name": "Ritesh Kumar",
+  "phone": "8393928441",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Handle this guest",
+  "address": "Shivnathpur Nai basti MALDHANCHAUR ramnagar nanita"
+ },
+ {
+  "id": "832ce0d8-3de2-494a-b66a-8632a78b9a22",
+  "name": "Anil Singh",
+  "phone": "9149267689",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Chamoli"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Software Development",
+  "address": "Harni Mundoli Dewal Chamoli Uttarakhand"
+ },
+ {
+  "id": "030b22be-2f0f-46de-a63a-9747ff988e85",
+  "name": "Shashank oli",
+  "phone": "9520452822",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Champawat"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Astro Tour Guide",
+  "address": "po. khetikhan,pin 262528, distt- champawat ,uttarakhand"
+ },
+ {
+  "id": "49298971-eb8b-4845-b6ae-2270af12f708",
+  "name": "NEERAJ ASWAL",
+  "phone": "8447631855",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Yes",
+  "address": "Village Gir bhuter post office tilwara"
+ },
+ {
+  "id": "92a37d6e-73fa-4e08-9f06-04660dc4394c",
+  "name": "Goswami Niraj",
+  "phone": "9873748846",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 90,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Star guide",
+  "address": "Raulyanagunth chhani almora Uttarakhand"
+ },
+ {
+  "id": "eabb5520-3ed2-4b92-b910-88635460fbf4",
+  "name": "Priyanka",
+  "phone": "7906501567",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Haridwar"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Guiding visitors about astronomy and night sky observation. Explaining stars, planets and constellations. Assisting tourists during stargazing activities. Promoting astro tourism awareness.",
+  "address": "Haripurkalan , sai garden colony Haridwar Uttarakhand India, 249401"
+ },
+ {
+  "id": "641e8214-dcaa-4fec-b3ea-cf7e31dc75a6",
+  "name": "Ashish Singh",
+  "phone": "7078100445",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 15,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "No",
+  "address": "Haldapani gopeshwar"
+ },
+ {
+  "id": "d118c488-e266-416f-ab63-9f8f72b0edcd",
+  "name": "Rishabh Mahara",
+  "phone": "9193615809",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 4,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Dehradun"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Objective promote uttrakhand tourism in entire world",
+  "address": "Kumauni mohalla Sadar bazar lanasowne uttrakhand"
+ },
+ {
+  "id": "fd5f4148-ec41-4af3-b8b7-5ee4e78b4b4e",
+  "name": "Nitin Pandey",
+  "phone": "9410392276",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Naturalist",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Making itineraries and guiding on destinations also.",
+  "address": "Badreshwar Guest House Mall Road Almora"
+ },
+ {
+  "id": "e4102d4a-6005-4f22-840d-3af97eefe977",
+  "name": "Gaurav Joshi",
+  "phone": "8393853228",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 3,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Tour Manager",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Nainital"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Working as a Pgt teacher of chemistry",
+  "address": "Vill- Anwalakot, P.O.- Kotabagh, Pin - 263159 District -Nainital"
+ },
+ {
+  "id": "2087ce44-d0d7-4472-a807-b640551512ff",
+  "name": "Abhishek Rajan",
+  "phone": "7536022257",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "Kumaoni",
+   "Punjabi",
+   "Nepali",
+   "English"
+  ],
+  "expertise": [
+   "Char Dham Pilgrimage",
+   "Adventure Tourism",
+   "Wildlife Safari",
+   "Cultural Heritage",
+   "Religious Tourism",
+   "Eco Tourism",
+   "Photography Tours",
+   "Trekking",
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Almora",
+   "Champawat",
+   "Pithoragarh"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "$31",
+  "address": "State - Uttarakhand, District - Pithoragarh, Jakhni , Pawanvihar colony , P.O- Bin , 262501"
+ },
+ {
+  "id": "ceca0e9f-3e8b-4c79-a613-bdc43e80f1c7",
+  "name": "Adarsh Bhatt",
+  "phone": "9412100740",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Tour Manager",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Uttarkashi"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Tour Manager, Astro Tour Guide",
+  "address": "Village - Jaspur , Tiloth , Uttarkashi"
+ },
+ {
+  "id": "9dc3a3a4-496f-4cac-ad09-930b3746c1d2",
+  "name": "Kuldeep SINGH",
+  "phone": "9568042784",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 10,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "visit of many tourist Places",
+  "address": "Rohit Singh S/o Kuldeep singh Village-Sari, Post - Sari ,Block - Ukhimath District - Rudraprayag Pin No - 246469"
+ },
+ {
+  "id": "23553798-65f7-4e27-839c-e9bb278debc8",
+  "name": "Jaydeep Negi",
+  "phone": "7300684594",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 0,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Rudraprayag"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Tour Management",
+  "address": "Sari village Rudraprayag Uttarakhand"
+ },
+ {
+  "id": "b2aeae2a-25c2-4e86-87be-7a143b689448",
+  "name": "Preetam singh",
+  "phone": "7409931670",
+  "photo": "/placeholder.png",
+  "status": "verified",
+  "isTrusted": true,
+  "experienceYears": 2,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "expertise": [
+   "Heritage Guide",
+   "Tour Manager",
+   "Nature Guide",
+   "Naturalist",
+   "Destination Guide",
+   "Astro Tour Guide"
+  ],
+  "districts": [
+   "Chamoli"
+  ],
+  "rating": null,
+  "reviewCount": 0,
+  "bio": "Tour management",
+  "address": "Tugashi Raigari Joshimath Chamoli uttrakhanad"
+ }
+]

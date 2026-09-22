@@ -1,0 +1,94 @@
+{
+ "name": "Khalanga War Memorial",
+ "slug": "khalanga-war-memorial",
+ "type": "cultural",
+ "curatedDistrict": "Dehradun",
+ "region": "Garhwal",
+ "location": "Dehradun",
+ "category": "",
+ "highlightCandidates": [
+  "Nalapani",
+  "Gurkha",
+  "Anglo-Nepalese",
+  "Balbhadra"
+ ],
+ "articleTitle": "Khalanga War Memorial",
+ "site": "wikipedia",
+ "wikidataQid": "Q97495339",
+ "coords": null,
+ "onPageImages": [
+  "File:India Uttarakhand location map.svg",
+  "File:India location map.svg",
+  "File:Khalanga war memorial, Khalanga, Dehradun.jpg",
+  "File:Khalanga war memorial.jpg",
+  "File:Red pog.svg",
+  "File:Taj Mahal in March 2004.jpg",
+  "File:WikiProject Remembrance Logo.png"
+ ],
+ "pageimage": "Khalanga_war_memorial.jpg",
+ "pageUrl": "https://en.wikipedia.org/wiki/Khalanga_War_Memorial",
+ "extract": "Khalanga War Memorial is a heritage monument in Dehradun, India, dedicated to the memory of Gorkha soldiers who fought the British in 1814 in the Battle of Nalapani, the first battle of the Anglo-Nepalese War. It has been described as the only monument in the history of warfare to have been erected by a victorious army for its adversaries, as the British were reportedly impressed with the valour of the Gorkhas. The structure falls under the aegis of the Archaeological Survey of India. Every year, a fair is held at the site to commemorate the soldiers and to celebrate Gorkha culture and history. The Gorkha rule in Uttarakhand, also known as \"Gorkhyani\" or the \"Khukri Raj,\" occurred from roughly 1790 to 1815.\n\n\nReferences",
+ "wikivoyageExtract": null,
+ "wikidataDistrict": [
+  "Q1815740"
+ ],
+ "coverImage": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Khalanga_War_Memorial.jpg/1920px-Khalanga_War_Memorial.jpg",
+  "source": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Khalanga_War_Memorial.jpg",
+  "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+  "attribution": "Rajeshbahuguna.in — Own work",
+  "alt": "The Battle of Nalapani was the first battle of the Anglo-Nepalese War of 1814–1816, fought between the forces of the British East India Company and Nepal, then ruled by the House of Gorkha. The battle took place around the Nalapani fort, near Dehradu"
+ },
+ "coverImageLowerResolution": false,
+ "gallery": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Khalanga_war_memorial.jpg/1920px-Khalanga_war_memorial.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Khalanga_war_memorial.jpg",
+   "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+   "attribution": "Satalah — Own work",
+   "alt": "The notice board at the Khalanga War Memorial Site"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Khalanga_war_memorial%2C_Khalanga%2C_Dehradun.jpg/1920px-Khalanga_war_memorial%2C_Khalanga%2C_Dehradun.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Khalanga_war_memorial,_Khalanga,_Dehradun.jpg",
+   "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+   "attribution": "Satalah — Own work",
+   "alt": "Description of the Khalanga/Nalapani war at the Khalanga War Memorial, Dehradun"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Termite_Nest%2C_Khalanga_Forest.jpg/1920px-Termite_Nest%2C_Khalanga_Forest.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Termite_Nest,_Khalanga_Forest.jpg",
+   "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+   "attribution": "Nitin Maletha — Own work",
+   "alt": "A termite nest in Khalanga Forest, Dehradun"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Information_about_khalanga.jpg/1920px-Information_about_khalanga.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Information_about_khalanga.jpg",
+   "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+   "attribution": "Rajeshbahuguna.in — Own work",
+   "alt": "Khalanga Monuments"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nalapani_Khalanga.jpg/1920px-Nalapani_Khalanga.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Nalapani_Khalanga.jpg",
+   "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+   "attribution": "Rajeshbahuguna.in — Own work",
+   "alt": "Khalanga War Memorial"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Khalanga_war.jpg/1920px-Khalanga_war.jpg",
+   "source": "Wikimedia Commons",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Khalanga_war.jpg",
+   "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+   "attribution": "Rajeshbahuguna.in — Own work",
+   "alt": "Kalinga Monuments"
+  }
+ ]
+}

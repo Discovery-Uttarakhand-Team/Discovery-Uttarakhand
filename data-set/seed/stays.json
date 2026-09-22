@@ -1,0 +1,2466 @@
+[
+  {
+    "name": "KMVN Budhi Camp",
+    "slug": "kmvn-budhi-camp",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Budhi (Darma Valley) in Pithoragarh district. Published facilities: Pets not allowed. Room types listed: sharing accommodation (Per Bed ).",
+    "shortDescription": null,
+    "city": "Budhi (Darma Valley)",
+    "district": "Pithoragarh",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.8278931,
+        30.1021621
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim hamlet centroid — query: 'Budhi Pithoragarh' — Budhi, Dharchula Tehsil, Pithoragarh district, Uttarakhand, India",
+    "category": "Government Eco Camp",
+    "phone": null,
+    "email": "kmvn@yahoo.com",
+    "website": "https://www.kmvn.in/hotels/budhi-camp",
+    "facilities": [
+      "Pets not allowed"
+    ],
+    "roomTypes": [
+      "sharing accommodation (Per Bed )"
+    ],
+    "price": {
+      "amount": 1200,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/budhi-camp",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/budhi-camp",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Gunji Camp",
+    "slug": "kmvn-gunji-camp",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Gunji (Adi Kailash route) in Pithoragarh district. Published facilities: Pets not allowed. Room types listed: Sharing accommodation (Per bed ).",
+    "shortDescription": null,
+    "city": "Gunji (Adi Kailash route)",
+    "district": "Pithoragarh",
+    "address": "Kailash Mansarovar Track, Gunji, Uttarakhand 262546",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.8508108,
+        30.1865763
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Gunji Pithoragarh' — Gunji, Dharchula Tehsil, Pithoragarh district, Uttarakhand, India",
+    "category": "Government Eco Camp",
+    "phone": "7579231550",
+    "email": "kmvn@yahoo.com",
+    "website": "https://www.kmvn.in/hotels/gunji-camp-sharing-accommodation",
+    "facilities": [
+      "Pets not allowed"
+    ],
+    "roomTypes": [
+      "Sharing accommodation (Per bed )"
+    ],
+    "price": {
+      "amount": 1200,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/gunji-camp-sharing-accommodation",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/gunji-camp-sharing-accommodation",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Gyan Vriksh TRH Kakrighat",
+    "slug": "kmvn-gyan-vriksh-trh-kakrighat",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Kakrighat in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television, Telephone. Room types listed: Double bed Deluxe, Double bed Super deluxe.",
+    "shortDescription": null,
+    "city": "Kakrighat",
+    "district": "Almora",
+    "address": "Almora Road, Kakrighat, Distt Almora (Uttarakhand)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5327383,
+        29.5437144
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim hamlet centroid — query: 'Kakrighat Uttarakhand' — kakrighat, Kosya Kutauli, Nainital, Uttarakhand, 263135, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002533",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/gyan-vriksh-trh-kakrighat",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television",
+      "Telephone"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Super deluxe"
+    ],
+    "price": {
+      "amount": 1500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/gyan-vriksh-trh-kakrighat",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/gyan-vriksh-trh-kakrighat",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Holiday Home Dhikuli",
+    "slug": "kmvn-holiday-home-dhikuli",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Dhikuli (Ramnagar) in Nainital district. Published facilities: Pets not allowed, Telephone. Room types listed: DB Balcony Hut, DB Cottage.",
+    "shortDescription": null,
+    "city": "Dhikuli (Ramnagar)",
+    "district": "Nainital",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.1469264,
+        29.4643393
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim centre centroid - query: 'Dhikuli Uttarakhand' - SubCentre, Dhikuli, NH309, Rāmnagar, Ramnagar, Nainital, Uttarakhand, 244715, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002598",
+    "email": "kmvn@yahoo.com",
+    "website": "https://www.kmvn.in/hotels/holiday-home-dhikuli",
+    "facilities": [
+      "Pets not allowed",
+      "Telephone"
+    ],
+    "roomTypes": [
+      "DB Balcony Hut",
+      "DB Cottage"
+    ],
+    "price": {
+      "amount": 2200,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/holiday-home-dhikuli",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/holiday-home-dhikuli",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Jungle camp Sigri (Tent sharing accommodation)",
+    "slug": "kmvn-jungle-camp-sigri-tent-sharing-accommodation",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Sigri (Ramnagar) in Nainital district. Published facilities: Bathroom, Free parking, Pets not allowed. Room types listed: Single folding bed.",
+    "shortDescription": null,
+    "city": "Sigri (Ramnagar)",
+    "district": "Nainital",
+    "address": "Sigri, Uttarakhand 263001",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.4064331,
+        29.4532755
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid - query: 'Sigri Uttarakhand' - Sigri, Nainital, Uttarakhand, 236001, India",
+    "category": "Government Eco Camp",
+    "phone": "9410120865",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/jungle-camp-sigri-tent-sharing-accommodation",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed"
+    ],
+    "roomTypes": [
+      "Single folding bed"
+    ],
+    "price": {
+      "amount": 1406,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/jungle-camp-sigri-tent-sharing-accommodation",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/jungle-camp-sigri-tent-sharing-accommodation",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Jyolingkong Camp",
+    "slug": "kmvn-jyolingkong-camp",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Jyolingkong (Adi Kailash) in Pithoragarh district. Published facilities: Pets not allowed. Room types listed: Sharing accommodation (Per bed ).",
+    "shortDescription": null,
+    "city": "Jyolingkong (Adi Kailash)",
+    "district": "Pithoragarh",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.654645,
+        30.354069
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim lake centroid - query: 'Jolingkong Uttarakhand' - Lake Jolingkong, Dharchula Tehsil, Pithoragarh district, Uttarakhand, India",
+    "category": "Government Eco Camp",
+    "phone": "7579231550",
+    "email": "kmvn@yahoo.com",
+    "website": "https://www.kmvn.in/hotels/jyolingkong-camp",
+    "facilities": [
+      "Pets not allowed"
+    ],
+    "roomTypes": [
+      "Sharing accommodation (Per bed )"
+    ],
+    "price": {
+      "amount": 1200,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/jyolingkong-camp",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/jyolingkong-camp",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Nabhidang Camp",
+    "slug": "kmvn-nabhidang-camp",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Nabhidang (Adi Kailash route) in Pithoragarh district. Published facilities: Pets not allowed. Room types listed: Sharing accommodation (Per bed ).",
+    "shortDescription": null,
+    "city": "Nabhidang (Adi Kailash route)",
+    "district": "Pithoragarh",
+    "address": "Nabidhang, Nabhidhang, Uttarakhand 262546",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9760112,
+        30.2390998
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim hamlet centroid — query: 'Nabhidang Pithoragarh' — Nabhidang Camp, Dharchula Tehsil, Pithoragarh district, Uttarakhand, India",
+    "category": "Government Eco Camp",
+    "phone": "7579231550",
+    "email": "kmvn@yahoo.com",
+    "website": "https://www.kmvn.in/hotels/nabhidang-camp",
+    "facilities": [
+      "Pets not allowed"
+    ],
+    "roomTypes": [
+      "Sharing accommodation (Per bed )"
+    ],
+    "price": {
+      "amount": 1200,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/nabhidang-camp",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/nabhidang-camp",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Nine corner Retreat TRH Naukuchiyatal",
+    "slug": "kmvn-nine-corner-retreat-trh-naukuchiyatal",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Naukuchiatal in Nainital district. Published facilities: Bathroom, Free parking, Pets not allowed, Telephone, Television, WiFi. Room types listed: Double bed Deluxe, Double bed Executive, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Naukuchiatal",
+    "district": "Nainital",
+    "address": "KMVN TRH, Near Lotus Pond, Naukuchiyatal. (Uttarakhand) - 263136",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.59,
+        29.32
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. Town coordinates of Naukuchiatal (Wikidata, as used in our destination/spiritual record 'naukuchiatal')",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002524",
+    "email": "trhnkc138@gmail.com",
+    "website": "https://www.kmvn.in/hotels/nine-corner-retreat-trh-naukuchiyatal",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Executive",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 3936,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/nine-corner-retreat-trh-naukuchiyatal",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/nine-corner-retreat-trh-naukuchiyatal",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Sarovar Bliss TRH Bhimtal",
+    "slug": "kmvn-sarovar-bliss-trh-bhimtal",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Bhimtal in Nainital district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Telephone, Television, WiFi. Room types listed: Cottage Deluxe, Cottage Four bed Super Deluxe, Double Bed Executive, Double Bed Standard, Double bed Deluxe, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Bhimtal",
+    "district": "Nainital",
+    "address": "KMVN TRH, TRC Road, Bhimtal (Uttarakhand) - 263136",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5541717,
+        29.3506056
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Bhimtal Nainital' — Bhimtal, Nainital, Uttarakhand, 263136, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002523",
+    "email": "trhbhimtal2017@gmail.com",
+    "website": "https://www.kmvn.in/hotels/sarovar-bliss-trh-bhimtal",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Cottage Deluxe",
+      "Cottage Four bed Super Deluxe",
+      "Double Bed Executive",
+      "Double Bed Standard",
+      "Double bed Deluxe",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 1875,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/sarovar-bliss-trh-bhimtal",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/sarovar-bliss-trh-bhimtal",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Abbott Mount (Gold Creast Eco log huts)",
+    "slug": "kmvn-trh-abbott-mount-gold-creast-eco-log-huts",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Abbott Mount in Champawat district. Published facilities: Bathroom, Free parking, Pets not allowed, Television, WiFi. Room types listed: Cottage Super Deluxe.",
+    "shortDescription": null,
+    "city": "Abbott Mount",
+    "district": "Champawat",
+    "address": "Abbott Mount, Lohaghat, Distt: Champawat (Uttarakhand) - 262524",
+    "location": null,
+    "locationSource": null,
+    "category": "Government Tourist Rest House",
+    "phone": "9917905539",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-abbott-mount",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Cottage Super Deluxe"
+    ],
+    "price": {
+      "amount": 4500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-abbott-mount",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-abbott-mount",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Holiday Home Almora",
+    "slug": "kmvn-holiday-home-almora",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Holiday Home Almora in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television, WiFi. Room types listed: Double Bed Deluxe, Double Bed Executive, Double Bed Super Deluxe, Four Bed Deluxe.",
+    "shortDescription": null,
+    "city": "Holiday Home Almora",
+    "district": "Almora",
+    "address": "KMVN Holiday Home, Mall Road, Almora. (Uttarakhand) - 263601",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.647871,
+        29.5908242
+      ]
+    },
+    "locationSource": "Exact property location matched via OpenStreetMap (Nominatim, checked 2026-09-12). OpenStreetMap object match — query: 'KMVN Almora' — KMVN Almora, Almora Bageshwar Highway, Lala Bazar, barsimi, दुगालखोला, Almora, Uttarakhand",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002532",
+    "email": "hdhalmora@rediffmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-almora",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double Bed Deluxe",
+      "Double Bed Executive",
+      "Double Bed Super Deluxe",
+      "Four Bed Deluxe"
+    ],
+    "price": {
+      "amount": 2300,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-almora",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-almora",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Baijnath",
+    "slug": "kmvn-trh-baijnath",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Baijnath in Bageshwar district. Published facilities: Bathroom, Free parking, Pets not allowed, Telephone, Television, WiFi, Balcony. Room types listed: DB Royal (P), Double bed Deluxe, Double bed Executive, Double bed Royal, Double bed Standard, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Baijnath",
+    "district": "Bageshwar",
+    "address": "KMVN TRH Baijnath. (Uttarakhand) - 263641",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.6150451,
+        29.9086073
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Baijnath Bageshwar' — Baijnāth, Garud, Bageshwar, Uttarakhand, 263641, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002548",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-baijnath",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi",
+      "Balcony"
+    ],
+    "roomTypes": [
+      "DB Royal (P)",
+      "Double bed Deluxe",
+      "Double bed Executive",
+      "Double bed Royal",
+      "Double bed Standard",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 1125,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-baijnath",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-baijnath",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Bhikiyasen",
+    "slug": "kmvn-trh-bhikiyasen",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Bhikiyasen in Almora district. Published facilities: Bathroom, Pets not allowed, Television, Free parking, Internet, Telephone. Room types listed: DB Standard.",
+    "shortDescription": null,
+    "city": "Bhikiyasen",
+    "district": "Almora",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.263387,
+        29.704834
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim centre centroid — query: 'Bhikiyasen Almora' — Bhikiyasen CHC, Bhatrojkhan Chaukhutiya Road, Barikot, Bhikia Sain, Bhikiasain, Almora, Ut",
+    "category": "Government Tourist Rest House",
+    "phone": "8958736031",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-bhikiyasen",
+    "facilities": [
+      "Bathroom",
+      "Pets not allowed",
+      "Television",
+      "Free parking",
+      "Internet",
+      "Telephone"
+    ],
+    "roomTypes": [
+      "DB Standard"
+    ],
+    "price": {
+      "amount": 937,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-bhikiyasen",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-bhikiyasen",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Bhowali",
+    "slug": "kmvn-trh-bhowali",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Bhowali in Nainital district. Published facilities: Bathroom, Pets not allowed, Telephone, Television, WiFi. Room types listed: Double Bed Super Deluxe, Double bed Deluxe, Double bed Executive, Four bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Bhowali",
+    "district": "Nainital",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5188391,
+        29.3834967
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Bhowali Nainital' — Bhowali, Nainital, Uttarakhand, 263127, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002522",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-bhowali",
+    "facilities": [
+      "Bathroom",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double Bed Super Deluxe",
+      "Double bed Deluxe",
+      "Double bed Executive",
+      "Four bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 2000,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-bhowali",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-bhowali",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Binsar (Nanda Devi TRH Binsar)",
+    "slug": "kmvn-trh-binsar-nanda-devi-trh-binsar",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at TRH Binsar (Nanda Devi TRH Binsar) in Almora district. Published facilities: Bathroom, Free parking. Room types listed: Cottage Double Bed Executive, Double Bed Deluxe, Double Bed Semi Deluxe, Double Bed Standard, Double Bed Super Deluxe, Four Bed Standard.",
+    "shortDescription": null,
+    "city": "TRH Binsar (Nanda Devi TRH Binsar)",
+    "district": "Almora",
+    "address": "Binsar Road, Binsar, Uttarakhand 263628",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.7538113,
+        29.6967018
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim hamlet centroid - query: 'Binsar Uttarakhand' - Binsar, Gonap, Almora, Uttarakhand, 263628, India",
+    "category": "Government Tourist Rest House",
+    "phone": "7579415101",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-binsar",
+    "facilities": [
+      "Bathroom",
+      "Free parking"
+    ],
+    "roomTypes": [
+      "Cottage Double Bed Executive",
+      "Double Bed Deluxe",
+      "Double Bed Semi Deluxe",
+      "Double Bed Standard",
+      "Double Bed Super Deluxe",
+      "Four Bed Standard"
+    ],
+    "price": {
+      "amount": 5000,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-binsar",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-binsar",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Birthi",
+    "slug": "kmvn-trh-birthi",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Birthi in Pithoragarh district. Published facilities: Bathroom, Free parking, Internet, Pets not allowed, Telephone, Television, WiFi. Room types listed: Double Bed Executive, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Birthi",
+    "district": "Pithoragarh",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.1611639,
+        30.0380326
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Birthi Pithoragarh' — Birthi, Munsiari tehsil, Pithoragarh district, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "9917894096",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-birthi",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Internet",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double Bed Executive",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 1800,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-birthi",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-birthi",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Champawat",
+    "slug": "kmvn-trh-champawat",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Champawat in Champawat district. Published facilities: Bathroom, Free parking, Pets not allowed. Room types listed: DB Deluxe, Four Bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Champawat",
+    "district": "Champawat",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.0920862,
+        29.3372715
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Champawat Champawat' — Champawat, Uttarakhand, 262523, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002550",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-champawat",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed"
+    ],
+    "roomTypes": [
+      "DB Deluxe",
+      "Four Bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 2000,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-champawat",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-champawat",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Chaukori",
+    "slug": "kmvn-trh-chaukori",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Chaukori in Pithoragarh district. Published facilities: Bathroom, Free parking, Internet, Pets not allowed, Telephone, Television. Room types listed: Cottage Super Deluxe, Double Bed Royal, Double bed Deluxe, Double bed Executive, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Chaukori",
+    "district": "Pithoragarh",
+    "address": "KMVN TRH, Chaukori. (Uttarakhand) - 262531",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.0314911,
+        29.8386297
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Chaukori Pithoragarh' — Chaukori, Berinag, Pithoragarh district, Uttarakhand, 262531, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002542",
+    "email": "kmvntrhchaukori@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-chaukori",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Internet",
+      "Pets not allowed",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Cottage Super Deluxe",
+      "Double Bed Royal",
+      "Double bed Deluxe",
+      "Double bed Executive",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 2900,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-chaukori",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-chaukori",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Chilianaula Ranikhet (Himadri)",
+    "slug": "kmvn-trh-chilianaula-ranikhet-himadri",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Chilianaula (Ranikhet) in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television. Room types listed: Double Bed Deluxe, Double Bed Executive, Double Bed Super Deluxe, Four Bed Deluxe.",
+    "shortDescription": null,
+    "city": "Chilianaula (Ranikhet)",
+    "district": "Almora",
+    "address": "KMVN TRH, Opp. Hirakhan Ashram, Chillianaula, Ranikhet (Uttarakhand) - 263647",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.4154142,
+        29.6323007
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim administrative centroid — query: 'Ranikhet Almora' — Ranikhet, Almora, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002534",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-chilianaula-ranikhet-himadri",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double Bed Deluxe",
+      "Double Bed Executive",
+      "Double Bed Super Deluxe",
+      "Four Bed Deluxe"
+    ],
+    "price": {
+      "amount": 2200,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-chilianaula-ranikhet-himadri",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-chilianaula-ranikhet-himadri",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Deenapani",
+    "slug": "kmvn-trh-deenapani",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Deenapani (Binsar road) in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television. Room types listed: Double Bed Deluxe, Double Bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Deenapani (Binsar road)",
+    "district": "Almora",
+    "address": "KMVN TRH, Binsar Road, Deenapani, Almora. (Uttarakhand) - 263601",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.6946955,
+        29.660367
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim hamlet centroid - query: 'Dinapani Almora' - dinapani, Pokharthal, Almora, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002553",
+    "email": "trhdeenapani01@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-deenapani",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double Bed Deluxe",
+      "Double Bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 2813,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-deenapani",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-deenapani",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Dharchula",
+    "slug": "kmvn-trh-dharchula",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Dharchula in Pithoragarh district. Published facilities: Bathroom, Free parking, Internet, Pets not allowed, Telephone, Television. Room types listed: Double bed Deluxe, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Dharchula",
+    "district": "Pithoragarh",
+    "address": "KMVN TRH, Dharchula, Distt: Pithoragarh. (Uttarakhand) - 262545",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.5414711,
+        29.8491135
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Dharchula Pithoragarh' — Dhārchula, Dharchula Tehsil, Pithoragarh district, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "7534001723",
+    "email": "trcdharchula@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-dharchula",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Internet",
+      "Pets not allowed",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 2500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-dharchula",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-dharchula",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Didihat",
+    "slug": "kmvn-trh-didihat",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Didihat in Pithoragarh district. Published facilities: Bathroom, Free parking, Internet, Pets not allowed, Balcony, Fridge, Telephone, WiFi. Room types listed: Double Bed Super Deluxe, Double bed Deluxe, Double bed Standard, Four Bed Executive.",
+    "shortDescription": null,
+    "city": "Didihat",
+    "district": "Pithoragarh",
+    "address": "Oak Park House Mallital NainitalMain Market, Didihat, Distt: Pithoragarh (Uttarakhand) - 262551",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.2497639,
+        29.7597579
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim administrative centroid — query: 'Didihat Pithoragarh' — Didihat, Pithoragarh district, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002539",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-didihat",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Internet",
+      "Pets not allowed",
+      "Balcony",
+      "Fridge",
+      "Telephone",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double Bed Super Deluxe",
+      "Double bed Deluxe",
+      "Double bed Standard",
+      "Four Bed Executive"
+    ],
+    "price": {
+      "amount": 844,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-didihat",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-didihat",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Mahaashay TRH Dudhauli",
+    "slug": "kmvn-mahaashay-trh-dudhauli",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Dudhauli (Dwarahat) in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television. Room types listed: Double Bed Deluxe, Double Bed Hut.",
+    "shortDescription": null,
+    "city": "Dudhauli (Dwarahat)",
+    "district": "Almora",
+    "address": "Dwarahat Dunagiri Road, Dudhauli, Distt: Almora (Uttarakhand)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.4244574,
+        29.7648617
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim administrative centroid — query: 'Dwarahat Almora' — Dwarahat, Almora, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "7505635126",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-dudhauli",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double Bed Deluxe",
+      "Double Bed Hut"
+    ],
+    "price": {
+      "amount": 1800,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-dudhauli",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-dudhauli",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Gangolihat",
+    "slug": "kmvn-trh-gangolihat",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Gangolihat in Pithoragarh district. Published facilities: Bathroom, Free parking, Internet, Pets not allowed, Telephone, Television, WiFi. Room types listed: Double bed Deluxe, Double bed Super deluxe.",
+    "shortDescription": null,
+    "city": "Gangolihat",
+    "district": "Pithoragarh",
+    "address": "Main Market, Gangolihat, Distt: Pithoragarh (Uttarakhand)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.039984,
+        29.657291
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Gangolihat Pithoragarh' — Gangolihāt, Gangolihat, Pithoragarh district, Uttarakhand, 262522, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002552",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-gangolihat",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Internet",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Super deluxe"
+    ],
+    "price": {
+      "amount": 2050,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-gangolihat",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-gangolihat",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Jageshwar",
+    "slug": "kmvn-trh-jageshwar",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Jageshwar in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, WiFi, Telephone, Television. Room types listed: Double Bed Deluxe, Double Bed Executive, Double Bed Super Deluxe, Double bed Royal, Family Suit F1, Family Suit F2.",
+    "shortDescription": null,
+    "city": "Jageshwar",
+    "district": "Almora",
+    "address": "KMVN TRH, Near Jageshwar Temple, Jageshwar. (Uttarakhand) - 263682",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.85413,
+        29.63837
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Jageshwar Almora' — Jageshwar, Bhanoli, Almora, Uttarakhand, 263624, India",
+    "category": "Government Tourist Rest House",
+    "phone": "05962263028",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-jageshwar",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "WiFi",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double Bed Deluxe",
+      "Double Bed Executive",
+      "Double Bed Super Deluxe",
+      "Double bed Royal",
+      "Family Suit F1",
+      "Family Suit F2",
+      "Four Bed Deluxe",
+      "Four Bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 2344,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-jageshwar",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-jageshwar",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Jaspur",
+    "slug": "kmvn-trh-jaspur",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Jaspur in Udham Singh Nagar district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Telephone, Television, Air conditioning. Room types listed: Double bed Deluxe, Double bed Royal.",
+    "shortDescription": null,
+    "city": "Jaspur",
+    "district": "Udham Singh Nagar",
+    "address": "Near Police Chauki, Cotton Mill, Afjalgarh Road, Jaspur Distt: U.S. Nagar (Uttarakhand)",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.8277072,
+        29.2787153
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Jaspur Udham Singh Nagar' — Jaspur, Udham Singh Nagar, Uttarakhand, 244712, India",
+    "category": "Government Tourist Rest House",
+    "phone": "7534001708",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-jaspur",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "Air conditioning"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Royal"
+    ],
+    "price": {
+      "amount": 1000,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-jaspur",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-jaspur",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Katarmal",
+    "slug": "kmvn-trh-katarmal",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Katarmal (near Almora) in Almora district. Published facilities: Pets not allowed, Telephone, Television. Room types listed: Double bed Executive, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Katarmal (near Almora)",
+    "district": "Almora",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.61556,
+        29.6345712
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Katarmal Almora' — Katarmal, Almora, Uttarakhand, 263601, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002553",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-katarmal",
+    "facilities": [
+      "Pets not allowed",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double bed Executive",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 2813,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-katarmal",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-katarmal",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Kausani (Trishul)",
+    "slug": "kmvn-trh-kausani-trishul",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Kausani in Bageshwar district. Published facilities: Bathroom, Free parking, Pets not allowed, Telephone, Television. Room types listed: Cottage Deluxe, Cottage Executive, Cottage Royal (P), Cottage Super Deluxe, Double bed Deluxe, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Kausani",
+    "district": "Bageshwar",
+    "address": "KMVN TRH, View Point, Kausani. (Uttarakhand) - 263639",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5943657,
+        29.8539706
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim resort centroid — query: 'Kausani Bageshwar' — Kausani, Nakuri, Garud, Bageshwar, Uttarakhand, 263639, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002545",
+    "email": "kmvnkausani@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-kausani-trishul",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Cottage Deluxe",
+      "Cottage Executive",
+      "Cottage Royal (P)",
+      "Cottage Super Deluxe",
+      "Double bed Deluxe",
+      "Double bed Super Deluxe",
+      "Four bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 1875,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-kausani-trishul",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-kausani-trishul",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Khairna",
+    "slug": "kmvn-trh-khairna",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Khairna in Nainital district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Telephone, Television. Room types listed: Double bed Standard.",
+    "shortDescription": null,
+    "city": "Khairna",
+    "district": "Nainital",
+    "address": "KMVN TRH, Near Ranikhet bridge, Almora Road, Khairna (Uttarakhand) 865000",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.4792951,
+        29.4950831
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Khairna Nainital' — Khairna, Kosya Kutauli, Nainital, Uttarakhand, 263135, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002529",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-khairna",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double bed Standard"
+    ],
+    "price": {
+      "amount": 1500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-khairna",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-khairna",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Lohaghat",
+    "slug": "kmvn-trh-lohaghat",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Lohaghat in Champawat district. Published facilities: Bathroom, Free parking, Pets not allowed, Television, Telephone. Room types listed: DB Deluxe, DB Super Deluxe, Four bed Super deluxe.",
+    "shortDescription": null,
+    "city": "Lohaghat",
+    "district": "Champawat",
+    "address": "KMVN TRH, Pancheshwar Road, Lohaghat, Distt: Champawat. (Uttarakhand) - 262524",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.115354,
+        29.4056017
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim administrative centroid — query: 'Lohaghat Champawat' — Lohaghat, Champawat, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "9917905539",
+    "email": "kmvnlohaghat@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-lohaghat",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television",
+      "Telephone"
+    ],
+    "roomTypes": [
+      "DB Deluxe",
+      "DB Super Deluxe",
+      "Four bed Super deluxe"
+    ],
+    "price": {
+      "amount": 1400,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-lohaghat",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-lohaghat",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Mohaan",
+    "slug": "kmvn-trh-mohaan",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Mohan (Ramganga valley) in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television. Room types listed: Cottage Deluxe, Cottage Four Bed Super Deluxe, Cottage Super Deluxe.",
+    "shortDescription": null,
+    "city": "Mohan (Ramganga valley)",
+    "district": "Almora",
+    "address": "Near Corbett Gate, Ranikhet Road, Mohaan, Distt: Almora (Uttarakhand) - 263646",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.6643482,
+        29.6497967
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim hotel centroid — query: 'Mohan Almora' — Mohan's, Almora Bageshwar Highway, tiwarikhan, Kasar Devi, Almora, Uttarakhand, 263600, In",
+    "category": "Government Tourist Rest House",
+    "phone": "9758330867",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-mohaan",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television"
+    ],
+    "roomTypes": [
+      "Cottage Deluxe",
+      "Cottage Four Bed Super Deluxe",
+      "Cottage Super Deluxe"
+    ],
+    "price": {
+      "amount": 2500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-mohaan",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-mohaan",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Monal (Ranikhet)",
+    "slug": "kmvn-trh-monal-ranikhet",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Ranikhet in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television. Room types listed: Cottage Double Bed Deluxe.",
+    "shortDescription": null,
+    "city": "Ranikhet",
+    "district": "Almora",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.4154142,
+        29.6323007
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim administrative centroid — query: 'Ranikhet Almora' — Ranikhet, Almora, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "9411542378",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-monal-ranikhet",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television"
+    ],
+    "roomTypes": [
+      "Cottage Double Bed Deluxe"
+    ],
+    "price": {
+      "amount": 1031,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-monal-ranikhet",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-monal-ranikhet",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Mukteshwar",
+    "slug": "kmvn-trh-mukteshwar",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Mukteshwar in Nainital district. Published facilities: Bathroom, Desk, Pets not allowed, Telephone, Television, WiFi, Free parking. Room types listed: Double Bed Semi Deluxe, Double bed Executive, Double bed Royal, Double bed Super Deluxe, Four bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Mukteshwar",
+    "district": "Nainital",
+    "address": "KMVN TRH, Near Mahadev Temple, Mukteshwar. (Uttarakhand) - 263138",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.6480433,
+        29.4720782
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Mukteshwar Nainital' — Mukteshwar, Dhari, Nainital, Uttarakhand, 263138, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002528",
+    "email": "trhmukteshwar@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-mukteshwar",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi",
+      "Free parking"
+    ],
+    "roomTypes": [
+      "Double Bed Semi Deluxe",
+      "Double bed Executive",
+      "Double bed Royal",
+      "Double bed Super Deluxe",
+      "Four bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 3844,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-mukteshwar",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-mukteshwar",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Munsyari",
+    "slug": "kmvn-trh-munsyari",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Munsiyari in Pithoragarh district. Published facilities: Bathroom, Free parking, Internet, Pets not allowed, Telephone, Television. Room types listed: Double Bed Executive, Double Bed Royal, Double Bed Super Deluxe, Four bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Munsiyari",
+    "district": "Pithoragarh",
+    "address": "KMVN TRH, Thal Road, Munsyari. (Uttarakhand) - 262554",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.2415348,
+        30.1224907
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim tertiary centroid - query: 'Munsiyari' - Munsiyari - Milam Trail, Dhapa, Jalath, Munsiari tehsil, Pithoragarh district, Uttarakhand",
+    "category": "Government Tourist Rest House",
+    "phone": "7534001701",
+    "email": "kmvnmunsyari@yahoo.com",
+    "website": "https://www.kmvn.in/hotels/trh-munsyari",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Internet",
+      "Pets not allowed",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double Bed Executive",
+      "Double Bed Royal",
+      "Double Bed Super Deluxe",
+      "Four bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 3200,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-munsyari",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-munsyari",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Nanakmatta",
+    "slug": "kmvn-trh-nanakmatta",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Nanakmatta in Udham Singh Nagar district. Published facilities: Bathroom, Desk, Pets not allowed, Pets allowed, Television. Room types listed: Double bed Deluxe, Double bed Standard.",
+    "shortDescription": null,
+    "city": "Nanakmatta",
+    "district": "Udham Singh Nagar",
+    "address": "KMVN Tourist Rest House Nanakmatta Udham Singh Nagar, Uttarakhand 865066",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.8117115,
+        28.9398284
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim hospital centroid - query: 'Nanakmatta' - Government Hospital, Nanakmatta, AH2, Bhojpur, Nanakmata, Sitarganj, Udham Singh Nagar, Ut",
+    "category": "Government Tourist Rest House",
+    "phone": "8650666657",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-nanakmatta",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Pets not allowed",
+      "Pets allowed",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Standard"
+    ],
+    "price": {
+      "amount": 800,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-nanakmatta",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-nanakmatta",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Narayan Ashram",
+    "slug": "kmvn-trh-narayan-ashram",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Narayan Ashram (Darma Valley) in Pithoragarh district. Published facilities: Pets not allowed. Room types listed: Double bed Deluxe, Four Bed FRP Huts.",
+    "shortDescription": null,
+    "city": "Narayan Ashram (Darma Valley)",
+    "district": "Pithoragarh",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.65476,
+        29.9707
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Narayan Ashram Pithoragarh' — Narayan Ashram, Dharchula Tehsil, Pithoragarh district, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "7534001723",
+    "email": "kmvn@yahoo.com",
+    "website": "https://www.kmvn.in/hotels/trh-narayan-ashram",
+    "facilities": [
+      "Pets not allowed"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Four Bed FRP Huts"
+    ],
+    "price": {
+      "amount": 1406,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-narayan-ashram",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-narayan-ashram",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Padampuri",
+    "slug": "kmvn-trh-padampuri",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Padampuri in Nainital district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Telephone, Television. Room types listed: Double bed Deluxe, four bed Deluxe.",
+    "shortDescription": null,
+    "city": "Padampuri",
+    "district": "Nainital",
+    "address": "Padampuri, Distt: Nainital (Uttarakhand) - 263136",
+    "location": null,
+    "locationSource": null,
+    "category": "Government Tourist Rest House",
+    "phone": "8650002590",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-padampuri",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "four bed Deluxe"
+    ],
+    "price": {
+      "amount": 1500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-padampuri",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-padampuri",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN Parichay Resort (Naukuchiyatal)",
+    "slug": "kmvn-parichay-resort-naukuchiyatal",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Parichay Resort (Naukuchiyatal) in Nainital district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Telephone, Television, WiFi. Room types listed: Cottage Super Deluxe, Double bed Deluxe, Double bed Royal, Double bed Royal (P), Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Parichay Resort (Naukuchiyatal)",
+    "district": "Nainital",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.59,
+        29.32
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. Town coordinates of Naukuchiatal (Wikidata, as used in our destination/spiritual record 'naukuchiatal')",
+    "category": "Government Tourist Rest House",
+    "phone": "7534001728",
+    "email": "parichayresort@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-parichay-naukuchiyatal",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Cottage Super Deluxe",
+      "Double bed Deluxe",
+      "Double bed Royal",
+      "Double bed Royal (P)",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 3281,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-parichay-naukuchiyatal",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-parichay-naukuchiyatal",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Patal Bhuvneshwar",
+    "slug": "kmvn-trh-patal-bhuvneshwar",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Patal Bhuvaneshwar in Pithoragarh district. Published facilities: Bathroom, Free parking, Internet, Pets not allowed, Telephone, Television, WiFi. Room types listed: Double bed Deluxe, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Patal Bhuvaneshwar",
+    "district": "Pithoragarh",
+    "address": "KMVN TRH, Patal Bhuvaneshwar, Distt: Pithoragarh.",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.6098868,
+        29.9076389
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. Town coordinates of Patal Bhuvaneshwar (Wikidata, as used in our destination/spiritual record 'patal-bhuvaneshwar')",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002543",
+    "email": "trhpb2001@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-patal-bhuvneshwar",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Internet",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 1800,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-patal-bhuvneshwar",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-patal-bhuvneshwar",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Pithoragarh",
+    "slug": "kmvn-trh-pithoragarh",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Pithoragarh in Pithoragarh district. Published facilities: Bathroom, Free parking, Internet, Pets not allowed, Telephone, Television. Room types listed: Double bed Deluxe, Double bed Executive, Double bed Royal, Double bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Pithoragarh",
+    "district": "Pithoragarh",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.215167,
+        29.585871
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Pithoragarh Pithoragarh' — Pithoragarh, Pithoragarh Tehsil, Pithoragarh district, Uttarakhand, 262500, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002538",
+    "email": "kmvn@yahoo.com",
+    "website": "https://www.kmvn.in/hotels/trh-pithoragarh",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Internet",
+      "Pets not allowed",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Executive",
+      "Double bed Royal",
+      "Double bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 1500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-pithoragarh",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-pithoragarh",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Ramgarh",
+    "slug": "kmvn-trh-ramgarh",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Ramgarh in Nainital district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Telephone, Television, WiFi. Room types listed: Double bed Standard, Double bed Super Deluxe, Four Bed Deluxe.",
+    "shortDescription": null,
+    "city": "Ramgarh",
+    "district": "Nainital",
+    "address": "KMVN TRH, Malla Ramgarh, Ramgarh. (Uttarakhand) - 263137",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5511504,
+        29.4223327
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Ramgarh Nainital' — Rāmgarh, Kosya Kutauli, Nainital, Uttarakhand, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002531",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-ramgarh",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double bed Standard",
+      "Double bed Super Deluxe",
+      "Four Bed Deluxe"
+    ],
+    "price": {
+      "amount": 2250,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-ramgarh",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-ramgarh",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Ramnagar",
+    "slug": "kmvn-trh-ramnagar",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Ramnagar in Nainital district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Telephone, Television, WiFi. Room types listed: Double Bed Deluxe, Double Bed Super Deluxe, Four Bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Ramnagar",
+    "district": "Nainital",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.126934,
+        29.394835
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim town centroid — query: 'Ramnagar Nainital' — Rāmnagar, Ramnagar, Nainital, Uttarakhand, 244715, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002527",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-ramnagar",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double Bed Deluxe",
+      "Double Bed Super Deluxe",
+      "Four Bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 1875,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-ramnagar",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-ramnagar",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Ranikhet (Kalika)",
+    "slug": "kmvn-trh-ranikhet-kalika",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Kalika (Ranikhet) in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television, WiFi. Room types listed: Cottage Deluxe, Cottage Executive, Four Bed Royal.",
+    "shortDescription": null,
+    "city": "Kalika (Ranikhet)",
+    "district": "Almora",
+    "address": "KMVN TRH, Near GPO, Mall Road, Ranikhet. (Uttarakhand) - 263645",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.47647,
+        29.66583
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid - query: 'Kalika Ranikhet' - Kalika, Ranikhet, Almora, Uttarakhand, 263645, India",
+    "category": "Government Tourist Rest House",
+    "phone": "9410747595",
+    "email": "trcranikhet12@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-ranikhet-kalika",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Cottage Deluxe",
+      "Cottage Executive",
+      "Four Bed Royal"
+    ],
+    "price": {
+      "amount": 2500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-ranikhet-kalika",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-ranikhet-kalika",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Sattal",
+    "slug": "kmvn-trh-sattal",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Sattal in Nainital district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Telephone, Television, WiFi. Room types listed: Double Bed Executive (ECO HUT), Double Bed Standard, Double bed Super deluxe.",
+    "shortDescription": null,
+    "city": "Sattal",
+    "district": "Nainital",
+    "address": "KMVN TRH, Sattal. (Uttarakhand) - 263155",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5298616,
+        29.3469634
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim hamlet centroid — query: 'Sattal Nainital' — Sattal, Bhimtal, Nainital, Uttarakhand, 263136, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002530",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-sattal",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Telephone",
+      "Television",
+      "WiFi"
+    ],
+    "roomTypes": [
+      "Double Bed Executive (ECO HUT)",
+      "Double Bed Standard",
+      "Double bed Super deluxe"
+    ],
+    "price": {
+      "amount": 2200,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-sattal",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-sattal",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Snowview (Nainital) Snowview Heritage",
+    "slug": "kmvn-trh-snowview-nainital-snowview-heritage",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Nainital (Snow View) in Nainital district. Published facilities: Pets not allowed, Bathroom, Telephone, Television. Room types listed: Double Bed Super Deluxe, Double bed Deluxe.",
+    "shortDescription": null,
+    "city": "Nainital (Snow View)",
+    "district": "Nainital",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5444436,
+        29.2673475
+      ]
+    },
+    "locationSource": "Exact property location matched via OpenStreetMap (Nominatim, checked 2026-09-12). OpenStreetMap object match — query: 'KMVN Tourist Rest House Nainital' — Tourist Rest House and Resturant (KMVN), Nainital Road, Byura, Haldwani, Nainital, Uttarak",
+    "category": "Government Tourist Rest House",
+    "phone": "9411108017",
+    "email": "trhsnowviewkmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-snow-view-nainital-snow-view-heritage",
+    "facilities": [
+      "Pets not allowed",
+      "Bathroom",
+      "Telephone",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double Bed Super Deluxe",
+      "Double bed Deluxe"
+    ],
+    "price": {
+      "amount": 4500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-snow-view-nainital-snow-view-heritage",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-snow-view-nainital-snow-view-heritage",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Sukhatal (Nainital) Mount view",
+    "slug": "kmvn-trh-sukhatal-nainital-mount-view",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Nainital (Sukhatal) in Nainital district. Published facilities: Bathroom, Desk, Free parking, Pets not allowed, Television, WiFi, Telephone. Room types listed: Cottage Hut Super Deluxe, Double Bed Royal (P), Double Bed Super Deluxe, Double bed Premium, Double bed Standard, Four Bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Nainital (Sukhatal)",
+    "district": "Nainital",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5444436,
+        29.2673475
+      ]
+    },
+    "locationSource": "Exact property location matched via OpenStreetMap (Nominatim, checked 2026-09-12). OpenStreetMap object match — query: 'KMVN Tourist Rest House Nainital' — Tourist Rest House and Resturant (KMVN), Nainital Road, Byura, Haldwani, Nainital, Uttarak",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002518",
+    "email": "trcsukhatal@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-sukhatal-nainital-mount-view",
+    "facilities": [
+      "Bathroom",
+      "Desk",
+      "Free parking",
+      "Pets not allowed",
+      "Television",
+      "WiFi",
+      "Telephone"
+    ],
+    "roomTypes": [
+      "Cottage Hut Super Deluxe",
+      "Double Bed Royal (P)",
+      "Double Bed Super Deluxe",
+      "Double bed Premium",
+      "Double bed Standard",
+      "Four Bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 3500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-sukhatal-nainital-mount-view",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-sukhatal-nainital-mount-view",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Tallital (Nainital) Sarovar",
+    "slug": "kmvn-trh-tallital-nainital-sarovar",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Nainital (Tallital) in Nainital district. Published facilities: Bathroom, Free parking, Pets not allowed, Television, Air conditioning, Balcony, Coffeemaker, Desk, Fan, Fridge, Hairdryer. Room types listed: Double bed Executive, Double bed Royal, Double bed Royal (P), Double bed Super Deluxe, Four bed Executive, Four bed Royal.",
+    "shortDescription": null,
+    "city": "Nainital (Tallital)",
+    "district": "Nainital",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.5444436,
+        29.2673475
+      ]
+    },
+    "locationSource": "Exact property location matched via OpenStreetMap (Nominatim, checked 2026-09-12). OpenStreetMap object match — query: 'KMVN Tourist Rest House Nainital' — Tourist Rest House and Resturant (KMVN), Nainital Road, Byura, Haldwani, Nainital, Uttarak",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002519",
+    "email": "rctallital@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-tallital-nainital-sarovar",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television",
+      "Air conditioning",
+      "Balcony",
+      "Coffeemaker",
+      "Desk",
+      "Fan",
+      "Fridge",
+      "Hairdryer"
+    ],
+    "roomTypes": [
+      "Double bed Executive",
+      "Double bed Royal",
+      "Double bed Royal (P)",
+      "Double bed Super Deluxe",
+      "Four bed Executive",
+      "Four bed Royal",
+      "Presidential Suite"
+    ],
+    "price": {
+      "amount": 3500,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-tallital-nainital-sarovar",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-tallital-nainital-sarovar",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Tanakpur",
+    "slug": "kmvn-trh-tanakpur",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Tanakpur in Champawat district. Published facilities: Bathroom, Free parking, Pets not allowed, Television, Telephone. Room types listed: Double bed Deluxe, Double bed Executive, Double bed Super deluxe, Four bed Super deluxe.",
+    "shortDescription": null,
+    "city": "Tanakpur",
+    "district": "Champawat",
+    "address": "KMVN TRH, Near Sports Stadium, Tanakpur, Distt: Champawat. (Uttarakhand) - 262309",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.1094626,
+        29.0673789
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim station centroid — query: 'Tanakpur Champawat' — Tanakpur, NH9, Tanakpur, Purnagiri, Champawat, Uttarakhand, 262309, India",
+    "category": "Government Tourist Rest House",
+    "phone": "8650002551",
+    "email": "trctanakpur123@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-tanakpur",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television",
+      "Telephone"
+    ],
+    "roomTypes": [
+      "Double bed Deluxe",
+      "Double bed Executive",
+      "Double bed Super deluxe",
+      "Four bed Super deluxe"
+    ],
+    "price": {
+      "amount": 1700,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-tanakpur",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-tanakpur",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "KMVN TRH Shitalakhet",
+    "slug": "kmvn-trh-shitalakhet",
+    "description": "Official tourist accommodation run by Kumaon Mandal Vikas Nigam (KMVN), the Uttarakhand government tourism undertaking for the Kumaon region, at Shitlakhet in Almora district. Published facilities: Bathroom, Free parking, Pets not allowed, Television. Room types listed: Double Bed Deluxe, Double Bed Super Deluxe, Four Bed Super Deluxe.",
+    "shortDescription": null,
+    "city": "Shitlakhet",
+    "district": "Almora",
+    "address": "KMVN TRH Shitalakhet, (Uttarakhand) - 263678",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.54376,
+        29.59442
+      ]
+    },
+    "locationSource": "APPROXIMATE — town/village centroid via OpenStreetMap Nominatim (checked 2026-09-12); exact property location unverified. OpenStreetMap Nominatim village centroid — query: 'Shitlakhet Almora' — Shitlakhet, Almora, Uttarakhand, 263678, India",
+    "category": "Government Tourist Rest House",
+    "phone": "9012616706",
+    "email": "crckmvn@gmail.com",
+    "website": "https://www.kmvn.in/hotels/trh-trh-sitlakhet",
+    "facilities": [
+      "Bathroom",
+      "Free parking",
+      "Pets not allowed",
+      "Television"
+    ],
+    "roomTypes": [
+      "Double Bed Deluxe",
+      "Double Bed Super Deluxe",
+      "Four Bed Super Deluxe"
+    ],
+    "price": {
+      "amount": 2100,
+      "currency": "INR"
+    },
+    "priceNotes": "Lowest room tariff shown in KMVN's official booking widget for a 10 Oct 2026 stay, GST included, as published on kmvn.in. Tariffs vary by date and season.",
+    "priceLastChecked": "2026-09-09",
+    "rating": null,
+    "reviewCount": null,
+    "images": [],
+    "sourceName": "Kumaon Mandal Vikas Nigam (kmvn.in, official)",
+    "sourceUrl": "https://www.kmvn.in/hotels/trh-trh-sitlakhet",
+    "sourcePageUrl": "https://www.kmvn.in/hotels/trh-trh-sitlakhet",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Ananda in the Himalayas",
+    "slug": "ananda-in-the-himalayas",
+    "description": "Ananda in the Himalayas is a luxury destination spa in Narendra Nagar, Uttarakhand, set in the Indian Himalayas.",
+    "shortDescription": "Ananda in the Himalayas is a luxury destination spa in Narendra Nagar, Uttarakhand, set in the Indian Himalayas.",
+    "city": "Narendra Nagar, near Rishikesh",
+    "district": "Tehri Garhwal",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.290435,
+        30.1578797
+      ]
+    },
+    "locationSource": "OpenStreetMap via Nominatim (ODbL) — POI 'Ananda in the Himalayas', Narendranagar Bypass, Tehri Garhwal",
+    "category": "Luxury Destination Spa Resort",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "facilities": [],
+    "roomTypes": [],
+    "price": null,
+    "priceNotes": "Rates not published on the source; check the operator's official channels.",
+    "priceLastChecked": null,
+    "rating": null,
+    "reviewCount": null,
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Viceregal_Palace%2C_Ananda_-_In_the_Himalayas%2C_Narendra_Nagar%2C_Uttarakhand.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Viceregal_Palace,_Ananda_-_In_the_Himalayas,_Narendra_Nagar,_Uttarakhand.jpg",
+        "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+        "attribution": "https://www.flickr.com/photos/peem/ — https://www.flickr.com/photos/peem/1101404351/in/set-72157601405157032/",
+        "alt": "Viceregal Palace, Ananda - In the Himalayas , Narendra Nagar, Uttarakhand."
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_lounge_at_Ananda_-_In_the_Himalayas_spa%2C_Narendra_Nagar.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_lounge_at_Ananda_-_In_the_Himalayas_spa,_Narendra_Nagar.jpg",
+        "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+        "attribution": "https://www.flickr.com/photos/peem/ — https://www.flickr.com/photos/peem/1101390465/in/set-72157601405157032/",
+        "alt": "The lounge at Ananda - In the Himalayas spa, Narendra Nagar."
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Himalayan_view_from_Ananda_spa%2C_Narendra_Nagar.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Himalayan_view_from_Ananda_spa,_Narendra_Nagar.jpg",
+        "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+        "attribution": "https://www.flickr.com/photos/peem/ — https://www.flickr.com/photos/peem/1102272908/in/set-72157601405157032/",
+        "alt": "Himalayan view from Ananda spa, Narendra Nagar."
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fountain%2C_Ananda_spa%2C_Narendra_Nagar.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fountain,_Ananda_spa,_Narendra_Nagar.jpg",
+        "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+        "attribution": "https://www.flickr.com/photos/peem/ — https://www.flickr.com/photos/peem/1102259780/in/set-72157601405157032/",
+        "alt": "Fountain, Ananda spa, Narendra Nagar."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas%2C_Narendra_Nagar%2C_Uttarakhand_WTK20150913-IMG_2660.jpg/1920px-A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas%2C_Narendra_Nagar%2C_Uttarakhand_WTK20150913-IMG_2660.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas,_Narendra_Nagar,_Uttarakhand_WTK20150913-IMG_2660.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Asish Das75 — Own work",
+        "alt": "This picture was taken during Kalindi khal trek."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas%2C_Narendra_Nagar%2C_Uttarakhand_WTK20150913-IMG_0445.jpg/1920px-A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas%2C_Narendra_Nagar%2C_Uttarakhand_WTK20150913-IMG_0445.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas,_Narendra_Nagar,_Uttarakhand_WTK20150913-IMG_0445.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "DipankarSen68 — Own work",
+        "alt": "This picture was taken during the Kalindi khal trek."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas%2C_Narendra_Nagar%2C_Uttarakhand_WTK20150913-DSC00031.jpg/1920px-A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas%2C_Narendra_Nagar%2C_Uttarakhand_WTK20150913-DSC00031.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_cannon_in_front_of_Hotel_Ananda_-_In_the_Himalayas,_Narendra_Nagar,_Uttarakhand_WTK20150913-DSC00031.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Dibendu Nandi — Own work",
+        "alt": "This picture was taken during Kalindi Khal Trek."
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sitting_area_overlooking_the_garden%2C_Ananda_spa.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sitting_area_overlooking_the_garden,_Ananda_spa.jpg",
+        "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+        "attribution": "https://www.flickr.com/photos/peem/ — https://www.flickr.com/photos/peem/1102263124/in/set-72157601405157032/",
+        "alt": "Sitting area overlooking the garden, Ananda spa."
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ananda_in_the_Himalayas",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Ananda_in_the_Himalayas",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Savoy Hotel, Mussoorie",
+    "slug": "savoy-hotel-mussoorie",
+    "description": "The Savoy, is a historic luxury hotel in the hill station, Mussoorie, in Uttarakhand state of India, owned by Mr. Kishore Kaya and Managed by the ITC Hotels. Established in 1902, built in English Gothic architecture style mostly in wood, the hotel is spread over 11 acres (45,000 m2) with 50 rooms at present, and overlooks the Himalayas.",
+    "shortDescription": "The Savoy, is a historic luxury hotel in the hill station, Mussoorie, in Uttarakhand state of India, owned by Mr.",
+    "city": "Mussoorie",
+    "district": "Dehradun",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.0617,
+        30.4601
+      ]
+    },
+    "locationSource": "Wikipedia article coordinates",
+    "category": "Heritage Luxury Hotel",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "facilities": [],
+    "roomTypes": [],
+    "price": null,
+    "priceNotes": "Rates not published on the source; check the operator's official channels.",
+    "priceLastChecked": null,
+    "rating": null,
+    "reviewCount": null,
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Savoy-hotel-mussoorie.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savoy-hotel-mussoorie.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Savoy Hotel — https://www.paperjewels.org/postcard/savoy-hotel-mussoorie",
+        "alt": "Postcards were an important advertising tool for hotels from the mid-1890s, when Alpine hotels in Austria, Germany and Switzerland helped to popularize the medium. This card from the hillstation of Mussoorie is actually dated on the back 9/6/17, and "
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Hotel_Savoy_2.jpg/1920px-Hotel_Savoy_2.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hotel_Savoy_2.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "VitVit — Own work",
+        "alt": "Hotel Savoy"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Hotel_Savoy_3.jpg/1920px-Hotel_Savoy_3.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hotel_Savoy_3.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "VitVit — Own work",
+        "alt": "Hotel Savoy"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Savoy_Hotel_Paintings.jpg/1920px-Savoy_Hotel_Paintings.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savoy_Hotel_Paintings.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Payton Walton — Own work",
+        "alt": "Savoy Hotel Paintings"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Savoy_Hotel_Piano.jpg/1920px-Savoy_Hotel_Piano.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savoy_Hotel_Piano.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Payton Walton — Own work",
+        "alt": "Savoy Hotel Piano"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hotel_Savoy_1.jpg/1920px-Hotel_Savoy_1.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hotel_Savoy_1.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "VitVit — Own work",
+        "alt": "Logo Hotel Savoy"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Savoy_Hotel_-_panoramio.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savoy_Hotel_-_panoramio.jpg",
+        "license": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+        "attribution": "Mister No — https://web.archive.org/web/20161103184753/http://www.panoramio.com/photo/133037775",
+        "alt": "Savoy Hotel Zürich"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Savoy_hotel_in_bandung01.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savoy_hotel_in_bandung01.jpg",
+        "license": "Public domain",
+        "attribution": "personal — personal picture",
+        "alt": "Savoy \"tropical art deco\" hotel in fr:Bandung"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Savoy_Hotel,_Mussoorie",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Savoy_Hotel,_Mussoorie",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  }
+]

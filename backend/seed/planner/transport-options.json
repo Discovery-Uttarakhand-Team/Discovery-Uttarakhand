@@ -1,0 +1,438 @@
+[
+ {
+  "type": "train",
+  "operator": "Indian Railways",
+  "trainName": "Dehradun Shatabdi Express",
+  "trainNumber": "12017/12018",
+  "from": {
+   "name": "New Delhi (NDLS)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Dehradun (DDN)",
+   "placeRef": "dehradun"
+  },
+  "departureTime": null,
+  "arrivalTime": null,
+  "durationMinutes": 370,
+  "operatingDays": [
+   "daily"
+  ],
+  "classAvailability": "Executive Chair Car, AC Chair Car",
+  "notes": "6h10m as 12017 / 5h55m as 12018. 8 stops, 314 km.",
+  "bookingUrl": "https://www.irctc.co.in/nget/train-search",
+  "sourceName": "Wikipedia (English) — train article (Infobox rail service)",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dehradun_Shatabdi_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "journeytime = 6 hours 10 minutes as 12017; 5 hours 55 minutes as 12018; frequency Daily"
+ },
+ {
+  "type": "train",
+  "operator": "Indian Railways",
+  "trainName": "Nanda Devi AC Express",
+  "trainNumber": "12401/12402",
+  "from": {
+   "name": "Kota Junction (KOTA)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Dehradun (DDN)",
+   "placeRef": "dehradun"
+  },
+  "departureTime": null,
+  "arrivalTime": null,
+  "durationMinutes": 705,
+  "operatingDays": [
+   "daily"
+  ],
+  "classAvailability": "AC classes",
+  "notes": "Passes through the Delhi corridor; serves Dehradun.",
+  "bookingUrl": "https://www.irctc.co.in/nget/train-search",
+  "sourceName": "Wikipedia (English) — train article (Infobox rail service)",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nanda_Devi_AC_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "journeytime = 11 hours 45 minutes; frequency Daily"
+ },
+ {
+  "type": "train",
+  "operator": "Indian Railways",
+  "trainName": "Kathgodam Shatabdi Express",
+  "trainNumber": "12039",
+  "from": {
+   "name": "New Delhi (NDLS)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Kathgodam (KGM)",
+   "placeRef": "haldwani"
+  },
+  "departureTime": "06:20",
+  "arrivalTime": "11:40",
+  "durationMinutes": 320,
+  "operatingDays": [
+   "daily",
+   "except Friday"
+  ],
+  "classAvailability": "AC Chair Car",
+  "notes": null,
+  "bookingUrl": "https://www.irctc.co.in/nget/train-search",
+  "sourceName": "Wikipedia (English) — train article (Infobox rail service)",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Kathgodam",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "Shatabdi Express | 12039 | New Delhi (NDLS) | 06:20 | 11:40 | Daily except Friday"
+ },
+ {
+  "type": "train",
+  "operator": "Indian Railways",
+  "trainName": "Ranikhet Express",
+  "trainNumber": "15013/15014",
+  "from": {
+   "name": "Jaisalmer (JSM)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Kathgodam (KGM)",
+   "placeRef": "haldwani"
+  },
+  "departureTime": null,
+  "arrivalTime": null,
+  "durationMinutes": 1700,
+  "operatingDays": [
+   "daily"
+  ],
+  "classAvailability": "Sleeper and AC classes",
+  "notes": "Long-haul service; board/alight at Old Delhi (DLI) for the Delhi–Kathgodam leg.",
+  "bookingUrl": "https://www.irctc.co.in/nget/train-search",
+  "sourceName": "Wikipedia (English) — train article (Infobox rail service)",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ranikhet_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "journeytime = 28 hrs 20 mins; frequency Daily"
+ },
+ {
+  "type": "train",
+  "operator": "Indian Railways",
+  "trainName": "Kathgodam Express",
+  "trainNumber": "14119/14120",
+  "from": {
+   "name": "Kathgodam (KGM)",
+   "placeRef": "haldwani"
+  },
+  "to": {
+   "name": "Dehradun (DDN)",
+   "placeRef": "dehradun"
+  },
+  "departureTime": null,
+  "arrivalTime": null,
+  "durationMinutes": 505,
+  "operatingDays": [
+   "daily"
+  ],
+  "classAvailability": "AC first, AC 2 tier, AC 3 tier, Sleeper, General",
+  "notes": "Connects the two gateway towns Kathgodam and Dehradun.",
+  "bookingUrl": "https://www.irctc.co.in/nget/train-search",
+  "sourceName": "Wikipedia (English) — train article (Infobox rail service)",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Kathgodam_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "journeytime = 8 hours 25 minutes; frequency Daily"
+ },
+ {
+  "type": "train",
+  "operator": "Indian Railways",
+  "trainName": "Doon Express",
+  "trainNumber": "13009/13010",
+  "from": {
+   "name": "Howrah Junction (HWH)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Yog Nagari Rishikesh (YNRK)",
+   "placeRef": "rishikesh"
+  },
+  "departureTime": null,
+  "arrivalTime": null,
+  "durationMinutes": 2060,
+  "operatingDays": [
+   "daily"
+  ],
+  "classAvailability": "Sleeper and AC classes",
+  "notes": "Eastern-corridor trunk service to Rishikesh via Haridwar.",
+  "bookingUrl": "https://www.irctc.co.in/nget/train-search",
+  "sourceName": "Wikipedia (English) — train article (Infobox rail service)",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Doon_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "journeytime = 34 hours 20 minutes; frequency Daily"
+ },
+ {
+  "type": "train",
+  "operator": "Indian Railways",
+  "trainName": "Mussoorie Express",
+  "trainNumber": "14041/14042",
+  "from": {
+   "name": "Old Delhi Junction (DLI)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Dehradun (DDN)",
+   "placeRef": "dehradun"
+  },
+  "departureTime": null,
+  "arrivalTime": null,
+  "durationMinutes": 640,
+  "operatingDays": [
+   "daily"
+  ],
+  "classAvailability": "Sleeper and AC classes",
+  "notes": null,
+  "bookingUrl": "https://www.irctc.co.in/nget/train-search",
+  "sourceName": "Wikipedia (English) — train article (Infobox rail service)",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Mussoorie_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "journeytime = 10 hours 40 minutes; frequency Daily"
+ },
+ {
+  "type": "train",
+  "operator": "Indian Railways",
+  "trainName": "Upasana Express",
+  "trainNumber": "13035/13036",
+  "from": {
+   "name": "Howrah (HWH)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Dehradun (DDN)",
+   "placeRef": "dehradun"
+  },
+  "departureTime": null,
+  "arrivalTime": null,
+  "durationMinutes": 1750,
+  "operatingDays": [
+   "bi-weekly"
+  ],
+  "classAvailability": "Sleeper and AC classes",
+  "notes": null,
+  "bookingUrl": "https://www.irctc.co.in/nget/train-search",
+  "sourceName": "Wikipedia (English) — train article (Infobox rail service)",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Upasana_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "journeytime = 29 hours 10 minutes; frequency Bi-weekly"
+ },
+ {
+  "type": "bus",
+  "operator": "Uttarakhand Roadways (UTC)",
+  "from": {
+   "name": "Delhi (Kashmere Gate ISBT)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Dehradun",
+   "placeRef": "dehradun"
+  },
+  "departureTime": null,
+  "durationMinutes": null,
+  "operatingDays": [
+   "hourly"
+  ],
+  "priceIndicative": null,
+  "notes": "Deluxe, Volvo, semi-deluxe and ordinary Uttarakhand state buses depart hourly.",
+  "bookingUrl": "https://www.utconline.uk.gov.in/",
+  "sourceName": "Wikivoyage (English) — Dehradun",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Dehradun",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "From ISBT, Kashmere Gate in Old Delhi, Delux, Volvo, Semi-deluxe and ordinary Uttarakhand State buses depart hourly."
+ },
+ {
+  "type": "bus",
+  "operator": "Uttarakhand Roadways (UTC)",
+  "from": {
+   "name": "Dehradun",
+   "placeRef": "dehradun"
+  },
+  "to": {
+   "name": "Mussoorie",
+   "placeRef": "mussoorie"
+  },
+  "departureTime": null,
+  "durationMinutes": 90,
+  "operatingDays": [
+   "frequent"
+  ],
+  "priceIndicative": {
+   "amount": 47,
+   "currency": "INR",
+   "note": "regular bus fare (Wikivoyage)"
+  },
+  "notes": "Regular buses take approximately 1.5 hours.",
+  "bookingUrl": "https://www.utconline.uk.gov.in/",
+  "sourceName": "Wikivoyage (English) — Mussoorie",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Mussoorie",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "It takes approximately 1.5 hours and ₹47 for the regular buses to reach Mussoorie."
+ },
+ {
+  "type": "bus",
+  "operator": "Uttarakhand Roadways (UTC) — Hill Bus Services",
+  "from": {
+   "name": "Dehradun railway station",
+   "placeRef": "dehradun"
+  },
+  "to": {
+   "name": "Kempty Falls",
+   "placeRef": null
+  },
+  "departureTime": null,
+  "durationMinutes": null,
+  "operatingDays": [
+   "daily"
+  ],
+  "priceIndicative": null,
+  "notes": "Hill Bus Services Section at Dehradun railway station runs buses towards Kempty Falls.",
+  "bookingUrl": "https://www.utconline.uk.gov.in/",
+  "sourceName": "Wikivoyage (English) — Mussoorie",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Mussoorie",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "To reach Kempty Falls directly from Dehradun catch a bus from the Dehradun Railway station Hill Bus Services Section or take a taxi."
+ },
+ {
+  "type": "bus",
+  "operator": "Uttarakhand Roadways (UTC)",
+  "from": {
+   "name": "Kathgodam railway station",
+   "placeRef": "haldwani"
+  },
+  "to": {
+   "name": "Nainital",
+   "placeRef": "nainital"
+  },
+  "departureTime": null,
+  "durationMinutes": null,
+  "operatingDays": [
+   "frequent"
+  ],
+  "priceIndicative": {
+   "amount": 60,
+   "currency": "INR",
+   "note": "per person (Wikivoyage)"
+  },
+  "notes": "Bus station 100 m from Kathgodam station; buses to Nainital.",
+  "bookingUrl": "https://www.utconline.uk.gov.in/",
+  "sourceName": "Wikivoyage (English) — Nainital",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Nainital",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "You can also walk out of Kathgodam station, the bus station is 100 m away, take a bus to Nainital, its only ₹60 per person."
+ },
+ {
+  "type": "shared_taxi",
+  "operator": null,
+  "from": {
+   "name": "Haldwani",
+   "placeRef": "haldwani"
+  },
+  "to": {
+   "name": "Pithoragarh",
+   "placeRef": "pithoragarh"
+  },
+  "departureTime": null,
+  "durationMinutes": null,
+  "operatingDays": [
+   "daily"
+  ],
+  "priceIndicative": null,
+  "notes": "Shared taxi from Haldwani to Pithoragarh (changeover for Dharchula / Munsiyari legs).",
+  "bookingUrl": null,
+  "sourceName": "Wikivoyage (English) — Pithoragarh",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Pithoragarh",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "you have to get down at Haldwani and from there you will get a shared taxi to Pithoragarh"
+ },
+ {
+  "type": "shared_taxi",
+  "operator": null,
+  "from": {
+   "name": "Dehradun railway station",
+   "placeRef": "dehradun"
+  },
+  "to": {
+   "name": "Mussoorie",
+   "placeRef": "mussoorie"
+  },
+  "departureTime": null,
+  "durationMinutes": null,
+  "operatingDays": [
+   "daily"
+  ],
+  "priceIndicative": {
+   "amount": 100,
+   "currency": "INR",
+   "note": "approx. per seat (Wikivoyage; taxi ~₹610)"
+  },
+  "notes": "Shared taxis accommodate up to five passengers; private taxi ~₹610 (+₹50 night).",
+  "bookingUrl": null,
+  "sourceName": "Wikivoyage (English) — Mussoorie",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Mussoorie",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "Rates are ₹610 per taxi and ₹50 extra for the night charges but you can pay per seat as well in a shared taxi which normally accommodates up to five passengers."
+ },
+ {
+  "type": "taxi",
+  "operator": null,
+  "from": {
+   "name": "Jolly Grant Airport",
+   "placeRef": "dehradun"
+  },
+  "to": {
+   "name": "Rishikesh",
+   "placeRef": "rishikesh"
+  },
+  "departureTime": null,
+  "durationMinutes": null,
+  "operatingDays": [
+   "daily"
+  ],
+  "priceIndicative": null,
+  "notes": "Airport buses (red-painted, ISBT service to Rishikesh) stop at the airport en route; taxis ~US$85–125 indicative (Wikivoyage).",
+  "bookingUrl": null,
+  "sourceName": "Wikivoyage (English) — Rishikesh / Dehradun",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Rishikesh",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "type": "flight",
+  "operator": null,
+  "from": {
+   "name": "Delhi (Indira Gandhi International)",
+   "placeRef": null
+  },
+  "to": {
+   "name": "Dehradun (Jolly Grant)",
+   "placeRef": "dehradun"
+  },
+  "departureTime": null,
+  "durationMinutes": null,
+  "operatingDays": [
+   "daily"
+  ],
+  "priceIndicative": null,
+  "notes": "Daily domestic flights (multiple airlines). LIVE schedules/fares: check airline sites or Amadeus Self-Service API (free test tier) — never stored statically.",
+  "bookingUrl": null,
+  "sourceName": "Wikivoyage (English) — Dehradun",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Dehradun",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "Daily domestic flights to"
+ }
+]

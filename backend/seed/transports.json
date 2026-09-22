@@ -1,0 +1,460 @@
+[
+  {
+    "mode": "Train",
+    "routingType": "rail",
+    "operator": "Northern Railway (Indian Railways)",
+    "serviceName": "Kathgodam Shatabdi Express",
+    "serviceNumber": "12040",
+    "origin": {
+      "name": "New Delhi",
+      "district": "Central Delhi",
+      "state": "Delhi",
+      "stationCode": "NDLS"
+    },
+    "destination": {
+      "name": "Kathgodam",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "stationCode": "KGM"
+    },
+    "stops": [
+      "Ghaziabad",
+      "Moradabad",
+      "Rampur",
+      "Bilaspur",
+      "Rudrapur City",
+      "Lalkuan",
+      "Haldwani"
+    ],
+    "departureTime": null,
+    "arrivalTime": null,
+    "duration": null,
+    "price": null,
+    "availabilityStatus": null,
+    "availabilitySource": null,
+    "lastChecked": null,
+    "isLive": false,
+    "bookingUrl": "https://www.irctc.co.in/",
+    "bookingType": "official",
+    "routeCategory": "Interstate Gateway",
+    "source": "IRCTC Official Portal (irctc.co.in)",
+    "sourceUrl": "https://www.irctc.co.in/",
+    "notes": "Broad-gauge rail railhead for Kumaon Himalayas. Consult IRCTC for live timetable and seat availability.",
+    "lastUpdated": "2026-09-12T00:00:00.000Z",
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kathgodam_Railway_Station_Entrance.jpg/1920px-Kathgodam_Railway_Station_Entrance.jpg",
+        "source": "Wikimedia Commons",
+        "alt": "Kathgodam Shatabdi Express"
+      }
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kathgodam_Railway_Station_Entrance.jpg/1920px-Kathgodam_Railway_Station_Entrance.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Kathgodam Shatabdi Express"
+    },
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kathgodam_Railway_Station_Entrance.jpg/1920px-Kathgodam_Railway_Station_Entrance.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Kathgodam Shatabdi Express"
+    }
+  },
+  {
+    "mode": "Train",
+    "routingType": "rail",
+    "operator": "Northern Railway (Indian Railways)",
+    "serviceName": "Dehradun Jan Shatabdi Express",
+    "serviceNumber": "12055",
+    "origin": {
+      "name": "New Delhi",
+      "district": "Central Delhi",
+      "state": "Delhi",
+      "stationCode": "NDLS"
+    },
+    "destination": {
+      "name": "Dehradun",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "stationCode": "DDN"
+    },
+    "stops": [
+      "Meerut City",
+      "Muzaffarnagar",
+      "Deoband",
+      "Saharanpur",
+      "Roorkee",
+      "Haridwar"
+    ],
+    "departureTime": null,
+    "arrivalTime": null,
+    "duration": null,
+    "price": null,
+    "availabilityStatus": null,
+    "availabilitySource": null,
+    "lastChecked": null,
+    "isLive": false,
+    "bookingUrl": "https://www.irctc.co.in/",
+    "bookingType": "official",
+    "routeCategory": "Interstate Gateway",
+    "source": "IRCTC Official Portal (irctc.co.in)",
+    "sourceUrl": "https://www.irctc.co.in/",
+    "notes": "Primary broad-gauge rail connection connecting National Capital to Garhwal foothills. Consult IRCTC for live availability.",
+    "lastUpdated": "2026-09-12T00:00:00.000Z",
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kathgodam_Railway_Station_Entrance.jpg/1920px-Kathgodam_Railway_Station_Entrance.jpg",
+        "source": "Wikimedia Commons",
+        "alt": "Dehradun Jan Shatabdi Express"
+      }
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kathgodam_Railway_Station_Entrance.jpg/1920px-Kathgodam_Railway_Station_Entrance.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Dehradun Jan Shatabdi Express"
+    },
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kathgodam_Railway_Station_Entrance.jpg/1920px-Kathgodam_Railway_Station_Entrance.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "Dehradun Jan Shatabdi Express"
+    }
+  },
+  {
+    "mode": "Bus",
+    "routingType": "road",
+    "operator": "Uttarakhand Transport Corporation (UTC)",
+    "serviceName": "UTC Interstate Express",
+    "serviceNumber": null,
+    "origin": {
+      "name": "Delhi (ISBT Anand Vihar)",
+      "district": "East Delhi",
+      "state": "Delhi",
+      "stationCode": null
+    },
+    "destination": {
+      "name": "Haldwani (ISBT)",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "stops": [
+      "Ghaziabad",
+      "Moradabad Bypass",
+      "Rampur",
+      "Rudrapur"
+    ],
+    "departureTime": null,
+    "arrivalTime": null,
+    "duration": null,
+    "price": null,
+    "availabilityStatus": null,
+    "availabilitySource": null,
+    "lastChecked": null,
+    "isLive": false,
+    "bookingUrl": "https://www.utconline.uk.gov.in/",
+    "bookingType": "official",
+    "routeCategory": "Interstate Gateway",
+    "source": "UTC Online Portal (utconline.uk.gov.in)",
+    "sourceUrl": "https://www.utconline.uk.gov.in/",
+    "notes": "Primary state roadway corridor between Delhi and Kumaon foothills. Check UTC portal for scheduled departure slots.",
+    "lastUpdated": "2026-09-12T00:00:00.000Z",
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+        "source": "Wikimedia Commons",
+        "alt": "UTC Interstate Express"
+      }
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Interstate Express"
+    },
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Interstate Express"
+    }
+  },
+  {
+    "mode": "Bus",
+    "routingType": "road",
+    "operator": "Uttarakhand Transport Corporation (UTC)",
+    "serviceName": "UTC Interstate Express",
+    "serviceNumber": null,
+    "origin": {
+      "name": "Delhi (ISBT Kashmiri Gate)",
+      "district": "North Delhi",
+      "state": "Delhi",
+      "stationCode": null
+    },
+    "destination": {
+      "name": "Dehradun (ISBT)",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "stops": [
+      "Meerut",
+      "Muzaffarnagar",
+      "Roorkee"
+    ],
+    "departureTime": null,
+    "arrivalTime": null,
+    "duration": null,
+    "price": null,
+    "availabilityStatus": null,
+    "availabilitySource": null,
+    "lastChecked": null,
+    "isLive": false,
+    "bookingUrl": "https://www.utconline.uk.gov.in/",
+    "bookingType": "official",
+    "routeCategory": "Interstate Gateway",
+    "source": "UTC Online Portal (utconline.uk.gov.in)",
+    "sourceUrl": "https://www.utconline.uk.gov.in/",
+    "notes": "Primary expressway transit linking Delhi to the state capital. Consult UTC online for active bookings.",
+    "lastUpdated": "2026-09-12T00:00:00.000Z",
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+        "source": "Wikimedia Commons",
+        "alt": "UTC Interstate Express"
+      }
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Interstate Express"
+    },
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Interstate Express"
+    }
+  },
+  {
+    "mode": "Bus",
+    "routingType": "road",
+    "operator": "Uttarakhand Transport Corporation (UTC)",
+    "serviceName": "UTC Highway Service",
+    "serviceNumber": null,
+    "origin": {
+      "name": "Delhi (ISBT Kashmiri Gate)",
+      "district": "North Delhi",
+      "state": "Delhi",
+      "stationCode": null
+    },
+    "destination": {
+      "name": "Haridwar / Rishikesh",
+      "district": "Haridwar",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "stops": [
+      "Meerut",
+      "Roorkee",
+      "Haridwar"
+    ],
+    "departureTime": null,
+    "arrivalTime": null,
+    "duration": null,
+    "price": null,
+    "availabilityStatus": null,
+    "availabilitySource": null,
+    "lastChecked": null,
+    "isLive": false,
+    "bookingUrl": "https://www.utconline.uk.gov.in/",
+    "bookingType": "official",
+    "routeCategory": "Interstate Gateway",
+    "source": "UTC Online Portal (utconline.uk.gov.in)",
+    "sourceUrl": "https://www.utconline.uk.gov.in/",
+    "notes": "Major pilgrimage and adventure gateway highway service. Online reservation available via UTC.",
+    "lastUpdated": "2026-09-12T00:00:00.000Z",
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+        "source": "Wikimedia Commons",
+        "alt": "UTC Highway Service"
+      }
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Highway Service"
+    },
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Highway Service"
+    }
+  },
+  {
+    "mode": "Bus",
+    "routingType": "road",
+    "operator": "Uttarakhand Transport Corporation (UTC)",
+    "serviceName": "UTC Kumaon Hill Service",
+    "serviceNumber": null,
+    "origin": {
+      "name": "Haldwani (ISBT)",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "destination": {
+      "name": "Almora",
+      "district": "Almora",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "stops": [
+      "Kathgodam",
+      "Bhowali",
+      "Khairna"
+    ],
+    "departureTime": null,
+    "arrivalTime": null,
+    "duration": null,
+    "price": null,
+    "availabilityStatus": null,
+    "availabilitySource": null,
+    "lastChecked": null,
+    "isLive": false,
+    "bookingUrl": "https://www.utconline.uk.gov.in/",
+    "bookingType": "official",
+    "routeCategory": "Himalayan Trunk Route",
+    "source": "UTC Route Registry (utconline.uk.gov.in)",
+    "sourceUrl": "https://www.utconline.uk.gov.in/",
+    "notes": "Regional mountain highway connecting Kumaon foothills to central cultural hub Almora. Departure times subject to mountain road clearance.",
+    "lastUpdated": "2026-09-12T00:00:00.000Z",
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+        "source": "Wikimedia Commons",
+        "alt": "UTC Kumaon Hill Service"
+      }
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Kumaon Hill Service"
+    },
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Kumaon Hill Service"
+    }
+  },
+  {
+    "mode": "Bus",
+    "routingType": "road",
+    "operator": "Uttarakhand Transport Corporation (UTC)",
+    "serviceName": "UTC Garhwal Hill Service",
+    "serviceNumber": null,
+    "origin": {
+      "name": "Haridwar (ISBT)",
+      "district": "Haridwar",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "destination": {
+      "name": "Srinagar (Garhwal)",
+      "district": "Pauri Garhwal",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "stops": [
+      "Rishikesh",
+      "Byasi",
+      "Devprayag"
+    ],
+    "departureTime": null,
+    "arrivalTime": null,
+    "duration": null,
+    "price": null,
+    "availabilityStatus": null,
+    "availabilitySource": null,
+    "lastChecked": null,
+    "isLive": false,
+    "bookingUrl": "https://www.utconline.uk.gov.in/",
+    "bookingType": "official",
+    "routeCategory": "Himalayan Trunk Route",
+    "source": "UTC Route Registry (utconline.uk.gov.in)",
+    "sourceUrl": "https://www.utconline.uk.gov.in/",
+    "notes": "Alaknanda valley highway route connecting foothills to upper Garhwal. Daytime departures recommended.",
+    "lastUpdated": "2026-09-12T00:00:00.000Z",
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+        "source": "Wikimedia Commons",
+        "alt": "UTC Garhwal Hill Service"
+      }
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Garhwal Hill Service"
+    },
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "UTC Garhwal Hill Service"
+    }
+  },
+  {
+    "mode": "Local Transfer",
+    "routingType": "local_transfer",
+    "operator": null,
+    "serviceName": "High Altitude Border Transit (Shared 4x4 Mountain Vehicles)",
+    "serviceNumber": null,
+    "origin": {
+      "name": "Dharchula",
+      "district": "Pithoragarh",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "destination": {
+      "name": "Gunji / Darma Valley Roadhead",
+      "district": "Pithoragarh",
+      "state": "Uttarakhand",
+      "stationCode": null
+    },
+    "stops": [
+      "Tawaghat",
+      "Elagad",
+      "Malpa",
+      "Budhi",
+      "Chialekh"
+    ],
+    "departureTime": null,
+    "arrivalTime": null,
+    "duration": null,
+    "price": null,
+    "availabilityStatus": null,
+    "availabilitySource": null,
+    "lastChecked": null,
+    "isLive": false,
+    "bookingUrl": "https://eservices.uk.gov.in/",
+    "bookingType": "official",
+    "routeCategory": "High Altitude Border Transit",
+    "source": "District Administration Pithoragarh Border Advisory",
+    "sourceUrl": "https://pithoragarh.nic.in/",
+    "notes": "Restricted border zone under ITBP/BRO jurisdiction. Inner Line Permit (ILP) required before departure from SDM Dharchula. Vehicles arranged locally at Dharchula taxi stand; no scheduled bus line.",
+    "lastUpdated": "2026-09-12T00:00:00.000Z",
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+        "source": "Wikimedia Commons",
+        "alt": "High Altitude Border Transit (Shared 4x4 Mountain Vehicles)"
+      }
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "High Altitude Border Transit (Shared 4x4 Mountain Vehicles)"
+    },
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Almora_Uttarakhand_India_2013.jpg/1920px-Almora_Uttarakhand_India_2013.jpg",
+      "source": "Wikimedia Commons",
+      "alt": "High Altitude Border Transit (Shared 4x4 Mountain Vehicles)"
+    }
+  }
+]

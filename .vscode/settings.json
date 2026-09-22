@@ -1,0 +1,9 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "toolPermission": "always-proceed",
+  "antigravity.agent.toolExecutionPolicy": "always-proceed",
+  "antigravity.agent.autoExecutionPolicy": "always-proceed",
+  "antigravity.agent.artifactReviewMode": "always-proceed",
+  "antigravity.agent.nonWorkspaceFileAccess": "allow",
+  "antigravity.agent.internetAccessPolicy": "allow"
+}

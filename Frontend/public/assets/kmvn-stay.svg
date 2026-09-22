@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b4d3e" />
+      <stop offset="60%" stop-color="#2a6f55" />
+      <stop offset="100%" stop-color="#f4eee1" />
+    </linearGradient>
+    <linearGradient id="mountGrad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f4f0" />
+      <stop offset="35%" stop-color="#9fc5b5" />
+      <stop offset="100%" stop-color="#14452F" />
+    </linearGradient>
+    <linearGradient id="mountGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#cbe3d9" />
+      <stop offset="100%" stop-color="#1e3a2b" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Sky Backdrop -->
+  <rect width="800" height="500" fill="url(#skyGrad)" />
+
+  <!-- Sun / Dawn Glow -->
+  <circle cx="400" cy="240" r="110" fill="#fdf3cf" opacity="0.4" />
+
+  <!-- Far Himalayan Peaks -->
+  <polygon points="120,320 280,140 440,320" fill="url(#mountGrad1)" opacity="0.85" />
+  <polygon points="340,330 520,110 680,330" fill="url(#mountGrad2)" opacity="0.9" />
+  <polygon points="560,340 680,180 790,340" fill="url(#mountGrad1)" opacity="0.7" />
+  <polygon points="0,340 140,190 260,340" fill="url(#mountGrad2)" opacity="0.75" />
+
+  <!-- Foreground Mountain Ridge -->
+  <path d="M-20,500 L-20,380 L180,310 L360,370 L540,300 L720,370 L820,320 L820,500 Z" fill="#0d2e20" />
+
+  <!-- Pine Tree Silhouettes -->
+  <g fill="#071b13">
+    <!-- Tree cluster left -->
+    <polygon points="60,400 45,440 75,440" />
+    <polygon points="60,380 48,415 72,415" />
+    <polygon points="60,360 52,390 68,390" />
+    <rect x="58" y="440" width="4" height="20" fill="#05140e" />
+
+    <polygon points="100,410 85,450 115,450" />
+    <polygon points="100,390 88,425 112,425" />
+    <polygon points="100,370 92,400 108,400" />
+    <rect x="98" y="450" width="4" height="20" fill="#05140e" />
+
+    <!-- Tree cluster right -->
+    <polygon points="700,410 685,450 715,450" />
+    <polygon points="700,390 688,425 712,425" />
+    <polygon points="700,370 692,400 708,400" />
+    <rect x="698" y="450" width="4" height="20" fill="#05140e" />
+
+    <polygon points="740,420 725,460 755,460" />
+    <polygon points="740,400 728,435 752,435" />
+    <polygon points="740,380 732,410 748,410" />
+    <rect x="738" y="460" width="4" height="20" fill="#05140e" />
+  </g>
+
+  <!-- Official Badge Box -->
+  <g filter="url(#shadow)">
+    <rect x="180" y="370" width="440" height="92" rx="20" fill="#ffffff" fill-opacity="0.94" stroke="#d4af37" stroke-width="2" />
+  </g>
+
+  <!-- Crest Emblem -->
+  <circle cx="232" cy="416" r="28" fill="#14452F" />
+  <text x="232" y="423" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" fill="#d4af37" text-anchor="middle">🏔</text>
+
+  <!-- Badge Typography -->
+  <text x="276" y="405" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="900" fill="#14452F" letter-spacing="1">KMVN TOURIST REST HOUSE</text>
+  <text x="276" y="424" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#8c6d1f" letter-spacing="0.5">KUMAON MANDAL VIKAS NIGAM</text>
+  <text x="276" y="442" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#64748b">Govt. of Uttarakhand • Verified Accommodation</text>
+</svg>

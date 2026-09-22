@@ -1,0 +1,608 @@
+[
+  {
+    "name": "Advaita Ashrama (Mayawati)",
+    "slug": "advaita-ashrama-mayawati",
+    "description": "Advaita Ashrama, Mayavati, is a branch of the Ramakrishna Math, founded on 19 March 1899 at the behest of Vivekananda, by his disciples James Henry Sevier, and Charlotte Sevier. Today it publishes the original writings of Vivekananda. As an ashram dedicated to the study and practice of Advaita Vedanta, no images or idols are worshipped there, not even of Ramakrishna; and no images were kept in the premises according to the Ashram ideals set by Vivekananda.",
+    "shortDescription": "Advaita Ashrama, Mayavati, is a branch of the Ramakrishna Math, founded on 19 March 1899 at the behest of Vivekananda, by his disciples James Henry Sevier, and Charlotte Sevier.",
+    "district": "Champawat",
+    "region": "Kumaon",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.061316,
+        29.373174
+      ]
+    },
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "idealDuration": null,
+    "budgetLevel": null,
+    "experiences": [
+      "Yoga & Wellness"
+    ],
+    "highlights": [
+      "Swami Vivekananda",
+      "Ramakrishna Order",
+      "library"
+    ],
+    "nearbyPlaces": [],
+    "coverImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Advaita_Ashrama%2C_Mayavati%2C_a_branch_of_the_Ramakrishna_Math%2C_founded_on_March_19%2C_1899.jpg",
+      "publicId": null,
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Advaita_Ashrama,_Mayavati,_a_branch_of_the_Ramakrishna_Math,_founded_on_March_19,_1899.jpg",
+      "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+      "attribution": "https://www.flickr.com/photos/9873504@N06/ Soumya IITC — https://www.flickr.com/photos/9873504@N06/2961106478/",
+      "alt": "Advaita Ashrama , Mayavati, a branch of the Ramakrishna Math, founded on March 19, 1899. Near Lohaghat, 22 km from Champawat in Champawat district, Uttarakhand. Image courtesy, Soumya IITC."
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Swami_Vivekananda_1893_Scanned_Image.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Swami_Vivekananda_1893_Scanned_Image.jpg",
+        "license": "Public domain",
+        "attribution": "Thomas Harrison — Scanned from photograph, the photograph is available in most of the Ramakrishna Mission store or photo gallery and has been used in different books. A similar photograph can be found at Śaṅkara (2005) Acenā ajānā Bibekānanda (6. saṃskaraṇa. ed.), Kalakātā: Sahityam, pp. 126 ISBN : 8172670346 .",
+        "alt": "This image of Swami Vivekananda was taken by popular photographer Thomas Harrison in September 1893 in Harrison Studio, Chicago. This photographer had a studio at Central Music Hall. The pose of Vivekananda was later named as his \"Chicago pose\"... Fr"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Advaita_Ashrama",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Advaita_Ashrama",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Christ Church, Mussoorie",
+    "slug": "christ-church-mussoorie",
+    "description": "Christ Church, Mussoorie is a church in Mussoorie, Uttarakhand, India, that is considered to be the oldest church in the Himalayan region. It was erected in 1836 by the small British community that had made the town their home. Today, it is part of the Church of North India, a part of the Anglican Communion.",
+    "shortDescription": "Christ Church, Mussoorie is a church in Mussoorie, Uttarakhand, India, that is considered to be the oldest church in the Himalayan region.",
+    "district": "Dehradun",
+    "region": "Garhwal",
+    "location": null,
+    "locationSource": null,
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "idealDuration": null,
+    "budgetLevel": null,
+    "experiences": [],
+    "highlights": [
+      "Gothic"
+    ],
+    "nearbyPlaces": [],
+    "coverImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Christ_Church%2C_Mussoorie.jpg",
+      "publicId": null,
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Christ_Church,_Mussoorie.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Kinsley Bros. — https://tuckdbpostcards.org/items/97391",
+      "alt": "PRINTED IN ENGLAND, COPYRIGHT LONDON, 2 backs, PUBLISHED SPECIALLY FOR THE MAFASILITE STATIONERY CO., MUSSOORIE, PHOTO \"KINSEY BROS"
+    },
+    "gallery": [],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Christ_Church,_Mussoorie",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Christ_Church,_Mussoorie",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Dwarahat",
+    "slug": "dwarahat",
+    "description": "Dwarahat is a town in the Almora district of Uttarakhand, India. Situated at an elevation of 1,510 meters (4,950 feet) in the Kumaon region, Dwarahat is known for its cultural heritage and historical significance, particularly related to the ancient Katyuri dynasty.",
+    "shortDescription": "Dwarahat is a town in the Almora district of Uttarakhand, India.",
+    "district": "Almora",
+    "region": "Kumaon",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.43,
+        29.78
+      ]
+    },
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "idealDuration": null,
+    "budgetLevel": null,
+    "experiences": [
+      "Yoga & Wellness",
+      "Temple Visits"
+    ],
+    "highlights": [
+      "Katyuri"
+    ],
+    "nearbyPlaces": [],
+    "coverImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Dwarahat%2C_Almora.jpg",
+      "publicId": null,
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dwarahat,_Almora.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Charles F. Xavier Xth — Own work",
+      "alt": "Dwarahat, Almora, Uttarakhand"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/0052423_Vandev_temple%2C_Dwarahat_Uttarakhand_029.jpg/1920px-0052423_Vandev_temple%2C_Dwarahat_Uttarakhand_029.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:0052423_Vandev_temple,_Dwarahat_Uttarakhand_029.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "The Bandeo temple, also called the Vandev temple, is a 9th to 10th century Hindu temple near the banks of river Khiru Ganga in Dwarahat, Almora district. The temple has a square plan in a pidha deval style with a pyramidal phamsana shikhara. The temp"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/0052523_Kacheri_group_of_temples%2C_Dwarahat_Uttarakhand_010.jpg/1920px-0052523_Kacheri_group_of_temples%2C_Dwarahat_Uttarakhand_010.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:0052523_Kacheri_group_of_temples,_Dwarahat_Uttarakhand_010.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "The Kacheri group – sometimes spelled Kachery group or Kachhari samuh – consists of twelve Hindu temples from the 11th to 13th century in Dwarahat, Almora district dedicated to Shiva, Vishnu and Devi. The stone temples of the Kacheri group are arrang"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/0052523_Kacheri_group_of_temples%2C_Dwarahat_Uttarakhand_318.jpg/1920px-0052523_Kacheri_group_of_temples%2C_Dwarahat_Uttarakhand_318.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:0052523_Kacheri_group_of_temples,_Dwarahat_Uttarakhand_318.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "The Kacheri group – sometimes spelled Kachery group or Kachhari samuh – consists of twelve Hindu temples from the 11th to 13th century in Dwarahat, Almora district dedicated to Shiva, Vishnu and Devi. The stone temples of the Kacheri group are arrang"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/0052523_Kacheri_group_of_temples%2C_Dwarahat_Uttarakhand_114.jpg/1920px-0052523_Kacheri_group_of_temples%2C_Dwarahat_Uttarakhand_114.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:0052523_Kacheri_group_of_temples,_Dwarahat_Uttarakhand_114.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "The Kacheri group – sometimes spelled Kachery group or Kachhari samuh – consists of twelve Hindu temples from the 11th to 13th century in Dwarahat, Almora district dedicated to Shiva, Vishnu and Devi. The stone temples of the Kacheri group are arrang"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/005242023_Gujjar_Deva_group_of_temples%2C_Dwarahat_Uttarakhand_050.jpg/1920px-005242023_Gujjar_Deva_group_of_temples%2C_Dwarahat_Uttarakhand_050.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:005242023_Gujjar_Deva_group_of_temples,_Dwarahat_Uttarakhand_050.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "The Gujjar Deva group, also called Gujjar Deo temples, are ruins of 11th to 12th century Hindu temples in Dwarahat. At its center is a panchayatana complex of five temples on a jagati, of which only the ruins of four survive. With exquiste artwork, t"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/005242023_Gujjar_Deva_group_of_temples%2C_Dwarahat_Uttarakhand_326.jpg/1920px-005242023_Gujjar_Deva_group_of_temples%2C_Dwarahat_Uttarakhand_326.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:005242023_Gujjar_Deva_group_of_temples,_Dwarahat_Uttarakhand_326.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "The Gujjar Deva group, also called Gujjar Deo temples, are ruins of 11th to 12th century Hindu temples in Dwarahat. At its center is a panchayatana complex of five temples on a jagati, of which only the ruins of four survive. With exquiste artwork, t"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/0052423_Badrinath_group_of_temples%2C_Dwarahat_Uttarakhand_218.jpg/1920px-0052423_Badrinath_group_of_temples%2C_Dwarahat_Uttarakhand_218.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:0052423_Badrinath_group_of_temples,_Dwarahat_Uttarakhand_218.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "The Badrinath group of temples are ruins of 12th century Hindu temples in Dwarahat, of which three survive in a form that can be studied. This complex is a fusion of the Himalayan architecture with design elements inspired by the nearby Gujjar Deva g"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dwarahat",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Dwarahat",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Forest Research Institute",
+    "slug": "forest-research-institute",
+    "description": "The Forest Research Institute is a Natural Resource Service training institute of the Indian Council of Forestry Research and Education and is an institution in the field of forestry research in India for Indian Forest Service cadres and all State Forest Service cadres. It is located at Dehradun in Uttarakhand, and is among the oldest institutions of its kind. In 1991, it was declared a deemed university by the University Grants Commission.",
+    "shortDescription": "The Forest Research Institute is a Natural Resource Service training institute of the Indian Council of Forestry Research and Education and is an institution in the field of forestry research in India for Indian Forest Service cadres and al",
+    "district": "Dehradun",
+    "region": "Garhwal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.9994,
+        30.3439
+      ]
+    },
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "idealDuration": null,
+    "budgetLevel": null,
+    "experiences": [
+      "Wildlife Watching"
+    ],
+    "highlights": [
+      "Heritage",
+      "National Heritage",
+      "museum"
+    ],
+    "nearbyPlaces": [],
+    "coverImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Forest_Research_Institute_campus%2C_Dehradun%2C_India.jpg",
+      "publicId": null,
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Research_Institute_campus,_Dehradun,_India.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Torarne — Own work",
+      "alt": "Forest Research Institute at Dehradun in India"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/The_Forest_Research_Institute%2C_Dehradun.jpg/1920px-The_Forest_Research_Institute%2C_Dehradun.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Forest_Research_Institute,_Dehradun.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Soulful sunshine — Own work",
+        "alt": "The Forest Research Institute, Dehradun"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Forest_Research_Institute%2C_Dehradun.jpg/1920px-Forest_Research_Institute%2C_Dehradun.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Research_Institute,_Dehradun.jpg",
+        "license": "Public domain",
+        "attribution": "Christine Palamidessi — Wikipedia:Contact us/Photo submission",
+        "alt": "Forest Research Institute , Dehradun, Uttarakhand, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Forest_Research_Institute%2C_Dehradun%2C_India_%28272763%29.jpg/1920px-Forest_Research_Institute%2C_Dehradun%2C_India_%28272763%29.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Research_Institute,_Dehradun,_India_(272763).jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Aman Bhargava — Unsplash",
+        "alt": "Forest Research Institute, Dehradun, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Forest_Research_Institute_-_Dehradun.jpg/1920px-Forest_Research_Institute_-_Dehradun.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Research_Institute_-_Dehradun.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Jaisridhar — Own work",
+        "alt": "A centenary building that hosts scientist, indian forest officers, conservation of over a 1000 yr old wood etc. Constructed in 1906 still stands to be dashing monument ever constructed.."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Forest_Research_Institute%2C_DehraDun%2C_India.JPG/1920px-Forest_Research_Institute%2C_DehraDun%2C_India.JPG",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Research_Institute,_DehraDun,_India.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Baluperoth — Own work",
+        "alt": "Forest Research Institute, DehraDun, India"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Forest_Research_Institute%2C_an_architectural_marvel_located_in_Dehradun_district_of_Uttarakhand.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Research_Institute,_an_architectural_marvel_located_in_Dehradun_district_of_Uttarakhand.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Khushbu Raj — Own work",
+        "alt": "The Forest Research Institute (FRI) is an institute of the Indian Council of Forestry Research and Education. It is located in Dehradun district of Uttarakhand. Students came here for their studies related to forestry and wood science. Many tourist a"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Kerala_Forest_Research_Institute_International_Guest_House_at_Peechi_Thrissur.JPG/1920px-Kerala_Forest_Research_Institute_International_Guest_House_at_Peechi_Thrissur.JPG",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kerala_Forest_Research_Institute_International_Guest_House_at_Peechi_Thrissur.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Navaneeth Krishnan S — Own work",
+        "alt": "Kerala Forest Research Institute International Guest House at Peechi, Thrissur, Kerala"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Forest_Research_Institute_(India)",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Forest_Research_Institute_(India)",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "G.B. Pant High Altitude Zoo",
+    "slug": "g-b-pant-high-altitude-zoo",
+    "description": "Pt. Govind Ballabh Pant High Altitude Zoo is a high altitude zoo situated in Nainital, Kumaon, Uttarakhand, India. Established in 1984 and opened to the public in 1995, it is situated on the Sher Ka Danda hill at a height of 2,100 metres (6,900 ft) above sea-level and is spread over 4.6 hectares (11 acres).",
+    "shortDescription": "Pt.",
+    "district": "Nainital",
+    "region": "Kumaon",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.469,
+        29.381
+      ]
+    },
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "idealDuration": null,
+    "budgetLevel": null,
+    "experiences": [],
+    "highlights": [],
+    "nearbyPlaces": [],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Bear_in_G_B_Pant_High_Altitude_Zoo%2CNainital.jpg/1920px-Bear_in_G_B_Pant_High_Altitude_Zoo%2CNainital.jpg",
+      "publicId": null,
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bear_in_G_B_Pant_High_Altitude_Zoo,Nainital.jpg",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "Varanya Prakash — Own work",
+      "alt": "A bear in Nainital Zoo."
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Red_Panda_at_Pt._G.B._Pant_High_Altitude_Zoo%2C_Nainital.jpg/1920px-Red_Panda_at_Pt._G.B._Pant_High_Altitude_Zoo%2C_Nainital.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Panda_at_Pt._G.B._Pant_High_Altitude_Zoo,_Nainital.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Akhil.jain1912 — Own work",
+        "alt": "Red Panda at Pt. G.B. Pant High Altitude Zoo, Nainital"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Tibetan_Wolf_at_Pt._G.B._Pant_High_Altitude_Zoo%2C_Nainital.jpg/1920px-Tibetan_Wolf_at_Pt._G.B._Pant_High_Altitude_Zoo%2C_Nainital.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tibetan_Wolf_at_Pt._G.B._Pant_High_Altitude_Zoo,_Nainital.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Akhil.jain1912 — Own work",
+        "alt": "Tibetan Wolf at Pt. G.B. Pant High Altitude Zoo, Nainital"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Pt._G.B._Pant_High_Altitude_Zoo_at_Nainital.jpg/1920px-Pt._G.B._Pant_High_Altitude_Zoo_at_Nainital.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pt._G.B._Pant_High_Altitude_Zoo_at_Nainital.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Nandanupadhyay — Own work",
+        "alt": "Pt. G.B. Pant High Altitude Zoo located at Nainital is one of the two high altitude Zoos in India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/View_of_Nainital_from_GB_Pant_High_Altitude_Zoo_02.jpg/1920px-View_of_Nainital_from_GB_Pant_High_Altitude_Zoo_02.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Nainital_from_GB_Pant_High_Altitude_Zoo_02.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Slyronit — Own work",
+        "alt": "View of Nainital from GB Pant High Altitude Zoo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/View_of_Nainital_from_GB_Pant_High_Altitude_Zoo_03.jpg/1920px-View_of_Nainital_from_GB_Pant_High_Altitude_Zoo_03.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Nainital_from_GB_Pant_High_Altitude_Zoo_03.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Slyronit — Own work",
+        "alt": "View of Nainital from GB Pant High Altitude Zoo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Daises_at_GB_Pant_High_Altitude_Zoo.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Daises_at_GB_Pant_High_Altitude_Zoo.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Slyronit — Own work",
+        "alt": "Daises at GB Pant High Altitude Zoo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Wapiti_from_Wagon_Trails.jpg/1920px-Wapiti_from_Wagon_Trails.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wapiti_from_Wagon_Trails.jpg",
+        "license": "CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)",
+        "attribution": "Brian0918 — photographed by Brian0918",
+        "alt": "Appears to be an albino Elk , located at Wagon Trails Animal Park ."
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/G._B._Pant_High_Altitude_Zoo",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/G._B._Pant_High_Altitude_Zoo",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "Gurney House",
+    "slug": "gurney-house",
+    "description": "Gurney House is a historic building located in Nainital, Uttarakhand, India, and was the residence of hunter-conservationist and writer Jim Corbett until he left India in 1947. Currently it is a private residence.",
+    "shortDescription": "Gurney House is a historic building located in Nainital, Uttarakhand, India, and was the residence of hunter-conservationist and writer Jim Corbett until he left India in 1947.",
+    "district": "Nainital",
+    "region": "Kumaon",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.45059,
+        29.388161
+      ]
+    },
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "idealDuration": null,
+    "budgetLevel": null,
+    "experiences": [],
+    "highlights": [
+      "Jim Corbett",
+      "Ayar"
+    ],
+    "nearbyPlaces": [],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Gurney_House%2C_Nainital%2C_India.jpg/1920px-Gurney_House%2C_Nainital%2C_India.jpg",
+      "publicId": null,
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gurney_House,_Nainital,_India.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Sabyasachi Paldas — Own work",
+      "alt": "Elevation of Gurney House, Nainital as on May 28, 2017"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Rocking_Chair%2C_Gurney_House%2C_Nainital%2C_India.jpg/1920px-Rocking_Chair%2C_Gurney_House%2C_Nainital%2C_India.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rocking_Chair,_Gurney_House,_Nainital,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sabyasachi Paldas — Own work",
+        "alt": "A Rocking Chair kept in the verandah of Gurney House, Nainital, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Walkway%2C_Gurney_House%2C_Nainital%2C_India.jpg/1920px-Walkway%2C_Gurney_House%2C_Nainital%2C_India.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Walkway,_Gurney_House,_Nainital,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sabyasachi Paldas — Own work",
+        "alt": "A view of the walkway, garden and a part of Gurney House"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Walkway%2C_Gurney_House%2C_Nainital.jpg/1920px-Walkway%2C_Gurney_House%2C_Nainital.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Walkway,_Gurney_House,_Nainital.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sabyasachi Paldas — Own work",
+        "alt": "Walkway in front of Gurney House, Nainital, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Verandah%2C_Gurney_House%2C_Nainital%2C_India.jpg/1920px-Verandah%2C_Gurney_House%2C_Nainital%2C_India.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Verandah,_Gurney_House,_Nainital,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sabyasachi Paldas — Own work",
+        "alt": "A verandah, on the right side of Gurney House, leading to the Tea Room"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Gurney_House-the_home_of_Jim_Corbett.jpg/1920px-Gurney_House-the_home_of_Jim_Corbett.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gurney_House-the_home_of_Jim_Corbett.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Schwiki — Own work",
+        "alt": "The side view of Gurney House, where Jim Corbett used to stay."
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Terrace_of_houses%2C_A39%2C_Farrington_Gurney_-_geograph.org.uk_-_5473478.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Terrace_of_houses,_A39,_Farrington_Gurney_-_geograph.org.uk_-_5473478.jpg",
+        "license": "CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)",
+        "attribution": "David Smith — Geograph Britain and Ireland",
+        "alt": "Terrace of houses, A39, Farrington Gurney"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Plaque%2C_Gurney_House%2C_Nainital%2C_India.jpg/1920px-Plaque%2C_Gurney_House%2C_Nainital%2C_India.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Plaque,_Gurney_House,_Nainital,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sabyasachi Paldas — Own work",
+        "alt": "The name plaque on the right hand side of the entrance gate"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gurney_House",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Gurney_House",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  },
+  {
+    "name": "St. John in the Wilderness Church",
+    "slug": "st-john-in-the-wilderness-church",
+    "description": "St. John in the Wilderness Church could refer to:",
+    "shortDescription": "St.",
+    "district": "Nainital",
+    "region": "Kumaon",
+    "location": null,
+    "locationSource": null,
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "idealDuration": null,
+    "budgetLevel": null,
+    "experiences": [],
+    "highlights": [],
+    "nearbyPlaces": [],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/St_John_in_the_Wilderness_Nainital.jpg/1920px-St_John_in_the_Wilderness_Nainital.jpg",
+      "publicId": null,
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:St_John_in_the_Wilderness_Nainital.jpg",
+      "license": "Public domain",
+      "attribution": "Harold Littledale (1853-1930 — Cambridge University Selections from Littledale India Collection",
+      "alt": "View of St. John in the Wilderness, Nainital (before the landslip)"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/St_John_in_the_Wilderness_Nainital_Sache.jpg/1920px-St_John_in_the_Wilderness_Nainital_Sache.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:St_John_in_the_Wilderness_Nainital_Sache.jpg",
+        "license": "Public domain",
+        "attribution": "Sache & Westfield (in collection of Harold Littledale) — https://cudl.lib.cam.ac.uk/view/PH-Y-03022-I/6",
+        "alt": "St John in the Wilderness, Nainital before the landslip of 1880"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/St_John_in_the_Wilderness_Church%2C_Sukhatal%2C_Mallital%2C_Nainital%2C_Uttarakhand%2C_India.jpg/1920px-St_John_in_the_Wilderness_Church%2C_Sukhatal%2C_Mallital%2C_Nainital%2C_Uttarakhand%2C_India.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:St_John_in_the_Wilderness_Church,_Sukhatal,_Mallital,_Nainital,_Uttarakhand,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Photographer Praveen Singh Bisht — Own work",
+        "alt": "St. John in the Wilderness Church is situated near Sukhatal, Mallital, Nainital, Uttarakhand, India. It's one of the oldest buildings in Nainital since 1848. A memorial in the church is to those killed in the 1880 landslip. The cemetery in the church"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Church_St_John_in_the_Wilderness%2C_Nainital%2C_11-2009_-_panoramio.jpg/1920px-Church_St_John_in_the_Wilderness%2C_Nainital%2C_11-2009_-_panoramio.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Church_St_John_in_the_Wilderness,_Nainital,_11-2009_-_panoramio.jpg",
+        "license": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+        "attribution": "David M. — https://web.archive.org/web/20161015154859/http://www.panoramio.com/photo/31494498",
+        "alt": "Church St John in the Wilderness, Nainital, 11/2009"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Church_of_St_John_in_the_Wilderness_Episcopal_-_panoramio.jpg/1920px-Church_of_St_John_in_the_Wilderness_Episcopal_-_panoramio.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Church_of_St_John_in_the_Wilderness_Episcopal_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Idawriter — https://web.archive.org/web/20161025060023/http://www.panoramio.com/photo/82292291",
+        "alt": "Church of St John in the Wilderness Episcopal This is an image of a place or building that is listed on the National Register of Historic Places in the United States of America . Its reference number is 95000963 ( Wikidata )."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/St._John_in_the_Wilderness_Church_08.jpg/1920px-St._John_in_the_Wilderness_Church_08.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:St._John_in_the_Wilderness_Church_08.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Harvinder Chandigarh — Own work",
+        "alt": "Description board of St. John in the Wilderness Church,near McLeod Gan,Dharamshala,Himachal Pradesh,India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/St._John_in_the_Wilderness_Church_02.jpg/1920px-St._John_in_the_Wilderness_Church_02.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:St._John_in_the_Wilderness_Church_02.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Harvinder Chandigarh — Own work",
+        "alt": "St. John in the Wilderness Church,near McLeod Gan,Dharamshala,Himachal Pradesh,India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/St._John_in_the_Wilderness_Church_03.jpg/1920px-St._John_in_the_Wilderness_Church_03.jpg",
+        "publicId": null,
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:St._John_in_the_Wilderness_Church_03.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Harvinder Chandigarh — Own work",
+        "alt": "St. John in the Wilderness Church,near McLeod Gan,Dharamshala,Himachal Pradesh,India"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/St._John_in_the_Wilderness_Church",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/St._John_in_the_Wilderness_Church",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09"
+  }
+]

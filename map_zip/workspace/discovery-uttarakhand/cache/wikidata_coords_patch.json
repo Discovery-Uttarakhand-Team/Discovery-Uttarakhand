@@ -1,0 +1,38 @@
+{
+ "Chakrata": {
+  "qid": "Q858555",
+  "lat": 30.69,
+  "lon": 77.86,
+  "label": "Chakrata"
+ },
+ "Kanatal": {
+  "qid": "Q6360738",
+  "lat": 30.415277777777778,
+  "lon": 78.32111111111111,
+  "label": "Kanatal"
+ },
+ "Dhari Devi": {
+  "qid": "Q5269186",
+  "lat": 30.258084574587347,
+  "lon": 78.87738169091006,
+  "label": "Dhari Devi"
+ },
+ "Kedarnath Temple": {
+  "qid": "Q866014",
+  "lat": 30.733335,
+  "lon": 79.066659,
+  "label": "Kedarnath Temple"
+ },
+ "Patal Bhuvaneshwar": {
+  "qid": "Q7144196",
+  "lat": 29.90763886,
+  "lon": 79.60988678,
+  "label": "Patal Bhuvaneshwar"
+ },
+ "Dayara Bugyal": {
+  "qid": "Q105063084",
+  "lat": 30.8383656,
+  "lon": 78.5550349,
+  "label": "Dayara Bugyal"
+ }
+}

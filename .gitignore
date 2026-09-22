@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+*/node_modules/
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build outputs & caches
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temp and large files
+*.zip
+*.tar.gz
+.tempmediaStorage/
+scratch/
+tmp/
+temp/

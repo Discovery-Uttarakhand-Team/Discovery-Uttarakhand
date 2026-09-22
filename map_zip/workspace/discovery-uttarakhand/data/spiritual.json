@@ -1,0 +1,2319 @@
+[
+  {
+    "name": "Badrinath Temple",
+    "slug": "badrinath-temple",
+    "description": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu. It is located in the town of Badrinath in Chamoli district of Uttarakhand, India. The temple is one of the 108 Divya Desams, sacred to Vaishnavism, where Vishnu is worshipped as Badrinath.",
+    "shortDescription": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu.",
+    "location": "Badrinath",
+    "district": "Chamoli",
+    "region": "Garhwal",
+    "latitude": 30.744695,
+    "longitude": 79.491175,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": "late April to early November",
+    "bestTimeSourceSentence": "Due to extreme weather conditions in the Himalayas, the temple is open for six months each year, from late April to early November",
+    "highlights": [
+      "Chota Char Dham",
+      "Divya Desam",
+      "Adi Shankara",
+      "Tapt Kund"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Yoga & Wellness",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Badrinath_Temple_%2C_Uttarakhand.jpg/1920px-Badrinath_Temple_%2C_Uttarakhand.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badrinath_Temple_,_Uttarakhand.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Anubha khare — Own work",
+      "alt": "Badrinath Temple in uttarakhand are situated at 3100 meters above sea level . It is one of the four Dhams"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Devotees_at_the_Badrinath_Temple_complex_in_Uttarakhand%2C_India.jpg/1920px-Devotees_at_the_Badrinath_Temple_complex_in_Uttarakhand%2C_India.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Devotees_at_the_Badrinath_Temple_complex_in_Uttarakhand,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Billjones94 — Own work",
+        "alt": "Devotees at the Badrinath Temple complex in Uttarakhand, India. Photo taken by Yogabrata Chakraborty, on October 3, 2022."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Badrinath_Temple%2C_Uttarakhand_%28Photo-_Vishwanath_Negi%29.jpg/1920px-Badrinath_Temple%2C_Uttarakhand_%28Photo-_Vishwanath_Negi%29.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badrinath_Temple,_Uttarakhand_(Photo-_Vishwanath_Negi).jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Vishwanath Negi — Own work",
+        "alt": "Badrinath is a holy town and a nagar panchayat in Chamoli district in the state of Uttarakhand, India."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Devotees_at_the_Badrinath_Temple_in_Uttarakhand%2C_India.jpg/1920px-Devotees_at_the_Badrinath_Temple_in_Uttarakhand%2C_India.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Devotees_at_the_Badrinath_Temple_in_Uttarakhand,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Billjones94 — Own work",
+        "alt": "Devotees at the Badrinath Temple in Uttarakhand, India. Photo taken by Yogabrata Chakraborty, on October 3, 2022."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Badrinath_Temple_Tapt_Kund_hot_springs.jpg/1920px-Badrinath_Temple_Tapt_Kund_hot_springs.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badrinath_Temple_Tapt_Kund_hot_springs.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Shobhit Gosain — Own work",
+        "alt": "Tapt Kund hot springs at Badrinath Temple, Uttarakhand"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Badrinath_Temple%2C_Uttarakhand%2C_India_%282012%29_b24.jpg/1920px-Badrinath_Temple%2C_Uttarakhand%2C_India_%282012%29_b24.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badrinath_Temple,_Uttarakhand,_India_(2012)_b24.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Badrinath"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Badrinath_Temple%2C_Uttarakhand%2C_India_%282012%29_6.jpg/1920px-Badrinath_Temple%2C_Uttarakhand%2C_India_%282012%29_6.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badrinath_Temple,_Uttarakhand,_India_(2012)_6.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "badrinath"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Badrinath_Temple%2C_Uttarakhand%2C_India_%282012%29_b44.jpg/1920px-Badrinath_Temple%2C_Uttarakhand%2C_India_%282012%29_b44.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badrinath_Temple,_Uttarakhand,_India_(2012)_b44.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Badrinath"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Badrinath_Temple",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Badrinath_Temple",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Divya Desam)"
+  },
+  {
+    "name": "Baijnath Temple",
+    "slug": "baijnath-temple",
+    "description": "Baijnath is a small town on the banks of the Gomati River in the Bageshwar district in Kumaon division of Uttarakhand, India. The place is most noted for its ancient temples, which have been recognized as Monuments of National Importance by the Archaeological Survey of India in Uttarakhand. Baijnath has been selected as one of the four places to be connected by the Shiva Heritage Circuit in Kumaon, under the Swadesh Darshan Scheme of the Government of India.",
+    "shortDescription": "Baijnath is a small town on the banks of the Gomati River in the Bageshwar district in Kumaon division of Uttarakhand, India.",
+    "location": "Baijnath, near Bageshwar",
+    "district": "Bageshwar",
+    "region": "Kumaon",
+    "latitude": 29.92,
+    "longitude": 79.62,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Katyuri"
+    ],
+    "experiences": [
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Baijnath_Dham_with_Himalayas_in_the_backdrop.jpg/1920px-Baijnath_Dham_with_Himalayas_in_the_backdrop.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Baijnath_Dham_with_Himalayas_in_the_backdrop.jpg",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "Shikharsaxena1618 — Own work",
+      "alt": "This is a photo of ASI monument number"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Temples_de_Baijnath%2C_Uttarakhand%2C_Inde.jpg/1920px-Temples_de_Baijnath%2C_Uttarakhand%2C_Inde.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Temples_de_Baijnath,_Uttarakhand,_Inde.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Yann ( talk ) — Own work",
+        "alt": "Temples of Baijnath, Uttarakhand, India."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Baijnath_%28Garur%29_Temple.png/1920px-Baijnath_%28Garur%29_Temple.png",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Baijnath_(Garur)_Temple.png",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Kcsr.ntl — Own work",
+        "alt": "Baijnath Temple, Garur ( Bageshwar)"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Temples_of_Baijnath%2C_Uttarakhand%2C_India.jpg/1920px-Temples_of_Baijnath%2C_Uttarakhand%2C_India.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Temples_of_Baijnath,_Uttarakhand,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Yann ( talk ) — Own work",
+        "alt": "Temples of Baijnath, Bageshwar district, Uttarakhand, India."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Shiva%2C_temples_of_Baijnath%2C_Uttarakhand%2C_India.jpg/1920px-Shiva%2C_temples_of_Baijnath%2C_Uttarakhand%2C_India.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shiva,_temples_of_Baijnath,_Uttarakhand,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Yann ( talk ) — Own work",
+        "alt": "Shiva statue, temples of Baijnath, Uttarakhand, India."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/One_of_the_temples_of_Baijnath%2C_Uttarakhand%2C_India.jpg/1920px-One_of_the_temples_of_Baijnath%2C_Uttarakhand%2C_India.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:One_of_the_temples_of_Baijnath,_Uttarakhand,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Yann ( talk ) — Own work",
+        "alt": "Temples of Baijnath, Uttarakhand, India."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Durga%2C_Baijnath%2C_Uttarakhand.jpg/1920px-Durga%2C_Baijnath%2C_Uttarakhand.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Durga,_Baijnath,_Uttarakhand.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Yann ( talk ) — Own work This photograph was taken with a Nikon Coolpix S3100",
+        "alt": "Durga, Baijnath, Uttarakhand."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Descriptive_board%2C_temples_of_Baijnath%2C_Uttarakhand%2C_India.jpg/1920px-Descriptive_board%2C_temples_of_Baijnath%2C_Uttarakhand%2C_India.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Descriptive_board,_temples_of_Baijnath,_Uttarakhand,_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Original: Archaeological Survey of India Photograph: Yann Forget — Self-photographed This photograph was taken with a Nikon Coolpix S3100",
+        "alt": "Descriptive board, temples of Baijnath, Uttarakhand, India."
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Baijnath,_Uttarakhand",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Baijnath,_Uttarakhand",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple Complex"
+  },
+  {
+    "name": "Chandi Devi Temple",
+    "slug": "chandi-devi-temple",
+    "description": "Chandi Devi Temple, Haridwar is a Hindu temple dedicated to Goddess Chandi Devi in the holy city of Haridwar in the Uttarakhand state of India. The temple is situated atop the Neel Parvat on the Eastern summit of the Sivalik Hills, the southernmost mountain chain of the Himalayas. Chandi Devi Temple was built in 1929 by Suchat Singh in his reign as the King of Kashmir.",
+    "shortDescription": "Chandi Devi Temple, Haridwar is a Hindu temple dedicated to Goddess Chandi Devi in the holy city of Haridwar in the Uttarakhand state of India.",
+    "location": "Haridwar",
+    "district": "Haridwar",
+    "region": "Garhwal",
+    "latitude": 29.93416667,
+    "longitude": 78.17944444,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Neel Parvat",
+      "ropeway"
+    ],
+    "experiences": [
+      "Trekking",
+      "Pilgrimage",
+      "Yoga & Wellness",
+      "Ropeway Rides",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chandi_Devi_Mandir%2CHaridwar.JPG/1920px-Chandi_Devi_Mandir%2CHaridwar.JPG",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandi_Devi_Mandir,Haridwar.JPG",
+      "license": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+      "attribution": "World8115 — Own work",
+      "alt": "Chandi Devi Mandir,Haridwar"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/View_of_the_Ganges_River_from_the_ropeway_to_Chandi_Devi_Temple%2C_Haridwar.JPG/1920px-View_of_the_Ganges_River_from_the_ropeway_to_Chandi_Devi_Temple%2C_Haridwar.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_the_Ganges_River_from_the_ropeway_to_Chandi_Devi_Temple,_Haridwar.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "World8115 — Own work",
+        "alt": "View of the Ganges River from the ropeway to Chandi Devi Temple, Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Chandi_Devi_Udankhtola%2C_Haridwar.JPG/1920px-Chandi_Devi_Udankhtola%2C_Haridwar.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandi_Devi_Udankhtola,_Haridwar.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "World8115 — Own work",
+        "alt": "Entrance to the Chandi Devi Ropeway station. The ropeway service known as Chandi Devi Udankhatola was introduced for the benefit of the piligrims. The ropeway carries the pilgrims from the lower station located near Gauri Shankar Temple directly to t"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Chandi_Devi_Udankhtola_station.JPG/1920px-Chandi_Devi_Udankhtola_station.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandi_Devi_Udankhtola_station.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "World8115 — Own work",
+        "alt": "The ropeway service known as Chandi Devi Udankhatola was introduced for the benefit of the piligrims. The ropeway carries the pilgrims from the lower station (shown) located near Gauri Shankar Temple directly to the Chandi Devi Temple"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Chandi_Devi_temple%2C_ropeway.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandi_Devi_temple,_ropeway.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Ekabhishek — Own work",
+        "alt": "Chandi Devi temple, ropeway"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Ropeway_to_Chandi_Devi_Temple_-_panoramio.jpg/1920px-Ropeway_to_Chandi_Devi_Temple_-_panoramio.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ropeway_to_Chandi_Devi_Temple_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "JediPro — https://web.archive.org/web/20161102200819/http://www.panoramio.com/photo/44159944",
+        "alt": "Ropeway to Chandi Devi Temple"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chandi_Devi_Temple,_Haridwar",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Chandi_Devi_Temple,_Haridwar",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple"
+  },
+  {
+    "name": "Chitai Golu Devta Temple",
+    "slug": "chitai-golu-devta-temple",
+    "description": "Golu Devata is a deity of the Kumaoni community of India. Also known as the god of justice .",
+    "shortDescription": "Golu Devata is a deity of the Kumaoni community of India.",
+    "location": "Chitai, near Almora",
+    "district": "Almora",
+    "region": "Kumaon",
+    "latitude": 29.795176,
+    "longitude": 79.873076,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Golu Devta"
+    ],
+    "experiences": [
+      "Wildlife Watching",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Chitai_gwall_almora_-_panoramio.jpg/1920px-Chitai_gwall_almora_-_panoramio.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chitai_gwall_almora_-_panoramio.jpg",
+      "license": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+      "attribution": "pramod nagher — https://web.archive.org/web/20161023020403/http://www.panoramio.com/photo/53962277",
+      "alt": "chitai gwall almora"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Entrance_of_Chitai_Golu_Devta_Temple.jpg/1920px-Entrance_of_Chitai_Golu_Devta_Temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Entrance_of_Chitai_Golu_Devta_Temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Kanishkapant98 — Own work",
+        "alt": "The temple is located in Almora district and is attributed to Golu Devta, who is revered to as the Justice god. Devotees believe that fair and quick justice is delivered at the temple and thus, people write letters and tie them at the temple seeking "
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Jai_Golu_Devta.jpg/1920px-Jai_Golu_Devta.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jai_Golu_Devta.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Vijay Sah, ENJOY MUSIC, NAINITAL 9412352081 — Own work",
+        "alt": "Photograph of Golu Devta at Hawalbagh, Almore"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Chittai_golu_devta_temple_IMG_2025_05_17_18_42_10.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chittai_golu_devta_temple_IMG_2025_05_17_18_42_10.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Pushkar2016 — Own work",
+        "alt": "Chittai golu devta temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Golu_Devta_Basulisera_Idol_1.jpg/1920px-Golu_Devta_Basulisera_Idol_1.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Golu_Devta_Basulisera_Idol_1.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Vijay sah enjoy music — Own work",
+        "alt": "Idol of Golu Devta at Basulisera. It is about 40 Kms from Ranikhet Near Someshwar , Almora, Uttarakhand, India"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Golu_devta_temple_IMG_2025_05_17_18_42_08.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Golu_devta_temple_IMG_2025_05_17_18_42_08.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Pushkar2016 — Own work",
+        "alt": "Chittai golu devata temple, almora, uttarakhand"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Golu_Devta_Basuleysera_2.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Golu_Devta_Basuleysera_2.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Vijay sah enjoy music — Own work",
+        "alt": "Idol of Golu Devta at Basulisera. It is about 40 Kms from Ranikhet Near Someshwar , Almora, Uttarakhand, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Golu_Devta_%2CKumour%2C_Pithoragarh._Photo_by_Pankaj_Chauhan.JPG/1920px-Golu_Devta_%2CKumour%2C_Pithoragarh._Photo_by_Pankaj_Chauhan.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Golu_Devta_,Kumour,_Pithoragarh._Photo_by_Pankaj_Chauhan.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Manoj.singh.mahar — Own work",
+        "alt": "This temple is situated in Village-Kumour, approx. 2 kms from District - Pithoragarh (is also called as Soar Valley) of Uttarakhand, India and about 4 Kms from Naini-Saini Airport."
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Golu_Devata",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Golu_Devata",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple"
+  },
+  {
+    "name": "Dhari Devi",
+    "slug": "dhari-devi",
+    "description": "Dhari Devi a Hindu temple located on the banks of the Alaknanda River between Srinagar and Pauri Garhwal in the Garhwal Region of Uttarakhand, India. The temple is home to the upper half of the idol of the goddess Dhari, while the lower half of the idol is located in Kalimath, where she is worshipped as a manifestation of the Goddess Kali.",
+    "shortDescription": "Dhari Devi a Hindu temple located on the banks of the Alaknanda River between Srinagar and Pauri Garhwal in the Garhwal Region of Uttarakhand, India.",
+    "location": "On the Alaknanda near Srinagar",
+    "district": "Pauri Garhwal",
+    "region": "Garhwal",
+    "latitude": 30.258084574587347,
+    "longitude": 78.87738169091006,
+    "locationSource": "Wikidata Q5269186 (CC0)",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [],
+    "experiences": [
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dhari_Devi_Temple%2C_Srinagar%2C_Uttarakhand.jpg/1920px-Dhari_Devi_Temple%2C_Srinagar%2C_Uttarakhand.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dhari_Devi_Temple,_Srinagar,_Uttarakhand.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Rohit Sharma — Own work",
+      "alt": "Dhari Devi a Hindu temple and one of 108 Shakti Sthals located on the banks of the Alaknanda River between Srinagar and Rudraprayag in the Garhwal Region of Uttarakhand, India. She is considered to be the guardian deity of Uttarakhand."
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Dhari_Devi_temple.jpg/1920px-Dhari_Devi_temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dhari_Devi_temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sachinbauriyan — Own work",
+        "alt": "A sacred place dedicated to the local deity of Uttarakhand is called Dhari Devi in Srinagar Garhwal."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/View_of_Dhari_Devi_Temple%2C_Uttarakhand%2C_India-March_2026.jpg/1920px-View_of_Dhari_Devi_Temple%2C_Uttarakhand%2C_India-March_2026.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Dhari_Devi_Temple,_Uttarakhand,_India-March_2026.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Shrvn.K — Own work",
+        "alt": "View of Dhari Devi Temple, Uttarakhand, India-March 2026"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Dhari_Devi_Temple.jpg/1920px-Dhari_Devi_Temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dhari_Devi_Temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Consequoia — Own work",
+        "alt": "Dhari Devi Temple in 2026"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Dhari_Devi_Temple_Clear_Top_View.jpg/1920px-Dhari_Devi_Temple_Clear_Top_View.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dhari_Devi_Temple_Clear_Top_View.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Wiki maddymadhavan — Own work",
+        "alt": "Dhari Devi Temple is a revered shrine located on the banks of the Alaknanda River between Srinagar and Rudraprayag in Uttarakhand. This temple, dedicated to Dhari Devi, a manifestation of Goddess Kali, is considered the guardian deity of Uttarakhand "
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Dhari_Devi_Temple_Scenic_View.jpg/1920px-Dhari_Devi_Temple_Scenic_View.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dhari_Devi_Temple_Scenic_View.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Wiki maddymadhavan — Own work",
+        "alt": "Dhari Devi Temple is a revered shrine located on the banks of the Alaknanda River between Srinagar and Rudraprayag in Uttarakhand. This temple, dedicated to Dhari Devi, a manifestation of Goddess Kali, is considered the guardian deity of Uttarakhand "
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Dhari_Devi_Temple_2026.jpg/1920px-Dhari_Devi_Temple_2026.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dhari_Devi_Temple_2026.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Consequoia — Own work",
+        "alt": "View of Dhari Devi Temple on Alaknanda river"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Maa_Dhari_Devi_Temple_Situated_at_Ganga_River_in_Srinagar%2C_Uttarakhand_India.jpg/1920px-Maa_Dhari_Devi_Temple_Situated_at_Ganga_River_in_Srinagar%2C_Uttarakhand_India.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Maa_Dhari_Devi_Temple_Situated_at_Ganga_River_in_Srinagar,_Uttarakhand_India.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Techmomos — Own work",
+        "alt": "This media has been taken in the country: India"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dhari_Devi",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Dhari_Devi",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple"
+  },
+  {
+    "name": "Gangotri Temple",
+    "slug": "gangotri-temple",
+    "description": "Gangotri is a town and a Nagar Panchayat (municipality) in Uttarkashi district in the state of Uttarakhand, India. It is 99 km from Uttarkashi, the main district headquarter. It is a Hindu pilgrim town on the banks of the river Bhagirathi – the origin of the river Ganges.",
+    "shortDescription": "Gangotri is a town and a Nagar Panchayat (municipality) in Uttarkashi district in the state of Uttarakhand, India.",
+    "location": "Gangotri",
+    "district": "Uttarkashi",
+    "region": "Garhwal",
+    "latitude": 30.994,
+    "longitude": 78.941,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Chota Char Dham",
+      "Bhagirathi"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Gangotri_Temple_nightview_WTK20150915-DSC_4122.jpg/1920px-Gangotri_Temple_nightview_WTK20150915-DSC_4122.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangotri_Temple_nightview_WTK20150915-DSC_4122.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "schwiki — Own work",
+      "alt": "The image was taken in the project WTK 2015 in Gangotri temple complex."
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Temple_bells_Gangotri_WTK20150915-DSC_4119.jpg/1920px-Temple_bells_Gangotri_WTK20150915-DSC_4119.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Temple_bells_Gangotri_WTK20150915-DSC_4119.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "schwiki — Own work",
+        "alt": "The images of different size Temple bells was taken in the project WTK 2015 in Gangotri."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Sadhu_infront_of_Gangotri_Temple_WTK20150915-IMG_0535.jpg/1920px-Sadhu_infront_of_Gangotri_Temple_WTK20150915-IMG_0535.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sadhu_infront_of_Gangotri_Temple_WTK20150915-IMG_0535.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "DipankarSen68 — Own work",
+        "alt": "The image was taken in the project WTK 2015 in Gangotri temple complex."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Gangotri_02.JPG/1920px-Gangotri_02.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangotri_02.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Gangotri"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Gangotri_06.JPG/1920px-Gangotri_06.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangotri_06.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Gangotri"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gangotri_05.JPG/1920px-Gangotri_05.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangotri_05.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Gangotri"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Gangotri_47.JPG/1920px-Gangotri_47.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangotri_47.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Gangotri"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Gangotri_04.JPG/1920px-Gangotri_04.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangotri_04.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Gangotri"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gangotri",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Gangotri",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple"
+  },
+  {
+    "name": "Har Ki Pauri",
+    "slug": "har-ki-pauri",
+    "description": "Har Ki Pauri is a sacred ghat on the banks of the Ganges River in the Hindu holy city of Haridwar, in the Indian state of Uttarakhand.",
+    "shortDescription": "Har Ki Pauri is a sacred ghat on the banks of the Ganges River in the Hindu holy city of Haridwar, in the Indian state of Uttarakhand.",
+    "location": "Haridwar",
+    "district": "Haridwar",
+    "region": "Garhwal",
+    "latitude": 29.95666667,
+    "longitude": 78.17083333,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Ganga Aarti",
+      "Kumbh Mela"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Har_Ki_Pauri_and_Clock_Tower_of_Haridwar.jpg/1920px-Har_Ki_Pauri_and_Clock_Tower_of_Haridwar.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Har_Ki_Pauri_and_Clock_Tower_of_Haridwar.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Whispyhistory — Own work",
+      "alt": "Har Ki Pauri and Clock Tower of Haridwar"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Evening_aarti_at_Har-ki-pauri%2C_Haridwar.JPG/1920px-Evening_aarti_at_Har-ki-pauri%2C_Haridwar.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Evening_aarti_at_Har-ki-pauri,_Haridwar.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Ekabhishek — Own work",
+        "alt": "Evening aarti at Har-ki-pauri, Haridwar, 2012"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Har_ki_Pauri%2C_Ganga_river%2C_Haridwar_2.jpg/1920px-Har_ki_Pauri%2C_Ganga_river%2C_Haridwar_2.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Har_ki_Pauri,_Ganga_river,_Haridwar_2.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "आशीष_भटनागर — Own work",
+        "alt": "Har ki Pauri, Ganga river, Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Har_ki_Pauri%2C_Ganga_river%2C_Haridwar_4.jpg/1920px-Har_ki_Pauri%2C_Ganga_river%2C_Haridwar_4.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Har_ki_Pauri,_Ganga_river,_Haridwar_4.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "आशीष_भटनागर — Own work",
+        "alt": "Har ki Pauri, Ganga river, Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Clock_Tower_at_Har_ki_Pauri%2C_Haridwar.jpg/1920px-Clock_Tower_at_Har_ki_Pauri%2C_Haridwar.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Clock_Tower_at_Har_ki_Pauri,_Haridwar.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Apurba Biswas — Own work",
+        "alt": "Clock Tower at Har ki Pauri, Haridwar"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Har_ki_Pauri%2C_Ganga_river%2C_Haridwar_3.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Har_ki_Pauri,_Ganga_river,_Haridwar_3.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "आशीष_भटनागर — Own work",
+        "alt": "Har ki Pauri, Ganga river, Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/View_of_Har_Ki_Pauri.jpg/1920px-View_of_Har_Ki_Pauri.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Har_Ki_Pauri.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Paradise Chronicle — Own work",
+        "alt": "View of Har Ki Pauri with the clocktower in Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Har_ki_pauri_01.jpg/1920px-Har_ki_pauri_01.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Har_ki_pauri_01.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "pavankunar — Own work",
+        "alt": "har ki pauri, haridwar"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Har_Ki_Pauri",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Har_Ki_Pauri",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Sacred Ghat"
+  },
+  {
+    "name": "Hemkund Sahib",
+    "slug": "hemkund-sahib",
+    "description": "Gurdwara Hemkund Sahib is a Sikh place of worship (gurdwara) and pilgrimage site in Chamoli district, Uttarakhand, India. It is devoted to Guru Gobind Singh (1666–1708), the tenth Sikh Guru, and finds mention in Dasam Granth. With its setting of a glacial lake surrounded by seven mountain peaks, each adorned by a Nishan Sahib on its cliff, it is according to the Survey of India located in the Garhwal Himalaya at an elevation of 4,572 metres (15,000 feet).",
+    "shortDescription": "Gurdwara Hemkund Sahib is a Sikh place of worship (gurdwara) and pilgrimage site in Chamoli district, Uttarakhand, India.",
+    "location": "Near Joshimath",
+    "district": "Chamoli",
+    "region": "Garhwal",
+    "latitude": 30.70021667,
+    "longitude": 79.61598333,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": "July and August",
+    "bestTimeSourceSentence": "The best months to visit are July and August, during the monsoons",
+    "highlights": [
+      "Gurudwara",
+      "Lakshman"
+    ],
+    "experiences": [
+      "Trekking",
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Hemkund_Sahib_Chamoli_Uttarakhand_India.jpg/1920px-Hemkund_Sahib_Chamoli_Uttarakhand_India.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hemkund_Sahib_Chamoli_Uttarakhand_India.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Praveen Negi — Own work",
+      "alt": "The image is of Hemkund Sahib located in chamoli district of Uttarakhand India at an elevation of 4,632 meters (15,197 feet)."
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Portrait_of_Hawaldar_Modan_Singh_who_found_way_to_Hemkund_Sahib.jpg/1920px-Portrait_of_Hawaldar_Modan_Singh_who_found_way_to_Hemkund_Sahib.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_Hawaldar_Modan_Singh_who_found_way_to_Hemkund_Sahib.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guglani — Own work",
+        "alt": "Historic perspective of Hemkund Sahib exploration"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Laxman_temple_at_Hemkund_Sahib_at_an_altitude_14%2C200_ft_DSCN3775.jpg/1920px-Laxman_temple_at_Hemkund_Sahib_at_an_altitude_14%2C200_ft_DSCN3775.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Laxman_temple_at_Hemkund_Sahib_at_an_altitude_14,200_ft_DSCN3775.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sumita Roy Dutta — Own work",
+        "alt": "It was many generations before the Sikh community was introduced to Hemkund Sahib, was worshipped by the local Bhotia and Gharwali community who lives in the border area of India and Tibet and nearby villages of Joshimath use to come and pay their re"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Drone_shot_of_Hemkund_sahib.jpg/1920px-Drone_shot_of_Hemkund_sahib.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Drone_shot_of_Hemkund_sahib.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Harshit SR — Own work",
+        "alt": "Drone shot of Hemkund sahib, Chamoli District, Uttarakhand, taken early in the morning."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Hemkund_Sahib_and_Lokpal_Lake.jpg/1920px-Hemkund_Sahib_and_Lokpal_Lake.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hemkund_Sahib_and_Lokpal_Lake.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Harshit SR — Own work",
+        "alt": "Hemkund sahib, Chamoli District, Uttarakhand, taken early in the morning."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Sri_Hemkund_Sahib_3.jpg/1920px-Sri_Hemkund_Sahib_3.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sri_Hemkund_Sahib_3.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Kp.vasant — Own work",
+        "alt": "Gurudwara sri hemkund sahibji"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Love_and_respect_dont_have_any_boundary_couple_from_other_country_at_Hemkund_Sahib_IndiaDSCN3765.jpg/1920px-Love_and_respect_dont_have_any_boundary_couple_from_other_country_at_Hemkund_Sahib_IndiaDSCN3765.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Love_and_respect_dont_have_any_boundary_couple_from_other_country_at_Hemkund_Sahib_IndiaDSCN3765.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sumita Roy Dutta — Own work",
+        "alt": "Love and respect dont have any boundary couple from other country at Hemkund Sahib, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/View_from_Gurudwara_Hemkund_Sahib.jpg/1920px-View_from_Gurudwara_Hemkund_Sahib.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_Gurudwara_Hemkund_Sahib.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Japleenpasricha — Own work",
+        "alt": "View from Gurudwara Hemkund Sahib"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gurdwara_Hemkund_Sahib",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Gurdwara_Hemkund_Sahib",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Sikh Gurdwara"
+  },
+  {
+    "name": "Jageshwar",
+    "slug": "jageshwar",
+    "description": "Jageshwar is a Hindu pilgrimage town near Almora in Almora district of the Himalayan Indian state of Uttarakhand. It is one of the Dhams (pilgrimage region) in the Shaivism tradition. The site is protected under Indian laws, and managed by the Archaeological Survey of India (ASI).",
+    "shortDescription": "Jageshwar is a Hindu pilgrimage town near Almora in Almora district of the Himalayan Indian state of Uttarakhand.",
+    "location": "Jageshwar",
+    "district": "Almora",
+    "region": "Kumaon",
+    "latitude": 29.63730556,
+    "longitude": 79.85469444,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Archaeological Survey of India",
+      "Dandeshwar"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Yoga & Wellness",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Jageshwar_Dham_Temple%2C_Almora_65.jpg/1920px-Jageshwar_Dham_Temple%2C_Almora_65.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jageshwar_Dham_Temple,_Almora_65.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "FarEnd2018 — Own work",
+      "alt": "Jageshwar Dham Temple, Almora Monument of National Importance"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Way_to_Jageshwar_Temple_Almora.jpg/1920px-Way_to_Jageshwar_Temple_Almora.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Way_to_Jageshwar_Temple_Almora.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Chauhans87 — Own work",
+        "alt": "Almora to Jageshwar Temple way. Pinus trees along the road side and pinus leaves (needle) on the road. Milky white weather gives beauty to the way."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Jageshwar_Dham_Temple%2C_Almora_61.jpg/1920px-Jageshwar_Dham_Temple%2C_Almora_61.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jageshwar_Dham_Temple,_Almora_61.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Jageshwar Dham Temple, Almora Monument of National Importance"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Jageshwar_Dham_Temple%2C_Almora_40.jpg/1920px-Jageshwar_Dham_Temple%2C_Almora_40.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jageshwar_Dham_Temple,_Almora_40.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Jageshwar Dham Temple, Almora Monument of National Importance"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Jageshwar_Dham_Temple%2C_Almora_41.jpg/1920px-Jageshwar_Dham_Temple%2C_Almora_41.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jageshwar_Dham_Temple,_Almora_41.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Jageshwar Dham Temple, Almora Monument of National Importance"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Jageshwar_Dham_Temple%2C_Almora_04.jpg/1920px-Jageshwar_Dham_Temple%2C_Almora_04.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jageshwar_Dham_Temple,_Almora_04.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Jageshwar Dham Temple, Almora Monument of National Importance"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Jageshwar_Dham_Temple%2C_Almora_47.jpg/1920px-Jageshwar_Dham_Temple%2C_Almora_47.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jageshwar_Dham_Temple,_Almora_47.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Jageshwar Dham Temple, Almora Monument of National Importance"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Jageshwar_Dham_Temple%2C_Almora_84.jpg/1920px-Jageshwar_Dham_Temple%2C_Almora_84.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jageshwar_Dham_Temple,_Almora_84.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Jageshwar Dham Temple, Almora Monument of National Importance"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jageshwar",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Jageshwar",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple Complex"
+  },
+  {
+    "name": "Kainchi Dham",
+    "slug": "kainchi-dham",
+    "description": "Kainchi Dham also known as Neem Karori Ashram is a spiritual ashram and Hindu temple complex, located at Kainchi in the Nainital district, Kumaon region of Uttarakhand, India. It is known for its association with Neem Karoli Baba, a revered Hindu saint.",
+    "shortDescription": "Kainchi Dham also known as Neem Karori Ashram is a spiritual ashram and Hindu temple complex, located at Kainchi in the Nainital district, Kumaon region of Uttarakhand, India.",
+    "location": "Near Bhowali",
+    "district": "Nainital",
+    "region": "Kumaon",
+    "latitude": 29.42254742,
+    "longitude": 79.5124504,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": "March–June and September–November",
+    "bestTimeSourceSentence": "The best time to visit is March–June and September–November",
+    "highlights": [
+      "Neem Karoli Baba",
+      "Hanuman"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Yoga & Wellness",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Early_morning_Glimpse_of_Kainchi_Dham_Nainital_2023.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Early_morning_Glimpse_of_Kainchi_Dham_Nainital_2023.jpg",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "25 Cents FC — Own work",
+      "alt": "Kainchi Dham is a Hanuman temple & Ashram which is established by a great saint Shri Neem Karoli Baba in 1960s. It's a holy temple surrounded by hills and trees and river flowing besides it"
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Kainchi_Dham_Nainital.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kainchi_Dham_Nainital.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Manvikesarwani09 — Own work",
+        "alt": "Kainchi Dham Nainital"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Kainchi_Dhaam_Neem_Karoli_Temple.jpg/1920px-Kainchi_Dhaam_Neem_Karoli_Temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kainchi_Dhaam_Neem_Karoli_Temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Nickk Bisht — Own work",
+        "alt": "Kainchi Dham temple of Neem Karoli Baba."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Kaichi_dham.jpg/1920px-Kaichi_dham.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kaichi_dham.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Lalit.bhandari86 — Own work",
+        "alt": "the temple is situated on the bank of kosi river in the village of bhawali, district Nainital, Uttarakhand, India. the temple was made by shri Nimkaroli babaji. his disciplines include eminent personalities like Steve Jobs, Julia Roberts, Mark Zucker"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Lakshminarayana_Temple_at_Hosaholalu%2C_close_up_of_shrine_vimana.jpg/1920px-Lakshminarayana_Temple_at_Hosaholalu%2C_close_up_of_shrine_vimana.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lakshminarayana_Temple_at_Hosaholalu,_close_up_of_shrine_vimana.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Dineshkannambadi — Own work",
+        "alt": "This photograph was taken by me at at Lakshminarayana temple in Hosaholalu, Mandya district, Karnataka state, India. The temple was built in 1250 A.D. during the reign of Hoysala Empire King Vira Someshwara. It is considered one of the ornate example"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kainchi_Dham",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Kainchi_Dham",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Ashram Temple"
+  },
+  {
+    "name": "Kalpeshwar",
+    "slug": "kalpeshwar",
+    "description": "Kalpeshwar is a Hindu temple dedicated to Shiva located at an elevation of 2,200 m (7,217.8 ft) in the Urgam valley in the Garhwal region of Uttarakhand state in India. The temple's ancient legend linked to the Pandavas, heroes of the epic Mahabharata, is the fifth temple of the Panch Kedar (five temples) of Shiva's five anatomical divine forms; the other four temples in the order of their worship are Kedarnath, Rudranath, Tungnath and Madhyamaheshwar temples; all in the Kedar Khand region of the Garhwal Himalayas.",
+    "shortDescription": "Kalpeshwar is a Hindu temple dedicated to Shiva located at an elevation of 2,200 m (7,217.8 ft) in the Urgam valley in the Garhwal region of Uttarakhand state in India.",
+    "location": "Near Joshimath / Urgam Valley",
+    "district": "Chamoli",
+    "region": "Garhwal",
+    "latitude": 30.57704167,
+    "longitude": 79.42291389,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Panch Kedar"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Kalpehswar.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kalpehswar.jpg",
+      "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+      "attribution": "rolling on — https://www.flickr.com/photos/foot_loose/1269337432/",
+      "alt": "Kalpeshwar temple"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Kalpeshwar_Uttarakhand.jpg/1920px-Kalpeshwar_Uttarakhand.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kalpeshwar_Uttarakhand.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "Kalpeshwar is a village enroute to the fifth stop of Panch Kedar pilgrimage route in Uttarakhand. The Kalpeshwar temple, also called Kalpnath temple, is a mountain side Shiva temple. It is the fifth stop of Panch Kedar (five Kedars) pilgrimage route."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Kalpeshwar_Mahadev%2C_Kalpnath_temple%2C_Panch_Kedar_Uttarakhand.jpg/1920px-Kalpeshwar_Mahadev%2C_Kalpnath_temple%2C_Panch_Kedar_Uttarakhand.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kalpeshwar_Mahadev,_Kalpnath_temple,_Panch_Kedar_Uttarakhand.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Ms Sarah Welch — Own work",
+        "alt": "The Kalpeshwar temple, also called Kalpnath temple, is a mountain side Shiva temple. It is the fifth stop of Panch Kedar (five Kedars) pilgrimage route. The sanctum, cave walls and the Shiva iconography here is also svayambhu-style (monolithic) in a "
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Foot_Prints_of_Lord_Hanuman_in_%27Anadi_Kalpeshwar_Mahadev%27.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Foot_Prints_of_Lord_Hanuman_in_%27Anadi_Kalpeshwar_Mahadev%27.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "User:none — Own work",
+        "alt": "Foot Prints of Lord Hanuman in 'Anadi Kalpeshwar Mahadev Temple'. This Temple is more than 5000 years old and is situated in Alot (Dist. Ratlam, M.P., India)"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Shree_Hanuman_Temple%2C_near_Anadi_Kalpeshwar_Mahadev%2C_Alot.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shree_Hanuman_Temple,_near_Anadi_Kalpeshwar_Mahadev,_Alot.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Abhishek.jangalwa — Own work",
+        "alt": "Shree Hanuman Temple, near Anadi Kalpeshwar Mahadev, Alot"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Himalayas_at_dusk_from_Mussoorie%2C_Uttarakhand.jpg/1920px-Himalayas_at_dusk_from_Mussoorie%2C_Uttarakhand.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Himalayas_at_dusk_from_Mussoorie,_Uttarakhand.jpg",
+        "license": "CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)",
+        "attribution": "Nagesh Kamath from Bangalore, India — Himalayas at dusk from Mussoorie Uploaded by Ekabhishek",
+        "alt": "Snow capped Himalayas at dusk. As seen from Mussoorie. We were staying at Avalon Resort, Gun Hill, Mussoorie. At the back of the resort there was a walking trail from where in the evening (just before sunset) I was getting this wonderful sight of the"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/India_statue_of_nataraja.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:India_statue_of_nataraja.jpg",
+        "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+        "attribution": "Rosemania — https://www.flickr.com/photos/rosemania/86746598/in/set-72057594048518296/",
+        "alt": "Metropolitan Museum of Art, NYC. Shiva as Lord of Dance (Nataraja), Chola period (880-1279), ca. 11th century Tamil Nadu, India Copper alloy; H. 26 7/8 in. (68.3 cm); Diam. 22 1/4 in. (56.5 cm) Gift of R. H. Ellsworth Ltd., in honor of Susan Dillon, "
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Nanda_devi.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Nanda_devi.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Anirban c8 — Own work",
+        "alt": "Mt Nanda Devi 23rd Highest peak"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kalpeshwar",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Kalpeshwar",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Panch Kedar)"
+  },
+  {
+    "name": "Kasar Devi",
+    "slug": "kasar-devi",
+    "description": "Kasar Devi is a village near Almora, Uttarakhand, India. It is known for the Kasar Devi temple, a Devi temple, dedicated to Kasar Devi, an incarnation of Goddess Durga after whom the place is also named. The temple structure dates to the 2nd century CE.",
+    "shortDescription": "Kasar Devi is a village near Almora, Uttarakhand, India.",
+    "location": "Near Almora",
+    "district": "Almora",
+    "region": "Kumaon",
+    "latitude": 29.64172222,
+    "longitude": 79.66177778,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Van Allen",
+      "hippie",
+      "Swami Vivekananda"
+    ],
+    "experiences": [
+      "Trekking",
+      "Wildlife Watching",
+      "Yoga & Wellness",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Goddess_Kasar_Devi.jpg/1920px-Goddess_Kasar_Devi.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goddess_Kasar_Devi.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Photographer Praveen Singh Bisht — Own work",
+      "alt": "Mata Kasar Devi Temple Image Taken on November 13, 2022 Location Almora, Uttarakhand, India"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Kasar_Devi_Temple_Almora.jpg/1920px-Kasar_Devi_Temple_Almora.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kasar_Devi_Temple_Almora.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Nitin Maletha — Own work",
+        "alt": "Kasar devi is famous with the people who come to Uttarakhand tracing the hippy trail. It is speculated that the temple is situated on Van Allen Belt to have a great geomagnetic field around the temple which helps in meditations and related spiritual "
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/2024-03-19_Kasar_Devi_Temple_3.jpg/1920px-2024-03-19_Kasar_Devi_Temple_3.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-03-19_Kasar_Devi_Temple_3.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Alexkom000 — Own work",
+        "alt": "Kasar Devi Temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/2024-03-19_Kasar_Devi_Temple_2.jpg/1920px-2024-03-19_Kasar_Devi_Temple_2.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-03-19_Kasar_Devi_Temple_2.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Alexkom000 — Own work",
+        "alt": "Kasar Devi Temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2024-03-19_Kasar_Devi_Temple_1.jpg/1920px-2024-03-19_Kasar_Devi_Temple_1.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-03-19_Kasar_Devi_Temple_1.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Alexkom000 — Own work",
+        "alt": "Kasar Devi Temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/2024-03-18_A_view_from_Kasar_Devi_village_2.jpg/1920px-2024-03-18_A_view_from_Kasar_Devi_village_2.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-03-18_A_view_from_Kasar_Devi_village_2.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Alexkom000 — Own work",
+        "alt": "A view from Kasar Devi village"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2024-03-18_A_view_from_Kasar_Devi_village_5.jpg/1920px-2024-03-18_A_view_from_Kasar_Devi_village_5.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-03-18_A_view_from_Kasar_Devi_village_5.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Alexkom000 — Own work",
+        "alt": "A view from Kasar Devi village"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/2024-03-19_Kasar_Devi_village_seen_from_Crank%27s_Ridge.jpg/1920px-2024-03-19_Kasar_Devi_village_seen_from_Crank%27s_Ridge.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-03-19_Kasar_Devi_village_seen_from_Crank%27s_Ridge.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Alexkom000 — Own work",
+        "alt": "Kasar Devi village seen from Crank's Ridge"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kasar_Devi",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Kasar_Devi",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple"
+  },
+  {
+    "name": "Katarmal Sun Temple",
+    "slug": "katarmal-sun-temple",
+    "description": "Katarmal is a remote village located in Kumaon Division, in Almora District, Uttarakhand, India.",
+    "shortDescription": "Katarmal is a remote village located in Kumaon Division, in Almora District, Uttarakhand, India.",
+    "location": "Katarmal, near Almora",
+    "district": "Almora",
+    "region": "Kumaon",
+    "latitude": 29.632473,
+    "longitude": 79.614682,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Surya"
+    ],
+    "experiences": [
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Sun_temple_-_Katarmal.jpg/1920px-Sun_temple_-_Katarmal.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sun_temple_-_Katarmal.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Dr.GunjanPandey — Own work",
+      "alt": "Sun temple complex - Katarmal"
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Katarmal_Sun_Temple_in_Almora_Uttarakhand_India.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Katarmal_Sun_Temple_in_Almora_Uttarakhand_India.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Daniel Romanson — Own work",
+        "alt": "Katarmal Sun Temple in Almora Uttarakhand India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Katarmal_Sun_Temple_17.jpg/1920px-Katarmal_Sun_Temple_17.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Katarmal_Sun_Temple_17.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Surya Temple, Katarmal (Monument of National Importance) (Hindu temple)"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Katarmal_Sun_Temple_53.jpg/1920px-Katarmal_Sun_Temple_53.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Katarmal_Sun_Temple_53.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Surya Temple, Katarmal (Monument of National Importance) (Hindu temple)"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Katarmal_Sun_Temple_39.jpg/1920px-Katarmal_Sun_Temple_39.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Katarmal_Sun_Temple_39.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Surya Temple, Katarmal (Monument of National Importance) (Hindu temple)"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Katarmal_Sun_Temple_13.jpg/1920px-Katarmal_Sun_Temple_13.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Katarmal_Sun_Temple_13.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Surya Temple, Katarmal (Monument of National Importance) (Hindu temple)"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Katarmal_Sun_Temple_43.jpg/1920px-Katarmal_Sun_Temple_43.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Katarmal_Sun_Temple_43.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "FarEnd2018 — Own work",
+        "alt": "Surya Temple, Katarmal (Monument of National Importance) (Hindu temple)"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sun_Temple%2C_Katarmal.jpg/1920px-Sun_Temple%2C_Katarmal.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sun_Temple,_Katarmal.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Aeroshanks2016 — Own work",
+        "alt": "Part of the temple complex of the quaint 9th century Sun Temple located in Katarmal in Uttarakhand, India."
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Katarmal",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Katarmal",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Heritage Monument)"
+  },
+  {
+    "name": "Kedarnath Temple",
+    "slug": "kedarnath-temple",
+    "description": "Kēdāranātha Temple is a Hindu temple, one of the twelve jyotirlinga of Śiva. The temple is located on the Garhwal Himalayan range",
+    "shortDescription": "Kēdāranātha Temple is a Hindu temple, one of the twelve jyotirlinga of Śiva.",
+    "location": "Kedarnath",
+    "district": "Rudraprayag",
+    "region": "Garhwal",
+    "latitude": 30.733335,
+    "longitude": 79.066659,
+    "locationSource": "Wikidata Q866014 (CC0)",
+    "bestTimeToVisit": "April and November",
+    "bestTimeSourceSentence": "Due to extreme weather conditions, the temple is open to the general public only between the months of April (Akṣaya Tritiya) and November (Kārtika Pūrṇimā, the autumn full moon)",
+    "highlights": [
+      "Jyotirlinga",
+      "Char Dham",
+      "Adi Shankara",
+      "Panch Kedar"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Yoga & Wellness",
+      "Mountaineering",
+      "Ropeway Rides",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/1920px-Kedarnath_Temple_in_Rainy_season.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kedarnath_Temple_in_Rainy_season.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Shivam Kumar 766 — Own work",
+      "alt": "Kedarnath in July month."
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_spiritual_radiance_of_Kedarnath_Temple_at_sunrise.jpg/1920px-The_spiritual_radiance_of_Kedarnath_Temple_at_sunrise.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_spiritual_radiance_of_Kedarnath_Temple_at_sunrise.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Gul-Wiki — Own work",
+        "alt": "This picture captures the ethereal beauty of the Kedarnath Temple in the first rays of the morning sun. Located in Uttarakhand, the Kedarnath Temple is one of the Char Dham pilgrimage sites. As the sun begins to rise, its golden rays illuminate the t"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Kedarnath_walkover.jpg/1920px-Kedarnath_walkover.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kedarnath_walkover.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Medhi jyoti — Own work",
+        "alt": "Kedarnath temple, is a shiva temple and a holy place for Hindus."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%E2%80%9CKEDARNATH%E2%80%9D.jpg/1920px-%E2%80%9CKEDARNATH%E2%80%9D.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E2%80%9CKEDARNATH%E2%80%9D.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sarika Shirbhate — Own work",
+        "alt": "Natho Ke Nath””KEDARNATH”"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Rishi_nikam_photo_kedarnath_2022_%E0%A4%95%E0%A5%87%E0%A4%A6%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%A5_%E0%A4%8B%E0%A4%B7%E0%A4%BF_%E0%A4%A8%E0%A4%BF%E0%A4%95%E0%A4%AE.jpg/1920px-Rishi_nikam_photo_kedarnath_2022_%E0%A4%95%E0%A5%87%E0%A4%A6%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%A5_%E0%A4%8B%E0%A4%B7%E0%A4%BF_%E0%A4%A8%E0%A4%BF%E0%A4%95%E0%A4%AE.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rishi_nikam_photo_kedarnath_2022_%E0%A4%95%E0%A5%87%E0%A4%A6%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%A5_%E0%A4%8B%E0%A4%B7%E0%A4%BF_%E0%A4%A8%E0%A4%BF%E0%A4%95%E0%A4%AE.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Rishi nikam123 — Own work",
+        "alt": "Rishi nikam photo of kedarnath 2022 केदारनाथ ऋषि निकम Rishi Nikam is an Indian artist, film maker, film festival director, awards holder. He is specialised in short films. based In Indore Madhya-Pradesh he is known for directing the Indian nationally"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Devotees_at_Kedarnath_temple%2C_Uttrakhand_02.jpg/1920px-Devotees_at_Kedarnath_temple%2C_Uttrakhand_02.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Devotees_at_Kedarnath_temple,_Uttrakhand_02.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Rohit Sharma — Own work",
+        "alt": "Devotees at Kedarnath temple, Uttrakhand."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Devotees_at_Kedarnath_temple%2C_Uttrakhand_01.jpg/1920px-Devotees_at_Kedarnath_temple%2C_Uttrakhand_01.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Devotees_at_Kedarnath_temple,_Uttrakhand_01.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Rohit Sharma — Own work",
+        "alt": "Devotees at Kedarnath temple, Uttrakhand."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Kedarnath_temple_in_uttarakhand.jpg/1920px-Kedarnath_temple_in_uttarakhand.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kedarnath_temple_in_uttarakhand.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Nehasnaps0306 — Own work",
+        "alt": "Kedarnath shrine in the month of October"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kedarnath_Temple",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Kedarnath_Temple",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Jyotirlinga)"
+  },
+  {
+    "name": "Madhyamaheshwar",
+    "slug": "madhyamaheshwar",
+    "description": "Madhyamaheshwar or Madmaheshwar is a Hindu temple dedicated to Shiva, located in Gaundar, a village in Rudraprayag district, situated amidst the Garhwal Himalayas of Uttarakhand, India. Situated at an elevation of 3,497 m (11,473.1 ft), it is one of the Panch Kedar pilgrimage circuits, comprising five Shiva temples in the Garhwal region. The other temples in the circuit include: Kedarnath, Tungnath and Rudranath which are culturally visited before Madhyamaheshwar and, Kalpeshwar generally visited after Madhyamaheshwar.",
+    "shortDescription": "Madhyamaheshwar or Madmaheshwar is a Hindu temple dedicated to Shiva, located in Gaundar, a village in Rudraprayag district, situated amidst the Garhwal Himalayas of Uttarakhand, India.",
+    "location": "Near Guptkashi",
+    "district": "Rudraprayag",
+    "region": "Garhwal",
+    "latitude": 30.63694444,
+    "longitude": 79.21611111,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": "April to September",
+    "bestTimeSourceSentence": "The best time to visit the temple is from April to September",
+    "highlights": [
+      "Panch Kedar"
+    ],
+    "experiences": [
+      "Trekking",
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Madhyamaheshwar_Temple%2C_Uttarakhand.JPG/1920px-Madhyamaheshwar_Temple%2C_Uttarakhand.JPG",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Madhyamaheshwar_Temple,_Uttarakhand.JPG",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Bodhisattwa — Own work",
+      "alt": "Madhyamaheshwar Temple, Uttarakhand, India"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Madhyamaheshwar_Ganga_near_Gaundar.JPG/1920px-Madhyamaheshwar_Ganga_near_Gaundar.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Madhyamaheshwar_Ganga_near_Gaundar.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Bodhisattwa — Own work",
+        "alt": "Madhyamaheshwar Ganga near Gaundar, Uttarakhand"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Mandir_Seva_Samiti_Guest_House_at_Madhyamaheshwar_Photo_by_Sumita_Roy.jpg/1920px-Mandir_Seva_Samiti_Guest_House_at_Madhyamaheshwar_Photo_by_Sumita_Roy.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mandir_Seva_Samiti_Guest_House_at_Madhyamaheshwar_Photo_by_Sumita_Roy.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sumita Roy Dutta — Own work",
+        "alt": "Mandir Seva Samiti Guest House at Madhyamaheshwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Local_hotel_at_Khadara_2100m_on_the_way_to_Madhyamaheshwar_Photo_by_Sumita_Roy.jpg/1920px-Local_hotel_at_Khadara_2100m_on_the_way_to_Madhyamaheshwar_Photo_by_Sumita_Roy.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Local_hotel_at_Khadara_2100m_on_the_way_to_Madhyamaheshwar_Photo_by_Sumita_Roy.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sumita Roy Dutta — Own work",
+        "alt": "Local hotel at Khadara 2100m on the way to Madhyamaheshwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Majestic_Chaukhamba_at_Boodha_Madhyamaheshwar.jpg/1920px-Majestic_Chaukhamba_at_Boodha_Madhyamaheshwar.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Majestic_Chaukhamba_at_Boodha_Madhyamaheshwar.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Abhishek.ghosh1984 — Own work",
+        "alt": "I trekked to Boodha Madhyamaheshwar in Uttarakhand district in October 2015. The majestic Chaukhamba is clearly seen from there with great reflection."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Madhyamaheshwar_Ganga.JPG/1920px-Madhyamaheshwar_Ganga.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Madhyamaheshwar_Ganga.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Bodhisattwa — Own work",
+        "alt": "Madhyamaheshwar Ganga"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Madhyamaheshwar_village.JPG/1920px-Madhyamaheshwar_village.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Madhyamaheshwar_village.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Bodhisattwa — Own work",
+        "alt": "Madhyamaheshwar village"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Buda_Madhyamaheshwar_Temple_with_background_of_Mount_Chaukhamba_and_Mount_Mandani.JPG/1920px-Buda_Madhyamaheshwar_Temple_with_background_of_Mount_Chaukhamba_and_Mount_Mandani.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Buda_Madhyamaheshwar_Temple_with_background_of_Mount_Chaukhamba_and_Mount_Mandani.JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Bodhisattwa — Own work",
+        "alt": "Buda Madhyamaheshwar Temple with background of Mount Chaukhamba and Mount Mandani, Uttarakhand, India"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Madhyamaheshwar",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Madhyamaheshwar",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Panch Kedar)"
+  },
+  {
+    "name": "Mansa Devi Temple",
+    "slug": "mansa-devi-temple",
+    "description": "Mansa Devi Temple, Haridwar is a Hindu temple dedicated to goddess Mansa Devi in the holy city of Haridwar in the Uttarakhand state of India. The temple is located atop the Bilwa Parvat on the Sivalik Hills, the southernmost mountain chain of the Himalayas. The temple, also known as Bilwa Tirth, is one of the Panch Tirth (Five Pilgrimages) within Haridwar.",
+    "shortDescription": "Mansa Devi Temple, Haridwar is a Hindu temple dedicated to goddess Mansa Devi in the holy city of Haridwar in the Uttarakhand state of India.",
+    "location": "Haridwar",
+    "district": "Haridwar",
+    "region": "Garhwal",
+    "latitude": 29.95805556,
+    "longitude": 78.16472222,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [],
+    "experiences": [
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Mansa_Devi_Temple%2C_Haridwar.JPG/1920px-Mansa_Devi_Temple%2C_Haridwar.JPG",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mansa_Devi_Temple,_Haridwar.JPG",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "Ekabhishek — Own work",
+      "alt": "Mansa Devi Temple, Haridwar. Also seen is the rope way leading to the temple, atop Bilwa Parvat ."
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Panoramic_View_of_Haridwar_City_from_Mansa_Devi_Temple.jpg/1920px-Panoramic_View_of_Haridwar_City_from_Mansa_Devi_Temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panoramic_View_of_Haridwar_City_from_Mansa_Devi_Temple.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Rahultalreja11 — Own work",
+        "alt": "Panoramic View of Haridwar City from Mansa Devi Temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/At_the_Peak_of_Mansa_Devi_Haridwar_01.jpg/1920px-At_the_Peak_of_Mansa_Devi_Haridwar_01.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:At_the_Peak_of_Mansa_Devi_Haridwar_01.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Abhishek Debsharma — Own work",
+        "alt": "This picture was taken at the peak of Mansa Devi Mandir Haridwar."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Mansa_Devi_Temple%2C_Haridwar_05.jpg/1920px-Mansa_Devi_Temple%2C_Haridwar_05.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mansa_Devi_Temple,_Haridwar_05.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Antoine Taveneaux — Own work",
+        "alt": "Mansa Devi Temple, Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mansa_Devi_Temple%2C_Haridwar_01.jpg/1920px-Mansa_Devi_Temple%2C_Haridwar_01.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mansa_Devi_Temple,_Haridwar_01.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Antoine Taveneaux — Own work",
+        "alt": "Mansa Devi Temple, Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Mansa_Devi_Temple%2C_Haridwar_07.jpg/1920px-Mansa_Devi_Temple%2C_Haridwar_07.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mansa_Devi_Temple,_Haridwar_07.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Antoine Taveneaux — Own work",
+        "alt": "Mansa Devi Temple, Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Mansa_Devi_Temple%2C_Haridwar_11.jpg/1920px-Mansa_Devi_Temple%2C_Haridwar_11.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mansa_Devi_Temple,_Haridwar_11.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Antoine Taveneaux — Own work",
+        "alt": "Mansa Devi Temple, Haridwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mansa_Devi_Temple%2C_Haridwar_03.jpg/1920px-Mansa_Devi_Temple%2C_Haridwar_03.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mansa_Devi_Temple,_Haridwar_03.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Antoine Taveneaux — Own work",
+        "alt": "Mansa Devi Temple, Haridwar"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mansa_Devi_Temple,_Haridwar",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Mansa_Devi_Temple,_Haridwar",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Shakti Peetha)"
+  },
+  {
+    "name": "Maya Devi Temple",
+    "slug": "maya-devi-temple",
+    "description": "Maya Devi Temple, Haridwar is a Hindu temple dedicated to goddess Maya in the holy city of Haridwar of Uttarakhand state in India. It is believed that the heart and navel of goddess Sati fell in the region where the temple stands today and thus it is sometimes referred to as a Shakta pitha.",
+    "shortDescription": "Maya Devi Temple, Haridwar is a Hindu temple dedicated to goddess Maya in the holy city of Haridwar of Uttarakhand state in India.",
+    "location": "Haridwar",
+    "district": "Haridwar",
+    "region": "Garhwal",
+    "latitude": 29.95,
+    "longitude": 78.16194444,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [],
+    "experiences": [
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Maya_Devi_Temple%2C_Haridwar%283%29.JPG/1920px-Maya_Devi_Temple%2C_Haridwar%283%29.JPG",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Maya_Devi_Temple,_Haridwar(3).JPG",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "World8115 — Own work",
+      "alt": "Maya Devi temple is a Siddh Peetha dedicated to Goddess Maya Devi , a form of Shakti"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Maya_Devi_Temple%2C_Haridwar.JPG/1920px-Maya_Devi_Temple%2C_Haridwar.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Maya_Devi_Temple,_Haridwar.JPG",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "World8115 — Own work",
+        "alt": "Inner shrine of the Maya Devi Temple in Haridwar. The inner shrine has the murtis of deities Maya Devi in the centre, Goddess Kali on the left, Maa Kamakhya on the right. There are also two other Goddesses who are also forms of Shakti , present in th"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Maya_devi_temple.jpg/1920px-Maya_devi_temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Maya_devi_temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Rbrajesh — Own work",
+        "alt": "Maya devi templa located at lumbini"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Sacred_Space-_Maya_Devi_Temple%2C_Lumbini.jpg/1920px-Sacred_Space-_Maya_Devi_Temple%2C_Lumbini.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sacred_Space-_Maya_Devi_Temple,_Lumbini.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Gaurav Bhandari — Own work",
+        "alt": "The photo depicts the sacred Maya Devi Temple nestled amidst a tranquil landscape in Lumbini, Nepal. The temple's historic structure exudes a sense of calm and spiritual resonance, being one of the most important pilgrimage sites for Buddhists as it "
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Maya_Devi_Temple_top.jpg/1920px-Maya_Devi_Temple_top.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Maya_Devi_Temple_top.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sanu N — Own work",
+        "alt": "The top of Maya Devi Temple , at Lumbini, Nepal"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Lumbini_Maya_Devi_Temple_2.jpg/1920px-Lumbini_Maya_Devi_Temple_2.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lumbini_Maya_Devi_Temple_2.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Rangan Datta Wiki — Own work",
+        "alt": "Lumbini Maya Devi Temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Lumbini_Maya_Devi_Temple_1.jpg/1920px-Lumbini_Maya_Devi_Temple_1.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lumbini_Maya_Devi_Temple_1.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Rangan Datta Wiki — Own work",
+        "alt": "Lumbini Maya Devi Temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Maya_Devi_inner_shrine.jpg/1920px-Maya_Devi_inner_shrine.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Maya_Devi_inner_shrine.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Alakanandasaraswati — Own work",
+        "alt": "Line of Maya Devi and four Goddesses"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Maya_Devi_Temple,_Haridwar",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Maya_Devi_Temple,_Haridwar",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Shakti Peetha)"
+  },
+  {
+    "name": "Neelkanth Mahadev Temple",
+    "slug": "neelkanth-mahadev-temple",
+    "description": "Neelkanth Mahadev Temple is a Hindu temple dedicated to Nilkanth, an aspect of Shiva. The temple is about 120 km from Pauri town, the district headquarters, 32 km from Rishikesh in the Pauri Garhwal district of Uttarakhand, India. The temple architecture is very much influenced by the Dravidian style of temple architecture.",
+    "shortDescription": "Neelkanth Mahadev Temple is a Hindu temple dedicated to Nilkanth, an aspect of Shiva.",
+    "location": "Near Rishikesh",
+    "district": "Pauri Garhwal",
+    "region": "Garhwal",
+    "latitude": 30.0807,
+    "longitude": 78.3409,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Neelkanth"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Neelkanth_Mahadev_Temple.jpg/1920px-Neelkanth_Mahadev_Temple.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Neelkanth_Mahadev_Temple.jpg",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "Shakti — Own work",
+      "alt": "Neelkanth Mahadev Temple, Kumbhalgarh Fort, Rajasthan, India"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Neelkanth_Mahadev_Mandir_at_night.jpg/1920px-Neelkanth_Mahadev_Mandir_at_night.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Neelkanth_Mahadev_Mandir_at_night.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Sharvarism — Own work",
+        "alt": "Neelkanth Mahadev Mandir is situated in the fort complex, Kumbhalgarh is also known as the Great Wall of India, an UNESCO World Heritage Site, it was constructed in the 15th century by Rana Kumbha, the wall of Kumbhalgarh is one of the longest contin"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Neelkanth_mahadev_mandir.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Neelkanth_mahadev_mandir.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Anurodhraghuwanshi — Own work",
+        "alt": "Nilakantha Palace: Nilkantha is a charming spot named after an old shiva shrine which once exited here. The structure ,built of red stone, is a pleasure-house constructed by a governor of the mugal emporer Akbar in the sixteenth century, as recorded "
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Shankar_Aashram_Nilkanth_Mahadev_Temple%2C_Morbi%2C_Gujarat%2C_India4.jpg/1920px-Shankar_Aashram_Nilkanth_Mahadev_Temple%2C_Morbi%2C_Gujarat%2C_India4.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shankar_Aashram_Nilkanth_Mahadev_Temple,_Morbi,_Gujarat,_India4.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Pj2425 — Own work",
+        "alt": "Shankar Aashram Nilkanth Mahadev Temple, Morbi, Gujarat, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Shankar_Aashram_Nilkanth_Mahadev_Temple%2C_Morbi%2C_Gujarat%2C_India27.jpg/1920px-Shankar_Aashram_Nilkanth_Mahadev_Temple%2C_Morbi%2C_Gujarat%2C_India27.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shankar_Aashram_Nilkanth_Mahadev_Temple,_Morbi,_Gujarat,_India27.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Pj2425 — Own work",
+        "alt": "Shankar Aashram Nilkanth Mahadev Temple, Morbi, Gujarat, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Shankar_Aashram_Nilkanth_Mahadev_Temple%2C_Morbi%2C_Gujarat%2C_India24.jpg/1920px-Shankar_Aashram_Nilkanth_Mahadev_Temple%2C_Morbi%2C_Gujarat%2C_India24.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shankar_Aashram_Nilkanth_Mahadev_Temple,_Morbi,_Gujarat,_India24.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Pj2425 — Own work",
+        "alt": "Shankar Aashram Nilkanth Mahadev Temple, Morbi, Gujarat, India"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/From_Northwest_-_Nilkanth_Mahadev_Temple%2C_Sunak_%28Sunok%29_02.jpg/1920px-From_Northwest_-_Nilkanth_Mahadev_Temple%2C_Sunak_%28Sunok%29_02.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:From_Northwest_-_Nilkanth_Mahadev_Temple,_Sunak_(Sunok)_02.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Nizil Shah — Own work",
+        "alt": "Nilkanth Mahadev Temple, Sunak (Sunok)"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Shankar_Aashram_Nilkanth_Mahadev_Temple%2C_Morbi%2C_Gujarat%2C_India17.jpg/1920px-Shankar_Aashram_Nilkanth_Mahadev_Temple%2C_Morbi%2C_Gujarat%2C_India17.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shankar_Aashram_Nilkanth_Mahadev_Temple,_Morbi,_Gujarat,_India17.jpg",
+        "license": "CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)",
+        "attribution": "Pj2425 — Own work",
+        "alt": "Shankar Aashram Nilkanth Mahadev Temple, Morbi, Gujarat, India"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nilkanth_Mahadev",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Nilkanth_Mahadev",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple"
+  },
+  {
+    "name": "Parmarth Niketan",
+    "slug": "parmarth-niketan",
+    "description": "Parmarth Niketan is an ashram located in Rishikesh, Uttarakhand, India.",
+    "shortDescription": "Parmarth Niketan is an ashram located in Rishikesh, Uttarakhand, India.",
+    "location": "Rishikesh",
+    "district": "Dehradun",
+    "region": "Garhwal",
+    "latitude": 30.119225,
+    "longitude": 78.31220983,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Ganga Aarti"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Yoga & Wellness"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Parmarth_Niketan%2C_Rishikesh_6.jpg/1920px-Parmarth_Niketan%2C_Rishikesh_6.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Parmarth_Niketan,_Rishikesh_6.jpg",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "आशीष_भटनागर — Own work",
+      "alt": "Parmarth niketan, Rishikesh"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/A_Yoga_instructor_at_Parmarth_Niketan%2C_Muni_Ki_Reti%2C_Rishikesh.jpg/1920px-A_Yoga_instructor_at_Parmarth_Niketan%2C_Muni_Ki_Reti%2C_Rishikesh.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Yoga_instructor_at_Parmarth_Niketan,_Muni_Ki_Reti,_Rishikesh.jpg",
+        "license": "CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)",
+        "attribution": "Ken Wieland from Philadelphia, USA — Yoga and Positive attitude = 99 years",
+        "alt": "A Yoga instructor at Parmarth Niketan , Muni Ki Reti, Rishikesh."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Parmarth_Niketan%2C_Rishikesh.jpg/1920px-Parmarth_Niketan%2C_Rishikesh.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Parmarth_Niketan,_Rishikesh.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "आशीष_भटनागर — Own work",
+        "alt": "Shiv murti, Parmarth niketan, Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Parmarth_Niketan%2C_Rishikesh_5.jpg/1920px-Parmarth_Niketan%2C_Rishikesh_5.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Parmarth_Niketan,_Rishikesh_5.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "आशीष_भटनागर — Own work",
+        "alt": "Parmarth niketan, Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Parmarth_Niketan%2C_Rishikesh_2.jpg/1920px-Parmarth_Niketan%2C_Rishikesh_2.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Parmarth_Niketan,_Rishikesh_2.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "आशीष_भटनागर — Own work",
+        "alt": "Shiv murti, Parmarth niketan, Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Parmarth_Niketan%2C_Rishikesh_3.jpg/1920px-Parmarth_Niketan%2C_Rishikesh_3.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Parmarth_Niketan,_Rishikesh_3.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "आशीष_भटनागर — Own work",
+        "alt": "Parmarth niketan, Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Ratha_of_Arjuna_and_Krishna_at_the_Parmarth_Niketan%2C_in_Rishikesh%2C_Uttarakhand.jpg/1920px-Ratha_of_Arjuna_and_Krishna_at_the_Parmarth_Niketan%2C_in_Rishikesh%2C_Uttarakhand.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ratha_of_Arjuna_and_Krishna_at_the_Parmarth_Niketan,_in_Rishikesh,_Uttarakhand.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Billjones94 — Own work",
+        "alt": "Ratha of Arjuna and Krishna at the Parmarth Niketan, in Rishikesh, Uttarakhand, India. Photo taken by Yogabrata Chakraborty, on October 1, 2022."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Ghats_on_the_Ganges_near_Parmarth_Niketan%2C_Muni_Ki_Reti%2C_Rishikesh.jpg/1920px-Ghats_on_the_Ganges_near_Parmarth_Niketan%2C_Muni_Ki_Reti%2C_Rishikesh.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ghats_on_the_Ganges_near_Parmarth_Niketan,_Muni_Ki_Reti,_Rishikesh.jpg",
+        "license": "CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)",
+        "attribution": "Ken Wieland from Philadelphia, USA — Parmeth Niketan Ashram and Ganges Uploaded by Ekabhishek",
+        "alt": "Ghats on the Ganges near Parmarth Niketan , Muni Ki Reti, Rishikesh."
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Parmarth_Niketan",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Parmarth_Niketan",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Yoga Ashram"
+  },
+  {
+    "name": "Patal Bhuvaneshwar",
+    "slug": "patal-bhuvaneshwar",
+    "description": "Patal Bhuvaneshwar is a limestone Hindu cave temple 14 km from Gangolihat in the Pithoragarh district of Uttarakhand state in India. It is located in the village of Bhubneshwar. Legend and folklore have it that this cave enshrines Lord Shiva and thirty three koti demigods [33 Types, In hindu neumerology \"Koti\" means \"Types\"].",
+    "shortDescription": "Patal Bhuvaneshwar is a limestone Hindu cave temple 14 km from Gangolihat in the Pithoragarh district of Uttarakhand state in India.",
+    "location": "Gangolihat",
+    "district": "Pithoragarh",
+    "region": "Kumaon",
+    "latitude": 29.90763886,
+    "longitude": 79.60988678,
+    "locationSource": "Wikidata Q7144196 (CC0)",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "cave",
+      "Shiva",
+      "Adi Shankara"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Patal_Bhuvneshwar-2-Kumoun.jpg/1920px-Patal_Bhuvneshwar-2-Kumoun.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Patal_Bhuvneshwar-2-Kumoun.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Lalitgupta isgec — Own work",
+      "alt": "Patal Bhuvneshwar-2-Kumoun"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Patal_Bhuvaneshwar_view.jpg/1920px-Patal_Bhuvaneshwar_view.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Patal_Bhuvaneshwar_view.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "ArmouredCyborg — Own work",
+        "alt": "Patal Bhuvaneshwar view"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Patal_Bhuvaneshwar_entrance.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Patal_Bhuvaneshwar_entrance.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "ArmouredCyborg — Own work",
+        "alt": "Patal Bhuvaneshwar entrance"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Patal_Bhuvaneshwar-Stairway_to_Heaven%21%21.jpg/1920px-Patal_Bhuvaneshwar-Stairway_to_Heaven%21%21.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Patal_Bhuvaneshwar-Stairway_to_Heaven!!.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Meg khandige — Own work",
+        "alt": "This particular limestone cave temple is 14 km from Gangolihat of Pithoragarh district is one of the holiest places is believed to be as old as Earth and is equivalent to worshipping Char Dhams of Uttarakhand"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Small_Musium_at_Patal_Bhuvneshwar.jpg/1920px-Small_Musium_at_Patal_Bhuvneshwar.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Small_Musium_at_Patal_Bhuvneshwar.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Lalitgupta isgec — Own work",
+        "alt": "Small Musium at Patal Bhuvneshwar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Patal_Bhuvneshwar-4.jpg/1920px-Patal_Bhuvneshwar-4.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Patal_Bhuvneshwar-4.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Lalitgupta isgec — Own work",
+        "alt": "Patal Bhuvneshwar-4"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Patal_Bhuvneshwar-3-Kumoun.jpg/1920px-Patal_Bhuvneshwar-3-Kumoun.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Patal_Bhuvneshwar-3-Kumoun.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Lalitgupta isgec — Own work",
+        "alt": "Patal Bhuvneshwar-3-Kumoun"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Patal_Bhuvneshwar-1-Kumoun.jpg/1920px-Patal_Bhuvneshwar-1-Kumoun.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Patal_Bhuvneshwar-1-Kumoun.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Lalitgupta isgec — Own work",
+        "alt": "Patal Bhuvneshwar-1-Kumoun"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Patal_Bhuvaneshwar",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Patal_Bhuvaneshwar",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Cave Temple"
+  },
+  {
+    "name": "Rudranath",
+    "slug": "rudranath",
+    "description": "Rudranath Temple is a Hindu temple dedicated to Shiva, located in the Garhwal Himalayan mountains in Uttarakhand, India. Located at 3,600 metres (11,800 ft) above sea level, this natural rock temple is situated within a dense forest of rhododendron dwarfs and Alpine pastures.",
+    "shortDescription": "Rudranath Temple is a Hindu temple dedicated to Shiva, located in the Garhwal Himalayan mountains in Uttarakhand, India.",
+    "location": "Near Gopeshwar",
+    "district": "Chamoli",
+    "region": "Garhwal",
+    "latitude": 30.53333333,
+    "longitude": 79.33333333,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Panch Kedar"
+    ],
+    "experiences": [
+      "Trekking",
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Rudranath_temple.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rudranath_temple.jpg",
+      "license": "CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)",
+      "attribution": "rolling on — originally posted to Flickr as Day 5 Rudranath CIMG4080 (Large)",
+      "alt": "Rudranath, garhwal"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Rudranath_Temple.jpg/1920px-Rudranath_Temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rudranath_Temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Saurabh Sharma — Own work",
+        "alt": "This is a photo of ASI monument number"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mount_Rudranath.jpg/1920px-Mount_Rudranath.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mount_Rudranath.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Ranz 44 — Own work",
+        "alt": "View from rudranath peak, as you can see peaks of mount trisul and several other high peaks of himalayas"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Panoramic_view_from_mount_rudranath.jpg/1920px-Panoramic_view_from_mount_rudranath.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panoramic_view_from_mount_rudranath.jpg",
+        "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
+        "attribution": "Ranz 44 — Own work",
+        "alt": "Glaciers view from mount rudranath"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Rudranath_Capildeo.jpg/1920px-Rudranath_Capildeo.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rudranath_Capildeo.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Yogendra Malik — East Indians in Trinidad",
+        "alt": "Rudranath Capildeo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Panar_Bugyal..8Km_From_Rudranath.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panar_Bugyal..8Km_From_Rudranath.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Cvashisth — Own work",
+        "alt": "Beautiful Himalayan Pasture Land Near Rudranath-Fourth Keda"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Panar_Bugyal...on_way_to_Rudranath.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panar_Bugyal...on_way_to_Rudranath.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Cvashisth — Own work",
+        "alt": "Beautiful Himalayan Pasture Land Near Rudranath-Fourth Kedar"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Rudranath_Temple%2CGopeshwar.jpg/1920px-Rudranath_Temple%2CGopeshwar.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rudranath_Temple,Gopeshwar.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Vivek Vaidyanathan — Own work",
+        "alt": "This is a photo of ASI monument number"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rudranath",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Rudranath",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Panch Kedar)"
+  },
+  {
+    "name": "Surkanda Devi Temple",
+    "slug": "surkanda-devi-temple",
+    "description": "Surkanda Devi Temple is a Hindu shrine located near Dhanaulti in the Tehri Garhwal district of Uttarakhand, India. Situated at an altitude of approximately 2,756 metres (9,042 feet), the temple offers panoramic views of the Himalayan ranges. It is one of the revered Shakta pitha sites, associated with the mythological event where the head (Sir) of the goddess Sati is believed to have fallen, marking the place as a sacred center of divine consciousness.",
+    "shortDescription": "Surkanda Devi Temple is a Hindu shrine located near Dhanaulti in the Tehri Garhwal district of Uttarakhand, India.",
+    "location": "Near Dhanaulti / Kaddukhal",
+    "district": "Tehri Garhwal",
+    "region": "Garhwal",
+    "latitude": 30.411383,
+    "longitude": 78.2887,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Sati",
+      "Ganga Dussehra"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Surkanda_Devi.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Surkanda_Devi.jpg",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "Jitendrachamoli — Own work",
+      "alt": "Surkanda Devi Temple located on Hill"
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Surkanda_devi.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Surkanda_devi.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "MatSwiki — Own work",
+        "alt": "Surkanda Devi Temple , near Mussoorie, Uttarakhand, India."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Surkanda_Devi_Temple%2C_Tehri_Garhwal%2C_Uttarakhand%2C_India_%282015%29.jpg/1920px-Surkanda_Devi_Temple%2C_Tehri_Garhwal%2C_Uttarakhand%2C_India_%282015%29.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Surkanda_Devi_Temple,_Tehri_Garhwal,_Uttarakhand,_India_(2015).jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Emailravikr — Own work",
+        "alt": "Surkanda Devi Temple View"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Side_view_from_surkanda_devi_temple.jpg/1920px-Side_view_from_surkanda_devi_temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Side_view_from_surkanda_devi_temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "pavankunar — Own work",
+        "alt": "side view from surkanda devi temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/View_from_surkanda_devi_temple.jpg/1920px-View_from_surkanda_devi_temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_surkanda_devi_temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "pavankunar — Own work",
+        "alt": "view from surkanda devi temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Surkanda_Devi_Mandir%2C_Uttarakhand.jpg/1920px-Surkanda_Devi_Mandir%2C_Uttarakhand.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Surkanda_Devi_Mandir,_Uttarakhand.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "PahadiBhulli — Own work",
+        "alt": "Surkanda Devi Mandir, Uttarakhand"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Surkanda_devi_%2824%29.JPG/1920px-Surkanda_devi_%2824%29.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Surkanda_devi_(24).JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Surkanda Devi"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Surkanda_devi_%289%29.JPG/1920px-Surkanda_devi_%289%29.JPG",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Surkanda_devi_(9).JPG",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Guptaele — Own work",
+        "alt": "Surkanda Devi"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Surkanda_Devi",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Surkanda_Devi",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple"
+  },
+  {
+    "name": "Tapkeshwar Temple",
+    "slug": "tapkeshwar-temple",
+    "description": "Tapkeshwar Temple, also known as Tapkeshwar Mahadev Temple, is a temple in Dehradun dedicated to Shiva. The temple is on the bank of the Tons River, built on top of a natural cave, which holds the temple's main shivalinga.",
+    "shortDescription": "Tapkeshwar Temple, also known as Tapkeshwar Mahadev Temple, is a temple in Dehradun dedicated to Shiva.",
+    "location": "Dehradun",
+    "district": "Dehradun",
+    "region": "Garhwal",
+    "latitude": 30.3572724,
+    "longitude": 78.0166768,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [
+      "Shiva",
+      "Tons River",
+      "cave",
+      "shivalinga"
+    ],
+    "experiences": [
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Shiv_tapkeshwar_temple.jpg/1920px-Shiv_tapkeshwar_temple.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shiv_tapkeshwar_temple.jpg",
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "attribution": "Jassimehra — Own work",
+      "alt": "Tapkeshwar Temple, Uttarakhand"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Hanuman_Idol_at_Tapkeshwar_Temple..jpg/1920px-Hanuman_Idol_at_Tapkeshwar_Temple..jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hanuman_Idol_at_Tapkeshwar_Temple..jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Rajatkantib — Own work",
+        "alt": "The Tapkeshwar Mahadev temple is an age-old temple and has a rustic charm to it. The river adds to the beauty of the temple. This pretty cave temple located in the cantonment area of Garhi in the heart of the city is a very sacred and revered temple,"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tapkeshwar_Temple",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Tapkeshwar_Temple",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Cave Temple"
+  },
+  {
+    "name": "Triveni Ghat",
+    "slug": "triveni-ghat",
+    "description": "The Triveni Ghat is a ghat situated in Rishikesh, Uttarakhand. It is the biggest and most famous ghat in Rishikesh, located at the banks of the Ganges.",
+    "shortDescription": "The Triveni Ghat is a ghat situated in Rishikesh, Uttarakhand.",
+    "location": "Rishikesh",
+    "district": "Dehradun",
+    "region": "Garhwal",
+    "latitude": 29.98467611,
+    "longitude": 78.91548139,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": null,
+    "bestTimeSourceSentence": null,
+    "highlights": [],
+    "experiences": [
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Triveni_Ghat_Rishikesh.jpg/1920px-Triveni_Ghat_Rishikesh.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Triveni_Ghat_Rishikesh.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Blue Particle Solutions Narender Sharma — Own work",
+      "alt": "Mesmerising artwork on Triveni Ghat Rishikesh"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Aarti_at_Triveni_Ghat_Rishikesh.jpg/1920px-Aarti_at_Triveni_Ghat_Rishikesh.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Aarti_at_Triveni_Ghat_Rishikesh.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "ArmouredCyborg — Own work",
+        "alt": "Aarti at Triveni Ghat Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Triveni_Ghat_Rishikesh_Side_View.jpg/1920px-Triveni_Ghat_Rishikesh_Side_View.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Triveni_Ghat_Rishikesh_Side_View.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "AverageGuyPU — Own work",
+        "alt": "Cloudy view of Triveni Ghat"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Triveni_Ghat_Rishikesh_04.jpg/1920px-Triveni_Ghat_Rishikesh_04.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Triveni_Ghat_Rishikesh_04.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "ArmouredCyborg — Own work",
+        "alt": "Triveni Ghat Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Triveni_Ghat_Rishikesh_03.jpg/1920px-Triveni_Ghat_Rishikesh_03.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Triveni_Ghat_Rishikesh_03.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "ArmouredCyborg — Own work",
+        "alt": "Triveni Ghat Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Triveni_Ghat_Rishikesh_01.jpg/1920px-Triveni_Ghat_Rishikesh_01.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Triveni_Ghat_Rishikesh_01.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "ArmouredCyborg — Own work",
+        "alt": "Triveni Ghat Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Triveni_Ghat_Rishikesh_05.jpg/1920px-Triveni_Ghat_Rishikesh_05.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Triveni_Ghat_Rishikesh_05.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "ArmouredCyborg — Own work",
+        "alt": "Triveni Ghat Rishikesh"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Triveni_Ghat_Rishikesh_gate.jpg/1920px-Triveni_Ghat_Rishikesh_gate.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Triveni_Ghat_Rishikesh_gate.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "ArmouredCyborg — Own work",
+        "alt": "triveni ghat gate rishikesh"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Triveni_Ghat",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Triveni_Ghat",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Sacred Ghat"
+  },
+  {
+    "name": "Tungnath",
+    "slug": "tungnath",
+    "description": "Tungnath Temple is one of the highest Shiva temples in the world and is the highest of the five Panch Kedar temples located in the Rudraprayag district, in the Indian state of Uttarakhand. The Tungnath mountains form the Mandakini and Alaknanda river valleys. It is located at an altitude of 3,680 m (12,073 ft), and just below the peak of Chandrashila.",
+    "shortDescription": "Tungnath Temple is one of the highest Shiva temples in the world and is the highest of the five Panch Kedar temples located in the Rudraprayag district, in the Indian state of Uttarakhand.",
+    "location": "Near Chopta",
+    "district": "Rudraprayag",
+    "region": "Garhwal",
+    "latitude": 30.48944444,
+    "longitude": 79.21527778,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": "April to September",
+    "bestTimeSourceSentence": "The best time to visit the temple is from April to September",
+    "highlights": [
+      "Panch Kedar",
+      "Chandrashila",
+      "highest Shiva"
+    ],
+    "experiences": [
+      "Trekking",
+      "Wildlife Watching",
+      "Pilgrimage",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Tungnath_temple.jpg/1920px-Tungnath_temple.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tungnath_temple.jpg",
+      "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+      "attribution": "Varun Shiv Kapur — originally posted to Flickr as Tungnath temple",
+      "alt": "Tunganath temple in Uttarakhand- one of the Panch Kedar Shrines"
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Kedar_from_Tungnath_vvnataraj.jpg/1920px-Kedar_from_Tungnath_vvnataraj.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kedar_from_Tungnath_vvnataraj.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Vvnataraj — Own work",
+        "alt": "Kedar and Kedar dome peaks as seen from Tungnath"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Chandrashila_peak_from_Tungnath_Temple.jpg/1920px-Chandrashila_peak_from_Tungnath_Temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandrashila_peak_from_Tungnath_Temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Navdeep Gusain — Own work",
+        "alt": "Chandrashila peak from Tungnath Temple"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Nandi_Dev_at_Tungnath.jpg/1920px-Nandi_Dev_at_Tungnath.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Nandi_Dev_at_Tungnath.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Royroydeb — Own work",
+        "alt": "Nandi Dev at Tungnath"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Shikhara_of_Tungnath_Mandir.jpg/1920px-Shikhara_of_Tungnath_Mandir.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shikhara_of_Tungnath_Mandir.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Royroydeb — Own work",
+        "alt": "Shikhara of Tungnath Mandir"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Tungnath_Temple_in_winter.jpg/1920px-Tungnath_Temple_in_winter.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tungnath_Temple_in_winter.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Navdeep Gusain — Own work",
+        "alt": "Tungnath Temple in winter"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Horse_at_Tungnath_%2831649694508%29.jpg/1920px-Horse_at_Tungnath_%2831649694508%29.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Horse_at_Tungnath_(31649694508).jpg",
+        "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+        "attribution": "Mike Prince from Bangalore, India — Horse at Tungnath",
+        "alt": "Horse at Tungnath"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Craggy_hill_of_Tungnath_%283530103597%29.jpg/1920px-Craggy_hill_of_Tungnath_%283530103597%29.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Craggy_hill_of_Tungnath_(3530103597).jpg",
+        "license": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
+        "attribution": "Varun Shiv Kapur from New Delhi, India — Craggy hill",
+        "alt": "Craggy hill Tungnath, Uttarakhand, India"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tungnath",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Tungnath",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple (Panch Kedar)"
+  },
+  {
+    "name": "Yamunotri Temple",
+    "slug": "yamunotri-temple",
+    "description": "Yamunotri Temple is a Hindu temple, situated in the western region of Garhwal Himalayas at an altitude of 3,291 metres (10,797 ft) in Uttarkashi district, Uttarakhand, India. It's just 129 km from Uttarkashi, the main district headquarters. The temple is dedicated to Goddess Yamuna, and has a black marble idol of the goddess.",
+    "shortDescription": "Yamunotri Temple is a Hindu temple, situated in the western region of Garhwal Himalayas at an altitude of 3,291 metres (10,797 ft) in Uttarkashi district, Uttarakhand, India.",
+    "location": "Yamunotri",
+    "district": "Uttarkashi",
+    "region": "Garhwal",
+    "latitude": 31.0167,
+    "longitude": 78.45,
+    "locationSource": "Wikipedia article",
+    "bestTimeToVisit": "May to November (temple opening season)",
+    "bestTimeSourceSentence": "opens on Akshaya Tritiya (May) and closes on Yama Dwitiya (the second day after Diwali, November)",
+    "highlights": [
+      "Surya Kund"
+    ],
+    "experiences": [
+      "Trekking",
+      "Pilgrimage",
+      "Yoga & Wellness",
+      "Temple Visits"
+    ],
+    "coverImage": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Holy_Yamuna_at_Yamunotri.jpg/1920px-Holy_Yamuna_at_Yamunotri.jpg",
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Holy_Yamuna_at_Yamunotri.jpg",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "attribution": "Manis73 — Own work",
+      "alt": "At is view of yamuna near yamunnotri temple"
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Yamunotri_Temple.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yamunotri_Temple.jpg",
+        "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+        "attribution": "Mayank.choudha — Own work",
+        "alt": "This image was taken from the bridge on Yamuna just below Yamunotri Temple in Uttarakhand India."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Yamunotri_temple_and_ashram.jpg/1920px-Yamunotri_temple_and_ashram.jpg",
+        "source": "Wikimedia Commons",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yamunotri_temple_and_ashram.jpg",
+        "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+        "attribution": "Atarax42 — Own work",
+        "alt": "The temple compound at Yamunotri, source of Yamuna River in Uttaranchal, India"
+      }
+    ],
+    "sourceName": "Wikipedia (English)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Yamunotri_Temple",
+    "sourcePageUrl": "https://en.wikipedia.org/wiki/Yamunotri_Temple",
+    "contentLicense": "CC BY-SA 4.0",
+    "lastVerified": "2026-09-09",
+    "type": "Hindu Temple"
+  }
+]

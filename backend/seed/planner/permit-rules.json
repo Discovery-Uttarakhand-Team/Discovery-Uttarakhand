@@ -1,0 +1,136 @@
+[
+ {
+  "slug": "inner-line-permit-adi-kailash",
+  "name": "Inner Line Permit — Adi Kailash / Om Parvat / Kuti Valley route",
+  "location": "Dharchula, Pithoragarh",
+  "placeRefs": [
+   "adi-kailash",
+   "om-parvat",
+   "kuthi-valley",
+   "gunji",
+   "dharchula"
+  ],
+  "category": "inner_line",
+  "requirement": "Permits for this route are issued at Dharchula and a medical check-up is conducted there. Om Parvat lies in a restricted border zone and an Inner Line Permit is required for access.",
+  "applicableTo": "all",
+  "documents": [
+   "Valid photo ID",
+   "Medical check-up at Dharchula"
+  ],
+  "bookingUrl": null,
+  "feeIndicative": null,
+  "officialSource": "District administration, Dharchula (per Wikipedia documentation)",
+  "validFrom": null,
+  "validUntil": null,
+  "sourceName": "Wikipedia (English) — Adi Kailash / Om Parvat",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Adi_Kailash",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "The permits for this route are issued at Dharchula and medical check-up is conducted there."
+ },
+ {
+  "slug": "valley-of-flowers-entry-permit",
+  "name": "Valley of Flowers National Park entry permit",
+  "location": "Ghangaria check-post, Chamoli",
+  "placeRefs": [
+   "valley-of-flowers-national-park",
+   "joshimath",
+   "hemkund-sahib"
+  ],
+  "category": "park_entry",
+  "requirement": "Visitors need a permit from the Forest Department at Ghangaria; one can get it directly at the check-post, no need to apply prior.",
+  "applicableTo": "all",
+  "documents": [
+   "Valid photo ID"
+  ],
+  "bookingUrl": null,
+  "feeIndicative": null,
+  "officialSource": "Uttarakhand Forest Department (per Wikipedia documentation)",
+  "validFrom": null,
+  "validUntil": "Park open season approx. June–October (verify)",
+  "sourceName": "Wikipedia (English) — Valley of Flowers National Park / Joshimath",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Valley_of_Flowers_National_Park",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "Visitors to the Valley of Flowers need to get a permit from the Forest Department, at Ghangaria."
+ },
+ {
+  "slug": "nanda-devi-np-permit",
+  "name": "Nanda Devi National Park trekking permit",
+  "location": "DFO Joshimath, Chamoli",
+  "placeRefs": [
+   "nanda-devi-national-park",
+   "joshimath"
+  ],
+  "category": "trek_permit",
+  "requirement": "The DFO Joshimath issues permits for trekking inside the park. The Nanda Devi core (inner) zone has been closed to regular trekking under UNESCO protections — only limited sanctioned activity.",
+  "applicableTo": "all",
+  "documents": [
+   "Valid photo ID"
+  ],
+  "bookingUrl": null,
+  "feeIndicative": null,
+  "officialSource": "Divisional Forest Officer, Joshimath (per Wikipedia documentation)",
+  "validFrom": null,
+  "validUntil": null,
+  "sourceName": "Wikipedia (English) — Nanda Devi National Park",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nanda_Devi_National_Park",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "The DFO Joshimath issues permits for trekking inside the park."
+ },
+ {
+  "slug": "corbett-safari-permit",
+  "name": "Jim Corbett National Park safari permit (day visit / night stay)",
+  "location": "Ramnagar / online",
+  "placeRefs": [
+   "jim-corbett-national-park",
+   "ramnagar"
+  ],
+  "category": "safari",
+  "requirement": "Safari permits are issued online (eCorbett) or at the CTR Reception Office in Ramnagar. Only licensed local gypsy vehicles with registered drivers may enter; visitors must carry the same ID submitted at booking. Permits are non-refundable once confirmed.",
+  "applicableTo": "all",
+  "documents": [
+   "Aadhaar / DL / PAN / Voter ID / Passport (foreigners)",
+   "Same ID must be carried during safari"
+  ],
+  "bookingUrl": "https://corbettonline.uk.gov.in/",
+  "feeIndicative": null,
+  "officialSource": "Corbett Tiger Reserve / Uttarakhand Forest Department",
+  "validFrom": null,
+  "validUntil": null,
+  "sourceName": "Wikipedia (English) — Ramnagar; official portal corbettonline.uk.gov.in (web-verified 2026-09-12)",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ramnagar",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "Permits are issued at the CTR Reception Office in Ramnagar."
+ },
+ {
+  "slug": "char-dham-yatra-registration",
+  "name": "Char Dham Yatra registration (Yamunotri, Gangotri, Kedarnath, Badrinath + Hemkund Sahib)",
+  "location": "Uttarakhand (state-wide)",
+  "placeRefs": [
+   "chota-char-dham-yatra",
+   "yamunotri-temple",
+   "gangotri",
+   "kedarnath-temple",
+   "badrinath"
+  ],
+  "category": "yatra_registration",
+  "requirement": "Registration is compulsory for pilgrims on the Char Dham Yatra and Hemkund Sahib. Available online via the official Tourist Care portal, via the Tourist Care mobile app, WhatsApp (+91 8394833833), and offline counters at Haridwar/Rishikesh and en route.",
+  "applicableTo": "all",
+  "documents": [
+   "Aadhaar / Voter ID / Passport / Driving Licence",
+   "Yatra pass download after registration"
+  ],
+  "bookingUrl": "https://registrationandtouristcare.uk.gov.in/",
+  "feeIndicative": null,
+  "officialSource": "Uttarakhand Tourism (Tourist Care portal)",
+  "validFrom": "Yatra season (opens ~April/May)",
+  "validUntil": "Yatra season (closes ~Oct/Nov)",
+  "sourceName": "Official portal registrationandtouristcare.uk.gov.in (web-verified 2026-09-12)",
+  "sourceUrl": "https://registrationandtouristcare.uk.gov.in/",
+  "contentLicense": null,
+  "lastVerified": "2026-09-12"
+ }
+]

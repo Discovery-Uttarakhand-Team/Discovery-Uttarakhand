@@ -1,0 +1,74 @@
+[
+  {
+    "id": "stay-1",
+    "name": "Ananda in the Himalayas",
+    "destinationId": "rishikesh",
+    "location": "Narendra Nagar, Rishikesh",
+    "coordinates": [30.1789, 78.2910],
+    "type": "Luxury Wellness Resort",
+    "pricePerNight": "₹38,000",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop",
+    "amenities": ["Ayurvedic Spa", "Ganga View Infinity Pool", "Yoga Pavilions", "Fine Dining", "Golf Course"]
+  },
+  {
+    "id": "stay-2",
+    "name": "Clifftop Club Auli",
+    "destinationId": "auli",
+    "location": "Auli Ski Slopes, Chamoli",
+    "coordinates": [30.5350, 79.5710],
+    "type": "Ski Resort",
+    "pricePerNight": "₹9,500",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1000&auto=format&fit=crop",
+    "amenities": ["Direct Ski-in/Ski-out", "Ropeway Access", "Heated Rooms", "Nanda Devi View Restaurant", "Bonfire"]
+  },
+  {
+    "id": "stay-3",
+    "name": "The Himalayan Eco-Resort Chopta",
+    "destinationId": "chopta",
+    "location": "Dugalbitta, Chopta",
+    "coordinates": [30.4780, 79.1650],
+    "type": "Eco Luxury Glamping",
+    "pricePerNight": "₹4,200",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1000&auto=format&fit=crop",
+    "amenities": ["Swiss Tents", "Mountain View Lawns", "Trek Guides", "Organic Garhwali Food", "Star Observation"]
+  },
+  {
+    "id": "stay-4",
+    "name": "The Corbett Hideaway (The Riverview Retreat)",
+    "destinationId": "corbett",
+    "location": "Zero Garjia, Dhikuli, Jim Corbett",
+    "coordinates": [29.5400, 79.1300],
+    "type": "Wildlife Jungle Lodge",
+    "pricePerNight": "₹8,000",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1000&auto=format&fit=crop",
+    "amenities": ["Kosi Riverbank Access", "Safari Booking Desk", "Swimming Pool", "Spa & Wellness", "Jungle Walks"]
+  },
+  {
+    "id": "stay-5",
+    "name": "GMVN Swargarohini Tourist Rest House",
+    "destinationId": "badrinath",
+    "location": "Near Temple, Badrinath",
+    "coordinates": [30.7410, 79.4910],
+    "type": "Pilgrim Rest House",
+    "pricePerNight": "₹2,500",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop",
+    "amenities": ["Walking Distance to Temple", "Pure Vegetarian Meals", "Geyser/Hot Water", "Alaknanda View"]
+  },
+  {
+    "id": "stay-6",
+    "name": "The Naini Retreat",
+    "destinationId": "nainital",
+    "location": "Ayarpatta Slopes, Nainital",
+    "coordinates": [29.3850, 79.4500],
+    "type": "Heritage Mountain Lodge",
+    "pricePerNight": "₹11,000",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1000&auto=format&fit=crop",
+    "amenities": ["Colonial Architecture", "Lake Views", "Fireplace Lounge", "Pine Forest Setting", "Live Music"]
+  }
+]

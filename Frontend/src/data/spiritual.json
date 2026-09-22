@@ -1,0 +1,128 @@
+[
+  {
+    "id": "char-dham",
+    "name": "The Sacred Char Dham",
+    "category": "Char Dham",
+    "description": "The four sacred abodes established by Adi Shankaracharya in Uttarakhand, believed to open the doors of Moksha.",
+    "sites": [
+      {
+        "name": "Yamunotri Dham",
+        "deity": "Goddess Yamuna",
+        "district": "Uttarkashi",
+        "altitude": 3293,
+        "coordinates": [31.0140, 78.4600],
+        "importance": "Westernmost Dham, origin of River Yamuna from Champasar Glacier."
+      },
+      {
+        "name": "Gangotri Dham",
+        "deity": "Goddess Ganga",
+        "district": "Uttarkashi",
+        "altitude": 3100,
+        "coordinates": [30.9947, 78.9398],
+        "importance": "Sacred seat where Ganga descended upon Lord Shiva's matted locks."
+      },
+      {
+        "name": "Kedarnath Dham",
+        "deity": "Lord Shiva (Sadashiva)",
+        "district": "Rudraprayag",
+        "altitude": 3583,
+        "coordinates": [30.7352, 79.0669],
+        "importance": "One of the 12 Jyotirlingas, where Shiva manifested as a hump to Pandavas."
+      },
+      {
+        "name": "Badrinath Dham",
+        "deity": "Lord Badrinarayan (Vishnu)",
+        "district": "Chamoli",
+        "altitude": 3300,
+        "coordinates": [30.7433, 79.4938],
+        "importance": "One of India's major Char Dham and Chota Char Dham, abode of Lord Vishnu."
+      }
+    ]
+  },
+  {
+    "id": "panch-prayag",
+    "name": "The Holy Panch Prayag",
+    "category": "Sacred Confluences",
+    "description": "The five sacred river confluences of the Alaknanda river cascading down from the Himalayas to form the holy Ganges.",
+    "sites": [
+      {
+        "name": "Vishnuprayag",
+        "rivers": "Alaknanda + Dhauliganga",
+        "district": "Chamoli",
+        "altitude": 1372,
+        "coordinates": [30.5630, 79.5780],
+        "importance": "First confluence where Sage Narada meditated to please Lord Vishnu."
+      },
+      {
+        "name": "Nandaprayag",
+        "rivers": "Alaknanda + Nandakini",
+        "district": "Chamoli",
+        "altitude": 914,
+        "coordinates": [30.3323, 79.3242],
+        "importance": "King Nanda performed yagna here; holy site of purification."
+      },
+      {
+        "name": "Karnaprayag",
+        "rivers": "Alaknanda + Pindar",
+        "district": "Chamoli",
+        "altitude": 860,
+        "coordinates": [30.2608, 79.2198],
+        "importance": "Karna worshipped Sun God Surya and received divine Kavach and Kundal here."
+      },
+      {
+        "name": "Rudraprayag",
+        "rivers": "Alaknanda + Mandakini",
+        "district": "Rudraprayag",
+        "altitude": 895,
+        "coordinates": [30.2858, 78.9814],
+        "importance": "Lord Shiva performed the Rudra Tandava and blessed Sage Narada with music mastery."
+      },
+      {
+        "name": "Devprayag",
+        "rivers": "Alaknanda + Bhagirathi (Forms River Ganga)",
+        "district": "Tehri Garhwal",
+        "altitude": 830,
+        "coordinates": [30.1459, 78.5989],
+        "importance": "The ultimate confluence where River Ganga officially begins its pilgrimage across India."
+      }
+    ]
+  },
+  {
+    "id": "panch-kedar",
+    "name": "The Divine Panch Kedar",
+    "category": "Shiva Shrines",
+    "description": "The five Shiva temples built by the Pandavas in the Garhwal Himalayas where different parts of Lord Shiva's bull incarnation appeared.",
+    "sites": [
+      {
+        "name": "Kedarnath",
+        "part": "Hump of Shiva",
+        "altitude": 3583,
+        "coordinates": [30.7352, 79.0669]
+      },
+      {
+        "name": "Tungnath",
+        "part": "Arms (Bahu) of Shiva",
+        "altitude": 3680,
+        "coordinates": [30.4902, 79.2158]
+      },
+      {
+        "name": "Rudranath",
+        "part": "Face (Mukh) of Shiva",
+        "altitude": 3600,
+        "coordinates": [30.5289, 79.3378]
+      },
+      {
+        "name": "Madhyamaheshwar",
+        "part": "Navel (Nabhi) of Shiva",
+        "altitude": 3497,
+        "coordinates": [30.6386, 79.2192]
+      },
+      {
+        "name": "Kalpeshwar",
+        "part": "Hair Locks (Jata) of Shiva",
+        "altitude": 2200,
+        "coordinates": [30.5694, 79.4678]
+      }
+    ]
+  }
+]

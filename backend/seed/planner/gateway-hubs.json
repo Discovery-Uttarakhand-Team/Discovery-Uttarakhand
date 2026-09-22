@@ -1,0 +1,257 @@
+[
+ {
+  "slug": "jolly-grant-airport-dehradun",
+  "name": "Jolly Grant Airport (Dehradun)",
+  "kind": "airport",
+  "placeRef": "dehradun",
+  "district": "Dehradun",
+  "connectsTo": [
+   "dehradun",
+   "rishikesh",
+   "haridwar",
+   "mussoorie",
+   "rajaji-national-park"
+  ],
+  "notes": "Daily domestic flights; 20 km from Dehradun town; 15 km from Rishikesh. Red-painted public buses run to Rishikesh stopping at the airport en route.",
+  "sourceName": "Wikivoyage (English) — Dehradun / Rishikesh",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Dehradun",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "pantnagar-airport",
+  "name": "Pantnagar Airport",
+  "kind": "airport",
+  "placeRef": "haldwani",
+  "district": "Udham Singh Nagar",
+  "connectsTo": [
+   "haldwani",
+   "nainital",
+   "almora",
+   "ranikhet"
+  ],
+  "notes": "About 70 km / 2 hours from Nainital; 30 km south of Haldwani. Very limited scheduled flights.",
+  "sourceName": "Wikivoyage (English) — Nainital / Haldwani",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Nainital",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "kathgodam-railway-station",
+  "name": "Kathgodam Railway Station",
+  "kind": "railhead",
+  "placeRef": "haldwani",
+  "district": "Nainital",
+  "connectsTo": [
+   "nainital",
+   "bhimtal",
+   "naukuchiatal",
+   "almora",
+   "ranikhet",
+   "mukteshwar",
+   "pithoragarh",
+   "munsiyari",
+   "jim-corbett-national-park"
+  ],
+  "notes": "Primary railhead for Kumaon: 35 km from Nainital. Bus station 100 m from the station; buses to Nainital ~₹60 per person; taxis and shared taxis available.",
+  "sourceName": "Wikivoyage (English) — Nainital / Kathgodam",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Kathgodam",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "haldwani-bus-hub",
+  "name": "Haldwani Bus Hub & Shared-Taxi Stand",
+  "kind": "bus_hub",
+  "placeRef": "haldwani",
+  "district": "Nainital",
+  "connectsTo": [
+   "almora",
+   "pithoragarh",
+   "munsiyari",
+   "chaukori",
+   "nainital"
+  ],
+  "notes": "Main changeover point for Kumaon hill travel — shared taxis to Pithoragarh and buses onward to Almora/Munsiyari. Prepaid taxi booth at the railway station.",
+  "sourceName": "Wikivoyage (English) — Pithoragarh / Haldwani",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Pithoragarh",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "dehradun-railway-station",
+  "name": "Dehradun Railway Station",
+  "kind": "railhead",
+  "placeRef": "dehradun",
+  "district": "Dehradun",
+  "connectsTo": [
+   "dehradun",
+   "mussoorie",
+   "kempty-falls-visit",
+   "rishikesh"
+  ],
+  "notes": "Railhead for Garhwal. Hill Bus Services Section (at the railway station) runs buses to Mussoorie and Kempty Falls; taxis to Mussoorie ~₹610, shared taxis ~₹100/seat.",
+  "sourceName": "Wikivoyage (English) — Mussoorie / Dehradun",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Mussoorie",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "yog-nagari-rishikesh-railway-station",
+  "name": "Yog Nagari Rishikesh Railway Station",
+  "kind": "railhead",
+  "placeRef": "rishikesh",
+  "district": "Dehradun",
+  "connectsTo": [
+   "rishikesh",
+   "haridwar",
+   "devprayag"
+  ],
+  "notes": "Terminus of the Howrah–Rishikesh corridor (Doon Express 13009/13010). Shared taxis to destinations within Uttarakhand leave from Natraj Chowk, 1 km from the Rishikesh bus station.",
+  "sourceName": "Wikipedia (English) — Doon Express + Wikivoyage Rishikesh",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Doon_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "haridwar-railway-station",
+  "name": "Haridwar Railway Station",
+  "kind": "railhead",
+  "placeRef": "haridwar",
+  "district": "Haridwar",
+  "connectsTo": [
+   "haridwar",
+   "rishikesh",
+   "devprayag",
+   "chota-char-dham-yatra"
+  ],
+  "notes": "Major railhead on the Delhi–Dehradun line; traditional starting point of the Char Dham Yatra. Nearest airport: Dehradun's Jolly Grant, 20 km.",
+  "sourceName": "Wikivoyage (English) — Haridwar",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Haridwar",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "delhi-kashmere-gate-isbt",
+  "name": "Delhi Kashmere Gate ISBT",
+  "kind": "bus_hub",
+  "placeRef": null,
+  "district": null,
+  "connectsTo": [
+   "dehradun",
+   "haridwar",
+   "rishikesh",
+   "haldwani"
+  ],
+  "notes": "From ISBT Kashmere Gate (Old Delhi), Deluxe, Volvo, semi-deluxe and ordinary Uttarakhand state (UTC) buses depart hourly for Dehradun.",
+  "sourceName": "Wikivoyage (English) — Dehradun",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Dehradun",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "new-delhi-railway-station",
+  "name": "New Delhi Railway Station (NDLS)",
+  "kind": "railhead",
+  "placeRef": null,
+  "district": null,
+  "connectsTo": [
+   "dehradun",
+   "kathgodam-via-corridor"
+  ],
+  "notes": "Origin of the Dehradun Shatabdi (12017) and Kathgodam Shatabdi (12039) corridors to Uttarakhand.",
+  "sourceName": "Wikipedia (English) — Dehradun Shatabdi Express; Wikivoyage Kathgodam",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dehradun_Shatabdi_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "old-delhi-junction",
+  "name": "Old Delhi Junction (DLI)",
+  "kind": "railhead",
+  "placeRef": null,
+  "district": null,
+  "connectsTo": [
+   "dehradun",
+   "kathgodam-via-corridor"
+  ],
+  "notes": "Origin/stop for the Mussoorie Express (14041, to Dehradun) and the Ranikhet Express (15013, to Kathgodam).",
+  "sourceName": "Wikipedia (English) — Mussoorie Express / Ranikhet Express",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Mussoorie_Express",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12"
+ },
+ {
+  "slug": "dharchula-checkpoint",
+  "name": "Dharchula (Inner Line Permit checkpoint)",
+  "kind": "shared_taxi_stand",
+  "placeRef": "dharchula",
+  "district": "Pithoragarh",
+  "connectsTo": [
+   "adi-kailash",
+   "om-parvat",
+   "kuthi-valley",
+   "gunji",
+   "milam"
+  ],
+  "notes": "Gateway + permit checkpoint for the Adi Kailash / Om Parvat / Kuthi Valley border zone: permits for this route are issued at Dharchula and a medical check-up is conducted there.",
+  "sourceName": "Wikipedia (English) — Adi Kailash",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Adi_Kailash",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "The permits for this route are issued at Dharchula and medical check-up is conducted there."
+ },
+ {
+  "slug": "joshimath-bus-hub",
+  "name": "Joshimath Bus Hub",
+  "kind": "bus_hub",
+  "placeRef": "joshimath",
+  "district": "Chamoli",
+  "connectsTo": [
+   "badrinath",
+   "valley-of-flowers-national-park",
+   "auli"
+  ],
+  "notes": "Road head for Badrinath, Valley of Flowers (via Govindghat/Ghangaria) and Auli. Permits for Valley of Flowers are obtainable directly at the check-post in Ghangaria.",
+  "sourceName": "Wikipedia (English) — Joshimath",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Joshimath",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "One can directly get permit from the check-post in Ghangaria, no need to apply prior."
+ },
+ {
+  "slug": "natraj-chowk-rishikesh",
+  "name": "Natraj Chowk Shared-Taxi Stand (Rishikesh)",
+  "kind": "shared_taxi_stand",
+  "placeRef": "rishikesh",
+  "district": "Dehradun",
+  "connectsTo": [
+   "devprayag",
+   "srinagar",
+   "pauri"
+  ],
+  "notes": "Shared taxis to destinations within Uttarakhand leave from Natraj Chowk, 1 km from the Rishikesh bus station.",
+  "sourceName": "Wikivoyage (English) — Rishikesh",
+  "sourceUrl": "https://en.wikivoyage.org/wiki/Rishikesh",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "Shared taxis to destinations within Uttarakhand leave from Natraj Chowk, 1 km from the Rishikesh bus station."
+ },
+ {
+  "slug": "ramnagar-corbett-gateway",
+  "name": "Ramnagar (Corbett gateway)",
+  "kind": "bus_hub",
+  "placeRef": "ramnagar",
+  "district": "Nainital",
+  "connectsTo": [
+   "jim-corbett-national-park",
+   "garjiya-devi-temple"
+  ],
+  "notes": "Gateway town for Jim Corbett National Park; safari permits are issued at the CTR Reception Office in Ramnagar (online booking via corbettonline.uk.gov.in). Only local licensed gypsy vehicles may move inside the park.",
+  "sourceName": "Wikipedia (English) — Ramnagar",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ramnagar",
+  "contentLicense": "CC BY-SA 4.0",
+  "lastVerified": "2026-09-12",
+  "sourceSentence": "Permits are issued at the CTR Reception Office in Ramnagar."
+ }
+]

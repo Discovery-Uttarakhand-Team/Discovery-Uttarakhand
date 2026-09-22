@@ -1,0 +1,424 @@
+[
+  {
+    "id": "biz_001",
+    "name": "Devbhoomi Riders",
+    "slug": "devbhoomi-riders-haldwani",
+    "city": "Haldwani",
+    "district": "Nainital",
+    "category": "Bike Rental",
+    "description": "Devbhoomi Riders offers Bike and Scooty on Rent in Haldwani with well-maintained vehicles for a hassle-free ride.",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "address": "Tikonia Haldwani, Nainital Road Near Haldwani Bus Stand and Railway Station",
+    "latitude": null,
+    "longitude": null,
+    "phone": "+916396725707",
+    "website": "https://devbhoomiriders.in/",
+    "sourceUrl": "https://devbhoomiriders.in/bike-on-rent-haldwani/",
+    "sourceName": "Devbhoomi Riders Official",
+    "sourcePageUrl": "https://devbhoomiriders.in/shop/",
+    "priceNotes": "Daily Kilometre limit for Scooty is 100-110(max). For Bikes and Bullets 110-120(max). Fuel not included.",
+    "priceLastChecked": "2026-09-12T08:35:08.037322",
+    "currency": "INR",
+    "lastVerified": "2026-09-12T08:35:08.037344",
+    "images": [],
+    "vehicles": [
+      {
+        "name": "Yamaha FZ",
+        "category": "Commuter Bike",
+        "pricePerDay": 1100,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "Honda Activa",
+        "category": "Scooty",
+        "pricePerDay": 500,
+        "currency": "INR",
+        "image": "/assets/rentals/lansdowne-honda-activa-5g/cover.jpg"
+      },
+      {
+        "name": "Royal Enfield Bullet Standard 350",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1100,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1596483584825-9f5cc24e2c88?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "Royal Enfield Hunter 350",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1100,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1596483584825-9f5cc24e2c88?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "Suzuki Burgman",
+        "category": "Scooty",
+        "pricePerDay": 500,
+        "currency": "INR",
+        "image": "/assets/rentals/ramnagar-suzuki-burgman-street/cover.jpg"
+      },
+      {
+        "name": "Suzuki Access 125",
+        "category": "Scooty",
+        "pricePerDay": 500,
+        "currency": "INR",
+        "image": "/assets/rentals/ramnagar-suzuki-access-125/cover.jpg"
+      },
+      {
+        "name": "TVS Ntorq",
+        "category": "Scooty",
+        "pricePerDay": 500,
+        "currency": "INR",
+        "image": "/assets/rentals/rishikesh-tvs-ntorq-125/cover.jpg"
+      },
+      {
+        "name": "TVS Apache",
+        "category": "Commuter Bike",
+        "pricePerDay": 700,
+        "currency": "INR",
+        "image": "/assets/rentals/chopta-tvs-apache-rtr-160/cover.jpg"
+      },
+      {
+        "name": "Bajaj Pulsar",
+        "category": "Commuter Bike",
+        "pricePerDay": 800,
+        "currency": "INR",
+        "image": "/assets/rentals/ramnagar-bajaj-pulsar-150/cover.jpg"
+      },
+      {
+        "name": "Hero X Pulse",
+        "category": "Adventure Bike",
+        "pricePerDay": 1100,
+        "currency": "INR",
+        "image": "/assets/rentals/chamoli-hero-xpulse-200/cover.jpg"
+      },
+      {
+        "name": "Bajaj Avenger 160",
+        "category": "Commuter Bike",
+        "pricePerDay": 800,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "Royal Enfield Himalayan 350",
+        "category": "Adventure Bike",
+        "pricePerDay": 1600,
+        "currency": "INR",
+        "image": "/assets/rentals/dhanaulti-royal-enfield-himalayan/cover.jpg"
+      },
+      {
+        "name": "Royal Enfield Classic 350",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1000,
+        "currency": "INR",
+        "image": "/assets/rentals/pithoragarh-royal-enfield-classic-350/cover.jpg"
+      },
+      {
+        "name": "Royal Enfield Meteor 350",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1000,
+        "currency": "INR",
+        "image": "/assets/rentals/rudraprayag-royal-enfield-meteor-350/cover.jpg"
+      }
+    ]
+  },
+  {
+    "id": "biz_002",
+    "name": "Tour On 2 Wheelers",
+    "slug": "tour-on-2-wheelers-rishikesh",
+    "city": "Rishikesh",
+    "district": "Dehradun",
+    "category": "Bike Rental",
+    "description": "Bike on rent in Rishikesh.",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "address": "Rishikesh",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "sourceUrl": "https://www.google.com",
+    "sourceName": "Tour On 2 Wheelers via Google",
+    "sourcePageUrl": null,
+    "priceNotes": null,
+    "priceLastChecked": "2026-09-12T08:35:08.037355",
+    "currency": "INR",
+    "lastVerified": "2026-09-12T08:35:08.037356",
+    "images": [],
+    "vehicles": [
+      {
+        "name": "Honda Activa 125cc",
+        "category": "Scooty",
+        "pricePerDay": 500,
+        "currency": "INR",
+        "image": "/assets/rentals/lansdowne-honda-activa-5g/cover.jpg"
+      },
+      {
+        "name": "RE Hunter 350cc",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1200,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1596483584825-9f5cc24e2c88?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "RE Classic Reborn 350cc",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1300,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1596483584825-9f5cc24e2c88?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "RE Meteor 350cc",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1400,
+        "currency": "INR",
+        "image": "/assets/rentals/rudraprayag-royal-enfield-meteor-350/cover.jpg"
+      },
+      {
+        "name": "RE Himalayan 411cc",
+        "category": "Adventure Bike",
+        "pricePerDay": 1600,
+        "currency": "INR",
+        "image": "/assets/rentals/dhanaulti-royal-enfield-himalayan/cover.jpg"
+      },
+      {
+        "name": "RE Himalayan 450cc",
+        "category": "Adventure Bike",
+        "pricePerDay": 2000,
+        "currency": "INR",
+        "image": "/assets/rentals/dhanaulti-royal-enfield-himalayan/cover.jpg"
+      }
+    ]
+  },
+  {
+    "id": "biz_003",
+    "name": "RenTrip",
+    "slug": "rentrip-rishikesh",
+    "city": "Rishikesh",
+    "district": "Dehradun",
+    "category": "Bike Rental",
+    "description": "RenTrip Bike Rental in Rishikesh.",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "address": "Rishikesh",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.rentrip.in/rent-bike/Rishikesh",
+    "sourceUrl": "https://www.rentrip.in/rent-bike/Rishikesh",
+    "sourceName": "RenTrip Official",
+    "sourcePageUrl": "https://www.rentrip.in/rent-bike/Rishikesh",
+    "priceNotes": null,
+    "priceLastChecked": "2026-09-12T08:35:08.037362",
+    "currency": "INR",
+    "lastVerified": "2026-09-12T08:35:08.037363",
+    "images": [],
+    "vehicles": [
+      {
+        "name": "Honda Activa",
+        "category": "Scooty",
+        "pricePerDay": 400,
+        "currency": "INR",
+        "image": "/assets/rentals/lansdowne-honda-activa-5g/cover.jpg"
+      },
+      {
+        "name": "Honda Activa 3G",
+        "category": "Scooty",
+        "pricePerDay": 450,
+        "currency": "INR",
+        "image": "/assets/rentals/lansdowne-honda-activa-5g/cover.jpg"
+      },
+      {
+        "name": "Suzuki Access",
+        "category": "Scooty",
+        "pricePerDay": 499,
+        "currency": "INR",
+        "image": "/assets/rentals/ramnagar-suzuki-access-125/cover.jpg"
+      },
+      {
+        "name": "Honda Dio",
+        "category": "Scooty",
+        "pricePerDay": 500,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1596767791834-0f2d659223ea?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "TVS Jupiter",
+        "category": "Scooty",
+        "pricePerDay": 599,
+        "currency": "INR",
+        "image": "/assets/rentals/lansdowne-tvs-jupiter/cover.jpg"
+      },
+      {
+        "name": "Hero Impulse",
+        "category": "Adventure Bike",
+        "pricePerDay": 600,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "Bajaj Pulsar 150",
+        "category": "Commuter Bike",
+        "pricePerDay": 600,
+        "currency": "INR",
+        "image": "/assets/rentals/ramnagar-bajaj-pulsar-150/cover.jpg"
+      },
+      {
+        "name": "Honda Activa 6G",
+        "category": "Scooty",
+        "pricePerDay": 649,
+        "currency": "INR",
+        "image": "/assets/rentals/lansdowne-honda-activa-5g/cover.jpg"
+      },
+      {
+        "name": "Suzuki Access 125",
+        "category": "Scooty",
+        "pricePerDay": 649,
+        "currency": "INR",
+        "image": "/assets/rentals/ramnagar-suzuki-access-125/cover.jpg"
+      },
+      {
+        "name": "Bajaj Avenger 220",
+        "category": "Commuter Bike",
+        "pricePerDay": 800,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "Yamaha FZS V3",
+        "category": "Commuter Bike",
+        "pricePerDay": 899,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
+    "id": "biz_004",
+    "name": "Nainital Bike Rent",
+    "slug": "nainital-bike-rent-nainital",
+    "city": "Nainital",
+    "district": "Nainital",
+    "category": "Bike Rental",
+    "description": "Bike on rent in Nainital.",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "address": "Nainital",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.nainitalbikerent.com",
+    "sourceUrl": "https://www.nainitalbikerent.com",
+    "sourceName": "Nainital Bike Rent Official",
+    "sourcePageUrl": "https://www.nainitalbikerent.com",
+    "priceNotes": null,
+    "priceLastChecked": "2026-09-12T08:46:53.578155",
+    "currency": "INR",
+    "lastVerified": "2026-09-12T08:46:53.578182",
+    "images": [],
+    "vehicles": [
+      {
+        "name": "NTorq Scooty",
+        "category": "Scooty",
+        "pricePerDay": 599,
+        "currency": "INR",
+        "image": "/assets/rentals/rishikesh-tvs-ntorq-125/cover.jpg"
+      },
+      {
+        "name": "TVS NTorq Scooty",
+        "category": "Scooty",
+        "pricePerDay": 750,
+        "currency": "INR",
+        "image": "/assets/rentals/rishikesh-tvs-ntorq-125/cover.jpg"
+      },
+      {
+        "name": "Royal Enfield Classic 350 Chrome Bronze",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1200,
+        "currency": "INR",
+        "image": "/assets/rentals/pithoragarh-royal-enfield-classic-350/cover.jpg"
+      },
+      {
+        "name": "Royal Enfield Thunderbird 350",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1000,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1596483584825-9f5cc24e2c88?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "Royal Enfield Himalayan",
+        "category": "Adventure Bike",
+        "pricePerDay": 1600,
+        "currency": "INR",
+        "image": "/assets/rentals/dhanaulti-royal-enfield-himalayan/cover.jpg"
+      },
+      {
+        "name": "Bajaj Pulsar F250",
+        "category": "Commuter Bike",
+        "pricePerDay": 1000,
+        "currency": "INR",
+        "image": "/assets/rentals/ramnagar-bajaj-pulsar-150/cover.jpg"
+      },
+      {
+        "name": "RE Meteor 350",
+        "category": "Royal Enfield / Bullet",
+        "pricePerDay": 1000,
+        "currency": "INR",
+        "image": "/assets/rentals/rudraprayag-royal-enfield-meteor-350/cover.jpg"
+      }
+    ]
+  },
+  {
+    "id": "biz_005",
+    "name": "Uttaranchal Bike Rental",
+    "slug": "uttaranchal-bike-rental-dehradun",
+    "city": "Dehradun",
+    "district": "Dehradun",
+    "category": "Bike Rental",
+    "description": "Bike on rent in Dehradun.",
+    "rating": null,
+    "reviewCount": null,
+    "ratingSource": null,
+    "address": "Dehradun",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://uttaranchalbikerental.com",
+    "sourceUrl": "https://uttaranchalbikerental.com",
+    "sourceName": "Uttaranchal Bike Rental Official",
+    "sourcePageUrl": "https://uttaranchalbikerental.com",
+    "priceNotes": null,
+    "priceLastChecked": "2026-09-12T08:46:53.578189",
+    "currency": "INR",
+    "lastVerified": "2026-09-12T08:46:53.578190",
+    "images": [],
+    "vehicles": [
+      {
+        "name": "Honda Aviator",
+        "category": "Scooty",
+        "pricePerDay": 500,
+        "currency": "INR",
+        "image": "https://images.unsplash.com/photo-1596767791834-0f2d659223ea?w=800&auto=format&fit=crop"
+      },
+      {
+        "name": "TVS Apache 160 RTR",
+        "category": "Commuter Bike",
+        "pricePerDay": 800,
+        "currency": "INR",
+        "image": "/assets/rentals/chopta-tvs-apache-rtr-160/cover.jpg"
+      },
+      {
+        "name": "Honda Activa 5G Deluxe",
+        "category": "Scooty",
+        "pricePerDay": 500,
+        "currency": "INR",
+        "image": "/assets/rentals/lansdowne-honda-activa-5g/cover.jpg"
+      }
+    ]
+  }
+]
