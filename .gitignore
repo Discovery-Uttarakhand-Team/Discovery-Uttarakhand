@@ -46,3 +46,10 @@ Thumbs.db
 scratch/
 tmp/
 temp/
+
+# Claude & Agent Instructions
+.agents/
+AGENTS.md
+CLAUDE.md
+launch-claude*
+
