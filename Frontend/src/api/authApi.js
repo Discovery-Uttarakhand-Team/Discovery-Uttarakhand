@@ -5,6 +5,11 @@ export const register = async (userData) => {
   return response.data;
 };
 
+export const registerPartner = async (partnerData) => {
+  const response = await api.post('/auth/register-partner', partnerData);
+  return response.data;
+};
+
 export const login = async (credentials) => {
   const response = await api.post('/auth/login', credentials);
   return response.data;

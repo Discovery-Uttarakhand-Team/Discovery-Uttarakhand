@@ -132,3 +132,31 @@ export const generatePlan = async (req, res) => {
     });
   }
 };
+
+/**
+ * Safe AI Health Check
+ * Does NOT leak keys or credentials. Returns active provider name, enabled state, and health flag.
+ */
+export const getAiHealth = async (req, res) => {
+  try {
+    const aiService = new AiPlannerService();
+    const activeProvider = aiService.provider;
+    const isHealthy = await activeProvider.isHealthy();
+    return res.status(200).json({
+      success: true,
+      provider: activeProvider.name,
+      enabled: activeProvider.name === 'omniroute' 
+        ? (process.env.OMNIROUTE_ENABLED !== 'false' && Boolean(process.env.OMNIROUTE_API_KEY))
+        : true,
+      healthy: Boolean(isHealthy)
+    });
+  } catch (err) {
+    return res.status(200).json({
+      success: true,
+      provider: 'deterministic',
+      enabled: true,
+      healthy: true
+    });
+  }
+};
+

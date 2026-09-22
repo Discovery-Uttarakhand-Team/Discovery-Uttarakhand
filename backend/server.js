@@ -53,9 +53,23 @@ app.use(helmet({
   crossOriginResourcePolicy: { policy: "cross-origin" }
 }));
 
-const allowedOrigins = process.env.NODE_ENV === 'production' && process.env.FRONTEND_URL 
-  ? [process.env.FRONTEND_URL] 
-  : true;
+let allowedOrigins = true;
+if (process.env.NODE_ENV === 'production') {
+  if (process.env.FRONTEND_URL) {
+    const rawOrigins = process.env.FRONTEND_URL.split(',').map(u => u.trim());
+    allowedOrigins = (origin, callback) => {
+      // Allow requests with no origin (e.g. mobile apps, curl, server-to-server, SSE)
+      if (!origin) return callback(null, true);
+      if (rawOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      return callback(new Error(`CORS policy blocked access from origin: ${origin}`));
+    };
+  } else {
+    console.warn('[SECURITY WARNING] FRONTEND_URL is not configured in production mode.');
+    allowedOrigins = false;
+  }
+}
 
 app.use(cors({
   origin: allowedOrigins,
@@ -101,22 +115,43 @@ app.use('/api/chats', chatRoutes);
 app.use('/api/payments', paymentRoutes);
 app.use('/internal/agent', internalAgentRoutes);
 
-// Liveness endpoint (process health only)
+// Liveness & Application Health Check
 app.get('/api/health', (req, res) => {
+  const isMongoConnected = mongoose.connection.readyState === 1;
+  const isCloudinaryConfigured = Boolean(
+    process.env.CLOUDINARY_CLOUD_NAME &&
+    process.env.CLOUDINARY_API_KEY &&
+    process.env.CLOUDINARY_API_SECRET
+  );
+  const activeAi = (process.env.AI_PROVIDER || (process.env.OMNIROUTE_API_KEY ? 'omniroute' : (process.env.GEMINI_API_KEY ? 'gemini' : 'deterministic'))).toLowerCase();
+
   res.status(200).json({
     success: true,
-    message: 'Discovery Uttarakhand API process is alive'
+    message: 'Discovery Uttarakhand API process is alive',
+    status: isMongoConnected ? 'healthy' : 'degraded',
+    services: {
+      database: isMongoConnected ? 'connected' : 'disconnected',
+      ai: 'available',
+      aiProvider: activeAi,
+      cloudinary: isCloudinaryConfigured ? 'configured' : 'local_fallback'
+    },
+    uptime: Math.floor(process.uptime()),
+    timestamp: new Date().toISOString()
   });
 });
 
-// Readiness endpoint (checks dependencies like DB)
-app.get('/api/ready', (req, res) => {
+// Liveness probe (container orchestrators)
+app.get('/api/health/live', (req, res) => {
+  res.status(200).json({ status: 'alive' });
+});
+
+// Readiness probe (checks DB readiness)
+app.get(['/api/health/ready', '/api/ready'], (req, res) => {
   const isMongoConnected = mongoose.connection.readyState === 1;
-  
   if (isMongoConnected) {
-    res.status(200).json({ success: true, message: 'API is ready to receive traffic' });
+    res.status(200).json({ success: true, status: 'ready', message: 'API is ready to receive traffic' });
   } else {
-    res.status(503).json({ success: false, message: 'API is not ready (Database disconnected)' });
+    res.status(503).json({ success: false, status: 'not_ready', message: 'API is not ready (Database disconnected)' });
   }
 });
 

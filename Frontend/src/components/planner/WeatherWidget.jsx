@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Cloud, CloudRain, Sun, Snowflake, AlertCircle, RefreshCw, MapPin } from 'lucide-react';
 
+const API_BASE = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+
 export default function WeatherWidget({ lat, lng, name }) {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -26,7 +28,7 @@ export default function WeatherWidget({ lat, lng, name }) {
     const fetchWeather = async () => {
       setLoading(true);
       try {
-        const response = await axios.get(`http://localhost:5000/api/live/weather`, {
+        const response = await axios.get(`${API_BASE}/live/weather`, {
           params: { lat: parsedLat, lon: parsedLon, name }
         });
         

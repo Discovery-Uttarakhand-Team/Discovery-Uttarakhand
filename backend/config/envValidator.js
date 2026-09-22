@@ -8,18 +8,16 @@ export const validateEnv = () => {
     return; // We only strictly enforce in production to not break local dev setups unnecessarily
   }
 
-  const requiredVariables = [
-    'MONGO_URI',
-    'JWT_SECRET',
-    'FRONTEND_URL'
-  ];
-
   const missing = [];
 
-  for (const variable of requiredVariables) {
-    if (!process.env[variable]) {
-      missing.push(variable);
-    }
+  if (!process.env.MONGO_URI && !process.env.MONGODB_URI) {
+    missing.push('MONGO_URI (or MONGODB_URI)');
+  }
+  if (!process.env.JWT_SECRET) {
+    missing.push('JWT_SECRET');
+  }
+  if (!process.env.FRONTEND_URL) {
+    missing.push('FRONTEND_URL');
   }
 
   if (missing.length > 0) {

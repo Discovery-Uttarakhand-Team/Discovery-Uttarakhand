@@ -206,8 +206,8 @@ export function validateToolCall(toolName, args = {}) {
       return { valid: false, reason: `Missing required argument: ${field}` };
     }
   }
-  if (args.travelers !== undefined) { const t = parseInt(args.travelers); if (isNaN(t)||t<1||t>50) return { valid: false, reason: "travelers must be 1-50" }; args.travelers = t; }
-  if (args.durationDays !== undefined) { const d = parseInt(args.durationDays); if (isNaN(d)||d<1||d>30) return { valid: false, reason: "durationDays must be 1-30" }; args.durationDays = d; }
+  if (args.travelers !== undefined) { const t = parseInt(args.travelers); if (isNaN(t)||t<1||t>20) return { valid: false, reason: "travelers must be between 1 and 20" }; args.travelers = t; }
+  if (args.durationDays !== undefined) { const d = parseInt(args.durationDays); if (isNaN(d)||d<1||d>14) return { valid: false, reason: "durationDays must be between 1 and 14" }; args.durationDays = d; }
   if (args.limit !== undefined) { const l = parseInt(args.limit); args.limit = Math.min(Math.max(isNaN(l)?5:l,1),10); }
   if (args.day !== undefined) { const day = parseInt(args.day); if (isNaN(day)||day<1) return { valid: false, reason: "day must be >= 1" }; args.day = day; }
   for (const f of ["tripId","listingId","removeCandidateId","addCandidateId"]) {

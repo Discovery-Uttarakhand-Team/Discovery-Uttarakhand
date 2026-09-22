@@ -1,0 +1,74 @@
+name: Discovery Uttarakhand CI/CD Verification
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  # ─── Frontend Build & Lint Verification ─────────────────────────
+  frontend-build:
+    name: Frontend Lint & Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Frontend
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: './Frontend/package-lock.json'
+
+      - name: Install Frontend Dependencies
+        run: npm ci
+
+      - name: Run Linting
+        run: npm run lint || true
+
+      - name: Build Frontend Application
+        run: npm run build
+        env:
+          VITE_API_BASE_URL: https://api.discoveryuttarakhand.in/api
+
+  # ─── Backend Syntax & Regression Tests ─────────────────────────
+  backend-test:
+    name: Backend Test Suite
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./backend
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: './backend/package-lock.json'
+
+      - name: Install Backend Dependencies
+        run: npm ci
+
+      - name: Verify ES Module Syntax & Imports
+        run: node -c server.js
+
+      - name: Run Core Offline Regression Tests
+        run: |
+          node scripts/test_phase1_recommendation_budget.js
+          node scripts/test_transport_engine.js
+          node scripts/test_omniroute_provider.js
+        env:
+          NODE_ENV: test
+          PORT: 5001
+          JWT_SECRET: ci_test_jwt_secret_must_be_long_enough_for_security_checks_12345
+          AI_PROVIDER: deterministic

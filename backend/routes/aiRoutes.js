@@ -4,7 +4,7 @@
  */
 
 import express from 'express';
-import { generatePlan } from '../controllers/aiController.js';
+import { generatePlan, getAiHealth } from '../controllers/aiController.js';
 
 const router = express.Router();
 
@@ -34,7 +34,10 @@ const aiRateLimiter = (req, res, next) => {
   next();
 };
 
-// Mount route
+// Safe AI Provider Health check
+router.get('/health', getAiHealth);
+
+// Mount planning route
 router.post('/plan', aiRateLimiter, generatePlan);
 
 export default router;

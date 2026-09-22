@@ -3,7 +3,7 @@
  * Calls POST /api/ai/plan with JWT authentication for saved trips or transient payloads.
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 export const generateAiPlan = async ({ tripId, tripData, provider }) => {
   try {

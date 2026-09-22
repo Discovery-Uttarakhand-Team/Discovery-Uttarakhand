@@ -1,5 +1,11 @@
-import React, { createContext, useState, useEffect, useContext } from 'react';
-import { login as apiLogin, register as apiRegister, getMe, logout as apiLogout } from '../api/authApi';
+import React, { createContext, useState, useEffect, useContext, useCallback } from 'react';
+import {
+  login as apiLogin,
+  register as apiRegister,
+  registerPartner as apiRegisterPartner,
+  getMe,
+  logout as apiLogout
+} from '../api/authApi';
 
 const AuthContext = createContext();
 
@@ -12,6 +18,8 @@ export const AuthProvider = ({ children }) => {
   const [authModalOpen, setAuthModalOpen] = useState(false);
   const [authError, setAuthError] = useState(null);
   const [pendingAction, setPendingAction] = useState(null);
+  // 'user' | 'partner' — which panel the user selected in role selection screen
+  const [authMode, setAuthMode] = useState('user');
 
   useEffect(() => {
     const checkAuth = async () => {
@@ -35,24 +43,43 @@ export const AuthProvider = ({ children }) => {
     checkAuth();
   }, []);
 
+  /**
+   * Compute the correct post-login redirect path based on the user role.
+   */
+  const getPostLoginPath = useCallback((user) => {
+    if (!user) return '/';
+    if (user.role === 'admin') return '/admin';
+    if (user.role === 'partner') return '/partner';
+    return '/profile';
+  }, []);
+
+  /**
+   * Handle everything after a successful login/register response.
+   */
+  const handleAuthSuccess = useCallback((userData) => {
+    localStorage.setItem('token', userData.token);
+    setCurrentUser(userData);
+    setIsAuthenticated(true);
+    setAuthModalOpen(false);
+    setAuthError(null);
+  }, []);
+
   const login = async (credentials) => {
     try {
       setAuthError(null);
       const res = await apiLogin(credentials);
       if (res.success) {
-        localStorage.setItem('token', res.data.token);
-        setCurrentUser(res.data);
-        setIsAuthenticated(true);
-        setAuthModalOpen(false);
+        handleAuthSuccess(res.data);
         if (pendingAction) {
           pendingAction();
           setPendingAction(null);
         }
-        return { success: true };
+        return { success: true, user: res.data, redirectTo: getPostLoginPath(res.data) };
       }
     } catch (error) {
-      setAuthError(error.response?.data?.message || 'Login failed. Please try again.');
-      return { success: false, message: error.response?.data?.message || 'Login failed' };
+      const msg = error.response?.data?.message || 'Login failed. Please try again.';
+      setAuthError(msg);
+      return { success: false, message: msg };
     }
   };
 
@@ -61,19 +88,39 @@ export const AuthProvider = ({ children }) => {
       setAuthError(null);
       const res = await apiRegister(userData);
       if (res.success) {
-        localStorage.setItem('token', res.data.token);
-        setCurrentUser(res.data);
-        setIsAuthenticated(true);
-        setAuthModalOpen(false);
+        handleAuthSuccess(res.data);
         if (pendingAction) {
           pendingAction();
           setPendingAction(null);
         }
-        return { success: true };
+        return { success: true, user: res.data, redirectTo: getPostLoginPath(res.data) };
       }
     } catch (error) {
-      setAuthError(error.response?.data?.message || 'Registration failed. Please try again.');
-      return { success: false, message: error.response?.data?.message || 'Registration failed' };
+      const msg = error.response?.data?.message || 'Registration failed. Please try again.';
+      setAuthError(msg);
+      return { success: false, message: msg };
+    }
+  };
+
+  /**
+   * Partner registration — always results in role='partner' (enforced server-side).
+   */
+  const registerPartnerAccount = async (partnerData) => {
+    try {
+      setAuthError(null);
+      const res = await apiRegisterPartner(partnerData);
+      if (res.success) {
+        handleAuthSuccess(res.data);
+        return { success: true, user: res.data, redirectTo: '/partner' };
+      } else {
+        const msg = res.message || 'Partner registration failed.';
+        setAuthError(msg);
+        return { success: false, message: msg };
+      }
+    } catch (error) {
+      const msg = error.response?.data?.message || 'Partner registration failed. Please try again.';
+      setAuthError(msg);
+      return { success: false, message: msg };
     }
   };
 
@@ -98,18 +145,31 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
+  /**
+   * Open the auth modal pre-configured for the partner flow.
+   */
+  const openPartnerAuth = () => {
+    setAuthMode('partner');
+    setAuthModalOpen(true);
+  };
+
   const value = {
     currentUser,
     isAuthenticated,
     isLoading,
     login,
     register,
+    registerPartnerAccount,
     logout,
     authModalOpen,
     setAuthModalOpen,
     authError,
     setAuthError,
-    requireAuth
+    requireAuth,
+    authMode,
+    setAuthMode,
+    openPartnerAuth,
+    getPostLoginPath,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

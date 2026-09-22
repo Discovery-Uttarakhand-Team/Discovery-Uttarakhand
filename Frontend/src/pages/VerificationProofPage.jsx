@@ -18,6 +18,8 @@ import {
   Layers
 } from 'lucide-react';
 
+const API_BASE = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+
 export default function VerificationProofPage() {
   const { id, vehicleNumber } = useParams();
   const [data, setData] = useState(null);
@@ -33,8 +35,8 @@ export default function VerificationProofPage() {
       setError(null);
       try {
         const endpoint = isVehicle 
-          ? `http://localhost:5000/api/verification/inspect/vehicle/${vehicleNumber}`
-          : `http://localhost:5000/api/verification/inspect/listing/${id}`;
+          ? `${API_BASE}/verification/inspect/vehicle/${vehicleNumber}`
+          : `${API_BASE}/verification/inspect/listing/${id}`;
 
         const res = await axios.get(endpoint);
         if (res.data?.success) {
@@ -296,7 +298,7 @@ export default function VerificationProofPage() {
 
                   <div className="w-28 h-28 bg-[#faf9f6] rounded-2xl border border-border-light p-2 flex items-center justify-center flex-shrink-0">
                     <img 
-                      src={`http://localhost:5000/api/verification/qr/listing/${data.listingId}`}
+                      src={`${API_BASE}/verification/qr/listing/${data.listingId}`}
                       alt="Verification QR"
                       className="w-full h-full object-contain"
                     />

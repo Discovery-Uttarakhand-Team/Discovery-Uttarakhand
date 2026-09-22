@@ -75,7 +75,9 @@ export function extractEntitiesFromText(text, sessionEntities = {}) {
     const mStr = (isMonthFirst ? dayMonthMatch[1] : dayMonthMatch[2]).toLowerCase();
     const monthKey = Object.keys(monthNames).find(k => mStr.startsWith(k));
     const month = monthNames[monthKey] || "10";
-    const year = (isMonthFirst ? dayMonthMatch[3] : dayMonthMatch[3]) || "2026";
+    // Use current year as fallback instead of hardcoded "2026"
+    const currentYear = new Date().getFullYear();
+    const year = (isMonthFirst ? dayMonthMatch[3] : dayMonthMatch[3]) || String(currentYear);
     entities.startDate = `${year}-${month}-${day}`;
   } else if (/kal|tomorrow/i.test(clean)) {
     const tmrw = new Date(Date.now() + 86400000);
@@ -86,7 +88,10 @@ export function extractEntitiesFromText(text, sessionEntities = {}) {
     const nextSat = new Date(now.getTime() + daysUntilSat * 86400000);
     entities.startDate = nextSat.toISOString().split("T")[0];
   } else if (/next month/i.test(clean)) {
-    entities.startDate = "2026-10-01";
+    // Dynamically compute next month instead of hardcoding
+    const now = new Date();
+    const nextMonth = new Date(now.getFullYear(), now.getMonth() + 1, 1);
+    entities.startDate = nextMonth.toISOString().split("T")[0];
   }
 
   // 4. Duration extraction (e.g., "3-4 days", "3–4 din", "3 to 4 days", "5 days", "5 din", "around 4 days")
@@ -194,7 +199,11 @@ export function classifyIntent(text, sessionEntities = {}, extractedEntities = {
 
 async function runPythonAgent({ message, chatId, tripContext, session, user, requestId, pageContext, onEvent }) {
   const pythonUrl = process.env.PYTHON_AI_URL || 'http://127.0.0.1:8000';
-  const internalSecret = process.env.INTERNAL_AGENT_SECRET || 'discovery_uttarakhand_internal_secret_9981';
+  // SECURITY: Never use a hardcoded secret fallback — require the env var
+  const internalSecret = process.env.INTERNAL_AGENT_SECRET;
+  if (!internalSecret) {
+    throw new Error('[AgentController] INTERNAL_AGENT_SECRET environment variable is not set. Cannot call Python AI service.');
+  }
 
   const body = {
     message,
@@ -443,8 +452,12 @@ export const agentChat = async (req, res) => {
 
     if (isSSE) {
       res.setHeader('Content-Type', 'text/event-stream');
-      res.setHeader('Cache-Control', 'no-cache');
+      res.setHeader('Cache-Control', 'no-cache, no-transform');
       res.setHeader('Connection', 'keep-alive');
+      res.setHeader('X-Accel-Buffering', 'no');
+      if (typeof res.flushHeaders === 'function') {
+        res.flushHeaders();
+      }
       onEvent = (event) => {
         if (!event.requestId) event.requestId = requestId;
         res.write(`data: ${JSON.stringify(event)}\n\n`);

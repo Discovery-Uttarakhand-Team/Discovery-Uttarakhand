@@ -10,7 +10,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   const { cartCount } = useCart();
   const { favoriteCount } = useFavorites();
-  const { isAuthenticated, currentUser, requireAuth } = useAuth();
+  const { isAuthenticated, currentUser, requireAuth, openPartnerAuth } = useAuth();
   const [showSearch, setShowSearch] = useState(false);
 
   const navItems = [
@@ -30,6 +30,8 @@ const Navbar = () => {
     requireAuth(() => {
       if (currentUser?.role === 'admin') {
         navigate('/admin');
+      } else if (currentUser?.role === 'partner') {
+        navigate('/partner');
       } else {
         navigate('/profile');
       }
@@ -147,6 +149,7 @@ const Navbar = () => {
             {isAuthenticated && <span className="text-xs font-bold hidden xl:block">{currentUser?.name?.split(' ')[0]}</span>}
           </button>
 
+          {/* Partner Portal — shown when already logged in as partner/admin */}
           {isAuthenticated && (currentUser?.role === 'partner' || currentUser?.role === 'admin') && (
             <Link
               to="/partner"

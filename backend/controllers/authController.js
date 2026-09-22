@@ -1,9 +1,16 @@
 import User from '../models/User.js';
+import Partner from '../models/Partner.js';
 import jwt from 'jsonwebtoken';
 
 const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: '30d',
+    expiresIn: '15m',
+  });
+};
+
+const generateRefreshToken = (id) => {
+  return jwt.sign({ id }, process.env.JWT_REFRESH_SECRET || process.env.JWT_SECRET, {
+    expiresIn: '7d',
   });
 };
 
@@ -37,6 +44,7 @@ export const registerUser = async (req, res) => {
           email: user.email,
           role: user.role,
           token: generateToken(user._id),
+          refreshToken: generateRefreshToken(user._id),
         }
       });
     } else {
@@ -67,6 +75,7 @@ export const loginUser = async (req, res) => {
           email: user.email,
           role: user.role,
           token: generateToken(user._id),
+          refreshToken: generateRefreshToken(user._id),
         }
       });
     } else {
@@ -93,4 +102,62 @@ export const getMe = async (req, res) => {
 
 export const logoutUser = (req, res) => {
   res.json({ success: true, message: 'Logged out successfully' });
+};
+
+/**
+ * @desc  Register a new PARTNER account
+ * @route POST /api/auth/register-partner
+ * @access Public
+ * Security: role is ALWAYS forced to 'partner' server-side.
+ *           Client cannot inject a different role via request body.
+ */
+export const registerPartner = async (req, res) => {
+  try {
+    const { name, email, password, businessName, businessType, phone } = req.body;
+
+    if (!name || !email || !password) {
+      return res.status(400).json({ success: false, message: 'Please provide name, email and password' });
+    }
+
+    if (password.length < 6) {
+      return res.status(400).json({ success: false, message: 'Password must be at least 6 characters' });
+    }
+
+    const userExists = await User.findOne({ email });
+    if (userExists) {
+      return res.status(400).json({ success: false, message: 'An account with this email already exists' });
+    }
+
+    // CRITICAL: role is always forced to 'partner' — never read from req.body
+    const user = await User.create({
+      name,
+      email,
+      password,
+      role: 'partner',
+      phone: phone || undefined,
+    });
+
+    if (!user) {
+      return res.status(400).json({ success: false, message: 'Invalid partner data' });
+    }
+
+    // NOTE: Partner profile (with required fields like partnerType, district) is
+    // completed by the partner after first login via the dashboard onboarding flow.
+    // We intentionally do NOT auto-create it here to avoid validation errors.
+
+    res.status(201).json({
+      success: true,
+      data: {
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+        token: generateToken(user._id),
+        refreshToken: generateRefreshToken(user._id),
+      }
+    });
+  } catch (error) {
+    console.error('Partner registration error:', error);
+    res.status(500).json({ success: false, message: 'Server error. Please try again later.' });
+  }
 };

@@ -12,8 +12,10 @@ class Settings(BaseSettings):
     AI_PORT: int = 8000
     AI_HOST: str = "127.0.0.1"
     NODE_BACKEND_URL: str = "http://127.0.0.1:5000"
-    INTERNAL_API_SECRET: str = "discovery_uttarakhand_internal_secret_9981"
-    
+    # SECURITY: No default value — must be set via environment variable.
+    # Matches backend INTERNAL_AGENT_SECRET in backend/.env
+    INTERNAL_API_SECRET: str = ""
+
     # LLM Providers
     AI_PROVIDER: str = "auto"  # auto / omniroute / groq / gemini / openai / deterministic
     

@@ -13,13 +13,20 @@ export const protect = async (req, res, next) => {
 
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-      req.user = await User.findById(decoded.id).select('-password');
+      // SECURITY: Guard against deleted users whose JWT is still valid
+      const user = await User.findById(decoded.id).select('-password');
+      if (!user) {
+        return res.status(401).json({ success: false, message: 'User account not found. Please login again.' });
+      }
 
+      req.user = user;
       next();
     } catch (error) {
-      console.error(error);
+      // Don't log the full error object (may contain token data)
+      console.error('[AuthMiddleware] Token verification failed:', error.name);
       return res.status(401).json({ success: false, message: 'Please login to continue.' });
     }
+    return; // Prevent fall-through to the !token check below
   }
 
   if (!token) {

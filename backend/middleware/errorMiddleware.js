@@ -29,7 +29,9 @@ export const errorHandler = (err, req, res, next) => {
 
   res.status(error.statusCode || 500).json({
     success: false,
-    message: error.message || 'Server Error',
+    message: (process.env.NODE_ENV === 'production' && !error.statusCode)
+      ? 'An unexpected error occurred. Please try again later.'
+      : (error.message || 'Server Error'),
     ...(process.env.NODE_ENV !== 'production' && { stack: err.stack })
   });
 };

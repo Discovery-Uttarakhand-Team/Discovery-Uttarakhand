@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 5000;
 const BASE_URL = `http://127.0.0.1:${PORT}/api`;
 
 async function runTests() {
-  console.log('--- STARTING DESTINATION DISCOVERY VERIFICATION ---');
-  await mongoose.connect(process.env.MONGO_URI);
+  const uri = process.env.MONGODB_URI || process.env.MONGO_URI || 'mongodb://localhost:27017/discovery_uttarakhand';
+  await mongoose.connect(uri);
 
   let passed = 0;
   let failed = 0;

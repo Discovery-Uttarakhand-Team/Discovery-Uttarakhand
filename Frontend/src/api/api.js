@@ -1,11 +1,13 @@
 import axios from 'axios';
 
-let baseURL = import.meta.env.VITE_API_URL;
+let baseURL = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL;
 if (!baseURL) {
   if (import.meta.env.PROD) {
-    throw new Error('VITE_API_URL is not configured for production build.');
+    // In production without explicit env, fall back to relative /api (served via reverse proxy)
+    baseURL = '/api';
+  } else {
+    baseURL = 'http://localhost:5000/api';
   }
-  baseURL = 'http://localhost:5000/api';
 }
 
 const api = axios.create({

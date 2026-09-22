@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Discovery Uttarakhand - Base AI Provider Abstract Class
  * Defines the standard contract for any LLM or fallback provider.
  * Phase 7 adds: chat() for conversational tool-calling agent.
@@ -26,5 +26,13 @@ export class BaseAiProvider {
    */
   async chat(systemPrompt, messages, toolSchemas = []) {
     throw new Error(`chat() must be implemented by provider [${this.name}]`);
+  }
+
+  /**
+   * Health check for the provider
+   * @returns {Promise<boolean>}
+   */
+  async isHealthy() {
+    return true;
   }
 }

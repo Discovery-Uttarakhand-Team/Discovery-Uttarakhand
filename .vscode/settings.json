@@ -5,5 +5,20 @@
   "antigravity.agent.autoExecutionPolicy": "always-proceed",
   "antigravity.agent.artifactReviewMode": "always-proceed",
   "antigravity.agent.nonWorkspaceFileAccess": "allow",
-  "antigravity.agent.internetAccessPolicy": "allow"
+  "antigravity.agent.internetAccessPolicy": "allow",
+  "claudeCode.claudeProcessWrapper": "C:\\Users\\ak\\.local\\bin\\claude.exe",
+  "claudeCode.environmentVariables": [
+    {
+      "name": "ANTHROPIC_BASE_URL",
+      "value": "http://localhost:20128"
+    },
+    {
+      "name": "ANTHROPIC_MODEL",
+      "value": "gemini/gemini-3.6-flash"
+    },
+    {
+      "name": "ANTHROPIC_AUTH_TOKEN",
+      "value": "sk_omniroute"
+    }
+  ]
 }

@@ -172,6 +172,9 @@ When citing facts from tools, naturally mention the source.`;
 }
 
 // ─── Build LLM messages array ────────────────────────────────
+// Uses universal OpenAI-compatible {role, content} format.
+// OmniRoute, Groq, OpenAI all expect this format.
+// GeminiProvider.js is responsible for adapting to Gemini's {parts} format internally.
 function buildMessages(userMessage, session, systemPrompt) {
   const messages = [];
 
@@ -179,24 +182,27 @@ function buildMessages(userMessage, session, systemPrompt) {
   if (session?.historySummary) {
     messages.push({
       role: "user",
-      parts: [{ text: `<CONVERSATION_SUMMARY>\n${session.historySummary}\n</CONVERSATION_SUMMARY>` }]
+      content: `<CONVERSATION_SUMMARY>\n${session.historySummary}\n</CONVERSATION_SUMMARY>`
     });
-    messages.push({ role: "model", parts: [{ text: "I have context from our previous conversation." }] });
+    messages.push({
+      role: "assistant",
+      content: "I have context from our previous conversation."
+    });
   }
 
   // Include recent history (limit to 6 turns for performance)
   const recentHistory = (session?.history || []).slice(-6);
   for (const turn of recentHistory) {
     messages.push({
-      role: turn.role === "user" ? "user" : "model",
-      parts: [{ text: turn.content }]
+      role: turn.role === "user" ? "user" : "assistant",
+      content: String(turn.content || "")
     });
   }
 
-  // Current user message (sandboxed)
+  // Current user message (sandboxed to prevent prompt injection)
   messages.push({
     role: "user",
-    parts: [{ text: `<UNTRUSTED_USER_MESSAGE>\n${userMessage}\n</UNTRUSTED_USER_MESSAGE>` }]
+    content: `<UNTRUSTED_USER_MESSAGE>\n${userMessage}\n</UNTRUSTED_USER_MESSAGE>`
   });
 
   return messages;
