@@ -5,7 +5,7 @@ import AICopilotDrawer from './AICopilotDrawer';
 import { useMapStore } from '../../store/mapStore';
 import './GlobalAiCopilotLauncher.css';
 
-function resolvePageContext(pathname, plannerForm) {
+function resolvePageContext(pathname, plannerForm, tripDestinations) {
   let currentPage = 'GENERAL';
   let pageType = 'GENERAL';
   let destinationSlug = null;
@@ -63,7 +63,8 @@ function resolvePageContext(pathname, plannerForm) {
     destinationSlug,
     destinationName,
     tripId,
-    plannerForm: plannerForm || null
+    plannerForm: plannerForm || null,
+    tripDestinations: tripDestinations || []
   };
 }
 
@@ -72,6 +73,7 @@ export default function GlobalAiCopilotLauncher() {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
   const plannerForm = useMapStore((state) => state.plannerForm);
+  const tripDestinations = useMapStore((state) => state.tripDestinations);
 
   // Expose navigate globally so agentActionExecutor can operate application routes
   useEffect(() => {
@@ -86,8 +88,8 @@ export default function GlobalAiCopilotLauncher() {
   }, [navigate]);
 
   const pageContext = useMemo(() => {
-    return resolvePageContext(location.pathname, plannerForm);
-  }, [location.pathname, plannerForm]);
+    return resolvePageContext(location.pathname, plannerForm, tripDestinations);
+  }, [location.pathname, plannerForm, tripDestinations]);
 
   // Section 3 & 39: Hide Copilot Launcher on Profile Page, Copilot Workspace, Admin & Partner Dashboards
   const isProfilePage = location.pathname.startsWith('/profile');

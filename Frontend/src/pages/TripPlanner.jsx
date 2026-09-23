@@ -118,6 +118,7 @@ export default function TripPlanner() {
     setActiveTripSession,
     plannerForm,
     setPlannerForm,
+    tripDestinations,
   } = useMapStore();
 
   const [loadingData, setLoadingData] = useState(true);
@@ -508,8 +509,12 @@ export default function TripPlanner() {
       return;
     }
 
-    if (!selectedDestination) {
-      setValidationError('Please select where you want to go in Uttarakhand.');
+    // Validation
+    const hasBasketItems = tripDestinations && tripDestinations.length > 0;
+    
+    // We only require destination if they don't have basket items
+    if (!hasBasketItems && !selectedDestination) {
+      setValidationError('Please select where you want to go in Uttarakhand, or add items to your trip from the explore page.');
       window.scrollTo({ top: 500, behavior: 'smooth' });
       return;
     }
@@ -519,8 +524,9 @@ export default function TripPlanner() {
     try {
       // 1. Calculate honest road route via OSRM from starting location to destination
       let routeData = { totalDistanceKm: 0, estimatedTime: '', geometry: null, legs: [] };
-      const startCoord = startingLocation.coordinates || selectedDestination.coordinates;
-      const destCoord = selectedDestination.coordinates;
+      const primaryDest = hasBasketItems ? tripDestinations[0] : selectedDestination;
+      const startCoord = startingLocation.coordinates || primaryDest?.coordinates;
+      const destCoord = primaryDest?.coordinates;
 
       if (startCoord && destCoord) {
         const waypoints = [
@@ -556,9 +562,10 @@ export default function TripPlanner() {
       const tripId = `trip_${Date.now()}`;
       const tripSession = {
         tripId,
-        title: `My ${selectedDestination.name} Adventure`,
+        title: `My ${primaryDest?.name || 'Uttarakhand'} Adventure`,
         startingLocation,
-        destination: selectedDestination,
+        destination: primaryDest,
+        basketItems: tripDestinations || [],
         startDate: hasExactDates ? startDate : '',
         endDate: hasExactDates ? endDate : '',
         duration,
@@ -664,11 +671,11 @@ export default function TripPlanner() {
                 <MapPin size={16} />
               </div>
               <h2 className="text-lg md:text-xl font-black text-text-dark font-display">
-                Where are you starting from?
+                Where are you starting from? <span className="text-sm font-semibold text-muted-text">(Optional)</span>
               </h2>
             </div>
             <p className="text-sm text-muted-text mb-6 md:ml-11">
-              We'll calculate travel distances, travel legs, and arrival timing from your starting point.
+              If you set a starting location, we can calculate total travel distance.
             </p>
 
             <div className="md:ml-11 space-y-4">
@@ -767,8 +774,36 @@ export default function TripPlanner() {
             </div>
           </div>
 
-          {/* SECTION 2: Destination */}
-          <div className="bg-white rounded-3xl border border-border-light shadow-sm p-6 md:p-8">
+          {/* SECTION 2: Destination or Basket */}
+          {tripDestinations && tripDestinations.length > 0 ? (
+            <div className="bg-forest-green/5 rounded-3xl border border-forest-green/20 shadow-sm p-6 md:p-8">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-8 h-8 rounded-full bg-forest-green text-white flex items-center justify-center">
+                  <Heart size={16} />
+                </div>
+                <div>
+                  <h2 className="text-lg md:text-xl font-black text-text-dark font-display">
+                    Your Trip Basket
+                  </h2>
+                  <p className="text-xs font-bold text-forest-green uppercase tracking-wider">
+                    {tripDestinations.length} item{tripDestinations.length !== 1 ? 's' : ''} selected
+                  </p>
+                </div>
+              </div>
+              <div className="md:ml-11 space-y-3">
+                {tripDestinations.map(item => (
+                  <div key={item._id || item.id} className="bg-white p-3 rounded-2xl border border-border-light flex items-center gap-3">
+                    <img src={item.image || '/assets/fallback.svg'} alt={item.name} className="w-12 h-12 rounded-xl object-cover bg-beige" />
+                    <div>
+                      <p className="font-bold text-sm text-text-dark">{item.name}</p>
+                      <p className="text-[10px] uppercase font-bold text-muted-text">{item.category || item.type}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="bg-white rounded-3xl border border-border-light shadow-sm p-6 md:p-8">
             <div className="flex items-center gap-3 mb-2">
               <div className="w-8 h-8 rounded-full bg-forest-green/10 text-forest-green flex items-center justify-center">
                 <Compass size={16} />
@@ -904,6 +939,7 @@ export default function TripPlanner() {
               )}
             </div>
           </div>
+          )}
 
           {/* SECTION 3: Dates / Duration */}
           <div className="bg-white rounded-3xl border border-border-light shadow-sm p-6 md:p-8">
@@ -1160,7 +1196,7 @@ export default function TripPlanner() {
 
                 <div>
                   <label className="text-xs font-bold text-muted-text uppercase tracking-wider block mb-3">
-                    Budget Tier
+                    Travel Style
                   </label>
                   <div className="space-y-2.5">
                     {[
@@ -1188,231 +1224,98 @@ export default function TripPlanner() {
             </div>
           </div>
 
-          {/* SECTION 6: Live Budget Tracker */}
-          <div className="bg-white rounded-3xl border border-slate-200/90 shadow-sm p-6 md:p-8 relative overflow-hidden">
-            {/* Header */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-slate-100">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-2xl bg-forest-green/10 text-forest-green flex items-center justify-center shrink-0">
-                  <Wallet size={20} />
-                </div>
-                <div>
-                  <div className="flex items-center gap-2">
-                    <h2 className="text-lg md:text-xl font-black text-slate-900 font-display">
-                      Live Budget Tracker & Estimator
-                    </h2>
-                    <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-forest-green/10 text-forest-green border border-forest-green/20">
-                      Live Dynamic
-                    </span>
-                  </div>
-                  <p className="text-xs text-slate-500 font-medium mt-0.5">
-                    Real-time cost estimation based on verified mountain tariffs, stays, fuel & dining
-                  </p>
-                </div>
+          {/* SECTION 6: Budget Preference — calm, optional, user-first */}
+          <div className="bg-white rounded-3xl border border-border-light shadow-sm p-6 md:p-8">
+            <div className="flex items-center gap-3 mb-2">
+              <div className="w-8 h-8 rounded-full bg-forest-green/10 text-forest-green flex items-center justify-center">
+                <Wallet size={16} />
+              </div>
+              <div>
+                <h2 className="text-lg md:text-xl font-black text-text-dark font-display">
+                  Do you have a budget in mind?
+                </h2>
+                <span className="text-xs font-semibold text-muted-text">Optional — you can plan without one</span>
+              </div>
+            </div>
+            <p className="text-sm text-muted-text mb-6 md:ml-11">
+              Your budget is your choice. We'll find what fits — and suggest alternatives if needed. The estimated trip cost will be shown clearly after your plan is generated.
+            </p>
+
+            <div className="md:ml-11 space-y-5">
+              {/* Toggle buttons */}
+              <div className="flex flex-wrap gap-3">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCustomBudgetLimit('');
+                    setPlannerForm({ budget: null });
+                  }}
+                  className={`text-sm font-bold px-5 py-2.5 rounded-xl border transition-all ${
+                    !customBudgetLimit
+                      ? 'bg-forest-green text-white border-forest-green shadow-sm'
+                      : 'bg-white text-text-dark border-border-light hover:border-forest-green/40'
+                  }`}
+                >
+                  ✨ No fixed budget
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setTimeout(() => document.getElementById('budget')?.focus(), 50);
+                  }}
+                  className={`text-sm font-bold px-5 py-2.5 rounded-xl border transition-all ${
+                    customBudgetLimit
+                      ? 'bg-forest-green text-white border-forest-green shadow-sm'
+                      : 'bg-white text-text-dark border-border-light hover:border-forest-green/40'
+                  }`}
+                >
+                  I have a budget
+                </button>
               </div>
 
-              {/* Status Badge */}
-              <div className="flex items-center gap-2">
-                <span className={`px-3 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1.5 ${
-                  liveBudget.budgetStatus === 'UNDER'
-                    ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
-                    : liveBudget.budgetStatus === 'OVER'
-                    ? 'bg-rose-50 text-rose-700 border border-rose-200'
-                    : 'bg-indigo-50 text-indigo-700 border border-indigo-200'
-                }`}>
-                  <ShieldCheck size={14} />
-                  <span>
-                    {liveBudget.budgetStatus === 'UNDER'
-                      ? 'Under Custom Cap'
-                      : liveBudget.budgetStatus === 'OVER'
-                      ? 'Exceeds Custom Cap'
-                      : `${budget} Tier Benchmark`}
-                  </span>
+              {/* Budget amount input */}
+              <div className="max-w-xs">
+                <label className="text-xs font-bold text-muted-text uppercase tracking-wider block mb-2">
+                  Total trip budget (₹)
+                </label>
+                <div className="relative">
+                  <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 font-bold text-sm">₹</span>
+                  <input
+                    id="budget"
+                    data-field-name="budget"
+                    type="number"
+                    min="0"
+                    placeholder="e.g. 20000"
+                    value={customBudgetLimit}
+                    onChange={(e) => {
+                      setCustomBudgetLimit(e.target.value);
+                      const val = Number(e.target.value);
+                      setPlannerForm({ budget: isNaN(val) || !e.target.value ? null : val });
+                    }}
+                    className="w-full pl-7 pr-3 py-3 text-sm font-bold text-slate-800 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-forest-green/30"
+                  />
+                </div>
+                <p className="text-xs text-muted-text mt-2">
+                  {customBudgetLimit
+                    ? `Target: ₹${Number(customBudgetLimit).toLocaleString()}. We'll plan accordingly and show alternatives if needed.`
+                    : 'No budget set — planning as Flexible. Estimated cost shown after plan is generated.'}
+                </p>
+              </div>
+
+              {/* Subtle local tip */}
+              <div className="p-3.5 rounded-xl bg-forest-green/5 border border-forest-green/15 flex items-start gap-2.5 text-xs text-slate-600 max-w-lg">
+                <Info size={14} className="text-forest-green shrink-0 mt-0.5" />
+                <span>
+                  {budget === 'Budget' && 'KMVN Tourist Rest Houses and local homestays offer genuine Himalayan hospitality and home-cooked meals at authentic local rates.'}
+                  {budget === 'Comfort' && 'Pre-booking verified guesthouses and hiring registered local mountain drivers ensures reliable navigation and comfort.'}
+                  {budget === 'Premium' && 'Eco-resorts offer private heated rooms, dedicated 4×4 vehicles, curated wellness sessions, and private nature guide experiences.'}
                 </span>
               </div>
             </div>
-
-            <div className="mt-6 space-y-6">
-              {/* Primary Stat Hero Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {/* Total Estimate */}
-                <div className="p-4 rounded-2xl bg-gradient-to-br from-[#faf9f6] to-beige/30 border border-slate-200/80">
-                  <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1">
-                    Estimated Total Trip
-                  </span>
-                  <div className="text-2xl lg:text-3xl font-black text-forest-green font-display tracking-tight">
-                    ₹{liveBudget.totalMin.toLocaleString()} – ₹{liveBudget.totalMax.toLocaleString()}
-                  </div>
-                  <span className="text-[11px] text-slate-500 font-medium block mt-1">
-                    For {liveBudget.numDays} Days • {liveBudget.numTravelers} {liveBudget.numTravelers === 1 ? 'Traveler' : 'Travelers'}
-                  </span>
-                </div>
-
-                {/* Per Person */}
-                <div className="p-4 rounded-2xl bg-[#faf9f6] border border-slate-200/80">
-                  <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1">
-                    Per Person Approx.
-                  </span>
-                  <div className="text-2xl font-black text-slate-900 font-display tracking-tight">
-                    ₹{liveBudget.perPersonMin.toLocaleString()} – ₹{liveBudget.perPersonMax.toLocaleString()}
-                  </div>
-                  <span className="text-[11px] text-slate-500 font-medium block mt-1">
-                    ~₹{Math.round(liveBudget.totalMin / liveBudget.numDays / liveBudget.numTravelers).toLocaleString()}/day per person
-                  </span>
-                </div>
-
-                {/* Custom Target Budget Input */}
-                <div className="p-4 rounded-2xl bg-[#faf9f6] border border-slate-200/80 flex flex-col justify-between">
-                  <div>
-                    <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1">
-                      Your Target Budget (Optional)
-                    </span>
-                    <div className="relative mt-1">
-                      <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 font-bold text-sm">₹</span>
-                      <input
-                        id="budget"
-                        data-field-name="budget"
-                        type="number"
-                        placeholder="e.g. 25000"
-                        value={customBudgetLimit}
-                        onChange={(e) => {
-                          setCustomBudgetLimit(e.target.value);
-                          const val = Number(e.target.value);
-                          setPlannerForm({ budget: isNaN(val) || !e.target.value ? null : val });
-                        }}
-                        className="w-full pl-7 pr-3 py-1.5 text-sm font-bold text-slate-800 bg-white border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-forest-green/30"
-                      />
-                    </div>
-                  </div>
-                  {customBudgetLimit && (
-                    <div className="mt-2">
-                      <div className="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
-                        <div
-                          className={`h-full transition-all duration-300 ${
-                            liveBudget.budgetStatus === 'UNDER'
-                              ? 'bg-emerald-500'
-                              : liveBudget.budgetStatus === 'OVER'
-                              ? 'bg-rose-500'
-                              : 'bg-forest-green'
-                          }`}
-                          style={{ width: `${Math.min(100, liveBudget.progressPercent)}%` }}
-                        />
-                      </div>
-                      <span className="text-[10px] text-slate-500 font-semibold block mt-1">
-                        Utilizing ~{liveBudget.progressPercent}% of target
-                      </span>
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              {/* Categorical Breakdown Grid */}
-              <div>
-                <label className="text-xs font-bold text-slate-600 uppercase tracking-wider block mb-3">
-                  Categorical Cost Breakdown
-                </label>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                  {/* Stays */}
-                  <div className="p-3.5 rounded-2xl bg-white border border-slate-200 flex items-start gap-3">
-                    <div className="w-8 h-8 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center shrink-0 mt-0.5">
-                      <Bed size={16} />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <span className="text-xs font-bold text-slate-700 block">Accommodations / Stays</span>
-                      <span className="text-sm font-black text-slate-900 font-display">
-                        ₹{liveBudget.stayTotalMin.toLocaleString()} – ₹{liveBudget.stayTotalMax.toLocaleString()}
-                      </span>
-                      <span className="text-[10px] text-slate-500 block">
-                        {liveBudget.roomsNeeded} room(s) for {liveBudget.nights} night(s)
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Transport */}
-                  <div className="p-3.5 rounded-2xl bg-white border border-slate-200 flex items-start gap-3">
-                    <div className="w-8 h-8 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center shrink-0 mt-0.5">
-                      <Fuel size={16} />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <span className="text-xs font-bold text-slate-700 block">Transport & Fuel</span>
-                      <span className="text-sm font-black text-slate-900 font-display">
-                        ₹{liveBudget.transTotalMin.toLocaleString()} – ₹{liveBudget.transTotalMax.toLocaleString()}
-                      </span>
-                      <span className="text-[10px] text-slate-500 block">
-                        {transport} mode for {liveBudget.numDays} days
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Food & Meals */}
-                  <div className="p-3.5 rounded-2xl bg-white border border-slate-200 flex items-start gap-3">
-                    <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
-                      <Utensils size={16} />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <span className="text-xs font-bold text-slate-700 block">Food & Mountain Meals</span>
-                      <span className="text-sm font-black text-slate-900 font-display">
-                        ₹{liveBudget.foodTotalMin.toLocaleString()} – ₹{liveBudget.foodTotalMax.toLocaleString()}
-                      </span>
-                      <span className="text-[10px] text-slate-500 block">
-                        Breakfast, lunch, dinner & tea
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Activities & Sightseeing */}
-                  <div className="p-3.5 rounded-2xl bg-white border border-slate-200 flex items-start gap-3">
-                    <div className="w-8 h-8 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center shrink-0 mt-0.5">
-                      <Ticket size={16} />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <span className="text-xs font-bold text-slate-700 block">Activities & Permits</span>
-                      <span className="text-sm font-black text-slate-900 font-display">
-                        ₹{liveBudget.actTotalMin.toLocaleString()} – ₹{liveBudget.actTotalMax.toLocaleString()}
-                      </span>
-                      <span className="text-[10px] text-slate-500 block">
-                        Temple entries, guides, permit passes
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Safety Buffer */}
-                  <div className="p-3.5 rounded-2xl bg-white border border-slate-200 flex items-start gap-3 sm:col-span-2 lg:col-span-2">
-                    <div className="w-8 h-8 rounded-xl bg-rose-50 text-rose-700 flex items-center justify-center shrink-0 mt-0.5">
-                      <ShieldCheck size={16} />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-center gap-2">
-                        <span className="text-xs font-bold text-slate-700 block">Mountain Safety Contingency Buffer (10%)</span>
-                        <span className="px-2 py-0.5 rounded-md bg-rose-100 text-rose-800 text-[9px] font-bold">Recommended</span>
-                      </div>
-                      <span className="text-sm font-black text-slate-900 font-display">
-                        ₹{liveBudget.bufferMin.toLocaleString()} – ₹{liveBudget.bufferMax.toLocaleString()}
-                      </span>
-                      <span className="text-[10px] text-slate-500 block">
-                        Emergency buffer for landslides, roadblock diversions, or weather halts
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Pro-Tip Advisory Card */}
-              <div className="p-4 rounded-2xl bg-forest-green/5 border border-forest-green/15 flex items-start gap-3 text-xs text-slate-700">
-                <Info size={16} className="text-forest-green shrink-0 mt-0.5" />
-                <div>
-                  <span className="font-bold text-forest-green block mb-0.5">
-                    💡 Uttarakhand Local Budget Advice:
-                  </span>
-                  <span>
-                    {budget === 'Budget' && 'Homestays and KMVN Tourist Rest Houses offer incredible Himalayan hospitality and home-cooked meals at authentic local rates.'}
-                    {budget === 'Comfort' && 'Pre-booking verified guesthouses and hiring registered local mountain drivers ensures punctual mountain navigation and comfort.'}
-                    {budget === 'Premium' && 'Eco-resorts provide private heated rooms, dedicated 4x4 mountain vehicles, curated wellness sessions, and private nature guides.'}
-                  </span>
-                </div>
-              </div>
-            </div>
           </div>
+
+
+
 
           {/* MAIN CTA (Mobile/Desktop Bottom) */}
           <div className="pt-4 lg:hidden">
@@ -1454,15 +1357,17 @@ export default function TripPlanner() {
                   Starting Point
                 </span>
                 <span className={`font-bold block mt-1 ${startingLocation.name ? 'text-text-dark text-sm' : 'text-muted-text text-xs italic'}`}>
-                  {startingLocation.name || 'Not selected'}
+                  {startingLocation.name || 'Not set'}
                 </span>
               </div>
               <div>
                 <span className="text-muted-text font-bold text-[10px] uppercase tracking-wider block">
-                  Destination
+                  {tripDestinations && tripDestinations.length > 0 ? 'Selected Items' : 'Destination'}
                 </span>
-                <span className={`font-bold block mt-1 ${selectedDestination?.name ? 'text-forest-green text-lg' : 'text-muted-text text-xs italic'}`}>
-                  {selectedDestination?.name || 'Not selected'}
+                <span className={`font-bold block mt-1 ${tripDestinations?.length > 0 || selectedDestination?.name ? 'text-forest-green text-lg' : 'text-muted-text text-xs italic'}`}>
+                  {tripDestinations?.length > 0 
+                    ? `${tripDestinations.length} item(s) selected` 
+                    : (selectedDestination?.name || 'Not selected')}
                 </span>
               </div>
               <div className="grid grid-cols-2 gap-4">
@@ -1502,21 +1407,18 @@ export default function TripPlanner() {
                 </div>
               </div>
 
-              {/* Live Budget in Sidebar */}
+              {/* Budget — calm, no live ₹ numbers before plan */}
               <div className="pt-3.5 border-t border-border-light">
-                <div className="flex items-center justify-between">
-                  <span className="text-muted-text font-bold text-[10px] uppercase tracking-wider block">
-                    Estimated Budget
-                  </span>
-                  <span className="text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-forest-green/10 text-forest-green border border-forest-green/20">
-                    {budget}
-                  </span>
-                </div>
-                <div className="text-lg font-black text-forest-green font-display mt-1">
-                  ₹{liveBudget.totalMin.toLocaleString()} – ₹{liveBudget.totalMax.toLocaleString()}
-                </div>
-                <span className="text-[10px] text-slate-500 font-medium block mt-0.5">
-                  ~₹{liveBudget.perPersonMin.toLocaleString()} / person • {liveBudget.numDays} Days
+                <span className="text-muted-text font-bold text-[10px] uppercase tracking-wider block">
+                  Budget
+                </span>
+                <span className="font-bold text-text-dark text-sm block mt-1">
+                  {customBudgetLimit
+                    ? `₹${Number(customBudgetLimit).toLocaleString()} target · ${budget}`
+                    : 'Flexible · ' + budget}
+                </span>
+                <span className="text-[10px] text-muted-text block mt-0.5">
+                  Estimated cost shown after planning
                 </span>
               </div>
             </div>
@@ -1552,28 +1454,9 @@ export default function TripPlanner() {
             </div>
           </div>
 
-          {/* Why Plan With Us Card */}
-          <div className="bg-[#f5f1ea] rounded-3xl p-6 border border-earth-brown/20 shadow-sm">
-            <h3 className="font-black text-earth-brown text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
-              <Sparkles size={16} />
-              Why Plan With Us?
-            </h3>
-            <ul className="space-y-3">
-              {[
-                'Real travel routes & navigation',
-                'Personalized daily itinerary',
-                'Verified stays & accommodations',
-                'Local guides & experiences',
-                'Intelligent budget planning',
-                'Trusted local travel information'
-              ].map((item, idx) => (
-                <li key={idx} className="flex items-start gap-2 text-sm text-text-dark font-medium">
-                  <Check size={16} className="text-forest-green mt-0.5 flex-shrink-0" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <p className="text-xs text-muted-text text-center px-2 leading-relaxed">
+            Built using verified Uttarakhand travel data, real road routes and deterministic planning.
+          </p>
 
         </div>
       </div>

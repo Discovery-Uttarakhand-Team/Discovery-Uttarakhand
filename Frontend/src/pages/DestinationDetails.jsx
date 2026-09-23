@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import PhotoGallery from '../components/PhotoGallery';
 import DestinationMap from '../components/DestinationMap';
 import DestinationDiscoveryWorkspace from '../components/destination/DestinationDiscoveryWorkspace';
+import FloatingTripBasket from '../components/planner/FloatingTripBasket';
 import { getDestinationBySlug, getDestinationRelated, getDestinationExplore } from '../api/destinationApi';
 import { normalizeDiscoveryCandidate } from '../utils/discoveryAdapter';
 import { useAuth } from '../context/AuthContext';
@@ -550,15 +551,17 @@ const DestinationDetails = () => {
 
         {/* ── DESTINATION DISCOVERY & ACTIVITY WORKSPACE ───────────────────────── */}
         <div className="px-4 md:px-8 max-w-[1440px] mx-auto w-full">
-          <DestinationDiscoveryWorkspace
-            destination={destination}
-            exploreData={exploreData}
-            selectedInterest={selectedInterest}
-            onSelectInterest={setSelectedInterest}
-            onAddToTrip={handleAddToTrip}
-            addedIds={addedTripIds}
-            loading={loadingExplore}
-          />
+            <DestinationDiscoveryWorkspace
+              destination={destination}
+              exploreData={exploreData}
+              selectedInterest={selectedInterest}
+              onSelectInterest={setSelectedInterest}
+              onAddToTrip={handleAddToTrip}
+              addedIds={addedTripIds}
+              loading={loadingExplore}
+            />
+
+            <FloatingTripBasket />
         </div>
 
         {/* 3. THINGS TO DO SECTION */}

@@ -40,7 +40,8 @@ import {
   ArrowRight,
   Wallet,
   Clock,
-  ExternalLink
+  ExternalLink,
+  Bike
 } from 'lucide-react';
 
 export default function MyTripPage() {
@@ -65,6 +66,7 @@ export default function MyTripPage() {
   const [session, setSession] = useState(activeTripSession);
   const [loading, setLoading] = useState(!activeTripSession);
   const [guides, setGuides] = useState([]);
+  const [allRentals, setAllRentals] = useState([]);
   const [saveStatus, setSaveStatus] = useState('IDLE'); // 'IDLE' | 'SAVING' | 'SAVED' | 'ERROR'
   const [saveMessage, setSaveMessage] = useState('');
   const [isModifyOpen, setIsModifyOpen] = useState(false);
@@ -81,7 +83,7 @@ export default function MyTripPage() {
   const [aiError, setAiError] = useState(null);
 
   // Edit modal draft state
-  const [editDuration, setEditDuration] = useState('7 Days');
+  const [editDuration, setEditDuration] = useState('3 Days');
   const [editPace, setEditPace] = useState('Balanced');
   const [editTransport, setEditTransport] = useState('By Car');
 
@@ -110,7 +112,7 @@ export default function MyTripPage() {
   // Day card DOM refs for smooth scrolling from map clicks
   const dayCardRefs = useRef({});
 
-  // Load guides & stays & destinations if not already available
+  // Load guides, stays, rentals & destinations
   useEffect(() => {
     const loadExtraData = async () => {
       try {
@@ -138,6 +140,12 @@ export default function MyTripPage() {
       }
     };
     loadExtraData();
+
+    import('../api/rentalApi').then(module => {
+      module.getRentals().then(res => {
+        if (res?.success && Array.isArray(res.data)) setAllRentals(res.data);
+      });
+    }).catch(err => console.warn('Failed to load rentals', err));
   }, []);
 
   // Restore session from localStorage or backend if not currently in memory
@@ -176,7 +184,7 @@ export default function MyTripPage() {
               destination: primaryDest,
               startDate: trip.startDate ? new Date(trip.startDate).toLocaleDateString() : '',
               endDate: trip.endDate ? new Date(trip.endDate).toLocaleDateString() : '',
-              duration: trip.duration || '7 Days',
+              duration: trip.duration || '3 Days',
               travelers: trip.travelers || '2 Adults',
               transport: trip.transport || 'By Car',
               tripType: trip.tripType || ['Nature'],
@@ -204,7 +212,7 @@ export default function MyTripPage() {
   // Sync edit form with current session
   useEffect(() => {
     if (session) {
-      setEditDuration(session.duration || `${session.dayPlans?.length || 7} Days`);
+      setEditDuration(session.duration || `${session.dayPlans?.length || 3} Days`);
       setEditPace(session.pace || 'Balanced');
       setEditTransport(session.transport || 'By Car');
     }
@@ -212,15 +220,51 @@ export default function MyTripPage() {
 
   const dest = session?.destination;
   const dayPlans = session?.dayPlans || [];
-  const startLoc = session?.startingLocation || { name: 'Starting Point' };
+  const startLoc = session?.startingLocation || { name: 'Delhi' };
 
-  // Calculate strict duration display (prevents "10+ Days" or 7 days when 5 days were selected)
+  // Calculate strict duration display
   const exactDurationText = useMemo(() => {
     if (dayPlans.length > 0) {
       return `${dayPlans.length} ${dayPlans.length === 1 ? 'Day' : 'Days'}`;
     }
-    return session?.duration || '7 Days';
+    return session?.duration || '3 Days';
   }, [dayPlans, session]);
+
+  // Auto-upgrade legacy dayPlans if they have artificial gateway detours (e.g. Haldwani Gateway / Corbett stay)
+  useEffect(() => {
+    if (session && dest && Array.isArray(session.dayPlans) && session.dayPlans.length > 0) {
+      const firstDay = session.dayPlans[0];
+      const hasLegacyGateway = firstDay?.where?.includes('Gateway') || 
+                              firstDay?.stay?.location?.includes('Gateway') ||
+                              firstDay?.stay?.name?.includes('Corbett');
+      if (hasLegacyGateway) {
+        const upgradedPlans = generatePersonalizedTripPlan({
+          startingLocation: session.startingLocation || { name: 'Delhi' },
+          destination: dest,
+          preferences: {
+            duration: session.duration || `${session.dayPlans.length} Days`,
+            pace: session.pace || 'Balanced',
+            transport: session.transport || 'By Car',
+            travelMode: session.transport || 'By Car',
+            travelers: session.travelers || '2 Adults',
+            tripType: session.tripType || ['Nature'],
+            interests: session.interests || ['Nature'],
+            budget: session.budget || 'Comfort'
+          },
+          routeData: session.routeData || {},
+          allActivities,
+          allSpiritual: [],
+          allStays
+        });
+        const updated = { ...session, dayPlans: upgradedPlans };
+        setSession(updated);
+        setActiveTripSession(updated);
+        try {
+          localStorage.setItem('discovery_active_trip', JSON.stringify(updated));
+        } catch (e) {}
+      }
+    }
+  }, [session, dest, allActivities, allStays]);
 
   // Handle bidirectional sync: when a marker is clicked on the map, scroll to the day card
   const handleSelectDayFromMap = (idx) => {
@@ -229,6 +273,17 @@ export default function MyTripPage() {
     if (cardEl) {
       cardEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
+  };
+
+  // Helper for availability badge
+  const getAvailabilityState = (item) => {
+    if (item?.availabilityStatus === 'AVAILABLE' || item?.status === 'ACTIVE' || item?.isVerified) {
+      return { label: 'Available', className: 'bg-emerald-50 text-emerald-800 border-emerald-200' };
+    }
+    if (item?.availabilityStatus === 'UNAVAILABLE' || item?.status === 'INACTIVE') {
+      return { label: 'Unavailable', className: 'bg-red-50 text-red-700 border-red-200' };
+    }
+    return { label: 'Inquire Availability', className: 'bg-slate-50 text-slate-700 border-slate-200' };
   };
 
   // Relevant stays for destination / district (Engine scored or fallback)
@@ -244,18 +299,31 @@ export default function MyTripPage() {
     }
     if (!allStays || allStays.length === 0) return [];
     const district = dest?.district?.toLowerCase() || '';
-    const destId = dest?._id || dest?.id;
+    const destName = (dest?.name || '').toLowerCase();
 
-    const matches = allStays.filter(s => 
-      (s.destination && (s.destination === destId || s.destination._id === destId)) ||
-      (s.district && s.district.toLowerCase() === district) ||
-      (s.city && s.city.toLowerCase() === district)
-    );
+    const matches = allStays.filter(s => {
+      const sCity = (s.city || '').toLowerCase();
+      const sName = (s.name || '').toLowerCase();
+      const sDist = (s.district || '').toLowerCase();
+      return (destName && (sCity.includes(destName) || sName.includes(destName))) ||
+             (district && sDist.includes(district));
+    });
 
     return (matches.length > 0 ? matches : allStays).slice(0, 3);
   }, [engineRecs.stays, allStays, dest]);
 
-  // Relevant guides (Engine scored or fallback)
+  // Relevant vehicle rentals
+  const displayRentals = useMemo(() => {
+    if (!allRentals || allRentals.length === 0) return [];
+    const district = dest?.district?.toLowerCase() || '';
+    const matches = allRentals.filter(r => 
+      (r.city && r.city.toLowerCase().includes(district)) ||
+      (r.location && r.location.toLowerCase().includes(district))
+    );
+    return (matches.length > 0 ? matches : allRentals).slice(0, 3);
+  }, [allRentals, dest]);
+
+  // Relevant guides
   const displayGuides = useMemo(() => {
     if (engineRecs.guides && engineRecs.guides.length > 0) {
       return engineRecs.guides.map(r => ({
@@ -286,7 +354,6 @@ export default function MyTripPage() {
           coordinates: dest.coordinates
         };
 
-        // 1. Fetch trip-context aware recommendations for active day
         const recsRes = await getRecommendations({
           dayNumber: activeDayIndex + 1,
           currentLocation: currentLoc,
@@ -307,7 +374,6 @@ export default function MyTripPage() {
           setEngineRecs(recsRes.data);
         }
 
-        // 2. Fetch deterministic budget calculation
         const allSegments = dayPlans.flatMap(d => d.journeySegments || [d.transportSegment]).filter(Boolean);
         const stayIds = dayPlans.map(d => d.stay?.stayId || d.stay?._id).filter(Boolean);
 
@@ -520,236 +586,165 @@ export default function MyTripPage() {
   // Budget display range
   const budgetRange = budgetData?.summary?.minCost && budgetData?.summary?.maxCost
     ? `₹${budgetData.summary.minCost.toLocaleString()} – ₹${budgetData.summary.maxCost.toLocaleString()}`
-    : 'Estimated based on itinerary';
+    : '₹18,000 – ₹24,000';
 
   return (
     <div className="min-h-screen bg-[#faf9f6] flex flex-col font-sans">
       <Navbar />
 
-      {/* ── SECTION A: TRIP HERO ─────────────────────────── */}
-      <div className="bg-white border-b border-slate-200 pt-28 md:pt-32 pb-8 px-4 md:px-8 shadow-2xs">
+      {/* ── 1. TRIP HEADER ────────────────────────────────────────── */}
+      <div className="bg-white border-b border-slate-200 pt-28 md:pt-32 pb-6 px-4 md:px-8 shadow-2xs">
         <div className="max-w-[1400px] mx-auto">
-          {/* Top Breadcrumb & Status */}
-          <div className="flex items-center justify-between gap-4 mb-4">
+          {/* Breadcrumb row */}
+          <div className="flex items-center justify-between gap-4 mb-3">
             <button
               onClick={() => navigate('/trip-planner')}
-              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 hover:text-forest-green font-bold text-xs sm:text-sm border border-slate-200/80 shadow-xs transition-all duration-200 group cursor-pointer"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 hover:text-forest-green font-bold text-xs border border-slate-200 shadow-2xs transition-all cursor-pointer"
             >
-              <ChevronLeft size={16} className="text-forest-green group-hover:-translate-x-1 transition-transform" /> 
+              <ChevronLeft size={15} /> 
               <span>Back to Planner</span>
             </button>
 
-            <span className={`text-xs font-black uppercase tracking-wider px-4 py-1.5 rounded-full flex items-center gap-1.5 ${
+            <span className={`text-xs font-black uppercase tracking-wider px-3 py-1 rounded-full flex items-center gap-1.5 ${
               session.status === 'Saved' 
-                ? 'bg-forest-green text-white shadow-2xs' 
-                : 'bg-slate-100 text-slate-800 border border-slate-200'
+                ? 'bg-forest-green text-white' 
+                : 'bg-slate-100 text-slate-700 border border-slate-200'
             }`}>
-              {session.status === 'Saved' ? <Check size={14} /> : <Sparkles size={14} />}
-              {session.status === 'Saved' ? 'Saved to Profile' : 'Personalized Journey'}
+              {session.status === 'Saved' ? <Check size={13} /> : <Sparkles size={13} />}
+              {session.status === 'Saved' ? 'Saved to Profile' : 'Custom Itinerary'}
             </span>
           </div>
 
-          {/* Title, Route & Actions */}
-          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          {/* Title and actions */}
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-5">
             <div>
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-xs font-black uppercase tracking-widest text-forest-green bg-forest-green/10 px-3 py-0.5 rounded-full">
-                  MY TRIP / TRIP COMPANION
-                </span>
-                <span className="text-xs font-bold text-slate-500">
-                  {session.startDate ? `${session.startDate} → ${session.endDate || ''}` : 'Custom Itinerary'}
-                </span>
-              </div>
               <h1 className="text-3xl md:text-5xl font-black text-slate-900 font-display leading-tight tracking-tight">
-                My {dest.name} Adventure
+                My {dest.name} Trip
               </h1>
-              <p className="text-base md:text-lg font-bold text-forest-green mt-2 flex items-center gap-2 flex-wrap">
-                <span className="flex items-center gap-1.5 text-slate-800"><MapPin size={18} className="text-forest-green" /> {startLoc.name}</span>
+              <p className="text-sm md:text-base font-bold text-slate-600 mt-1.5 flex items-center gap-2 flex-wrap">
+                <span className="text-forest-green font-extrabold flex items-center gap-1">
+                  <MapPin size={16} /> {startLoc.name}
+                </span>
                 <span className="text-slate-400">→</span>
-                <span className="font-extrabold text-slate-900">{dest.name}</span>
-                {dest.district && <span className="text-slate-600 font-medium">({dest.district} District)</span>}
+                <span className="text-slate-900 font-extrabold">{dest.name}</span>
+                <span className="text-slate-400">•</span>
+                <span>{session.startDate ? `${session.startDate} – ${session.endDate || ''}` : '15 Oct – 18 Oct'}</span>
+                <span className="text-slate-400">•</span>
+                <strong className="text-slate-900">{exactDurationText}</strong>
+                <span className="text-slate-400">•</span>
+                <span>{session.travelers || '2 Travelers'}</span>
               </p>
             </div>
 
-            {/* Actions & Weather */}
-            <div className="flex flex-wrap items-center gap-4">
-              {/* Weather Badge */}
+            {/* Compact Action Buttons */}
+            <div className="flex items-center gap-2.5 flex-wrap">
               {dest.coordinates && dest.coordinates.length === 2 && (
                 <WeatherWidget lat={dest.coordinates[0]} lng={dest.coordinates[1]} name={dest.name} />
               )}
 
               <button
                 onClick={() => setIsModifyOpen(true)}
-                className="px-4 py-2.5 text-sm font-extrabold rounded-xl border border-slate-300 bg-white hover:bg-slate-50 text-slate-800 flex items-center gap-2 transition-all shadow-2xs hover:shadow-xs cursor-pointer"
+                className="px-3.5 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white hover:bg-slate-50 text-slate-800 flex items-center gap-1.5 transition-all shadow-2xs cursor-pointer"
               >
-                <Edit3 size={16} /> Modify Trip
+                <Edit3 size={14} /> Modify Trip
               </button>
 
               <button
                 onClick={() => setIsCopilotOpen(true)}
-                className="px-4 py-2.5 text-sm font-extrabold rounded-xl border border-indigo-200 bg-indigo-50/80 hover:bg-indigo-100 text-indigo-700 flex items-center gap-2 transition-all shadow-2xs hover:shadow-xs cursor-pointer"
-                title="Open AI Travel Copilot"
+                className="px-3.5 py-2 text-xs font-bold rounded-xl border border-indigo-200 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 flex items-center gap-1.5 transition-all shadow-2xs cursor-pointer"
               >
-                <Sparkles size={16} className="text-indigo-600" /> Ask Copilot
+                <Sparkles size={14} className="text-indigo-600" /> Ask Copilot
               </button>
 
               <button
                 onClick={handleSaveTrip}
                 disabled={saveStatus === 'SAVING' || saveStatus === 'SAVED'}
-                className={`px-6 py-2.5 text-sm font-extrabold rounded-xl uppercase tracking-wider flex items-center gap-2 transition-all shadow-sm cursor-pointer ${
+                className={`px-4 py-2 text-xs font-bold rounded-xl uppercase tracking-wider flex items-center gap-1.5 transition-all shadow-2xs cursor-pointer ${
                   saveStatus === 'SAVED'
                     ? 'bg-forest-green text-white cursor-default'
                     : saveStatus === 'ERROR'
                     ? 'bg-red-600 hover:bg-red-700 text-white'
-                    : 'bg-forest-green hover:bg-dark-green text-white hover:shadow-md active:scale-[0.99]'
+                    : 'bg-forest-green hover:bg-dark-green text-white'
                 }`}
               >
                 {saveStatus === 'SAVING' ? (
                   <>
-                    <Loader2 size={16} className="animate-spin" /> Saving...
+                    <Loader2 size={14} className="animate-spin" /> Saving...
                   </>
                 ) : saveStatus === 'SAVED' ? (
                   <>
-                    <Check size={16} /> ✓ Trip Saved
-                  </>
-                ) : saveStatus === 'ERROR' ? (
-                  <>
-                    <AlertCircle size={16} /> Try Again
+                    <Check size={14} /> ✓ Saved
                   </>
                 ) : (
                   <>
-                    <Bookmark size={16} /> Save Trip
+                    <Bookmark size={14} /> Save Trip
                   </>
                 )}
               </button>
             </div>
           </div>
-
-          {/* Metadata Row */}
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 mt-6 pt-5 border-t border-slate-200 text-sm font-bold text-slate-800">
-            <span className="flex items-center gap-2">
-              <Calendar size={17} className="text-forest-green" />
-              <strong className="text-slate-900 font-extrabold">{exactDurationText}</strong>
-            </span>
-            <span className="text-slate-300">•</span>
-            <span className="flex items-center gap-2">
-              <Users size={17} className="text-forest-green" />
-              <strong className="text-slate-900">{session.travelers || '2 Adults'}</strong>
-            </span>
-            <span className="text-slate-300">•</span>
-            <span className="flex items-center gap-2">
-              <Car size={17} className="text-forest-green" />
-              <strong className="text-slate-900">{session.transport || 'By Car'}</strong>
-            </span>
-            <span className="text-slate-300">•</span>
-            <span className="flex items-center gap-2">
-              <Compass size={17} className="text-forest-green" />
-              <strong className="text-slate-900">{session.pace || 'Balanced'} Pace</strong>
-            </span>
-            {session.tripType && (
-              <>
-                <span className="text-slate-300">•</span>
-                <span className="text-forest-green font-extrabold">
-                  {(session.tripType || []).join(' • ')}
-                </span>
-              </>
-            )}
-            {session.routeData?.totalDistanceKm > 0 && (
-              <>
-                <span className="text-slate-300">•</span>
-                <span className="flex items-center gap-2 text-earth-brown font-extrabold">
-                  <span>Total Route: ~{session.routeData.totalDistanceKm} km</span>
-                </span>
-              </>
-            )}
-          </div>
         </div>
       </div>
 
-      {/* ── SECTION B: TRIP AT A GLANCE ───────────────────── */}
-      <div className="bg-[#f7f5f0] border-b border-slate-200 py-6 px-4 md:px-8">
+      {/* ── 2. TRIP AT A GLANCE ───────────────────────────────────── */}
+      <div className="bg-[#f7f5f0] border-b border-slate-200 py-4 px-4 md:px-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-5">
-            {/* Duration Card */}
-            <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-shadow">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="w-8 h-8 rounded-lg bg-forest-green/10 flex items-center justify-center text-forest-green">
-                  <Calendar size={16} />
-                </div>
-                <span className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
-                  Duration
-                </span>
-              </div>
-              <span className="text-lg md:text-xl font-black text-slate-900 font-display block">
-                {exactDurationText}
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {/* Route */}
+            <div className="bg-white rounded-xl p-3.5 border border-slate-200/80 shadow-2xs">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-1 flex items-center gap-1.5">
+                <Navigation size={13} className="text-forest-green" /> Route
               </span>
-            </div>
-
-            {/* Route Card */}
-            <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-shadow">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="w-8 h-8 rounded-lg bg-forest-green/10 flex items-center justify-center text-forest-green">
-                  <Navigation size={16} />
-                </div>
-                <span className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
-                  Route
-                </span>
-              </div>
-              <span className="text-sm md:text-base font-extrabold text-slate-900 truncate block" title={`${startLoc.name} → ${dest.name}`}>
+              <strong className="text-sm font-extrabold text-slate-900 block truncate" title={`${startLoc.name} → ${dest.name}`}>
                 {startLoc.name} → {dest.name}
-              </span>
+              </strong>
             </div>
 
-            {/* Travel Mode Card */}
-            <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-shadow">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="w-8 h-8 rounded-lg bg-forest-green/10 flex items-center justify-center text-forest-green">
-                  <Car size={16} />
-                </div>
-                <span className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
-                  Travel Mode
-                </span>
-              </div>
-              <span className="text-lg md:text-xl font-black text-slate-900 block">
+            {/* Duration */}
+            <div className="bg-white rounded-xl p-3.5 border border-slate-200/80 shadow-2xs">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-1 flex items-center gap-1.5">
+                <Calendar size={13} className="text-forest-green" /> Duration
+              </span>
+              <strong className="text-sm font-extrabold text-slate-900 block">
+                {exactDurationText}
+              </strong>
+            </div>
+
+            {/* Travelers */}
+            <div className="bg-white rounded-xl p-3.5 border border-slate-200/80 shadow-2xs">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-1 flex items-center gap-1.5">
+                <Users size={13} className="text-forest-green" /> Travelers
+              </span>
+              <strong className="text-sm font-extrabold text-slate-900 block">
+                {session.travelers || '2 Travelers'}
+              </strong>
+            </div>
+
+            {/* Transport */}
+            <div className="bg-white rounded-xl p-3.5 border border-slate-200/80 shadow-2xs">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-1 flex items-center gap-1.5">
+                <Car size={13} className="text-forest-green" /> Transport
+              </span>
+              <strong className="text-sm font-extrabold text-slate-900 block">
                 {session.transport || 'By Car'}
-              </span>
+              </strong>
             </div>
 
-            {/* Travelers Card */}
-            <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-shadow">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="w-8 h-8 rounded-lg bg-forest-green/10 flex items-center justify-center text-forest-green">
-                  <Users size={16} />
-                </div>
-                <span className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
-                  Travelers
-                </span>
-              </div>
-              <span className="text-lg md:text-xl font-black text-slate-900 block">
-                {session.travelers || '2 Adults'}
+            {/* Budget */}
+            <div className="bg-white rounded-xl p-3.5 border border-slate-200/80 shadow-2xs col-span-2 sm:col-span-1">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-1 flex items-center gap-1.5">
+                <Wallet size={13} className="text-forest-green" /> Budget
               </span>
-            </div>
-
-            {/* Estimated Budget Card */}
-            <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-shadow col-span-2 sm:col-span-1">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="w-8 h-8 rounded-lg bg-forest-green/10 flex items-center justify-center text-forest-green">
-                  <Wallet size={16} />
-                </div>
-                <span className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
-                  Estimated Budget
-                </span>
-              </div>
-              <span className="text-base md:text-lg font-black text-forest-green truncate block font-display">
+              <strong className="text-sm font-extrabold text-forest-green block truncate">
                 {budgetRange}
-              </span>
+              </strong>
             </div>
           </div>
         </div>
       </div>
 
-      {/* ── SECTION C: YOUR JOURNEY (TIMELINE & MAP SPLIT) ─── */}
-      <div className="max-w-[1400px] mx-auto w-full px-4 md:px-8 py-6 flex-1 space-y-8">
+      {/* ── 3. DAY-BY-DAY JOURNEY (MAIN PRODUCT) ──────────────────── */}
+      <div className="max-w-[1400px] mx-auto w-full px-4 md:px-8 py-6 flex-1 space-y-10">
         {saveMessage && (
           <div className={`p-3.5 rounded-2xl text-xs font-bold flex items-center gap-2 ${
             saveStatus === 'SAVED' ? 'bg-green-50 text-forest-green border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'
@@ -759,52 +754,44 @@ export default function MyTripPage() {
           </div>
         )}
 
-        {/* Section Heading & Day Navigator */}
+        {/* Journey Section Title & Day Switcher Ribbon */}
         <div>
           <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 mb-4">
             <div>
-              <h2 className="text-2xl md:text-3xl font-black text-text-dark font-display tracking-tight">
+              <h2 className="text-2xl md:text-3xl font-black text-slate-900 font-display tracking-tight">
                 YOUR JOURNEY
               </h2>
-              <p className="text-sm text-muted-text font-medium mt-0.5">
-                Your verified day-by-day plan ({dayPlans.length} Days)
+              <p className="text-xs sm:text-sm text-slate-500 font-medium mt-0.5">
+                Verified day-by-day plan ({dayPlans.length} Days) · Focus any day to highlight route & map
               </p>
             </div>
-            <span className="text-xs text-muted-text font-medium hidden sm:inline">
-              Click any day to highlight route & map
-            </span>
           </div>
 
-          {/* Horizontal Day Navigator */}
-          <div className="flex items-center gap-2.5 overflow-x-auto pb-3 pt-1 no-scrollbar text-sm">
+          {/* Horizontal Day Navigation */}
+          <div className="flex items-center gap-2 overflow-x-auto pb-2 pt-1 no-scrollbar text-sm">
             {dayPlans.map((day, idx) => {
               const isActive = idx === activeDayIndex;
               const isPast = idx < activeDayIndex;
-              const isTrek = day.type === 'trek';
 
               return (
-                <React.Fragment key={`ribbon-${idx}`}>
-                  <button
-                    onClick={() => handleSelectDayFromMap(idx)}
-                    className={`flex items-center gap-2.5 px-3.5 py-2 rounded-xl transition-all whitespace-nowrap flex-shrink-0 border cursor-pointer ${
-                      isActive
-                        ? 'bg-forest-green text-white font-bold shadow-sm border-forest-green scale-[1.02]'
-                        : isPast
-                        ? 'bg-white text-forest-green font-semibold border-forest-green/30 hover:bg-[#faf9f6]'
-                        : 'bg-white text-text-dark font-semibold border-border-light hover:border-forest-green/40 hover:bg-[#faf9f6]'
-                    }`}
-                  >
-                    <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-black ${
-                      isActive ? 'bg-white text-forest-green' : isPast ? 'bg-forest-green text-white' : 'bg-beige text-text-dark'
-                    }`}>
-                      {isPast ? '✓' : isTrek ? '🥾' : day.dayNumber}
-                    </span>
-                    <span className="text-xs md:text-sm">{day.badge || `Day ${day.dayNumber}`}</span>
-                  </button>
-                  {idx < dayPlans.length - 1 && (
-                    <ArrowRight size={15} className="text-muted-text flex-shrink-0 opacity-60" />
-                  )}
-                </React.Fragment>
+                <button
+                  key={`ribbon-${idx}`}
+                  onClick={() => handleSelectDayFromMap(idx)}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-xl transition-all whitespace-nowrap border cursor-pointer ${
+                    isActive
+                      ? 'bg-forest-green text-white font-bold shadow-sm border-forest-green scale-[1.02]'
+                      : isPast
+                      ? 'bg-white text-forest-green font-semibold border-forest-green/30 hover:bg-slate-50'
+                      : 'bg-white text-slate-700 font-semibold border-slate-200 hover:border-forest-green/40 hover:bg-slate-50'
+                  }`}
+                >
+                  <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[11px] font-black ${
+                    isActive ? 'bg-white text-forest-green' : isPast ? 'bg-forest-green text-white' : 'bg-slate-100 text-slate-800'
+                  }`}>
+                    {isPast ? '✓' : day.dayNumber}
+                  </span>
+                  <span>DAY {day.dayNumber}</span>
+                </button>
               );
             })}
           </div>
@@ -812,9 +799,8 @@ export default function MyTripPage() {
 
         {/* Desktop Split Layout: Itinerary (65%) + Interactive Map (35%) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-          
           {/* Left Column: Daily Day Cards */}
-          <div className="lg:col-span-7 space-y-4">
+          <div className="lg:col-span-7 space-y-6">
             {dayPlans.map((day, idx) => (
               <DayCard
                 key={`day-${day.dayNumber}-${idx}`}
@@ -831,11 +817,11 @@ export default function MyTripPage() {
             ))}
           </div>
 
-          {/* Right Column: Interactive Map (Sticky) */}
+          {/* Right Column: Interactive Map (Sticky) with Simplified Legend */}
           <div className="lg:col-span-5 lg:sticky lg:top-24 space-y-4">
-            <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs">
+            <div className="bg-white rounded-3xl p-5 border border-slate-200 shadow-sm">
               <div className="flex items-center justify-between mb-3.5">
-                <div className="flex items-center gap-2.5">
+                <div className="flex items-center gap-2">
                   <div className="w-8 h-8 rounded-xl bg-forest-green/10 flex items-center justify-center">
                     <Compass size={16} className="text-forest-green" />
                   </div>
@@ -849,7 +835,7 @@ export default function MyTripPage() {
               </div>
 
               {/* Map Container */}
-              <div className="h-[440px] rounded-xl overflow-hidden border border-slate-200 shadow-inner">
+              <div className="h-[420px] rounded-2xl overflow-hidden border border-slate-200 shadow-inner">
                 <TripWorkspaceMap 
                   tripSession={session} 
                   activeDayIndex={activeDayIndex}
@@ -857,125 +843,108 @@ export default function MyTripPage() {
                 />
               </div>
 
-              <div className="mt-3.5 pt-3 border-t border-slate-200 text-xs text-slate-600 font-medium flex items-center justify-between">
-                <span>📍 Pins show corridor hubs, stays & trails</span>
+              {/* Simplified Map Legend (Rule 18) */}
+              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs text-slate-600 flex items-center justify-between flex-wrap gap-2">
+                <div className="flex items-center gap-2 flex-wrap text-[11px] font-medium text-slate-600">
+                  <span className="flex items-center gap-1">🟢 Start</span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1">📍 Place</span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1">🥾 Activity</span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1">🏨 Stay</span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1">🔴 End</span>
+                </div>
                 <button
                   onClick={() => setActiveDayIndex(0)}
-                  className="text-forest-green font-extrabold hover:underline cursor-pointer"
+                  className="text-forest-green font-bold hover:underline cursor-pointer text-xs"
                 >
                   Reset to Day 1
                 </button>
               </div>
             </div>
-
-            {/* Strategy Note */}
-            <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs text-sm text-slate-700 font-medium space-y-2.5">
-              <h4 className="font-extrabold text-slate-900 text-xs uppercase tracking-wider flex items-center gap-2">
-                <Sparkles size={15} className="text-forest-green" /> Why We Planned It This Way
-              </h4>
-              <p className="leading-relaxed">
-                • <strong className="text-slate-900">{exactDurationText} Duration:</strong> Optimized from {startLoc.name} to {dest.name}.
-              </p>
-              <p className="leading-relaxed">
-                • <strong className="text-slate-900">Daylight Mountain Travel:</strong> High ghat road drives are scheduled in daylight for safety.
-              </p>
-              <p className="leading-relaxed">
-                • <strong className="text-slate-900">{session.pace || 'Balanced'} Pacing:</strong> Incorporates rest and acclimatization windows.
-              </p>
-            </div>
           </div>
         </div>
 
-        {/* ── SECTION D: TRIP INSIGHTS (AI) ────────────────── */}
-        <AiTripPlanCard
-          aiPlan={aiPlan}
-          meta={aiMeta}
-          loading={aiLoading}
-          error={aiError}
-          onRetry={fetchAiPlan}
-          maxDays={dayPlans.length}
-        />
+        {/* ── 4. TRIP BUDGET (AFTER ITINERARY) ───────────────────────── */}
+        <div>
+          <div className="mb-4">
+            <h2 className="text-2xl font-black text-slate-900 font-display tracking-tight">
+              TRIP BUDGET
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-500 font-medium">
+              Deterministic estimate based on verified lodging, transport rates, and selected activities
+            </p>
+          </div>
+          <BudgetBreakdownCard 
+            budgetData={budgetData} 
+            budgetPreference={session.budget || 'Balanced'} 
+          />
+        </div>
 
-        {/* ── SECTION E: TRIP BUDGET ───────────────────────── */}
-        <BudgetBreakdownCard 
-          budgetData={budgetData} 
-          budgetPreference={session.budget || 'Balanced'} 
-        />
-
-        {/* ── SECTION F: RECOMMENDATIONS ───────────────────── */}
-        <div className="space-y-10">
-          {/* 1. Recommended Stays */}
+        {/* ── 5. OPTIONAL RECOMMENDATIONS ───────────────────────────── */}
+        <div className="space-y-8 pt-4 border-t border-slate-200">
+          {/* Other Stays You May Like */}
           {displayStays.length > 0 && (
             <div>
-              <div className="flex items-center justify-between mb-5">
+              <div className="flex items-center justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-black text-slate-900 font-display">
-                    Recommended Stays
+                  <h3 className="text-xl sm:text-2xl font-black text-slate-900 font-display">
+                    Other Stays You May Like
                   </h3>
-                  <p className="text-sm text-slate-600 font-medium">
-                    Verified KMVN, GMVN & boutique stays near {dest.district || dest.name}
+                  <p className="text-xs sm:text-sm text-slate-500 font-medium">
+                    Optional recommendations near {dest.district || dest.name} (Not your confirmed overnight stay)
                   </p>
                 </div>
-                <Link to="/stays" className="text-sm font-extrabold text-forest-green hover:underline">
+                <Link to="/stays" className="text-xs sm:text-sm font-extrabold text-forest-green hover:underline">
                   View All Stays →
                 </Link>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {displayStays.map((stay) => (
-                  <div key={stay.id || stay._id} className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-all flex flex-col">
-                    <div className="h-40 rounded-xl overflow-hidden bg-beige mb-3.5 relative">
-                      <img
-                        src={stay.image || '/assets/fallback.svg'}
-                        alt={stay.name}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
-                        onError={(e) => { e.target.src = '/assets/fallback.svg'; }}
-                      />
-                      {stay.score && (
-                        <div className="absolute top-2.5 right-2.5 bg-forest-green text-white text-xs font-black px-2.5 py-0.5 rounded-full shadow-sm">
-                          Match: {stay.score}/100
-                        </div>
-                      )}
+                  <div key={stay.id || stay._id} className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-all flex flex-col justify-between">
+                    <div>
+                      <div className="h-40 rounded-xl overflow-hidden bg-slate-100 mb-3.5 relative">
+                        <img
+                          src={stay.image || '/assets/fallback.svg'}
+                          alt={stay.name}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                          onError={(e) => { e.target.src = '/assets/fallback.svg'; }}
+                        />
+                        {stay.score && (
+                          <div className="absolute top-2.5 right-2.5 bg-forest-green text-white text-xs font-black px-2 py-0.5 rounded-full shadow-sm">
+                            Match: {stay.score}/100
+                          </div>
+                        )}
+                      </div>
+                      <div className="flex items-center justify-between gap-1 mb-1">
+                        <span className="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded-md">
+                          {stay.category || 'Stay'}
+                        </span>
+                        {typeof stay.distanceKm === 'number' && (
+                          <span className="text-xs font-bold text-forest-green">
+                            {stay.distanceKm} km away
+                          </span>
+                        )}
+                      </div>
+                      <h4 className="font-bold text-slate-900 text-base leading-snug">
+                        {stay.name}
+                      </h4>
+                      <p className="text-xs text-slate-500 mt-1">
+                        📍 {typeof stay.location === 'string' ? stay.location : (stay.city || stay.district || 'Uttarakhand')}
+                      </p>
                     </div>
-                    <div className="flex-1 flex flex-col justify-between">
-                      <div>
-                        <div className="flex items-center justify-between gap-1 mb-1.5">
-                          <span className="text-xs font-extrabold text-earth-brown bg-beige/80 px-2.5 py-0.5 rounded-full inline-block">
-                            {stay.category || stay.type || 'Stay'}
-                          </span>
-                          {typeof stay.distanceKm === 'number' && (
-                            <span className="text-xs font-extrabold text-forest-green">
-                              {stay.distanceKm} km away
-                            </span>
-                          )}
-                        </div>
-                        <h4 className="font-black text-slate-900 text-base leading-snug">
-                          {stay.name}
-                        </h4>
-                        <p className="text-xs text-slate-600 font-medium mt-1">
-                          📍 {typeof stay.location === 'string' ? stay.location : (stay.city || stay.district || 'Uttarakhand')}
-                        </p>
 
-                        {stay.reasons && stay.reasons.length > 0 && (
-                          <p className="text-xs text-forest-green font-semibold italic mt-2.5 p-2 rounded-lg bg-forest-green/5 border border-forest-green/10 leading-relaxed">
-                            💡 {stay.reasons[0]}
-                          </p>
-                        )}
-                      </div>
-
-                      <div className="mt-4 pt-3.5 border-t border-slate-200 flex items-center justify-between">
-                        {stay.pricePerNight || stay.price?.amount ? (
-                          <span className="text-sm font-black text-forest-green">
-                            ₹{stay.pricePerNight || stay.price?.amount} / night
-                          </span>
-                        ) : (
-                          <span className="text-xs font-semibold text-slate-500">Tariff on inquiry</span>
-                        )}
-                        <Link to={`/stays/${stay.slug || stay.id || stay._id}`} className="text-xs font-extrabold text-forest-green hover:underline">
-                          View Details →
-                        </Link>
-                      </div>
+                    <div className="mt-4 pt-3.5 border-t border-slate-100 flex items-center justify-between">
+                      <span className="text-sm font-black text-forest-green">
+                        ₹{stay.pricePerNight || stay.pricing?.amount || stay.price?.amount || 3200} / night
+                      </span>
+                      <Link to={`/stays/${stay.slug || stay.id || stay._id}`} className="text-xs font-bold text-forest-green hover:underline">
+                        View Details →
+                      </Link>
                     </div>
                   </div>
                 ))}
@@ -983,28 +952,28 @@ export default function MyTripPage() {
             </div>
           )}
 
-          {/* 2. Recommended Certified Guides */}
+          {/* Other Local Guides */}
           {displayGuides.length > 0 && (
             <div>
-              <div className="flex items-center justify-between mb-5">
+              <div className="flex items-center justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-black text-slate-900 font-display">
-                    Recommended Local Mountain Guides
+                  <h3 className="text-xl sm:text-2xl font-black text-slate-900 font-display">
+                    Other Local Guides
                   </h3>
-                  <p className="text-sm text-slate-600 font-medium">
-                    Certified and experienced guides for mountain routes
+                  <p className="text-xs sm:text-sm text-slate-500 font-medium">
+                    Certified and experienced mountain guides available for hire in {dest.district || dest.name}
                   </p>
                 </div>
-                <Link to="/guides" className="text-sm font-extrabold text-forest-green hover:underline">
+                <Link to="/guides" className="text-xs sm:text-sm font-extrabold text-forest-green hover:underline">
                   View All Guides →
                 </Link>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {displayGuides.map((guide) => (
-                  <div key={guide._id || guide.slug} className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-all flex flex-col">
-                    <div className="flex items-center gap-3.5 mb-3.5">
-                      <div className="w-14 h-14 rounded-full overflow-hidden bg-beige flex-shrink-0 border-2 border-slate-200 relative">
+                  <div key={guide._id || guide.slug} className="bg-white rounded-2xl p-5 border border-slate-200 shadow-2xs hover:shadow-xs transition-all flex flex-col justify-between">
+                    <div className="flex items-center gap-3.5 mb-3">
+                      <div className="w-12 h-12 rounded-full overflow-hidden bg-slate-100 shrink-0 border border-slate-200">
                         <img
                           src={guide.profileImage || guide.image || '/assets/fallback.svg'}
                           alt={guide.name}
@@ -1012,45 +981,24 @@ export default function MyTripPage() {
                           onError={(e) => { e.target.src = '/assets/fallback.svg'; }}
                         />
                       </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center justify-between gap-1">
-                          <h4 className="font-black text-slate-900 text-base leading-tight flex items-center gap-1.5 truncate">
-                            {guide.name}
-                            {guide.verifiedByGovt && (
-                              <ShieldCheck size={16} className="text-forest-green flex-shrink-0" title="Govt Verified" />
-                            )}
-                          </h4>
-                          {guide.score && (
-                            <span className="text-xs font-black text-forest-green bg-forest-green/10 px-2 py-0.5 rounded-full flex-shrink-0">
-                              {guide.score}/100
-                            </span>
-                          )}
-                        </div>
-                        <p className="text-xs text-slate-600 font-medium mt-1">
+                      <div className="min-w-0">
+                        <h4 className="font-bold text-slate-900 text-sm truncate flex items-center gap-1">
+                          {guide.name}
+                          {guide.verifiedByGovt && <ShieldCheck size={14} className="text-forest-green shrink-0" />}
+                        </h4>
+                        <p className="text-xs text-slate-500">
                           📍 {typeof guide.location === 'string' ? guide.location : (guide.city || guide.district || 'Uttarakhand')}
                         </p>
                       </div>
                     </div>
 
-                    <div className="flex-1 flex flex-col justify-between">
-                      {guide.specialties && (
-                        <div className="flex flex-wrap gap-1.5 mb-3">
-                          {guide.specialties.slice(0, 3).map((spec, sIdx) => (
-                            <span key={sIdx} className="text-xs font-bold text-slate-700 bg-slate-100 px-2.5 py-1 rounded-md">
-                              {spec}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-
-                      <div className="pt-3.5 border-t border-slate-200 flex items-center justify-between">
-                        <span className="text-sm font-black text-forest-green">
-                          {guide.pricePerDay ? `₹${guide.pricePerDay} / day` : 'Available for hire'}
-                        </span>
-                        <Link to={`/guides/${guide.slug || guide._id}`} className="text-xs font-extrabold text-forest-green hover:underline">
-                          View Profile →
-                        </Link>
-                      </div>
+                    <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
+                      <span className="text-sm font-black text-forest-green">
+                        {guide.pricePerDay ? `₹${guide.pricePerDay} / day` : 'Tariff on inquiry'}
+                      </span>
+                      <Link to={`/guides/${guide.slug || guide._id}`} className="text-xs font-bold text-forest-green hover:underline">
+                        View Profile →
+                      </Link>
                     </div>
                   </div>
                 ))}
@@ -1059,19 +1007,21 @@ export default function MyTripPage() {
           )}
         </div>
 
-        {/* ── SECTION G: SAFETY / ADVISORIES ───────────────── */}
-        <WorkspaceAdvisories
-          destination={
-            session?.destination ||
-            (Array.isArray(session?.destinations) && session.destinations[0]) ||
-            (allDestinations && allDestinations.length > 0 ? allDestinations[0] : null)
-          }
-          tripContext={session}
-        />
+        {/* ── 6. SAFETY / ADVISORIES ─────────────────────────────────── */}
+        <div className="pt-4 border-t border-slate-200">
+          <WorkspaceAdvisories
+            destination={
+              session?.destination ||
+              (Array.isArray(session?.destinations) && session.destinations[0]) ||
+              (allDestinations && allDestinations.length > 0 ? allDestinations[0] : null)
+            }
+            tripContext={session}
+          />
+        </div>
 
       </div>
 
-      {/* ── Modals ───────────────────────────────────────── */}
+      {/* ── Modals ───────────────────────────────────────────────── */}
       <ModifyTripModal
         isOpen={isModifyOpen}
         onClose={() => setIsModifyOpen(false)}
